@@ -1,0 +1,313 @@
+[
+  {
+    "sample": "sample001",
+    "board": "Jetson Nano Baseboard",
+    "repository": "antmicro/jetson-nano-baseboard",
+    "ref": "d8d0b2d71ab4cc4bcdb204a09f78be40d4c8cda3",
+    "kicadPcb": "jetson-nano-baseboard.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/jetson-nano-baseboard/blob/d8d0b2d71ab4cc4bcdb204a09f78be40d4c8cda3/jetson-nano-baseboard.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/jetson-nano-baseboard/d8d0b2d71ab4cc4bcdb204a09f78be40d4c8cda3/jetson-nano-baseboard.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/jetson-nano-baseboard/blob/d8d0b2d71ab4cc4bcdb204a09f78be40d4c8cda3/LICENSE",
+    "description": "Production-capable carrier for Jetson Nano, Xavier NX, and TX2 NX modules with camera, PCIe, display, USB, and networking interfaces.",
+    "properties": [
+      "Jetson SO-DIMM module connector",
+      "Gigabit Ethernet",
+      "USB-C host and Micro USB debug",
+      "Micro HDMI and Mini DisplayPort",
+      "M.2 Key M PCIe x4",
+      "dual 50-pin MIPI CSI-2 FFC connectors",
+      "6-36 VDC input"
+    ],
+    "complexity": "very high",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 1516,
+      "components": 391,
+      "traces": 1759,
+      "vias": 794,
+      "copper_pours": 51
+    }
+  },
+  {
+    "sample": "sample002",
+    "board": "HDMI to MIPI CSI-2 Bridge",
+    "repository": "antmicro/hdmi-mipi-bridge",
+    "ref": "6c683289a3191ee6c92cf4f9065ca9b6cb2c0784",
+    "kicadPcb": "antmicro-hdmi-mipi-bridge-hw.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/hdmi-mipi-bridge/blob/6c683289a3191ee6c92cf4f9065ca9b6cb2c0784/antmicro-hdmi-mipi-bridge-hw.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/hdmi-mipi-bridge/6c683289a3191ee6c92cf4f9065ca9b6cb2c0784/antmicro-hdmi-mipi-bridge-hw.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/hdmi-mipi-bridge/blob/6c683289a3191ee6c92cf4f9065ca9b6cb2c0784/LICENSE",
+    "description": "Dual-channel video bridge that converts two HDMI streams to independent four-lane MIPI CSI-2 outputs.",
+    "properties": [
+      "2 HDMI inputs",
+      "2 four-lane MIPI CSI-2 outputs",
+      "Toshiba TC358743XBG bridge ICs",
+      "50-pin FFC host interface"
+    ],
+    "complexity": "high",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 498,
+      "components": 121,
+      "traces": 513,
+      "vias": 312,
+      "copper_pours": 17
+    }
+  },
+  {
+    "sample": "sample003",
+    "board": "SDI to MIPI CSI-2 Bridge",
+    "repository": "antmicro/sdi-mipi-bridge-hw",
+    "ref": "0d08a865eba70ac02bfe16601bbf6d719d5c9d41",
+    "kicadPcb": "sdi-mipi-bridge.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/sdi-mipi-bridge-hw/blob/0d08a865eba70ac02bfe16601bbf6d719d5c9d41/sdi-mipi-bridge.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/sdi-mipi-bridge-hw/0d08a865eba70ac02bfe16601bbf6d719d5c9d41/sdi-mipi-bridge.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/sdi-mipi-bridge-hw/blob/0d08a865eba70ac02bfe16601bbf6d719d5c9d41/LICENSE",
+    "description": "3G-SDI video bridge with SDI loopback, FPGA-based conversion, dual MIPI CSI-2 outputs, and audio extraction.",
+    "properties": [
+      "3G-SDI input and loopback output",
+      "2 four-lane MIPI CSI-2 outputs",
+      "Semtech GS2971A deserializer",
+      "Lattice CrossLink FPGA",
+      "8-channel I2S audio output"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 15 gr_poly tstamp field(s) for kicadts compatibility"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 638,
+      "components": 190,
+      "traces": 706,
+      "vias": 374,
+      "copper_pours": 21
+    }
+  },
+  {
+    "sample": "sample004",
+    "board": "Thunderbolt to PCIe Adapter",
+    "repository": "antmicro/thunderbolt-pcie-adapter",
+    "ref": "0ae5bbe967dff2b973bcf84522a081cee28a156c",
+    "kicadPcb": "thunderbolt-pcie-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/thunderbolt-pcie-adapter/blob/0ae5bbe967dff2b973bcf84522a081cee28a156c/thunderbolt-pcie-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/thunderbolt-pcie-adapter/0ae5bbe967dff2b973bcf84522a081cee28a156c/thunderbolt-pcie-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/thunderbolt-pcie-adapter/blob/0ae5bbe967dff2b973bcf84522a081cee28a156c/LICENSE",
+    "description": "Thunderbolt 3 adapter that exposes a PCIe Gen3 x4 expansion slot and supplies the 12 V rail required by add-in cards.",
+    "properties": [
+      "Intel JHL6340 Thunderbolt 3 controller",
+      "PCIe Gen3 x4 slot",
+      "on-board 12 V step-up converter"
+    ],
+    "complexity": "high",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 1111,
+      "components": 272,
+      "traces": 1088,
+      "vias": 833,
+      "copper_pours": 59
+    }
+  },
+  {
+    "sample": "sample005",
+    "board": "M.2 to PCIe x4 Adapter",
+    "repository": "antmicro/m2-pcie-adapter",
+    "ref": "11844f18ce14393043affde9e7aa8d51c0cd3ba7",
+    "kicadPcb": "m2-pcie-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/m2-pcie-adapter/blob/11844f18ce14393043affde9e7aa8d51c0cd3ba7/m2-pcie-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/m2-pcie-adapter/11844f18ce14393043affde9e7aa8d51c0cd3ba7/m2-pcie-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/m2-pcie-adapter/blob/11844f18ce14393043affde9e7aa8d51c0cd3ba7/LICENSE",
+    "description": "Passive adapter that routes an M.2 Key M PCIe x4 interface to a standard PCIe x4 card socket.",
+    "properties": [
+      "M.2 Key M edge connector",
+      "PCIe x4 card socket",
+      "external power connector",
+      "0.8 mm target PCB thickness"
+    ],
+    "complexity": "medium",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 163,
+      "components": 20,
+      "traces": 157,
+      "vias": 92,
+      "copper_pours": 6
+    }
+  },
+  {
+    "sample": "sample006",
+    "board": "CM4 Baseboard LVDS Adapter",
+    "repository": "antmicro/cm4-baseboard-lvds-adapter",
+    "ref": "4af945ed558e58e4b8aea6fe909fc33d78b63f6f",
+    "kicadPcb": "cm4-lvds-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/cm4-baseboard-lvds-adapter/blob/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/cm4-lvds-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/cm4-baseboard-lvds-adapter/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/cm4-lvds-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/cm4-baseboard-lvds-adapter/blob/4af945ed558e58e4b8aea6fe909fc33d78b63f6f/LICENSE",
+    "description": "Display adapter that converts MIPI DSI from an Antmicro CM4 baseboard to LVDS and powers an LCD and backlight.",
+    "properties": [
+      "TI SN65DSI84 MIPI DSI-to-LVDS bridge",
+      "I2C touchscreen interface",
+      "18 V, 9.6 V, 3.9 V, and 3.3 V display rails",
+      "integrated backlight driver"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 519,
+      "components": 155,
+      "traces": 545,
+      "vias": 254,
+      "copper_pours": 30
+    }
+  },
+  {
+    "sample": "sample007",
+    "board": "PMOD I3C Sensor Board",
+    "repository": "antmicro/pmod-i3c-sensor-board",
+    "ref": "5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7",
+    "kicadPcb": "pmod-i3c-sensor-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/pmod-i3c-sensor-board/blob/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/pmod-i3c-sensor-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/pmod-i3c-sensor-board/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/pmod-i3c-sensor-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/pmod-i3c-sensor-board/blob/5ee5d34ff918422fe7af59f7ffdc9d4bdabf18a7/LICENSE",
+    "description": "PMOD-compatible sensor module combining temperature, magnetic, and acceleration sensing on a shared I3C bus.",
+    "properties": [
+      "P3T1755 temperature sensor",
+      "MMC5603NJ 3-axis magnetometer",
+      "BMA580 3-axis accelerometer",
+      "I2C and I3C support",
+      "2 configurable push-pull or open-drain output stages"
+    ],
+    "complexity": "medium",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 233,
+      "components": 96,
+      "traces": 284,
+      "vias": 71,
+      "copper_pours": 3
+    }
+  },
+  {
+    "sample": "sample008",
+    "board": "D1600E PSU Breakout Board",
+    "repository": "antmicro/d1600e-psu-breakout",
+    "ref": "3802831dcd6c9c6e278216771e92ca7fe3f9ae41",
+    "kicadPcb": "d1600e-psu-breakout-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/d1600e-psu-breakout/blob/3802831dcd6c9c6e278216771e92ca7fe3f9ae41/d1600e-psu-breakout-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/d1600e-psu-breakout/3802831dcd6c9c6e278216771e92ca7fe3f9ae41/d1600e-psu-breakout-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/d1600e-psu-breakout/blob/3802831dcd6c9c6e278216771e92ca7fe3f9ae41/LICENSE",
+    "description": "Managed breakout for a Dell D1600E-S0 supply with five independently measured and switched 12 V outputs.",
+    "properties": [
+      "5 independently controlled 12 V outputs",
+      "up to 220 W per output",
+      "Hall-effect current sensing with 12-bit ADC",
+      "I2C GPIO power switching",
+      "opto-isolated FT4232H USB control"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 23 gr_poly tstamp field(s) for kicadts compatibility",
+      "Removed 8 group id field(s) for kicadts compatibility"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 727,
+      "components": 237,
+      "traces": 525,
+      "vias": 903,
+      "copper_pours": 189
+    }
+  },
+  {
+    "sample": "sample009",
+    "board": "M.2 to OCuLink Adapter",
+    "repository": "antmicro/m2-oculink-adapter",
+    "ref": "067f60727046cd0c0db1d39c51c9396f89f48b65",
+    "kicadPcb": "antmicro-m2-oculink-adapter-hw.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/m2-oculink-adapter/blob/067f60727046cd0c0db1d39c51c9396f89f48b65/antmicro-m2-oculink-adapter-hw.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/m2-oculink-adapter/067f60727046cd0c0db1d39c51c9396f89f48b65/antmicro-m2-oculink-adapter-hw.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/m2-oculink-adapter/blob/067f60727046cd0c0db1d39c51c9396f89f48b65/LICENSE",
+    "description": "Passive adapter that carries four PCIe lanes from an M.2 Key M socket to an OCuLink cable interface.",
+    "properties": [
+      "M.2 Key M edge connector",
+      "OCuLink PCIe x4 connector",
+      "2280, 2260, and 2242 mechanical formats",
+      "Jetson Orin Baseboard compatibility"
+    ],
+    "complexity": "low",
+    "normalizations": [
+      "Removed 183 via zone_layer_connections field(s) because existing routing is excluded from SRJ generation",
+      "Removed 3 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 150,
+      "components": 25,
+      "traces": 173,
+      "vias": 183,
+      "copper_pours": 21
+    }
+  },
+  {
+    "sample": "sample010",
+    "board": "Dual I-PEX CSI Interposer",
+    "repository": "antmicro/dual-ipex-csi-interposer",
+    "ref": "6b6bd0af5aafe13c02377d534a23a6373922f350",
+    "kicadPcb": "dual-ipex-csi-interposer.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/dual-ipex-csi-interposer/blob/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/dual-ipex-csi-interposer/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/dual-ipex-csi-interposer/blob/6b6bd0af5aafe13c02377d534a23a6373922f350/LICENSE",
+    "description": "Two-to-one camera interposer joining a pair of four-lane I-PEX MIPI CSI-2 links to Antmicro's 50-pin FFC host interface.",
+    "properties": [
+      "2 30-pin I-PEX camera connectors",
+      "4 MIPI CSI-2 lanes per camera",
+      "single 50-pin host FFC connector",
+      "I2C and camera power pass-through"
+    ],
+    "complexity": "low",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 152,
+      "components": 29,
+      "traces": 131,
+      "vias": 107,
+      "copper_pours": 13
+    }
+  }
+]
