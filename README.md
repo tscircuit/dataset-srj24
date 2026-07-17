@@ -153,8 +153,12 @@ hint. The checked-in `.kicad_pcb` files are never rewritten.
 
 ## Licensing
 
-All ten boards are redistributed under Apache-2.0. A required license copy is
-included at `LICENSES/Apache-2.0.txt`, and immutable source attribution is in
+Original code and documentation in this repository are licensed under the MIT
+License unless otherwise stated. The unmodified boards in `kicad_pcb/` and the
+generated board data in `circuit-json/` and `samples/` remain under Apache-2.0;
+the repository-level MIT license does not relicense those materials. The full
+policy is in `LICENSE`, the Apache-2.0 text is in
+`LICENSES/Apache-2.0.txt`, and immutable source attribution is in
 `THIRD_PARTY_NOTICES.md` and `source-files.json`. None of the pinned upstream
 revisions contains a root `NOTICE` file.
 

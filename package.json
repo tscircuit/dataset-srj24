@@ -12,6 +12,7 @@
     "kicad_pcb",
     "circuit-json",
     "source-files.json",
+    "LICENSE",
     "LICENSES",
     "THIRD_PARTY_NOTICES.md"
   ],

@@ -25,8 +25,13 @@ assert(circuitJsonFiles.length === expectedSampleCount, `Expected ${expectedSamp
 assert(pcbFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} KiCad boards, found ${pcbFiles.length}`)
 assert(sourceFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} source entries, found ${sourceFiles.length}`)
 assert(existsSync("index.d.ts"), "Missing index.d.ts")
+assert(existsSync("LICENSE"), "Missing repository license")
 assert(existsSync("LICENSES/Apache-2.0.txt"), "Missing Apache-2.0 license copy")
 assert(existsSync("THIRD_PARTY_NOTICES.md"), "Missing third-party notices")
+
+const repositoryLicense = readFileSync("LICENSE", "utf8")
+assert(repositoryLicense.includes("MIT License"), "Repository license is missing MIT terms")
+assert(repositoryLicense.includes("Apache License, Version 2.0"), "Repository license is missing the Apache-2.0 exception")
 
 let hasVeryHighComplexityBoard = false
 
