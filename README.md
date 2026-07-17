@@ -165,7 +165,7 @@ revisions contains a root `NOTICE` file.
 ## Usage
 
 ```js
-const { sample001, dataset } = require("dataset-srj24")
+const { sample001, dataset } = require("@tscircuit/dataset-srj24")
 ```
 
 ## Regenerate and validate

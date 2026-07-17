@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "dataset-srj24",
+      "name": "@tscircuit/dataset-srj24",
       "devDependencies": {
         "@tscircuit/capacity-autorouter": "^0.0.542",
         "@tscircuit/checks": "^0.0.132",
