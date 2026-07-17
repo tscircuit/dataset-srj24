@@ -23,44 +23,7 @@
     "normalizations": [
       "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
     ],
-    "repairs": [
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_1",
-        "pcbPortId": "pcb_port_repaired_0",
-        "geometryId": "pcb_plated_hole_72"
-      },
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_2",
-        "pcbPortId": "pcb_port_repaired_1",
-        "geometryId": "pcb_plated_hole_73"
-      },
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_3",
-        "pcbPortId": "pcb_port_repaired_2",
-        "geometryId": "pcb_plated_hole_74"
-      },
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_4",
-        "pcbPortId": "pcb_port_repaired_3",
-        "geometryId": "pcb_plated_hole_75"
-      },
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_5",
-        "pcbPortId": "pcb_port_repaired_4",
-        "geometryId": "pcb_plated_hole_76"
-      },
-      {
-        "type": "missing_pcb_port",
-        "sourcePortId": "pcb_component_377_port_6",
-        "pcbPortId": "pcb_port_repaired_5",
-        "geometryId": "pcb_plated_hole_77"
-      }
-    ],
+    "repairs": [],
     "warnings": [],
     "stats": {
       "pads": 1516,
