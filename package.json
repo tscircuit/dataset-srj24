@@ -57,7 +57,7 @@
     "eecircuit-engine": "^1.7.0",
     "flatbush": "^4.5.1",
     "graphics-debug": "^0.0.94",
-    "kicad-to-circuit-json": "^0.0.115",
+    "kicad-to-circuit-json": "^0.0.116",
     "kicadts": "^0.0.52",
     "minicssgrid": "^0.0.9",
     "playwright-core": "^1.60.0",
