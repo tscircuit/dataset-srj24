@@ -18,7 +18,10 @@
   "scripts": {
     "dev": "vite",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 vite build",
+    "build:site": "NODE_OPTIONS=--max-old-space-size=8192 cosmos-export",
+    "cosmos": "cosmos",
     "generate": "bun scripts/download-and-generate.mjs",
+    "generate:readme-image": "bun scripts/generate-readme-image.ts",
     "test": "bun scripts/validate.mjs"
   },
   "devDependencies": {
@@ -63,6 +66,8 @@
     "playwright-core": "^1.60.0",
     "poppygl": "^0.0.20",
     "react": "19.1.0",
+    "react-cosmos": "^7.3.0",
+    "react-cosmos-plugin-vite": "^7.3.0",
     "react-dom": "19.1.0",
     "schematic-symbols": "^0.0.224",
     "spicey": "^0.0.14",
