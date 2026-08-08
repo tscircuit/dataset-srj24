@@ -3,3 +3,4 @@ dist
 cosmos-export/
 .DS_Store
 .vercel
+.env*
