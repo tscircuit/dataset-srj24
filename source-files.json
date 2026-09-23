@@ -309,5 +309,318 @@
       "vias": 107,
       "copper_pours": 13
     }
+  },
+  {
+    "sample": "sample011",
+    "board": "DC-SCM Breakout Board",
+    "repository": "antmicro/dc-scm-breakout-board",
+    "ref": "45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999",
+    "kicadPcb": "bmc-breakout-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/dc-scm-breakout-board/blob/45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999/bmc-breakout-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/dc-scm-breakout-board/45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999/bmc-breakout-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/dc-scm-breakout-board/blob/45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999/LICENSE",
+    "description": "Six-layer development breakout exposing the high-speed and low-speed interfaces of Data Center Secure Control Modules.",
+    "properties": [
+      "168-pin DC-SCM expansion connector",
+      "2 OCuLink PCIe connectors",
+      "USB host, client, and serial console interfaces",
+      "LTPI and low-speed I2C, UART, SPI, and QSPI headers",
+      "on-board temperature sensors"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 787,
+      "components": 167,
+      "traces": 838,
+      "vias": 380,
+      "copper_pours": 222
+    }
+  },
+  {
+    "sample": "sample012",
+    "board": "OV9281 Dual Camera Board",
+    "repository": "antmicro/ov9281-camera-board",
+    "ref": "ea69666fa06f66a0691e50eebff9356cc2a08e32",
+    "kicadPcb": "ov9281-dual-camera-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/ov9281-camera-board/blob/ea69666fa06f66a0691e50eebff9356cc2a08e32/ov9281-dual-camera-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/ov9281-camera-board/ea69666fa06f66a0691e50eebff9356cc2a08e32/ov9281-dual-camera-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/ov9281-camera-board/blob/ea69666fa06f66a0691e50eebff9356cc2a08e32/LICENSE",
+    "description": "Dual monochrome global-shutter camera module with two independently controlled MIPI CSI-2 image sensors.",
+    "properties": [
+      "2 OmniVision OV9281 image sensors",
+      "2 independent two-lane MIPI CSI-2 interfaces",
+      "separate I2C control buses",
+      "unified 50-pin FFC host interface",
+      "M12 lens-holder mounting pattern"
+    ],
+    "complexity": "medium",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 365,
+      "components": 82,
+      "traces": 383,
+      "vias": 233,
+      "copper_pours": 13
+    }
+  },
+  {
+    "sample": "sample013",
+    "board": "SDI-MIPI Video Converter",
+    "repository": "antmicro/sdi-mipi-video-converter-hw",
+    "ref": "5e181748d4a3a20ef88889025bc3085ef7652e36",
+    "kicadPcb": "sdi-mipi-video-converter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/sdi-mipi-video-converter-hw/blob/5e181748d4a3a20ef88889025bc3085ef7652e36/sdi-mipi-video-converter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/sdi-mipi-video-converter-hw/5e181748d4a3a20ef88889025bc3085ef7652e36/sdi-mipi-video-converter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/sdi-mipi-video-converter-hw/blob/5e181748d4a3a20ef88889025bc3085ef7652e36/LICENSE",
+    "description": "Eight-layer FPGA video converter combining 3G-SDI input and loopback with multiple MIPI CSI-2 inputs and outputs.",
+    "properties": [
+      "Lattice CrossLink-NX FPGA",
+      "3G-SDI input and loopback output",
+      "3 four-lane MIPI CSI-2 interfaces",
+      "2 Gbit DDR3L memory",
+      "USB or FFC-provided power"
+    ],
+    "complexity": "very high",
+    "normalizations": [
+      "Removed 1019 via zone_layer_connections field(s) because existing routing is excluded from SRJ generation",
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 1460,
+      "components": 396,
+      "traces": 1543,
+      "vias": 1093,
+      "copper_pours": 84
+    }
+  },
+  {
+    "sample": "sample014",
+    "board": "USB-C Power Delivery Adapter",
+    "repository": "antmicro/usb-c-power-adapter",
+    "ref": "4d3e9e289a294f7953bf48dde6c96af8327a0611",
+    "kicadPcb": "usb-c-power-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/usb-c-power-adapter/blob/4d3e9e289a294f7953bf48dde6c96af8327a0611/usb-c-power-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/usb-c-power-adapter/4d3e9e289a294f7953bf48dde6c96af8327a0611/usb-c-power-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/usb-c-power-adapter/blob/4d3e9e289a294f7953bf48dde6c96af8327a0611/LICENSE",
+    "description": "USB-C Power Delivery sink and buck-converter module providing a regulated 12 V output for high-power peripherals.",
+    "properties": [
+      "12 V 55 W continuous output",
+      "STUSB4500 USB Power Delivery sink controller",
+      "SIC477 synchronous buck regulator",
+      "auxiliary 5 V and 3.3 V rails",
+      "QWIIC configuration interface"
+    ],
+    "complexity": "medium",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 344,
+      "components": 124,
+      "traces": 317,
+      "vias": 229,
+      "copper_pours": 42
+    }
+  },
+  {
+    "sample": "sample015",
+    "board": "Audio Latency Tester Board",
+    "repository": "antmicro/audio-latency-tester-board",
+    "ref": "cf6d05479603d389196fdf30fa8023efb569793a",
+    "kicadPcb": "audio-latency-tester-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/audio-latency-tester-board/blob/cf6d05479603d389196fdf30fa8023efb569793a/audio-latency-tester-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/audio-latency-tester-board/cf6d05479603d389196fdf30fa8023efb569793a/audio-latency-tester-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/audio-latency-tester-board/blob/cf6d05479603d389196fdf30fa8023efb569793a/LICENSE",
+    "description": "Mixed-signal audio test platform that drives a speaker and captures synchronized PDM or I2S microphone data.",
+    "properties": [
+      "2 RP2040 microcontrollers",
+      "MAX98357A I2S class-D amplifier",
+      "PDM and I2S microphone inputs",
+      "32 Mbit serial RAM playback buffer",
+      "configurable external trigger signals"
+    ],
+    "complexity": "high",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 803,
+      "components": 240,
+      "traces": 834,
+      "vias": 302,
+      "copper_pours": 27
+    }
+  },
+  {
+    "sample": "sample016",
+    "board": "PDM Microphone Board",
+    "repository": "antmicro/pdm-microphone-board",
+    "ref": "20813e2bc99f52837a780334b16a30c2afb7644c",
+    "kicadPcb": "microphone-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/pdm-microphone-board/blob/20813e2bc99f52837a780334b16a30c2afb7644c/microphone-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/pdm-microphone-board/20813e2bc99f52837a780334b16a30c2afb7644c/microphone-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/pdm-microphone-board/blob/20813e2bc99f52837a780334b16a30c2afb7644c/LICENSE",
+    "description": "Compact circular microphone module routing a single PDM microphone through filtering and ESD protection to an FFC.",
+    "properties": [
+      "Knowles SPH0644LM4H-1 PDM microphone",
+      "5-pin 0.5 mm-pitch FFC connector",
+      "selectable left or right audio channel",
+      "power filtering and ESD protection",
+      "11 mm mounting profile"
+    ],
+    "complexity": "low",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 34,
+      "components": 13,
+      "traces": 24,
+      "vias": 28,
+      "copper_pours": 10
+    }
+  },
+  {
+    "sample": "sample017",
+    "board": "OCuLink to PCIe Adapter",
+    "repository": "antmicro/oculink-pcie-adapter",
+    "ref": "6dbb2afa5311c425ac2d3057646f83c626d0f8a2",
+    "kicadPcb": "oculink-to-pcie-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/oculink-pcie-adapter/blob/6dbb2afa5311c425ac2d3057646f83c626d0f8a2/oculink-to-pcie-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/oculink-pcie-adapter/6dbb2afa5311c425ac2d3057646f83c626d0f8a2/oculink-to-pcie-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/oculink-pcie-adapter/blob/6dbb2afa5311c425ac2d3057646f83c626d0f8a2/LICENSE",
+    "description": "High-speed adapter routing a four-lane OCuLink interface to a mechanically full-size PCIe card slot with flexible power input.",
+    "properties": [
+      "PCIe x4 over OCuLink",
+      "x16 mechanical PCIe card slot",
+      "USB-C PD, EPS-12V, or Nano-Fit power input",
+      "optional PCIe clock generator",
+      "dual-slot card mechanical outline"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 714,
+      "components": 165,
+      "traces": 687,
+      "vias": 583,
+      "copper_pours": 34
+    }
+  },
+  {
+    "sample": "sample018",
+    "board": "Programmable LED Panel",
+    "repository": "antmicro/programmable-led-panel",
+    "ref": "1222b9447923657204ecf1d73e3b02683ad8c133",
+    "kicadPcb": "led-panel.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/programmable-led-panel/blob/1222b9447923657204ecf1d73e3b02683ad8c133/led-panel.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/programmable-led-panel/1222b9447923657204ecf1d73e3b02683ad8c133/led-panel.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/programmable-led-panel/blob/1222b9447923657204ecf1d73e3b02683ad8c133/LICENSE",
+    "description": "Six-layer 10-by-14 LED matrix with alternate RP2040 or iCE40 FPGA control paths for machine-vision latency testing.",
+    "properties": [
+      "140 individually controlled LEDs",
+      "RP2040 microcontroller control option",
+      "Lattice iCE40UP5K FPGA control option",
+      "external synchronization trigger",
+      "VESA-compatible mounting pattern"
+    ],
+    "complexity": "high",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 1069,
+      "components": 315,
+      "traces": 1250,
+      "vias": 741,
+      "copper_pours": 246
+    }
+  },
+  {
+    "sample": "sample019",
+    "board": "HDMI EDID Debug Board",
+    "repository": "antmicro/hdmi-edid-debug-board",
+    "ref": "615be304c1d2a9ef7a1195692e9f67fb8a41cab3",
+    "kicadPcb": "hdmi-edid-debug-board.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/hdmi-edid-debug-board/blob/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/hdmi-edid-debug-board.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/hdmi-edid-debug-board/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/hdmi-edid-debug-board.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/hdmi-edid-debug-board/blob/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/LICENSE",
+    "description": "HDMI pass-through debug board for intercepting, replacing, and programming display EDID data over selectable I2C paths.",
+    "properties": [
+      "HDMI source-to-sink pass-through",
+      "selectable source, sink, EEPROM, and FTDI I2C paths",
+      "on-board 2 kbit EDID EEPROM",
+      "USB-C FT4232H USB-to-I2C interface",
+      "HDMI or USB EEPROM power selection"
+    ],
+    "complexity": "medium",
+    "normalizations": [],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 409,
+      "components": 110,
+      "traces": 460,
+      "vias": 175,
+      "copper_pours": 10
+    }
+  },
+  {
+    "sample": "sample020",
+    "board": "PoE to USB-C PD Converter",
+    "repository": "antmicro/poe-usb-c-pd-converter",
+    "ref": "f9fdd79ce0428b7c195dcbecbb56e55076da3324",
+    "kicadPcb": "antmicro-poe-to-usbc-pd-adapter.kicad_pcb",
+    "sourceUrl": "https://github.com/antmicro/poe-usb-c-pd-converter/blob/f9fdd79ce0428b7c195dcbecbb56e55076da3324/antmicro-poe-to-usbc-pd-adapter.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/antmicro/poe-usb-c-pd-converter/f9fdd79ce0428b7c195dcbecbb56e55076da3324/antmicro-poe-to-usbc-pd-adapter.kicad_pcb",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/antmicro/poe-usb-c-pd-converter/blob/f9fdd79ce0428b7c195dcbecbb56e55076da3324/LICENSE",
+    "description": "Power and data adapter that extracts negotiated PoE++ power into a monitored USB-C Power Delivery source while passing Ethernet through.",
+    "properties": [
+      "IEEE 802.3bt PoE++ input",
+      "pass-through Ethernet output",
+      "USB-C Power Delivery source up to 60 W",
+      "voltage, current, and power monitoring",
+      "programmable power profiles and fan driver"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Removed 1 tenting field(s) because existing routing is excluded from SRJ generation"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 811,
+      "components": 276,
+      "traces": 694,
+      "vias": 767,
+      "copper_pours": 126
+    }
   }
 ]

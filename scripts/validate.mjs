@@ -3,10 +3,95 @@ import { createRequire } from "node:module"
 
 const require = createRequire(import.meta.url)
 const dataset = require("../index.js")
-const expectedSampleCount = 10
+const expectedSampleCount = 20
 
 const assert = (condition, message) => {
   if (!condition) throw new Error(message)
+}
+
+const nearlyEqual = (first, second) => Math.abs(first - second) < 0.000001
+
+const getBoardLayers = (layerCount) => [
+  "top",
+  ...Array.from({ length: layerCount - 2 }, (_, index) => `inner${index + 1}`),
+  "bottom",
+]
+
+const getThroughHoleObstacleBounds = (throughHole) => {
+  if (throughHole.type === "pcb_hole") {
+    if (["oval", "pill", "rotated_pill", "rect"].includes(throughHole.hole_shape)) {
+      return {
+        center: { x: throughHole.x, y: throughHole.y },
+        width: throughHole.hole_width,
+        height: throughHole.hole_height,
+      }
+    }
+    if (["square", "round", "circle"].includes(throughHole.hole_shape)) {
+      return {
+        center: { x: throughHole.x, y: throughHole.y },
+        width: throughHole.hole_diameter,
+        height: throughHole.hole_diameter,
+      }
+    }
+    return null
+  }
+
+  if (throughHole.shape === "circle") {
+    return {
+      center: { x: throughHole.x, y: throughHole.y },
+      width: throughHole.outer_diameter,
+      height: throughHole.outer_diameter,
+    }
+  }
+  if (["oval", "pill"].includes(throughHole.shape)) {
+    return {
+      center: { x: throughHole.x, y: throughHole.y },
+      width: throughHole.outer_width,
+      height: throughHole.outer_height,
+    }
+  }
+  if (
+    [
+      "circular_hole_with_rect_pad",
+      "pill_hole_with_rect_pad",
+      "rotated_pill_hole_with_rect_pad",
+    ].includes(throughHole.shape)
+  ) {
+    return {
+      center: { x: throughHole.x, y: throughHole.y },
+      width: throughHole.rect_pad_width,
+      height: throughHole.rect_pad_height,
+    }
+  }
+  if (throughHole.shape === "hole_with_polygon_pad" && throughHole.pad_outline?.length > 0) {
+    const xs = throughHole.pad_outline.map((point) => throughHole.x + point.x)
+    const ys = throughHole.pad_outline.map((point) => throughHole.y + point.y)
+    const minX = Math.min(...xs)
+    const maxX = Math.max(...xs)
+    const minY = Math.min(...ys)
+    const maxY = Math.max(...ys)
+    return {
+      center: { x: (minX + maxX) / 2, y: (minY + maxY) / 2 },
+      width: maxX - minX,
+      height: maxY - minY,
+    }
+  }
+  return null
+}
+
+const obstacleMatchesThroughHole = (obstacle, throughHole, bounds) => {
+  if (
+    !nearlyEqual(obstacle.center.x, bounds.center.x) ||
+    !nearlyEqual(obstacle.center.y, bounds.center.y) ||
+    !nearlyEqual(obstacle.width, bounds.width) ||
+    !nearlyEqual(obstacle.height, bounds.height)
+  ) {
+    return false
+  }
+
+  return throughHole.type === "pcb_plated_hole"
+    ? obstacle.connectedTo.includes(throughHole.pcb_plated_hole_id)
+    : obstacle.connectedTo.length === 0
 }
 
 const sampleFiles = readdirSync("samples")
@@ -34,6 +119,9 @@ assert(repositoryLicense.includes("MIT License"), "Repository license is missing
 assert(repositoryLicense.includes("Apache License, Version 2.0"), "Repository license is missing the Apache-2.0 exception")
 
 let hasVeryHighComplexityBoard = false
+let hasTinyRoutingProblem = false
+let validatedThroughHoleCount = 0
+const observedLayerCounts = new Set()
 
 for (const [index, source] of sourceFiles.entries()) {
   const exportName = `sample${String(index + 1).padStart(3, "0")}`
@@ -52,6 +140,11 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(Array.isArray(sample.connections) && sample.connections.length > 0, `${exportName} missing connections`)
   assert(sample.bounds, `${exportName} missing bounds`)
   assert(sample.layerCount >= 2, `${exportName} has invalid layer count`)
+  observedLayerCounts.add(sample.layerCount)
+
+  if (source.stats.components <= 20 && sample.connections.length <= 20) {
+    hasTinyRoutingProblem = true
+  }
 
   assert(existsSync(circuitJsonPath), `${exportName} missing ${circuitJsonPath}`)
   assert(existsSync(kicadPcbPath), `${exportName} missing ${kicadPcbPath}`)
@@ -72,6 +165,31 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(source.stats.traces > 0, `${exportName} has no routed traces`)
 
   const circuitJson = JSON.parse(readFileSync(circuitJsonPath, "utf8"))
+  const board = circuitJson.find((element) => element.type === "pcb_board")
+  assert(board, `${exportName} Circuit JSON is missing a PCB board`)
+  assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
+  const boardLayers = getBoardLayers(board.num_layers)
+  const throughHoles = circuitJson.filter(
+    (element) => element.type === "pcb_plated_hole" || element.type === "pcb_hole",
+  )
+  for (const throughHole of throughHoles) {
+    const throughHoleId = throughHole.pcb_plated_hole_id ?? throughHole.pcb_hole_id
+    const bounds = getThroughHoleObstacleBounds(throughHole)
+    assert(bounds, `${exportName} cannot validate unsupported through-hole ${throughHoleId}`)
+    const obstacle = sample.obstacles.find((candidate) =>
+      obstacleMatchesThroughHole(candidate, throughHole, bounds),
+    )
+    assert(obstacle, `${exportName} is missing an SRJ obstacle for ${throughHoleId}`)
+    const expectedLayers =
+      throughHole.type === "pcb_plated_hole" && throughHole.layers?.length > 0
+        ? throughHole.layers
+        : boardLayers
+    assert(
+      JSON.stringify(obstacle.layers) === JSON.stringify(expectedLayers),
+      `${exportName} ${throughHoleId} obstacle layers ${JSON.stringify(obstacle.layers)} do not match ${JSON.stringify(expectedLayers)}`,
+    )
+    validatedThroughHoleCount += 1
+  }
   for (const repair of source.repairs) {
     const repairedPcbPort = circuitJson.find(
       (element) => element.type === "pcb_port" && element.pcb_port_id === repair.pcbPortId,
@@ -94,6 +212,13 @@ for (const [index, source] of sourceFiles.entries()) {
 }
 
 assert(hasVeryHighComplexityBoard, "Dataset is missing a very-high-complexity board")
+assert(hasTinyRoutingProblem, "Dataset is missing a compact low-complexity routing problem")
+assert(
+  [4, 6, 8].every((layerCount) => observedLayerCounts.has(layerCount)),
+  "Dataset must contain 4-, 6-, and 8-layer routing problems",
+)
 assert(Object.keys(dataset.dataset).length === expectedSampleCount, "Dataset export count is incorrect")
 
-console.log(`Validated ${expectedSampleCount} SRJ samples with pinned sources, licensing, and connectivity checks`)
+console.log(
+  `Validated ${expectedSampleCount} SRJ samples and ${validatedThroughHoleCount} through-hole obstacles with pinned sources, licensing, and connectivity checks`,
+)

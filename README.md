@@ -1,6 +1,6 @@
 # dataset-srj24
 
-Simple Route JSON dataset generated from ten production-oriented KiCad boards.
+Simple Route JSON dataset generated from twenty production-oriented KiCad boards.
 Every source is pinned to an immutable commit, redistributed under Apache-2.0,
 and retained byte-for-byte in `kicad_pcb/`.
 
@@ -24,6 +24,16 @@ electrical-safety or manufacturing certification.
 | `sample008` | D1600E PSU Breakout Board | High | 4 | 237 | 727 | 525 | 903 | 288 |
 | `sample009` | M.2 to OCuLink Adapter | Low | 4 | 25 | 150 | 173 | 183 | 91 |
 | `sample010` | Dual I-PEX CSI Interposer | Low | 4 | 29 | 152 | 131 | 107 | 96 |
+| `sample011` | DC-SCM Breakout Board | High | 6 | 167 | 787 | 838 | 380 | 449 |
+| `sample012` | OV9281 Dual Camera Board | Medium | 4 | 82 | 365 | 383 | 233 | 180 |
+| `sample013` | SDI-MIPI Video Converter | Very high | 8 | 396 | 1,460 | 1,543 | 1,093 | 735 |
+| `sample014` | USB-C Power Delivery Adapter | Medium | 4 | 124 | 344 | 317 | 229 | 129 |
+| `sample015` | Audio Latency Tester Board | High | 4 | 240 | 803 | 834 | 302 | 356 |
+| `sample016` | PDM Microphone Board | Low | 4 | 13 | 34 | 24 | 28 | 14 |
+| `sample017` | OCuLink to PCIe Adapter | High | 4 | 165 | 714 | 687 | 583 | 295 |
+| `sample018` | Programmable LED Panel | High | 6 | 315 | 1,069 | 1,250 | 741 | 465 |
+| `sample019` | HDMI EDID Debug Board | Medium | 4 | 110 | 409 | 460 | 175 | 154 |
+| `sample020` | PoE to USB-C PD Converter | High | 4 | 276 | 811 | 694 | 767 | 409 |
 
 ## Board descriptions and properties
 
@@ -133,6 +143,108 @@ Properties: two 30-pin I-PEX camera connectors, four MIPI CSI-2 lanes per
 camera, one 50-pin host FFC connector, and I2C plus camera-power pass-through.
 
 [Pinned KiCad source](https://github.com/antmicro/dual-ipex-csi-interposer/blob/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb)
+
+### `sample011` — DC-SCM Breakout Board
+
+Six-layer development breakout exposing the high-speed and low-speed
+interfaces of Data Center Secure Control Modules.
+
+Properties: 168-pin DC-SCM connector, two OCuLink PCIe connectors, USB host,
+client, and serial console interfaces, LTPI, low-speed debug headers, and
+on-board temperature sensors.
+
+[Pinned KiCad source](https://github.com/antmicro/dc-scm-breakout-board/blob/45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999/bmc-breakout-board.kicad_pcb)
+
+### `sample012` — OV9281 Dual Camera Board
+
+Dual monochrome global-shutter camera module with independently controlled
+MIPI CSI-2 image sensors.
+
+Properties: two OmniVision OV9281 sensors, two independent two-lane MIPI CSI-2
+interfaces, separate I2C buses, a unified 50-pin FFC host connector, and M12
+lens-holder mounting.
+
+[Pinned KiCad source](https://github.com/antmicro/ov9281-camera-board/blob/ea69666fa06f66a0691e50eebff9356cc2a08e32/ov9281-dual-camera-board.kicad_pcb)
+
+### `sample013` — SDI-MIPI Video Converter
+
+Eight-layer FPGA video converter combining 3G-SDI input and loopback with
+multiple MIPI CSI-2 inputs and outputs.
+
+Properties: Lattice CrossLink-NX FPGA, 3G-SDI input and loopback, three
+four-lane MIPI CSI-2 interfaces, 2 Gbit DDR3L memory, and dual-source power.
+
+[Pinned KiCad source](https://github.com/antmicro/sdi-mipi-video-converter-hw/blob/5e181748d4a3a20ef88889025bc3085ef7652e36/sdi-mipi-video-converter.kicad_pcb)
+
+### `sample014` — USB-C Power Delivery Adapter
+
+USB-C Power Delivery sink and buck-converter module providing a regulated
+12 V output for high-power peripherals.
+
+Properties: 12 V 55 W output, STUSB4500 PD sink controller, SIC477 buck
+regulator, auxiliary 5 V and 3.3 V rails, and a QWIIC configuration interface.
+
+[Pinned KiCad source](https://github.com/antmicro/usb-c-power-adapter/blob/4d3e9e289a294f7953bf48dde6c96af8327a0611/usb-c-power-adapter.kicad_pcb)
+
+### `sample015` — Audio Latency Tester Board
+
+Mixed-signal audio platform that drives a speaker and captures synchronized
+PDM or I2S microphone data.
+
+Properties: two RP2040 microcontrollers, an I2S class-D amplifier, PDM and I2S
+microphone inputs, 32 Mbit serial RAM, and configurable trigger signals.
+
+[Pinned KiCad source](https://github.com/antmicro/audio-latency-tester-board/blob/cf6d05479603d389196fdf30fa8023efb569793a/audio-latency-tester-board.kicad_pcb)
+
+### `sample016` — PDM Microphone Board
+
+Compact circular microphone module routing a single PDM microphone through
+filtering and ESD protection to an FFC connector.
+
+Properties: Knowles SPH0644LM4H-1 microphone, five-pin FFC, selectable left or
+right audio channel, protected power input, and an 11 mm mounting profile.
+
+[Pinned KiCad source](https://github.com/antmicro/pdm-microphone-board/blob/20813e2bc99f52837a780334b16a30c2afb7644c/microphone-board.kicad_pcb)
+
+### `sample017` — OCuLink to PCIe Adapter
+
+High-speed adapter routing four PCIe lanes from OCuLink to a mechanically
+full-size PCIe card slot with flexible power input.
+
+Properties: PCIe x4 over OCuLink, x16 mechanical card slot, USB-C PD, EPS-12V,
+or Nano-Fit power, optional clock generation, and dual-slot card clearance.
+
+[Pinned KiCad source](https://github.com/antmicro/oculink-pcie-adapter/blob/6dbb2afa5311c425ac2d3057646f83c626d0f8a2/oculink-to-pcie-adapter.kicad_pcb)
+
+### `sample018` — Programmable LED Panel
+
+Six-layer 10-by-14 LED matrix with alternate MCU and FPGA control paths for
+machine-vision latency testing.
+
+Properties: 140 individually controlled LEDs, RP2040 and iCE40UP5K control
+options, external synchronization, and a VESA-compatible mounting pattern.
+
+[Pinned KiCad source](https://github.com/antmicro/programmable-led-panel/blob/1222b9447923657204ecf1d73e3b02683ad8c133/led-panel.kicad_pcb)
+
+### `sample019` — HDMI EDID Debug Board
+
+HDMI pass-through debug board for intercepting, replacing, and programming
+display EDID data over selectable I2C paths.
+
+Properties: HDMI pass-through, source, sink, EEPROM, and FTDI I2C selection,
+on-board EDID EEPROM, USB-C USB-to-I2C, and selectable EEPROM power.
+
+[Pinned KiCad source](https://github.com/antmicro/hdmi-edid-debug-board/blob/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/hdmi-edid-debug-board.kicad_pcb)
+
+### `sample020` — PoE to USB-C PD Converter
+
+Power and data adapter that extracts negotiated PoE++ power into a monitored
+USB-C Power Delivery source while passing Ethernet through.
+
+Properties: IEEE 802.3bt PoE++ input, Ethernet pass-through, USB-C PD output up
+to 60 W, power monitoring, programmable power profiles, and a fan driver.
+
+[Pinned KiCad source](https://github.com/antmicro/poe-usb-c-pd-converter/blob/f9fdd79ce0428b7c195dcbecbb56e55076da3324/antmicro-poe-to-usbc-pd-adapter.kicad_pcb)
 
 ## Repository structure
 

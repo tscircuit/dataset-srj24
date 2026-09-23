@@ -18,3 +18,13 @@ No upstream root `NOTICE` file was present at any pinned revision.
 | `sample008` | [antmicro/d1600e-psu-breakout at 3802831dcd6c](https://github.com/antmicro/d1600e-psu-breakout/blob/3802831dcd6c9c6e278216771e92ca7fe3f9ae41/d1600e-psu-breakout-board.kicad_pcb) |
 | `sample009` | [antmicro/m2-oculink-adapter at 067f60727046](https://github.com/antmicro/m2-oculink-adapter/blob/067f60727046cd0c0db1d39c51c9396f89f48b65/antmicro-m2-oculink-adapter-hw.kicad_pcb) |
 | `sample010` | [antmicro/dual-ipex-csi-interposer at 6b6bd0af5aaf](https://github.com/antmicro/dual-ipex-csi-interposer/blob/6b6bd0af5aafe13c02377d534a23a6373922f350/dual-ipex-csi-interposer.kicad_pcb) |
+| `sample011` | [antmicro/dc-scm-breakout-board at 45ac35961a9c](https://github.com/antmicro/dc-scm-breakout-board/blob/45ac35961a9cc3a03c2cf1bdbb1840e0e9f67999/bmc-breakout-board.kicad_pcb) |
+| `sample012` | [antmicro/ov9281-camera-board at ea69666fa06f](https://github.com/antmicro/ov9281-camera-board/blob/ea69666fa06f66a0691e50eebff9356cc2a08e32/ov9281-dual-camera-board.kicad_pcb) |
+| `sample013` | [antmicro/sdi-mipi-video-converter-hw at 5e181748d4a3](https://github.com/antmicro/sdi-mipi-video-converter-hw/blob/5e181748d4a3a20ef88889025bc3085ef7652e36/sdi-mipi-video-converter.kicad_pcb) |
+| `sample014` | [antmicro/usb-c-power-adapter at 4d3e9e289a29](https://github.com/antmicro/usb-c-power-adapter/blob/4d3e9e289a294f7953bf48dde6c96af8327a0611/usb-c-power-adapter.kicad_pcb) |
+| `sample015` | [antmicro/audio-latency-tester-board at cf6d05479603](https://github.com/antmicro/audio-latency-tester-board/blob/cf6d05479603d389196fdf30fa8023efb569793a/audio-latency-tester-board.kicad_pcb) |
+| `sample016` | [antmicro/pdm-microphone-board at 20813e2bc99f](https://github.com/antmicro/pdm-microphone-board/blob/20813e2bc99f52837a780334b16a30c2afb7644c/microphone-board.kicad_pcb) |
+| `sample017` | [antmicro/oculink-pcie-adapter at 6dbb2afa5311](https://github.com/antmicro/oculink-pcie-adapter/blob/6dbb2afa5311c425ac2d3057646f83c626d0f8a2/oculink-to-pcie-adapter.kicad_pcb) |
+| `sample018` | [antmicro/programmable-led-panel at 1222b9447923](https://github.com/antmicro/programmable-led-panel/blob/1222b9447923657204ecf1d73e3b02683ad8c133/led-panel.kicad_pcb) |
+| `sample019` | [antmicro/hdmi-edid-debug-board at 615be304c1d2](https://github.com/antmicro/hdmi-edid-debug-board/blob/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/hdmi-edid-debug-board.kicad_pcb) |
+| `sample020` | [antmicro/poe-usb-c-pd-converter at f9fdd79ce042](https://github.com/antmicro/poe-usb-c-pd-converter/blob/f9fdd79ce0428b7c195dcbecbb56e55076da3324/antmicro-poe-to-usbc-pd-adapter.kicad_pcb) |

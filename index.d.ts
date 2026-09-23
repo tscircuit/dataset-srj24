@@ -71,6 +71,16 @@ export const sample007: SimpleRouteJson
 export const sample008: SimpleRouteJson
 export const sample009: SimpleRouteJson
 export const sample010: SimpleRouteJson
+export const sample011: SimpleRouteJson
+export const sample012: SimpleRouteJson
+export const sample013: SimpleRouteJson
+export const sample014: SimpleRouteJson
+export const sample015: SimpleRouteJson
+export const sample016: SimpleRouteJson
+export const sample017: SimpleRouteJson
+export const sample018: SimpleRouteJson
+export const sample019: SimpleRouteJson
+export const sample020: SimpleRouteJson
 
 export const dataset: Record<string, SimpleRouteJson>
 declare const defaultDataset: Record<string, SimpleRouteJson>
