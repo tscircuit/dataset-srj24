@@ -4,7 +4,7 @@ import { tmpdir } from "node:os"
 import { basename, join, resolve } from "node:path"
 import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 import { convertSrjToGraphicsObject } from "@tscircuit/capacity-autorouter"
-import { convertAltiumPcbDocToCircuitJson } from "altium-to-circuit-json"
+import { convertAltiumToCircuitJson } from "altium-to-circuit-json"
 import {
   AltiumPadRecord,
   AltiumTrackRecord,
@@ -14,6 +14,7 @@ import {
   serializeAltiumPcbToSvg,
 } from "altiumts"
 import { any_circuit_element } from "circuit-json"
+import { convertCircuitJsonToPcbSvg } from "circuit-to-svg"
 import { unzipSync } from "fflate"
 import { getSvgFromGraphicsObject } from "graphics-debug"
 import { stackSvgsHorizontally } from "stack-svgs"
@@ -271,6 +272,67 @@ const getElementId = (element) =>
   element.pcb_trace_id ??
   element.pcb_via_id
 
+const assertNearlyEqual = (actual, expected, label) => {
+  if (Math.abs(actual - expected) >= 0.000001) {
+    throw new Error(`${label}: expected ${expected}, received ${actual}`)
+  }
+}
+
+const validateConvertedGeometry = (document, circuitJson, sampleName) => {
+  const board = circuitJson.find((element) => element.type === "pcb_board")
+  const convertedElementById = new Map(
+    circuitJson.flatMap((element) => {
+      const elementId = getElementId(element)
+      return elementId ? [[elementId, element]] : []
+    }),
+  )
+  const sourceBounds = document.boardGeometry.outline.bounds
+  if (!board || !sourceBounds) {
+    throw new Error(`${sampleName} is missing source or converted board bounds`)
+  }
+  assertNearlyEqual(
+    board.center.x,
+    ((sourceBounds.minX + sourceBounds.maxX) / 2) * MILS_TO_MILLIMETERS,
+    `${sampleName} board center x`,
+  )
+  assertNearlyEqual(
+    board.center.y,
+    ((sourceBounds.minY + sourceBounds.maxY) / 2) * MILS_TO_MILLIMETERS,
+    `${sampleName} board center y`,
+  )
+  assertNearlyEqual(
+    board.width,
+    (sourceBounds.maxX - sourceBounds.minX) * MILS_TO_MILLIMETERS,
+    `${sampleName} board width`,
+  )
+  assertNearlyEqual(
+    board.height,
+    (sourceBounds.maxY - sourceBounds.minY) * MILS_TO_MILLIMETERS,
+    `${sampleName} board height`,
+  )
+
+  let comparedPadCount = 0
+  for (const [recordIndex, record] of document.records.entries()) {
+    if (!(record instanceof AltiumPadRecord) || !record.position) continue
+    const convertedPad = convertedElementById.get(getConvertedPadId(record, recordIndex))
+    if (!convertedPad) continue
+    assertNearlyEqual(
+      convertedPad.x,
+      record.position.x * MILS_TO_MILLIMETERS,
+      `${sampleName} pad ${recordIndex} x`,
+    )
+    assertNearlyEqual(
+      convertedPad.y,
+      record.position.y * MILS_TO_MILLIMETERS,
+      `${sampleName} pad ${recordIndex} y`,
+    )
+    comparedPadCount += 1
+  }
+  if (comparedPadCount === 0) {
+    throw new Error(`${sampleName} has no converted pad positions to validate`)
+  }
+}
+
 const uniqueName = (value, fallback) => {
   const trimmed = value?.trim()
   return trimmed ? trimmed : fallback
@@ -302,7 +364,11 @@ const roundJson = (value) => {
 }
 
 const enrichCircuitJsonConnectivity = (document, rawCircuitJson) => {
-  const circuitJson = structuredClone(rawCircuitJson)
+  const circuitJson = structuredClone(
+    rawCircuitJson.filter(
+      (element) => element.type !== "source_net" && element.type !== "source_trace",
+    ),
+  )
   const elementById = new Map(
     circuitJson.flatMap((element) => {
       const id = getElementId(element)
@@ -492,7 +558,7 @@ const countCircuitElements = (circuitJson) => {
   }
 }
 
-const makeComparisonSvg = ({ document, simpleRouteJson, boardName }) => {
+const makeComparisonSvg = ({ document, circuitJson, simpleRouteJson, boardName }) => {
   const outlineBounds = document.boardGeometry.outline.bounds
   const padding = outlineBounds
     ? Math.max(outlineBounds.maxX - outlineBounds.minX, outlineBounds.maxY - outlineBounds.minY) * 0.05
@@ -516,19 +582,24 @@ const makeComparisonSvg = ({ document, simpleRouteJson, boardName }) => {
     svgHeight: 600,
     hideInlineLabels: true,
   })
-  const comparison = stackSvgsHorizontally([altiumSvg, srjSvg], {
+  const board = circuitJson.find((element) => element.type === "pcb_board")
+  const circuitJsonSvg = convertCircuitJsonToPcbSvg(circuitJson, {
+    matchBoardAspectRatio: true,
+    viewportTarget: board ? { pcb_board_id: board.pcb_board_id } : undefined,
+  })
+  const comparison = stackSvgsHorizontally([altiumSvg, circuitJsonSvg, srjSvg], {
     gap: 24,
     normalizeSize: true,
     targetSize: 800,
     rootAttributes: {
-      "aria-label": `${boardName}: original Altium on left, Simple Route JSON on right`,
+      "aria-label": `${boardName}: original Altium on left, converted Circuit JSON in the center, Simple Route JSON on right`,
       role: "img",
     },
   })
   return comparison
     .replace(
       /<\/svg>\s*$/,
-      '  <g font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#e7edf2" text-anchor="middle"><text x="400" y="22">Original Altium</text><text x="1224" y="22">Simple Route JSON</text></g>\n</svg>',
+      '  <g font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#e7edf2" text-anchor="middle"><text x="400" y="22">Original Altium</text><text x="1224" y="22">Converted Circuit JSON</text><text x="2048" y="22">Simple Route JSON</text></g>\n</svg>',
     )
     .split("\n")
     .map((line) => line.trimEnd())
@@ -556,11 +627,12 @@ const writeIndexFiles = () => {
     .split("\n")
     .filter((line) => !/^export const sample\d+: SimpleRouteJson$/.test(line))
     .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
   const sampleExports = exportNames.map((name) => `export const ${name}: SimpleRouteJson`).join("\n")
   const indexDts = indexDtsWithoutSampleExports.replace(
     "export const dataset: Record<string, SimpleRouteJson>",
     `${sampleExports}\n\nexport const dataset: Record<string, SimpleRouteJson>`,
-  )
+  ).replace(/\n{3,}/g, "\n\n")
   writeFileSync("index.d.ts", indexDts)
 }
 
@@ -576,13 +648,14 @@ const generatedSourceFiles = []
 for (const board of boards) {
   const sourceBytes = await getBoardBytes(board)
   const document = parseAltiumBinaryPcbDoc(sourceBytes)
-  const converted = convertAltiumPcbDocToCircuitJson(document)
+  const converted = convertAltiumToCircuitJson(sourceBytes, { sourceType: "pcb" })
   const {
     circuitJson,
     connections,
     obstacleConnectionIdsByElementId,
     stats: connectivity,
   } = enrichCircuitJsonConnectivity(document, converted)
+  validateConvertedGeometry(document, circuitJson, board.sample)
 
   for (const [index, element] of circuitJson.entries()) {
     const result = any_circuit_element.safeParse(element)
@@ -641,7 +714,10 @@ for (const board of boards) {
   const snapshotPath = join(snapshotsDir, `${board.sample}-${board.id}-comparison.svg`)
   writeFileSync(circuitJsonPath, `${JSON.stringify(roundJson(circuitJson), null, 2)}\n`)
   writeFileSync(samplePath, `${JSON.stringify(simpleRouteJson, null, 2)}\n`)
-  writeFileSync(snapshotPath, `${makeComparisonSvg({ document, simpleRouteJson, boardName: board.name })}\n`)
+  writeFileSync(
+    snapshotPath,
+    `${makeComparisonSvg({ document, circuitJson, simpleRouteJson, boardName: board.name })}\n`,
+  )
 
   generatedSourceFiles.push({
     sample: board.sample,

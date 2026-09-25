@@ -6,12 +6,20 @@ const dataset = require("../index.js")
 const expectedSampleCount = 26
 const expectedKicadSampleCount = 20
 const expectedAltiumSampleCount = 6
+const expectedAltiumBoardThicknesses = new Map([
+  ["sample021", 2.2284944],
+  ["sample022", 1.56015944],
+  ["sample023", 2.13195916],
+  ["sample024", 2.27076],
+  ["sample025", 0.93531944],
+  ["sample026", 1.8073624],
+])
 
 const assert = (condition, message) => {
   if (!condition) throw new Error(message)
 }
 
-const nearlyEqual = (first, second) => Math.abs(first - second) < 0.000001
+const nearlyEqual = (first, second) => Math.abs(first - second) < 0.00001
 
 const getBoardLayers = (layerCount) => [
   "top",
@@ -59,10 +67,17 @@ const getThroughHoleObstacleBounds = (throughHole) => {
       "rotated_pill_hole_with_rect_pad",
     ].includes(throughHole.shape)
   ) {
+    const normalizedRotation =
+      throughHole.shape === "rotated_pill_hole_with_rect_pad"
+        ? ((throughHole.rect_ccw_rotation % 360) + 360) % 360
+        : 0
+    const isVertical =
+      Math.abs(normalizedRotation - 90) < 0.01 ||
+      Math.abs(normalizedRotation - 270) < 0.01
     return {
       center: { x: throughHole.x, y: throughHole.y },
-      width: throughHole.rect_pad_width,
-      height: throughHole.rect_pad_height,
+      width: isVertical ? throughHole.rect_pad_height : throughHole.rect_pad_width,
+      height: isVertical ? throughHole.rect_pad_width : throughHole.rect_pad_height,
     }
   }
   if (throughHole.shape === "hole_with_polygon_pad" && throughHole.pad_outline?.length > 0) {
@@ -96,6 +111,72 @@ const obstacleMatchesThroughHole = (obstacle, throughHole, bounds) => {
     : obstacle.connectedTo.length === 0
 }
 
+const getAltiumPlatedHole = ({ circuitJson, designator, pinName }) => {
+  const sourceComponent = circuitJson.find(
+    (element) => element.type === "source_component" && element.name === designator,
+  )
+  assert(sourceComponent, `Missing Altium source component ${designator}`)
+  const pcbComponentId = sourceComponent.source_component_id.replace(
+    "source_component_",
+    "pcb_component_",
+  )
+  const platedHole = circuitJson.find(
+    (element) =>
+      element.type === "pcb_plated_hole" &&
+      element.pcb_component_id === pcbComponentId &&
+      element.port_hints?.includes(pinName),
+  )
+  assert(platedHole, `Missing Altium plated hole ${designator} pin ${pinName}`)
+  return platedHole
+}
+
+const validateRepresentativeAltiumPadStacks = ({ exportName, circuitJson }) => {
+  if (exportName === "sample024") {
+    const platedHole = getAltiumPlatedHole({ circuitJson, designator: "MP1", pinName: "1" })
+    assert(platedHole.pad_stack.length === 8, "sample024 MP1 pin 1 must have eight pad layers")
+    for (const [index, layerPad] of platedHole.pad_stack.entries()) {
+      if (index === 0 || index === 7) {
+        assert(layerPad.shape === "rect", `sample024 MP1 pin 1 ${layerPad.layer} must be rectangular`)
+        assert(
+          nearlyEqual(layerPad.width, 7) &&
+            nearlyEqual(layerPad.height, 7) &&
+            nearlyEqual(layerPad.corner_radius, 0.035),
+          `sample024 MP1 pin 1 ${layerPad.layer} outer geometry changed`,
+        )
+      } else {
+        assert(layerPad.shape === "circle", `sample024 MP1 pin 1 ${layerPad.layer} must be circular`)
+        assert(
+          nearlyEqual(layerPad.radius, 2.54),
+          `sample024 MP1 pin 1 ${layerPad.layer} inner radius changed`,
+        )
+      }
+    }
+  }
+
+  if (exportName === "sample026") {
+    const platedHole = getAltiumPlatedHole({ circuitJson, designator: "J1", pinName: "1" })
+    assert(platedHole.pad_stack.length === 4, "sample026 J1 pin 1 must have four pad layers")
+    for (const [index, layerPad] of platedHole.pad_stack.entries()) {
+      assert(layerPad.shape === "rect", `sample026 J1 pin 1 ${layerPad.layer} must be rectangular`)
+      assert(
+        nearlyEqual(layerPad.width, 1.65) && nearlyEqual(layerPad.height, 1.65),
+        `sample026 J1 pin 1 ${layerPad.layer} dimensions changed`,
+      )
+      if (index === 0) {
+        assert(
+          nearlyEqual(layerPad.corner_radius, 0.0495),
+          "sample026 J1 pin 1 top corner radius changed",
+        )
+      } else {
+        assert(
+          layerPad.corner_radius === undefined,
+          `sample026 J1 pin 1 ${layerPad.layer} must have square corners`,
+        )
+      }
+    }
+  }
+}
+
 const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson }) => {
   const sourcePorts = circuitJson.filter((element) => element.type === "source_port")
   const sourceNets = circuitJson.filter((element) => element.type === "source_net")
@@ -125,8 +206,10 @@ const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson })
 
   const comparisonSvg = readFileSync(source.snapshotComparison, "utf8")
   assert(comparisonSvg.includes("Original Altium"), `${exportName} comparison SVG lacks original label`)
+  assert(comparisonSvg.includes("Converted Circuit JSON"), `${exportName} comparison SVG lacks conversion label`)
   assert(comparisonSvg.includes("Simple Route JSON"), `${exportName} comparison SVG lacks SRJ label`)
   assert(comparisonSvg.includes("original Altium on left"), `${exportName} comparison SVG lacks accessible order`)
+  assert(comparisonSvg.includes("converted Circuit JSON in the center"), `${exportName} comparison SVG lacks accessible conversion order`)
 
   for (const connection of sample.connections) {
     const sourceTrace = traceById.get(connection.source_trace_id)
@@ -201,6 +284,11 @@ assert(repositoryLicense.includes("Apache License, Version 2.0"), "Repository li
 let hasVeryHighComplexityBoard = false
 let hasTinyRoutingProblem = false
 let validatedThroughHoleCount = 0
+let altiumCopperArcCount = 0
+let altiumNetCopperArcCount = 0
+let altiumViaCount = 0
+let altiumNetViaCount = 0
+let altiumNetCopperAreaCount = 0
 const observedLayerCounts = new Set()
 
 for (const [index, source] of sourceFiles.entries()) {
@@ -262,7 +350,28 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
   if (sourceType === "altium") {
     assert(board.num_layers === source.connectivity.layerCount, `${exportName} differs from its Altium layer stack`)
+    assert(
+      nearlyEqual(board.thickness, expectedAltiumBoardThicknesses.get(exportName)),
+      `${exportName} has incorrect physical board thickness ${board.thickness}`,
+    )
     validateAltiumConnectivity({ exportName, sample, source, circuitJson })
+    validateRepresentativeAltiumPadStacks({ exportName, circuitJson })
+    const copperArcs = circuitJson
+      .filter((element) => element.type === "pcb_trace")
+      .filter((trace) => trace.pcb_trace_id.startsWith("pcb_trace_altium_arc_"))
+    const vias = circuitJson.filter((element) => element.type === "pcb_via")
+    altiumCopperArcCount += copperArcs.length
+    altiumNetCopperArcCount += copperArcs.filter(
+      (trace) => trace.source_trace_id !== undefined,
+    ).length
+    altiumViaCount += vias.length
+    altiumNetViaCount += vias.filter(
+      (via) => via.source_net_id !== undefined && via.source_trace_id !== undefined,
+    ).length
+    altiumNetCopperAreaCount += circuitJson.filter(
+      (element) =>
+        element.type === "pcb_copper_pour" && element.source_net_id !== undefined,
+    ).length
   }
   const boardLayers = getBoardLayers(board.num_layers)
   const throughHoles = circuitJson.filter(
@@ -272,6 +381,12 @@ for (const [index, source] of sourceFiles.entries()) {
     const throughHoleId = throughHole.pcb_plated_hole_id ?? throughHole.pcb_hole_id
     const bounds = getThroughHoleObstacleBounds(throughHole)
     assert(bounds, `${exportName} cannot validate unsupported through-hole ${throughHoleId}`)
+    if (sourceType === "altium" && throughHole.type === "pcb_plated_hole") {
+      assert(
+        throughHole.pad_stack?.length === board.num_layers,
+        `${exportName} ${throughHoleId} does not preserve its full Altium pad stack`,
+      )
+    }
     const obstacle = sample.obstacles.find((candidate) =>
       obstacleMatchesThroughHole(candidate, throughHole, bounds),
     )
@@ -308,6 +423,14 @@ for (const [index, source] of sourceFiles.entries()) {
 }
 
 assert(hasVeryHighComplexityBoard, "Dataset is missing a very-high-complexity board")
+assert(altiumCopperArcCount === 174, `Expected 174 Altium copper arcs, found ${altiumCopperArcCount}`)
+assert(altiumNetCopperArcCount === 15, `Expected 15 net-owned Altium copper arcs, found ${altiumNetCopperArcCount}`)
+assert(altiumViaCount === 2877, `Expected 2877 Altium vias, found ${altiumViaCount}`)
+assert(altiumNetViaCount === 2877, `Expected 2877 net-owned Altium vias, found ${altiumNetViaCount}`)
+assert(
+  altiumNetCopperAreaCount === 536,
+  `Expected 536 net-owned Altium copper areas, found ${altiumNetCopperAreaCount}`,
+)
 assert(hasTinyRoutingProblem, "Dataset is missing a compact low-complexity routing problem")
 assert(
   [4, 6, 8].every((layerCount) => observedLayerCounts.has(layerCount)),

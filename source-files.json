@@ -752,7 +752,7 @@
     "stats": {
       "pads": 18,
       "components": 6,
-      "traces": 0,
+      "traces": 6,
       "vias": 29,
       "copper_pours": 17
     },
@@ -800,7 +800,7 @@
     "stats": {
       "pads": 2494,
       "components": 633,
-      "traces": 5970,
+      "traces": 6138,
       "vias": 1993,
       "copper_pours": 401
     },

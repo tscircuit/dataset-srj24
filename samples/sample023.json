@@ -7,6 +7,12 @@
   },
   "obstacles": [
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_238",
+        "pcb_port_id": "pcb_port_altium_238",
+        "source_component_name": "J3",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_4",
       "type": "oval",
       "layers": [
@@ -32,6 +38,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_239",
+        "pcb_port_id": "pcb_port_altium_239",
+        "source_component_name": "J3",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_4",
       "type": "oval",
       "layers": [
@@ -57,6 +69,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_240",
+        "pcb_port_id": "pcb_port_altium_240",
+        "source_component_name": "J3",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_4",
       "type": "oval",
       "layers": [
@@ -82,6 +100,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_241",
+        "pcb_port_id": "pcb_port_altium_241",
+        "source_component_name": "J3",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_4",
       "type": "oval",
       "layers": [
@@ -107,6 +131,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_242",
+        "pcb_port_id": "pcb_port_altium_242",
+        "source_component_name": "J3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_4",
       "type": "oval",
       "layers": [
@@ -132,8 +162,14 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_243",
+        "pcb_port_id": "pcb_port_altium_243",
+        "source_component_name": "J3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_4",
-      "type": "oval",
+      "type": "rect",
       "layers": [
         "top",
         "inner1",
@@ -157,6 +193,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_244",
+        "pcb_port_id": "pcb_port_altium_244",
+        "source_component_name": "J7",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "oval",
       "layers": [
@@ -182,6 +224,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_245",
+        "pcb_port_id": "pcb_port_altium_245",
+        "source_component_name": "J7",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "oval",
       "layers": [
@@ -207,6 +255,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_246",
+        "pcb_port_id": "pcb_port_altium_246",
+        "source_component_name": "J7",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "oval",
       "layers": [
@@ -232,6 +286,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_247",
+        "pcb_port_id": "pcb_port_altium_247",
+        "source_component_name": "J7",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "oval",
       "layers": [
@@ -257,6 +317,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_248",
+        "pcb_port_id": "pcb_port_altium_248",
+        "source_component_name": "J7",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "oval",
       "layers": [
@@ -282,6 +348,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_249",
+        "pcb_port_id": "pcb_port_altium_249",
+        "source_component_name": "J7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_3",
       "type": "rect",
       "layers": [
@@ -307,6 +379,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_250",
+        "pcb_port_id": "pcb_port_altium_250",
+        "source_component_name": "J5",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "oval",
       "layers": [
@@ -332,6 +410,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_251",
+        "pcb_port_id": "pcb_port_altium_251",
+        "source_component_name": "J5",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "oval",
       "layers": [
@@ -357,6 +441,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_252",
+        "pcb_port_id": "pcb_port_altium_252",
+        "source_component_name": "J5",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "oval",
       "layers": [
@@ -382,6 +472,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_253",
+        "pcb_port_id": "pcb_port_altium_253",
+        "source_component_name": "J5",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "oval",
       "layers": [
@@ -407,6 +503,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_254",
+        "pcb_port_id": "pcb_port_altium_254",
+        "source_component_name": "J5",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "oval",
       "layers": [
@@ -432,6 +534,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_255",
+        "pcb_port_id": "pcb_port_altium_255",
+        "source_component_name": "J5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_2",
       "type": "rect",
       "layers": [
@@ -1270,6 +1378,7 @@
     }
   ],
   "layerCount": 6,
+  "allowBlindAndBuriedVias": false,
   "minTraceWidth": 0.1,
   "outline": [
     {

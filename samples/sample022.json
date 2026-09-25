@@ -7,6 +7,12 @@
   },
   "obstacles": [
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_840",
+        "pcb_port_id": "pcb_port_altium_840",
+        "source_component_name": "R5",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_49",
       "type": "rect",
       "layers": [
@@ -27,6 +33,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_841",
+        "pcb_port_id": "pcb_port_altium_841",
+        "source_component_name": "R5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_49",
       "type": "rect",
       "layers": [
@@ -47,6 +59,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_842",
+        "pcb_port_id": "pcb_port_altium_842",
+        "source_component_name": "C7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_81",
       "type": "rect",
       "layers": [
@@ -67,6 +85,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_843",
+        "pcb_port_id": "pcb_port_altium_843",
+        "source_component_name": "J1",
+        "source_port_name": "pinA12"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -76,9 +100,8 @@
         "x": 23.80297,
         "y": 50.243859
       },
-      "width": 0.800001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.800001,
       "connectedTo": [
         "pcb_smtpad_altium_843",
         "pcb_port_altium_843",
@@ -88,6 +111,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_844",
+        "pcb_port_id": "pcb_port_altium_844",
+        "source_component_name": "J1",
+        "source_port_name": "pinB12"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -97,9 +126,8 @@
         "x": 23.80297,
         "y": 55.743859
       },
-      "width": 0.800001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.800001,
       "connectedTo": [
         "pcb_smtpad_altium_844",
         "pcb_port_altium_844",
@@ -109,6 +137,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_845",
+        "pcb_port_id": "pcb_port_altium_845",
+        "source_component_name": "R6",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_48",
       "type": "rect",
       "layers": [
@@ -129,6 +163,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_846",
+        "pcb_port_id": "pcb_port_altium_846",
+        "source_component_name": "C4",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_84",
       "type": "rect",
       "layers": [
@@ -149,6 +189,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_847",
+        "pcb_port_id": "pcb_port_altium_847",
+        "source_component_name": "C5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_83",
       "type": "rect",
       "layers": [
@@ -169,6 +215,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_848",
+        "pcb_port_id": "pcb_port_altium_848",
+        "source_component_name": "R1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_53",
       "type": "rect",
       "layers": [
@@ -189,6 +241,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_849",
+        "pcb_port_id": "pcb_port_altium_849",
+        "source_component_name": "R2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_52",
       "type": "rect",
       "layers": [
@@ -209,6 +267,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_850",
+        "pcb_port_id": "pcb_port_altium_850",
+        "source_component_name": "R2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_52",
       "type": "rect",
       "layers": [
@@ -229,6 +293,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_851",
+        "pcb_port_id": "pcb_port_altium_851",
+        "source_component_name": "R1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_53",
       "type": "rect",
       "layers": [
@@ -249,6 +319,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_852",
+        "pcb_port_id": "pcb_port_altium_852",
+        "source_component_name": "R6",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_48",
       "type": "rect",
       "layers": [
@@ -269,6 +345,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_853",
+        "pcb_port_id": "pcb_port_altium_853",
+        "source_component_name": "J1",
+        "source_port_name": "pinA5"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -278,9 +360,8 @@
         "x": 23.80297,
         "y": 53.493858
       },
-      "width": 0.700001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.700001,
       "connectedTo": [
         "pcb_smtpad_altium_853",
         "pcb_port_altium_853",
@@ -290,6 +371,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_854",
+        "pcb_port_id": "pcb_port_altium_854",
+        "source_component_name": "C5",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_83",
       "type": "rect",
       "layers": [
@@ -310,6 +397,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_855",
+        "pcb_port_id": "pcb_port_altium_855",
+        "source_component_name": "J1",
+        "source_port_name": "pinB5"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -319,9 +412,8 @@
         "x": 23.80297,
         "y": 52.49386
       },
-      "width": 0.700001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.700001,
       "connectedTo": [
         "pcb_smtpad_altium_855",
         "pcb_port_altium_855",
@@ -331,6 +423,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_856",
+        "pcb_port_id": "pcb_port_altium_856",
+        "source_component_name": "C4",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_84",
       "type": "rect",
       "layers": [
@@ -351,6 +449,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_857",
+        "pcb_port_id": "pcb_port_altium_857",
+        "source_component_name": "C7",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_81",
       "type": "rect",
       "layers": [
@@ -371,6 +475,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_858",
+        "pcb_port_id": "pcb_port_altium_858",
+        "source_component_name": "J1",
+        "source_port_name": "pinB9"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -380,9 +490,8 @@
         "x": 23.80297,
         "y": 54.513858
       },
-      "width": 0.760001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.760001,
       "connectedTo": [
         "pcb_smtpad_altium_858",
         "pcb_port_altium_858",
@@ -392,6 +501,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_859",
+        "pcb_port_id": "pcb_port_altium_859",
+        "source_component_name": "J1",
+        "source_port_name": "pinA9"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -401,9 +516,8 @@
         "x": 23.80297,
         "y": 51.473859
       },
-      "width": 0.760001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.760001,
       "connectedTo": [
         "pcb_smtpad_altium_859",
         "pcb_port_altium_859",
@@ -413,6 +527,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_901",
+        "pcb_port_id": "pcb_port_altium_901",
+        "source_component_name": "C26",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_63",
       "type": "rect",
       "layers": [
@@ -433,6 +553,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_902",
+        "pcb_port_id": "pcb_port_altium_902",
+        "source_component_name": "C26",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_63",
       "type": "rect",
       "layers": [
@@ -453,6 +579,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_903",
+        "pcb_port_id": "pcb_port_altium_903",
+        "source_component_name": "C18",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_70",
       "type": "rect",
       "layers": [
@@ -473,6 +605,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_904",
+        "pcb_port_id": "pcb_port_altium_904",
+        "source_component_name": "C18",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_70",
       "type": "rect",
       "layers": [
@@ -493,6 +631,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_905",
+        "pcb_port_id": "pcb_port_altium_905",
+        "source_component_name": "R17",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_38",
       "type": "rect",
       "layers": [
@@ -513,6 +657,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_906",
+        "pcb_port_id": "pcb_port_altium_906",
+        "source_component_name": "R17",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_38",
       "type": "rect",
       "layers": [
@@ -533,6 +683,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_907",
+        "pcb_port_id": "pcb_port_altium_907",
+        "source_component_name": "C24",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_65",
       "type": "rect",
       "layers": [
@@ -553,6 +709,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_908",
+        "pcb_port_id": "pcb_port_altium_908",
+        "source_component_name": "C24",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_65",
       "type": "rect",
       "layers": [
@@ -573,6 +735,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_909",
+        "pcb_port_id": "pcb_port_altium_909",
+        "source_component_name": "R14",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_0",
       "type": "rect",
       "layers": [
@@ -593,6 +761,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_910",
+        "pcb_port_id": "pcb_port_altium_910",
+        "source_component_name": "R14",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_0",
       "type": "rect",
       "layers": [
@@ -613,6 +787,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_911",
+        "pcb_port_id": "pcb_port_altium_911",
+        "source_component_name": "R21",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_34",
       "type": "rect",
       "layers": [
@@ -633,6 +813,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_912",
+        "pcb_port_id": "pcb_port_altium_912",
+        "source_component_name": "R21",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_34",
       "type": "rect",
       "layers": [
@@ -653,6 +839,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_913",
+        "pcb_port_id": "pcb_port_altium_913",
+        "source_component_name": "R19",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_36",
       "type": "rect",
       "layers": [
@@ -673,6 +865,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_914",
+        "pcb_port_id": "pcb_port_altium_914",
+        "source_component_name": "R19",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_36",
       "type": "rect",
       "layers": [
@@ -693,6 +891,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_915",
+        "pcb_port_id": "pcb_port_altium_915",
+        "source_component_name": "R16",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_39",
       "type": "rect",
       "layers": [
@@ -713,6 +917,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_916",
+        "pcb_port_id": "pcb_port_altium_916",
+        "source_component_name": "R16",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_39",
       "type": "rect",
       "layers": [
@@ -733,6 +943,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_917",
+        "pcb_port_id": "pcb_port_altium_917",
+        "source_component_name": "D4",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_59",
       "type": "rect",
       "layers": [
@@ -753,6 +969,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_918",
+        "pcb_port_id": "pcb_port_altium_918",
+        "source_component_name": "D4",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_59",
       "type": "rect",
       "layers": [
@@ -773,6 +995,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_919",
+        "pcb_port_id": "pcb_port_altium_919",
+        "source_component_name": "D2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_61",
       "type": "rect",
       "layers": [
@@ -793,6 +1021,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_920",
+        "pcb_port_id": "pcb_port_altium_920",
+        "source_component_name": "D2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_61",
       "type": "rect",
       "layers": [
@@ -813,6 +1047,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_921",
+        "pcb_port_id": "pcb_port_altium_921",
+        "source_component_name": "U3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_26",
       "type": "rect",
       "layers": [
@@ -822,9 +1062,8 @@
         "x": 68.839532,
         "y": 50.582109
       },
-      "width": 0.599999,
-      "height": 1.000001,
-      "ccwRotationDegrees": 270,
+      "width": 1.000001,
+      "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_921",
         "pcb_port_altium_921",
@@ -834,6 +1073,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_922",
+        "pcb_port_id": "pcb_port_altium_922",
+        "source_component_name": "U3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_26",
       "type": "rect",
       "layers": [
@@ -843,9 +1088,8 @@
         "x": 68.839532,
         "y": 51.532109
       },
-      "width": 0.599999,
-      "height": 1.000001,
-      "ccwRotationDegrees": 270,
+      "width": 1.000001,
+      "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_922",
         "pcb_port_altium_922",
@@ -855,6 +1099,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_923",
+        "pcb_port_id": "pcb_port_altium_923",
+        "source_component_name": "U3",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_26",
       "type": "rect",
       "layers": [
@@ -864,9 +1114,8 @@
         "x": 68.839532,
         "y": 52.482107
       },
-      "width": 0.599999,
-      "height": 1.000001,
-      "ccwRotationDegrees": 270,
+      "width": 1.000001,
+      "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_923",
         "pcb_port_altium_923",
@@ -876,6 +1125,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_924",
+        "pcb_port_id": "pcb_port_altium_924",
+        "source_component_name": "U3",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_26",
       "type": "rect",
       "layers": [
@@ -885,9 +1140,8 @@
         "x": 71.589532,
         "y": 52.482107
       },
-      "width": 0.599999,
-      "height": 1.000001,
-      "ccwRotationDegrees": 270,
+      "width": 1.000001,
+      "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_924",
         "pcb_port_altium_924",
@@ -897,6 +1151,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_925",
+        "pcb_port_id": "pcb_port_altium_925",
+        "source_component_name": "U3",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_26",
       "type": "rect",
       "layers": [
@@ -906,9 +1166,8 @@
         "x": 71.589532,
         "y": 50.582109
       },
-      "width": 0.599999,
-      "height": 1.000001,
-      "ccwRotationDegrees": 270,
+      "width": 1.000001,
+      "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_925",
         "pcb_port_altium_925",
@@ -918,6 +1177,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_926",
+        "pcb_port_id": "pcb_port_altium_926",
+        "source_component_name": "Q1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -938,6 +1203,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_927",
+        "pcb_port_id": "pcb_port_altium_927",
+        "source_component_name": "Q1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -958,6 +1229,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_928",
+        "pcb_port_id": "pcb_port_altium_928",
+        "source_component_name": "Q1",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -978,6 +1255,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_929",
+        "pcb_port_id": "pcb_port_altium_929",
+        "source_component_name": "Q1",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -998,6 +1281,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_930",
+        "pcb_port_id": "pcb_port_altium_930",
+        "source_component_name": "Q1",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -1018,6 +1307,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_931",
+        "pcb_port_id": "pcb_port_altium_931",
+        "source_component_name": "Q1",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -1038,6 +1333,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_932",
+        "pcb_port_id": "pcb_port_altium_932",
+        "source_component_name": "Q1",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -1058,6 +1359,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_933",
+        "pcb_port_id": "pcb_port_altium_933",
+        "source_component_name": "Q1",
+        "source_port_name": "pin8"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -1078,6 +1385,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_934",
+        "pcb_port_id": "pcb_port_altium_934",
+        "source_component_name": "Q1",
+        "source_port_name": "pin9"
+      },
       "componentId": "pcb_component_altium_55",
       "type": "rect",
       "layers": [
@@ -1087,9 +1400,8 @@
         "x": 68.072922,
         "y": 47.433316
       },
-      "width": 2.51,
-      "height": 2.55,
-      "ccwRotationDegrees": 270,
+      "width": 2.55,
+      "height": 2.51,
       "connectedTo": [
         "pcb_smtpad_altium_934",
         "pcb_port_altium_934",
@@ -1099,6 +1411,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_935",
+        "pcb_port_id": "pcb_port_altium_935",
+        "source_component_name": "D1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_62",
       "type": "rect",
       "layers": [
@@ -1119,6 +1437,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_936",
+        "pcb_port_id": "pcb_port_altium_936",
+        "source_component_name": "D1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_62",
       "type": "rect",
       "layers": [
@@ -1139,6 +1463,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_937",
+        "pcb_port_id": "pcb_port_altium_937",
+        "source_component_name": "R15",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_40",
       "type": "rect",
       "layers": [
@@ -1159,6 +1489,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_938",
+        "pcb_port_id": "pcb_port_altium_938",
+        "source_component_name": "R15",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_40",
       "type": "rect",
       "layers": [
@@ -1179,6 +1515,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_939",
+        "pcb_port_id": "pcb_port_altium_939",
+        "source_component_name": "C8",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_80",
       "type": "rect",
       "layers": [
@@ -1199,6 +1541,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_940",
+        "pcb_port_id": "pcb_port_altium_940",
+        "source_component_name": "C8",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_80",
       "type": "rect",
       "layers": [
@@ -1219,6 +1567,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_941",
+        "pcb_port_id": "pcb_port_altium_941",
+        "source_component_name": "D3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_60",
       "type": "rect",
       "layers": [
@@ -1239,6 +1593,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_942",
+        "pcb_port_id": "pcb_port_altium_942",
+        "source_component_name": "D3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_60",
       "type": "rect",
       "layers": [
@@ -1259,6 +1619,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_943",
+        "pcb_port_id": "pcb_port_altium_943",
+        "source_component_name": "D5",
+        "source_port_name": "pinC"
+      },
       "componentId": "pcb_component_altium_5",
       "type": "rect",
       "layers": [
@@ -1279,6 +1645,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_944",
+        "pcb_port_id": "pcb_port_altium_944",
+        "source_component_name": "D5",
+        "source_port_name": "pinA"
+      },
       "componentId": "pcb_component_altium_5",
       "type": "rect",
       "layers": [
@@ -1299,6 +1671,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_945",
+        "pcb_port_id": "pcb_port_altium_945",
+        "source_component_name": "R23",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_6",
       "type": "rect",
       "layers": [
@@ -1319,6 +1697,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_946",
+        "pcb_port_id": "pcb_port_altium_946",
+        "source_component_name": "R23",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_6",
       "type": "rect",
       "layers": [
@@ -1339,6 +1723,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_947",
+        "pcb_port_id": "pcb_port_altium_947",
+        "source_component_name": "U7",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -1359,6 +1749,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_948",
+        "pcb_port_id": "pcb_port_altium_948",
+        "source_component_name": "U7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -1379,6 +1775,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_949",
+        "pcb_port_id": "pcb_port_altium_949",
+        "source_component_name": "U4",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -1388,9 +1790,8 @@
         "x": 47.226802,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_949",
         "pcb_port_altium_949",
@@ -1400,6 +1801,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_950",
+        "pcb_port_id": "pcb_port_altium_950",
+        "source_component_name": "U4",
+        "source_port_name": "pin8"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -1409,9 +1816,8 @@
         "x": 48.526802,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_950",
         "pcb_port_altium_950",
@@ -1421,6 +1827,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_951",
+        "pcb_port_id": "pcb_port_altium_951",
+        "source_component_name": "U4",
+        "source_port_name": "pin15"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -1430,9 +1842,8 @@
         "x": 46.5768,
         "y": 45.095975
       },
-      "width": 2.558001,
-      "height": 2.548001,
-      "ccwRotationDegrees": 270,
+      "width": 2.548001,
+      "height": 2.558001,
       "connectedTo": [
         "pcb_smtpad_altium_951",
         "pcb_port_altium_951",
@@ -1442,6 +1853,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_952",
+        "pcb_port_id": "pcb_port_altium_952",
+        "source_component_name": "C2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_86",
       "type": "rect",
       "layers": [
@@ -1462,6 +1879,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_953",
+        "pcb_port_id": "pcb_port_altium_953",
+        "source_component_name": "C3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_85",
       "type": "rect",
       "layers": [
@@ -1482,6 +1905,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_954",
+        "pcb_port_id": "pcb_port_altium_954",
+        "source_component_name": "C30",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_18",
       "type": "rect",
       "layers": [
@@ -1502,6 +1931,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_955",
+        "pcb_port_id": "pcb_port_altium_955",
+        "source_component_name": "U1",
+        "source_port_name": "pin36"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1511,9 +1946,8 @@
         "x": 28.4018,
         "y": 55.179752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_955",
         "pcb_port_altium_955",
@@ -1523,6 +1957,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_956",
+        "pcb_port_id": "pcb_port_altium_956",
+        "source_component_name": "U1",
+        "source_port_name": "pin27"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1532,9 +1972,8 @@
         "x": 28.4018,
         "y": 51.579752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_956",
         "pcb_port_altium_956",
@@ -1544,6 +1983,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_957",
+        "pcb_port_id": "pcb_port_altium_957",
+        "source_component_name": "U1",
+        "source_port_name": "pin26"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1553,9 +1998,8 @@
         "x": 28.4018,
         "y": 51.179753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_957",
         "pcb_port_altium_957",
@@ -1565,6 +2009,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_958",
+        "pcb_port_id": "pcb_port_altium_958",
+        "source_component_name": "C6",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_82",
       "type": "rect",
       "layers": [
@@ -1585,6 +2035,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_959",
+        "pcb_port_id": "pcb_port_altium_959",
+        "source_component_name": "C14",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_74",
       "type": "rect",
       "layers": [
@@ -1605,6 +2061,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_960",
+        "pcb_port_id": "pcb_port_altium_960",
+        "source_component_name": "C13",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_75",
       "type": "rect",
       "layers": [
@@ -1625,6 +2087,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_961",
+        "pcb_port_id": "pcb_port_altium_961",
+        "source_component_name": "C12",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_76",
       "type": "rect",
       "layers": [
@@ -1645,6 +2113,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_962",
+        "pcb_port_id": "pcb_port_altium_962",
+        "source_component_name": "C11",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_77",
       "type": "rect",
       "layers": [
@@ -1665,6 +2139,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_963",
+        "pcb_port_id": "pcb_port_altium_963",
+        "source_component_name": "U1",
+        "source_port_name": "pin39"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1674,9 +2154,8 @@
         "x": 30.3268,
         "y": 54.544752
       },
-      "width": 2.72,
-      "height": 2.65,
-      "ccwRotationDegrees": 270,
+      "width": 2.65,
+      "height": 2.72,
       "connectedTo": [
         "pcb_smtpad_altium_963",
         "pcb_port_altium_963",
@@ -1686,6 +2165,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_964",
+        "pcb_port_id": "pcb_port_altium_964",
+        "source_component_name": "U1",
+        "source_port_name": "pin34"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1695,9 +2180,8 @@
         "x": 28.4018,
         "y": 54.579754
       },
-      "width": 0.700001,
-      "height": 0.650001,
-      "ccwRotationDegrees": 270,
+      "width": 0.650001,
+      "height": 0.700001,
       "connectedTo": [
         "pcb_smtpad_altium_964",
         "pcb_port_altium_964",
@@ -1707,6 +2191,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_965",
+        "pcb_port_id": "pcb_port_altium_965",
+        "source_component_name": "U1",
+        "source_port_name": "pin35"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1716,9 +2206,8 @@
         "x": 28.4018,
         "y": 54.779753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_965",
         "pcb_port_altium_965",
@@ -1728,6 +2217,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_966",
+        "pcb_port_id": "pcb_port_altium_966",
+        "source_component_name": "U1",
+        "source_port_name": "pin31"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1737,9 +2232,8 @@
         "x": 28.4018,
         "y": 53.179754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_966",
         "pcb_port_altium_966",
@@ -1749,6 +2243,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_967",
+        "pcb_port_id": "pcb_port_altium_967",
+        "source_component_name": "U1",
+        "source_port_name": "pin17"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1758,9 +2258,8 @@
         "x": 32.2518,
         "y": 51.979754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_967",
         "pcb_port_altium_967",
@@ -1770,6 +2269,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_968",
+        "pcb_port_id": "pcb_port_altium_968",
+        "source_component_name": "U1",
+        "source_port_name": "pin16"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1779,9 +2284,8 @@
         "x": 32.2518,
         "y": 52.379753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_968",
         "pcb_port_altium_968",
@@ -1791,6 +2295,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_969",
+        "pcb_port_id": "pcb_port_altium_969",
+        "source_component_name": "U1",
+        "source_port_name": "pin14"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1800,9 +2310,8 @@
         "x": 32.2518,
         "y": 53.179754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_969",
         "pcb_port_altium_969",
@@ -1812,6 +2321,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_970",
+        "pcb_port_id": "pcb_port_altium_970",
+        "source_component_name": "U1",
+        "source_port_name": "pin12"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1821,9 +2336,8 @@
         "x": 32.2518,
         "y": 53.979752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_970",
         "pcb_port_altium_970",
@@ -1833,6 +2347,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_971",
+        "pcb_port_id": "pcb_port_altium_971",
+        "source_component_name": "U1",
+        "source_port_name": "pin11"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -1842,9 +2362,8 @@
         "x": 32.2518,
         "y": 54.379754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_971",
         "pcb_port_altium_971",
@@ -1854,6 +2373,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_972",
+        "pcb_port_id": "pcb_port_altium_972",
+        "source_component_name": "U2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -1863,9 +2388,8 @@
         "x": 21.551801,
         "y": 54.368634
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_972",
         "pcb_port_altium_972",
@@ -1875,6 +2399,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_973",
+        "pcb_port_id": "pcb_port_altium_973",
+        "source_component_name": "U2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -1884,9 +2414,8 @@
         "x": 21.551801,
         "y": 55.018635
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_973",
         "pcb_port_altium_973",
@@ -1896,6 +2425,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_974",
+        "pcb_port_id": "pcb_port_altium_974",
+        "source_component_name": "U2",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -1905,9 +2440,8 @@
         "x": 21.551801,
         "y": 55.668634
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_974",
         "pcb_port_altium_974",
@@ -1917,6 +2451,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_975",
+        "pcb_port_id": "pcb_port_altium_975",
+        "source_component_name": "U2",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -1937,6 +2477,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_976",
+        "pcb_port_id": "pcb_port_altium_976",
+        "source_component_name": "C1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_87",
       "type": "rect",
       "layers": [
@@ -1957,6 +2503,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_977",
+        "pcb_port_id": "pcb_port_altium_977",
+        "source_component_name": "R8",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_46",
       "type": "rect",
       "layers": [
@@ -1977,6 +2529,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_978",
+        "pcb_port_id": "pcb_port_altium_978",
+        "source_component_name": "C19",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_69",
       "type": "rect",
       "layers": [
@@ -1997,6 +2555,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_979",
+        "pcb_port_id": "pcb_port_altium_979",
+        "source_component_name": "C20",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_68",
       "type": "rect",
       "layers": [
@@ -2017,6 +2581,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_980",
+        "pcb_port_id": "pcb_port_altium_980",
+        "source_component_name": "C25",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_64",
       "type": "rect",
       "layers": [
@@ -2037,6 +2607,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_981",
+        "pcb_port_id": "pcb_port_altium_981",
+        "source_component_name": "C22",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_67",
       "type": "rect",
       "layers": [
@@ -2057,6 +2633,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_982",
+        "pcb_port_id": "pcb_port_altium_982",
+        "source_component_name": "C23",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_66",
       "type": "rect",
       "layers": [
@@ -2077,6 +2659,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_983",
+        "pcb_port_id": "pcb_port_altium_983",
+        "source_component_name": "R24",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_32",
       "type": "rect",
       "layers": [
@@ -2097,6 +2685,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_984",
+        "pcb_port_id": "pcb_port_altium_984",
+        "source_component_name": "R25",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_31",
       "type": "rect",
       "layers": [
@@ -2117,6 +2711,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_985",
+        "pcb_port_id": "pcb_port_altium_985",
+        "source_component_name": "R7",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_47",
       "type": "rect",
       "layers": [
@@ -2137,6 +2737,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_986",
+        "pcb_port_id": "pcb_port_altium_986",
+        "source_component_name": "U1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2146,9 +2752,8 @@
         "x": 29.726801,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_986",
         "pcb_port_altium_986",
@@ -2158,6 +2763,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_987",
+        "pcb_port_id": "pcb_port_altium_987",
+        "source_component_name": "R4",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_50",
       "type": "rect",
       "layers": [
@@ -2178,6 +2789,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_988",
+        "pcb_port_id": "pcb_port_altium_988",
+        "source_component_name": "R3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_51",
       "type": "rect",
       "layers": [
@@ -2198,6 +2815,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_989",
+        "pcb_port_id": "pcb_port_altium_989",
+        "source_component_name": "U1",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2207,9 +2830,8 @@
         "x": 30.1268,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_989",
         "pcb_port_altium_989",
@@ -2219,6 +2841,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_990",
+        "pcb_port_id": "pcb_port_altium_990",
+        "source_component_name": "U1",
+        "source_port_name": "pin40"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2228,9 +2856,8 @@
         "x": 30.3268,
         "y": 52.019754
       },
-      "width": 1.529999,
-      "height": 2.65,
-      "ccwRotationDegrees": 270,
+      "width": 2.65,
+      "height": 1.529999,
       "connectedTo": [
         "pcb_smtpad_altium_990",
         "pcb_port_altium_990",
@@ -2240,6 +2867,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_991",
+        "pcb_port_id": "pcb_port_altium_991",
+        "source_component_name": "U1",
+        "source_port_name": "pin32"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2249,9 +2882,8 @@
         "x": 28.4018,
         "y": 53.779753
       },
-      "width": 0.700001,
-      "height": 0.650001,
-      "ccwRotationDegrees": 270,
+      "width": 0.650001,
+      "height": 0.700001,
       "connectedTo": [
         "pcb_smtpad_altium_991",
         "pcb_port_altium_991",
@@ -2261,6 +2893,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_992",
+        "pcb_port_id": "pcb_port_altium_992",
+        "source_component_name": "U1",
+        "source_port_name": "pin38"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2270,9 +2908,8 @@
         "x": 28.4018,
         "y": 55.979753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_992",
         "pcb_port_altium_992",
@@ -2282,6 +2919,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_993",
+        "source_component_name": "U1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2291,14 +2932,19 @@
         "x": 28.4018,
         "y": 55.579754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_993"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_994",
+        "pcb_port_id": "pcb_port_altium_994",
+        "source_component_name": "U1",
+        "source_port_name": "pin33"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2308,9 +2954,8 @@
         "x": 28.4018,
         "y": 53.979752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_994",
         "pcb_port_altium_994",
@@ -2320,6 +2965,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_995",
+        "pcb_port_id": "pcb_port_altium_995",
+        "source_component_name": "U1",
+        "source_port_name": "pin30"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2329,9 +2980,8 @@
         "x": 28.4018,
         "y": 52.779752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_995",
         "pcb_port_altium_995",
@@ -2341,6 +2991,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_996",
+        "pcb_port_id": "pcb_port_altium_996",
+        "source_component_name": "U1",
+        "source_port_name": "pin29"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2350,9 +3006,8 @@
         "x": 28.4018,
         "y": 52.379753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_996",
         "pcb_port_altium_996",
@@ -2362,6 +3017,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_997",
+        "pcb_port_id": "pcb_port_altium_997",
+        "source_component_name": "U1",
+        "source_port_name": "pin28"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2371,9 +3032,8 @@
         "x": 28.4018,
         "y": 51.979754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_997",
         "pcb_port_altium_997",
@@ -2383,6 +3043,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_998",
+        "pcb_port_id": "pcb_port_altium_998",
+        "source_component_name": "U1",
+        "source_port_name": "pin25"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2392,9 +3058,8 @@
         "x": 29.2268,
         "y": 50.654753
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_998",
         "pcb_port_altium_998",
@@ -2404,6 +3069,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_999",
+        "pcb_port_id": "pcb_port_altium_999",
+        "source_component_name": "U1",
+        "source_port_name": "pin24"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2413,9 +3084,8 @@
         "x": 29.676799,
         "y": 50.654753
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_999",
         "pcb_port_altium_999",
@@ -2425,6 +3095,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1000",
+        "pcb_port_id": "pcb_port_altium_1000",
+        "source_component_name": "U1",
+        "source_port_name": "pin23"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2434,9 +3110,8 @@
         "x": 29.676799,
         "y": 50.654753
       },
-      "width": 0.650001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.650001,
       "connectedTo": [
         "pcb_smtpad_altium_1000",
         "pcb_port_altium_1000",
@@ -2446,6 +3121,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1001",
+        "source_component_name": "U1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2455,14 +3134,19 @@
         "x": 32.2518,
         "y": 51.179753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1001"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1002",
+        "pcb_port_id": "pcb_port_altium_1002",
+        "source_component_name": "U1",
+        "source_port_name": "pin18"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2472,9 +3156,8 @@
         "x": 32.2518,
         "y": 51.579752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1002",
         "pcb_port_altium_1002",
@@ -2484,6 +3167,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1003",
+        "pcb_port_id": "pcb_port_altium_1003",
+        "source_component_name": "U1",
+        "source_port_name": "pin15"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2493,9 +3182,8 @@
         "x": 32.2518,
         "y": 52.779752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1003",
         "pcb_port_altium_1003",
@@ -2505,6 +3193,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1004",
+        "source_component_name": "U1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2514,14 +3206,17 @@
         "x": 32.2518,
         "y": 53.579753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1004"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1005",
+        "source_component_name": "U1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2531,14 +3226,19 @@
         "x": 32.2518,
         "y": 54.779753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1005"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1006",
+        "pcb_port_id": "pcb_port_altium_1006",
+        "source_component_name": "U1",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2548,9 +3248,8 @@
         "x": 32.2518,
         "y": 55.979753
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1006",
         "pcb_port_altium_1006",
@@ -2560,6 +3259,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1007",
+        "source_component_name": "U1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2569,14 +3272,19 @@
         "x": 31.3268,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1007"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1008",
+        "pcb_port_id": "pcb_port_altium_1008",
+        "source_component_name": "U1",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2586,9 +3294,8 @@
         "x": 30.926799,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1008",
         "pcb_port_altium_1008",
@@ -2598,6 +3305,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1009",
+        "pcb_port_id": "pcb_port_altium_1009",
+        "source_component_name": "U1",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2607,9 +3320,8 @@
         "x": 30.5268,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1009",
         "pcb_port_altium_1009",
@@ -2619,6 +3331,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1010",
+        "pcb_port_id": "pcb_port_altium_1010",
+        "source_component_name": "U1",
+        "source_port_name": "pin22"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2628,9 +3346,8 @@
         "x": 30.5268,
         "y": 50.654753
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1010",
         "pcb_port_altium_1010",
@@ -2640,6 +3357,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1011",
+        "pcb_port_id": "pcb_port_altium_1011",
+        "source_component_name": "U1",
+        "source_port_name": "pin21"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2649,9 +3372,8 @@
         "x": 30.976801,
         "y": 50.654753
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1011",
         "pcb_port_altium_1011",
@@ -2661,6 +3383,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1012",
+        "pcb_port_id": "pcb_port_altium_1012",
+        "source_component_name": "U1",
+        "source_port_name": "pin20"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2670,9 +3398,8 @@
         "x": 30.976801,
         "y": 50.654753
       },
-      "width": 0.650001,
-      "height": 1.2,
-      "ccwRotationDegrees": 270,
+      "width": 1.2,
+      "height": 0.650001,
       "connectedTo": [
         "pcb_smtpad_altium_1012",
         "pcb_port_altium_1012",
@@ -2682,6 +3409,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1013",
+        "pcb_port_id": "pcb_port_altium_1013",
+        "source_component_name": "U1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2691,9 +3424,8 @@
         "x": 29.326799,
         "y": 56.504754
       },
-      "width": 0.549999,
-      "height": 0.2,
-      "ccwRotationDegrees": 270,
+      "width": 0.2,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1013",
         "pcb_port_altium_1013",
@@ -2703,6 +3435,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1014",
+        "pcb_port_id": "pcb_port_altium_1014",
+        "source_component_name": "U1",
+        "source_port_name": "pin9"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2712,9 +3450,8 @@
         "x": 32.2518,
         "y": 55.179752
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1014",
         "pcb_port_altium_1014",
@@ -2724,6 +3461,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1015",
+        "pcb_port_id": "pcb_port_altium_1015",
+        "source_component_name": "U1",
+        "source_port_name": "pin8"
+      },
       "componentId": "pcb_component_altium_28",
       "type": "rect",
       "layers": [
@@ -2733,9 +3476,8 @@
         "x": 32.2518,
         "y": 55.579754
       },
-      "width": 0.2,
-      "height": 0.549999,
-      "ccwRotationDegrees": 270,
+      "width": 0.549999,
+      "height": 0.2,
       "connectedTo": [
         "pcb_smtpad_altium_1015",
         "pcb_port_altium_1015",
@@ -2745,6 +3487,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1016",
+        "pcb_port_id": "pcb_port_altium_1016",
+        "source_component_name": "C30",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_18",
       "type": "rect",
       "layers": [
@@ -2765,6 +3513,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1017",
+        "pcb_port_id": "pcb_port_altium_1017",
+        "source_component_name": "C6",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_82",
       "type": "rect",
       "layers": [
@@ -2785,6 +3539,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1018",
+        "pcb_port_id": "pcb_port_altium_1018",
+        "source_component_name": "U7",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -2805,6 +3565,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1019",
+        "pcb_port_id": "pcb_port_altium_1019",
+        "source_component_name": "R10",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_44",
       "type": "rect",
       "layers": [
@@ -2825,6 +3591,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1020",
+        "pcb_port_id": "pcb_port_altium_1020",
+        "source_component_name": "R11",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_43",
       "type": "rect",
       "layers": [
@@ -2845,6 +3617,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1021",
+        "pcb_port_id": "pcb_port_altium_1021",
+        "source_component_name": "R9",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_45",
       "type": "rect",
       "layers": [
@@ -2865,6 +3643,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1022",
+        "pcb_port_id": "pcb_port_altium_1022",
+        "source_component_name": "R18",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_37",
       "type": "rect",
       "layers": [
@@ -2885,6 +3669,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1023",
+        "pcb_port_id": "pcb_port_altium_1023",
+        "source_component_name": "C14",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_74",
       "type": "rect",
       "layers": [
@@ -2905,6 +3695,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1024",
+        "pcb_port_id": "pcb_port_altium_1024",
+        "source_component_name": "C13",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_75",
       "type": "rect",
       "layers": [
@@ -2925,6 +3721,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1025",
+        "pcb_port_id": "pcb_port_altium_1025",
+        "source_component_name": "C12",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_76",
       "type": "rect",
       "layers": [
@@ -2945,6 +3747,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1026",
+        "pcb_port_id": "pcb_port_altium_1026",
+        "source_component_name": "C11",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_77",
       "type": "rect",
       "layers": [
@@ -2965,6 +3773,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1027",
+        "pcb_port_id": "pcb_port_altium_1027",
+        "source_component_name": "C19",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_69",
       "type": "rect",
       "layers": [
@@ -2985,6 +3799,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1028",
+        "pcb_port_id": "pcb_port_altium_1028",
+        "source_component_name": "U4",
+        "source_port_name": "pin14"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -2994,9 +3814,8 @@
         "x": 44.626799,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1028",
         "pcb_port_altium_1028",
@@ -3006,6 +3825,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1029",
+        "pcb_port_id": "pcb_port_altium_1029",
+        "source_component_name": "L1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_56",
       "type": "rect",
       "layers": [
@@ -3026,6 +3851,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1030",
+        "pcb_port_id": "pcb_port_altium_1030",
+        "source_component_name": "C2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_86",
       "type": "rect",
       "layers": [
@@ -3046,6 +3877,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1031",
+        "pcb_port_id": "pcb_port_altium_1031",
+        "source_component_name": "U7",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3066,6 +3903,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1032",
+        "pcb_port_id": "pcb_port_altium_1032",
+        "source_component_name": "R10",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_44",
       "type": "rect",
       "layers": [
@@ -3086,6 +3929,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1033",
+        "pcb_port_id": "pcb_port_altium_1033",
+        "source_component_name": "R3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_51",
       "type": "rect",
       "layers": [
@@ -3106,6 +3955,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1034",
+        "pcb_port_id": "pcb_port_altium_1034",
+        "source_component_name": "R7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_47",
       "type": "rect",
       "layers": [
@@ -3126,6 +3981,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1035",
+        "pcb_port_id": "pcb_port_altium_1035",
+        "source_component_name": "R9",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_45",
       "type": "rect",
       "layers": [
@@ -3146,6 +4007,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1036",
+        "pcb_port_id": "pcb_port_altium_1036",
+        "source_component_name": "R8",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_46",
       "type": "rect",
       "layers": [
@@ -3166,6 +4033,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1037",
+        "pcb_port_id": "pcb_port_altium_1037",
+        "source_component_name": "R4",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_50",
       "type": "rect",
       "layers": [
@@ -3186,6 +4059,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1038",
+        "pcb_port_id": "pcb_port_altium_1038",
+        "source_component_name": "C1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_87",
       "type": "rect",
       "layers": [
@@ -3206,6 +4085,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1039",
+        "pcb_port_id": "pcb_port_altium_1039",
+        "source_component_name": "U7",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3226,6 +4111,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1040",
+        "pcb_port_id": "pcb_port_altium_1040",
+        "source_component_name": "R11",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_43",
       "type": "rect",
       "layers": [
@@ -3246,6 +4137,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1041",
+        "pcb_port_id": "pcb_port_altium_1041",
+        "source_component_name": "C27",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_7",
       "type": "rect",
       "layers": [
@@ -3266,6 +4163,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1042",
+        "pcb_port_id": "pcb_port_altium_1042",
+        "source_component_name": "C27",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_7",
       "type": "rect",
       "layers": [
@@ -3286,6 +4189,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1043",
+        "pcb_port_id": "pcb_port_altium_1043",
+        "source_component_name": "R20",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_35",
       "type": "rect",
       "layers": [
@@ -3306,6 +4215,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1044",
+        "pcb_port_id": "pcb_port_altium_1044",
+        "source_component_name": "R20",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_35",
       "type": "rect",
       "layers": [
@@ -3326,6 +4241,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1045",
+        "pcb_port_id": "pcb_port_altium_1045",
+        "source_component_name": "Q2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -3337,7 +4258,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1045",
         "pcb_port_altium_1045",
@@ -3347,6 +4267,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1046",
+        "pcb_port_id": "pcb_port_altium_1046",
+        "source_component_name": "Q2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -3358,7 +4284,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1046",
         "pcb_port_altium_1046",
@@ -3368,6 +4293,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1047",
+        "pcb_port_id": "pcb_port_altium_1047",
+        "source_component_name": "Q2",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -3379,7 +4310,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1047",
         "pcb_port_altium_1047",
@@ -3389,6 +4319,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1048",
+        "pcb_port_id": "pcb_port_altium_1048",
+        "source_component_name": "C22",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_67",
       "type": "rect",
       "layers": [
@@ -3409,6 +4345,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1049",
+        "pcb_port_id": "pcb_port_altium_1049",
+        "source_component_name": "U4",
+        "source_port_name": "pin9"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -3418,9 +4360,8 @@
         "x": 47.8768,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1049",
         "pcb_port_altium_1049",
@@ -3430,6 +4371,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1050",
+        "pcb_port_id": "pcb_port_altium_1050",
+        "source_component_name": "C21",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_10",
       "type": "rect",
       "layers": [
@@ -3450,6 +4397,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1051",
+        "pcb_port_id": "pcb_port_altium_1051",
+        "source_component_name": "C21",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_10",
       "type": "rect",
       "layers": [
@@ -3470,6 +4423,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1052",
+        "pcb_port_id": "pcb_port_altium_1052",
+        "source_component_name": "R13",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_41",
       "type": "rect",
       "layers": [
@@ -3490,6 +4449,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1053",
+        "pcb_port_id": "pcb_port_altium_1053",
+        "source_component_name": "R13",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_41",
       "type": "rect",
       "layers": [
@@ -3510,6 +4475,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1054",
+        "pcb_port_id": "pcb_port_altium_1054",
+        "source_component_name": "R12",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_42",
       "type": "rect",
       "layers": [
@@ -3530,6 +4501,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1055",
+        "pcb_port_id": "pcb_port_altium_1055",
+        "source_component_name": "R12",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_42",
       "type": "rect",
       "layers": [
@@ -3550,6 +4527,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1056",
+        "pcb_port_id": "pcb_port_altium_1056",
+        "source_component_name": "C17",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_71",
       "type": "rect",
       "layers": [
@@ -3570,6 +4553,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1057",
+        "pcb_port_id": "pcb_port_altium_1057",
+        "source_component_name": "C17",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_71",
       "type": "rect",
       "layers": [
@@ -3590,6 +4579,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1058",
+        "pcb_port_id": "pcb_port_altium_1058",
+        "source_component_name": "C16",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_72",
       "type": "rect",
       "layers": [
@@ -3610,6 +4605,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1059",
+        "pcb_port_id": "pcb_port_altium_1059",
+        "source_component_name": "U5",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -3619,9 +4620,8 @@
         "x": 64.833264,
         "y": 56.458609
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1059",
         "pcb_port_altium_1059",
@@ -3631,6 +4631,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1060",
+        "pcb_port_id": "pcb_port_altium_1060",
+        "source_component_name": "U5",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -3640,9 +4646,8 @@
         "x": 62.283264,
         "y": 55.508611
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1060",
         "pcb_port_altium_1060",
@@ -3652,6 +4657,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1061",
+        "pcb_port_id": "pcb_port_altium_1061",
+        "source_component_name": "U5",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -3661,9 +4672,8 @@
         "x": 62.283264,
         "y": 57.40861
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1061",
         "pcb_port_altium_1061",
@@ -3673,6 +4683,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1062",
+        "pcb_port_id": "pcb_port_altium_1062",
+        "source_component_name": "U6",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_15",
       "type": "rect",
       "layers": [
@@ -3693,6 +4709,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1063",
+        "pcb_port_id": "pcb_port_altium_1063",
+        "source_component_name": "C28",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_19",
       "type": "rect",
       "layers": [
@@ -3713,6 +4735,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1064",
+        "pcb_port_id": "pcb_port_altium_1064",
+        "source_component_name": "U7",
+        "source_port_name": "pin9"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3733,6 +4761,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1065",
+        "pcb_port_id": "pcb_port_altium_1065",
+        "source_component_name": "U7",
+        "source_port_name": "pin16"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3753,6 +4787,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1066",
+        "pcb_port_id": "pcb_port_altium_1066",
+        "source_component_name": "C16",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_72",
       "type": "rect",
       "layers": [
@@ -3773,6 +4813,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1067",
+        "pcb_port_id": "pcb_port_altium_1067",
+        "source_component_name": "U6",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_15",
       "type": "rect",
       "layers": [
@@ -3793,6 +4839,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1068",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3809,6 +4859,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1069",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3825,6 +4879,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1070",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3841,6 +4899,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1071",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3857,6 +4919,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1072",
+        "pcb_port_id": "pcb_port_altium_1072",
+        "source_component_name": "U7",
+        "source_port_name": "pin11"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3877,6 +4945,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1073",
+        "pcb_port_id": "pcb_port_altium_1073",
+        "source_component_name": "U7",
+        "source_port_name": "pin12"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3897,6 +4971,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1074",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3913,6 +4991,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1075",
+        "pcb_port_id": "pcb_port_altium_1075",
+        "source_component_name": "U7",
+        "source_port_name": "pin14"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3933,6 +5017,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1076",
+        "source_component_name": "U7"
+      },
       "componentId": "pcb_component_altium_14",
       "type": "rect",
       "layers": [
@@ -3949,6 +5037,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1077",
+        "pcb_port_id": "pcb_port_altium_1077",
+        "source_component_name": "U5",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -3958,9 +5052,8 @@
         "x": 62.283264,
         "y": 56.458609
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1077",
         "pcb_port_altium_1077",
@@ -3970,6 +5063,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1078",
+        "pcb_port_id": "pcb_port_altium_1078",
+        "source_component_name": "R26",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_30",
       "type": "rect",
       "layers": [
@@ -3990,6 +5089,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1079",
+        "pcb_port_id": "pcb_port_altium_1079",
+        "source_component_name": "U6",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_15",
       "type": "rect",
       "layers": [
@@ -4010,6 +5115,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1080",
+        "pcb_port_id": "pcb_port_altium_1080",
+        "source_component_name": "C28",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_19",
       "type": "rect",
       "layers": [
@@ -4030,6 +5141,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1081",
+        "pcb_port_id": "pcb_port_altium_1081",
+        "source_component_name": "U4",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4039,9 +5156,8 @@
         "x": 44.626799,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1081",
         "pcb_port_altium_1081",
@@ -4051,6 +5167,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1082",
+        "source_component_name": "U4"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4060,14 +5180,19 @@
         "x": 45.2768,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1082"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1083",
+        "pcb_port_id": "pcb_port_altium_1083",
+        "source_component_name": "U4",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4077,9 +5202,8 @@
         "x": 45.926799,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1083",
         "pcb_port_altium_1083",
@@ -4089,6 +5213,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1084",
+        "pcb_port_id": "pcb_port_altium_1084",
+        "source_component_name": "U4",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4098,9 +5228,8 @@
         "x": 46.5768,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1084",
         "pcb_port_altium_1084",
@@ -4110,6 +5239,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1085",
+        "pcb_port_id": "pcb_port_altium_1085",
+        "source_component_name": "U4",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4119,9 +5254,8 @@
         "x": 47.8768,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1085",
         "pcb_port_altium_1085",
@@ -4131,6 +5265,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1086",
+        "pcb_port_id": "pcb_port_altium_1086",
+        "source_component_name": "U4",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4140,9 +5280,8 @@
         "x": 48.526802,
         "y": 47.87136
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1086",
         "pcb_port_altium_1086",
@@ -4152,6 +5291,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1087",
+        "pcb_port_id": "pcb_port_altium_1087",
+        "source_component_name": "U4",
+        "source_port_name": "pin10"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4161,9 +5306,8 @@
         "x": 47.226802,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1087",
         "pcb_port_altium_1087",
@@ -4173,6 +5317,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1088",
+        "pcb_port_id": "pcb_port_altium_1088",
+        "source_component_name": "U4",
+        "source_port_name": "pin11"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4182,9 +5332,8 @@
         "x": 46.5768,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1088",
         "pcb_port_altium_1088",
@@ -4194,6 +5343,10 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1089",
+        "source_component_name": "U4"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4203,14 +5356,19 @@
         "x": 45.926799,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1089"
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1090",
+        "pcb_port_id": "pcb_port_altium_1090",
+        "source_component_name": "U4",
+        "source_port_name": "pin13"
+      },
       "componentId": "pcb_component_altium_25",
       "type": "rect",
       "layers": [
@@ -4220,9 +5378,8 @@
         "x": 45.2768,
         "y": 42.320591
       },
-      "width": 1.355433,
-      "height": 0.340766,
-      "ccwRotationDegrees": 270,
+      "width": 0.340766,
+      "height": 1.355433,
       "connectedTo": [
         "pcb_smtpad_altium_1090",
         "pcb_port_altium_1090",
@@ -4232,6 +5389,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1091",
+        "pcb_port_id": "pcb_port_altium_1091",
+        "source_component_name": "C3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_85",
       "type": "rect",
       "layers": [
@@ -4252,6 +5415,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1092",
+        "pcb_port_id": "pcb_port_altium_1092",
+        "source_component_name": "R25",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_31",
       "type": "rect",
       "layers": [
@@ -4272,6 +5441,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1093",
+        "pcb_port_id": "pcb_port_altium_1093",
+        "source_component_name": "R22",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_33",
       "type": "rect",
       "layers": [
@@ -4292,6 +5467,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1094",
+        "pcb_port_id": "pcb_port_altium_1094",
+        "source_component_name": "R22",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_33",
       "type": "rect",
       "layers": [
@@ -4312,6 +5493,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1095",
+        "pcb_port_id": "pcb_port_altium_1095",
+        "source_component_name": "R24",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_32",
       "type": "rect",
       "layers": [
@@ -4332,6 +5519,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1096",
+        "pcb_port_id": "pcb_port_altium_1096",
+        "source_component_name": "C23",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_66",
       "type": "rect",
       "layers": [
@@ -4352,6 +5545,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1097",
+        "pcb_port_id": "pcb_port_altium_1097",
+        "source_component_name": "C25",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_64",
       "type": "rect",
       "layers": [
@@ -4372,6 +5571,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1098",
+        "pcb_port_id": "pcb_port_altium_1098",
+        "source_component_name": "C20",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_68",
       "type": "rect",
       "layers": [
@@ -4392,6 +5597,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1099",
+        "pcb_port_id": "pcb_port_altium_1099",
+        "source_component_name": "Q2",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4403,7 +5614,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1099",
         "pcb_port_altium_1099",
@@ -4413,6 +5623,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1100",
+        "pcb_port_id": "pcb_port_altium_1100",
+        "source_component_name": "Q2",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4424,7 +5640,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1100",
         "pcb_port_altium_1100",
@@ -4434,6 +5649,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1101",
+        "pcb_port_id": "pcb_port_altium_1101",
+        "source_component_name": "Q2",
+        "source_port_name": "pin7"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4445,7 +5666,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1101",
         "pcb_port_altium_1101",
@@ -4455,6 +5675,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1102",
+        "pcb_port_id": "pcb_port_altium_1102",
+        "source_component_name": "Q2",
+        "source_port_name": "pin8"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4466,7 +5692,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1102",
         "pcb_port_altium_1102",
@@ -4476,6 +5701,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1103",
+        "pcb_port_id": "pcb_port_altium_1103",
+        "source_component_name": "Q2",
+        "source_port_name": "pin9"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4487,7 +5718,6 @@
       },
       "width": 4.490001,
       "height": 4.570001,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1103",
         "pcb_port_altium_1103",
@@ -4497,6 +5727,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1104",
+        "pcb_port_id": "pcb_port_altium_1104",
+        "source_component_name": "R18",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_37",
       "type": "rect",
       "layers": [
@@ -4517,6 +5753,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1105",
+        "pcb_port_id": "pcb_port_altium_1105",
+        "source_component_name": "C9",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_79",
       "type": "rect",
       "layers": [
@@ -4537,6 +5779,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1106",
+        "pcb_port_id": "pcb_port_altium_1106",
+        "source_component_name": "C9",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_79",
       "type": "rect",
       "layers": [
@@ -4557,6 +5805,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1107",
+        "pcb_port_id": "pcb_port_altium_1107",
+        "source_component_name": "L1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_56",
       "type": "rect",
       "layers": [
@@ -4577,6 +5831,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1108",
+        "pcb_port_id": "pcb_port_altium_1108",
+        "source_component_name": "R27",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_29",
       "type": "rect",
       "layers": [
@@ -4597,6 +5857,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1109",
+        "pcb_port_id": "pcb_port_altium_1109",
+        "source_component_name": "R27",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_29",
       "type": "rect",
       "layers": [
@@ -4617,6 +5883,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1110",
+        "pcb_port_id": "pcb_port_altium_1110",
+        "source_component_name": "U2",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -4626,9 +5898,8 @@
         "x": 23.5018,
         "y": 54.368634
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_1110",
         "pcb_port_altium_1110",
@@ -4638,6 +5909,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1111",
+        "pcb_port_id": "pcb_port_altium_1111",
+        "source_component_name": "U2",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -4647,9 +5924,8 @@
         "x": 23.5018,
         "y": 55.018635
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_1111",
         "pcb_port_altium_1111",
@@ -4659,6 +5935,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1112",
+        "pcb_port_id": "pcb_port_altium_1112",
+        "source_component_name": "U2",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_27",
       "type": "rect",
       "layers": [
@@ -4668,9 +5950,8 @@
         "x": 23.5018,
         "y": 55.668634
       },
-      "width": 0.299999,
-      "height": 0.449999,
-      "ccwRotationDegrees": 270,
+      "width": 0.449999,
+      "height": 0.299999,
       "connectedTo": [
         "pcb_smtpad_altium_1112",
         "pcb_port_altium_1112",
@@ -4680,6 +5961,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1113",
+        "pcb_port_id": "pcb_port_altium_1113",
+        "source_component_name": "R26",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_30",
       "type": "rect",
       "layers": [
@@ -4700,6 +5987,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1114",
+        "pcb_port_id": "pcb_port_altium_1114",
+        "source_component_name": "U5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -4709,9 +6002,8 @@
         "x": 64.833264,
         "y": 57.40861
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1114",
         "pcb_port_altium_1114",
@@ -4721,6 +6013,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1115",
+        "pcb_port_id": "pcb_port_altium_1115",
+        "source_component_name": "U5",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_24",
       "type": "rect",
       "layers": [
@@ -4730,9 +6028,8 @@
         "x": 64.833264,
         "y": 55.508611
       },
-      "width": 0.549999,
-      "height": 0.800001,
-      "ccwRotationDegrees": 90,
+      "width": 0.800001,
+      "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_1115",
         "pcb_port_altium_1115",
@@ -4742,6 +6039,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_smtpad_id": "pcb_smtpad_altium_1116",
+        "pcb_port_id": "pcb_port_altium_1116",
+        "source_component_name": "Q2",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_54",
       "type": "rect",
       "layers": [
@@ -4753,7 +6056,6 @@
       },
       "width": 0.910001,
       "height": 0.509999,
-      "ccwRotationDegrees": 180,
       "connectedTo": [
         "pcb_smtpad_altium_1116",
         "pcb_port_altium_1116",
@@ -4763,6 +6065,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_860",
+        "pcb_port_id": "pcb_port_altium_860",
+        "source_component_name": "J1",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -4775,9 +6083,8 @@
         "x": 20.00297,
         "y": 48.67386
       },
-      "width": 1.1,
-      "height": 1.699999,
-      "ccwRotationDegrees": 270,
+      "width": 1.699999,
+      "height": 1.1,
       "connectedTo": [
         "pcb_plated_hole_altium_860",
         "pcb_port_altium_860",
@@ -4787,6 +6094,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_861",
+        "pcb_port_id": "pcb_port_altium_861",
+        "source_component_name": "J1",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -4799,9 +6112,8 @@
         "x": 20.00297,
         "y": 57.313858
       },
-      "width": 1.1,
-      "height": 1.699999,
-      "ccwRotationDegrees": 270,
+      "width": 1.699999,
+      "height": 1.1,
       "connectedTo": [
         "pcb_plated_hole_altium_861",
         "pcb_port_altium_861",
@@ -4811,6 +6123,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_862",
+        "pcb_port_id": "pcb_port_altium_862",
+        "source_component_name": "J1",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -4823,9 +6141,8 @@
         "x": 23.80297,
         "y": 48.67386
       },
-      "width": 1.1,
-      "height": 1.699999,
-      "ccwRotationDegrees": 270,
+      "width": 1.699999,
+      "height": 1.1,
       "connectedTo": [
         "pcb_plated_hole_altium_862",
         "pcb_port_altium_862",
@@ -4835,6 +6152,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_863",
+        "pcb_port_id": "pcb_port_altium_863",
+        "source_component_name": "J1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_58",
       "type": "rect",
       "layers": [
@@ -4847,9 +6170,8 @@
         "x": 23.80297,
         "y": 57.313858
       },
-      "width": 1.1,
-      "height": 1.699999,
-      "ccwRotationDegrees": 270,
+      "width": 1.699999,
+      "height": 1.1,
       "connectedTo": [
         "pcb_plated_hole_altium_863",
         "pcb_port_altium_863",
@@ -4859,8 +6181,14 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_864",
+        "pcb_port_id": "pcb_port_altium_864",
+        "source_component_name": "C10",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_78",
-      "type": "oval",
+      "type": "rect",
       "layers": [
         "top",
         "inner1",
@@ -4882,6 +6210,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_865",
+        "pcb_port_id": "pcb_port_altium_865",
+        "source_component_name": "TP3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_21",
       "type": "oval",
       "layers": [
@@ -4905,6 +6239,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_866",
+        "pcb_port_id": "pcb_port_altium_866",
+        "source_component_name": "C10",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_78",
       "type": "oval",
       "layers": [
@@ -4928,6 +6268,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_867",
+        "pcb_port_id": "pcb_port_altium_867",
+        "source_component_name": "TP2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_22",
       "type": "oval",
       "layers": [
@@ -4951,6 +6297,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_868",
+        "pcb_port_id": "pcb_port_altium_868",
+        "source_component_name": "J7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "rect",
       "layers": [
@@ -4974,6 +6326,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_869",
+        "pcb_port_id": "pcb_port_altium_869",
+        "source_component_name": "J7",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "oval",
       "layers": [
@@ -4997,6 +6355,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_870",
+        "pcb_port_id": "pcb_port_altium_870",
+        "source_component_name": "J7",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "oval",
       "layers": [
@@ -5020,6 +6384,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_871",
+        "pcb_port_id": "pcb_port_altium_871",
+        "source_component_name": "J7",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "oval",
       "layers": [
@@ -5043,6 +6413,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_872",
+        "pcb_port_id": "pcb_port_altium_872",
+        "source_component_name": "J7",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "oval",
       "layers": [
@@ -5066,6 +6442,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_873",
+        "pcb_port_id": "pcb_port_altium_873",
+        "source_component_name": "J7",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_11",
       "type": "oval",
       "layers": [
@@ -5089,6 +6471,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_874",
+        "pcb_port_id": "pcb_port_altium_874",
+        "source_component_name": "TP4",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_17",
       "type": "oval",
       "layers": [
@@ -5112,6 +6500,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_875",
+        "pcb_port_id": "pcb_port_altium_875",
+        "source_component_name": "TP5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_16",
       "type": "oval",
       "layers": [
@@ -5135,6 +6529,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_876",
+        "pcb_port_id": "pcb_port_altium_876",
+        "source_component_name": "TP6",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_9",
       "type": "oval",
       "layers": [
@@ -5158,6 +6558,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_877",
+        "pcb_port_id": "pcb_port_altium_877",
+        "source_component_name": "TP7",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_8",
       "type": "oval",
       "layers": [
@@ -5181,8 +6587,14 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_878",
+        "pcb_port_id": "pcb_port_altium_878",
+        "source_component_name": "C15",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_73",
-      "type": "oval",
+      "type": "rect",
       "layers": [
         "top",
         "inner1",
@@ -5204,6 +6616,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_879",
+        "pcb_port_id": "pcb_port_altium_879",
+        "source_component_name": "J2",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_57",
       "type": "oval",
       "layers": [
@@ -5227,6 +6645,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_880",
+        "pcb_port_id": "pcb_port_altium_880",
+        "source_component_name": "J3",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -5250,6 +6674,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_881",
+        "pcb_port_id": "pcb_port_altium_881",
+        "source_component_name": "J3",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -5274,6 +6704,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_882",
+        "pcb_port_id": "pcb_port_altium_882",
+        "source_component_name": "J3",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -5298,6 +6734,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_883",
+        "pcb_port_id": "pcb_port_altium_883",
+        "source_component_name": "J6",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_13",
       "type": "oval",
       "layers": [
@@ -5321,8 +6763,14 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_884",
+        "pcb_port_id": "pcb_port_altium_884",
+        "source_component_name": "J2",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_57",
-      "type": "oval",
+      "type": "rect",
       "layers": [
         "top",
         "inner1",
@@ -5344,6 +6792,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_885",
+        "pcb_port_id": "pcb_port_altium_885",
+        "source_component_name": "C15",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_73",
       "type": "oval",
       "layers": [
@@ -5367,8 +6821,14 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_886",
+        "pcb_port_id": "pcb_port_altium_886",
+        "source_component_name": "J6",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_13",
-      "type": "oval",
+      "type": "rect",
       "layers": [
         "top",
         "inner1",
@@ -5390,6 +6850,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_887",
+        "pcb_port_id": "pcb_port_altium_887",
+        "source_component_name": "J6",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_13",
       "type": "oval",
       "layers": [
@@ -5413,6 +6879,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_888",
+        "pcb_port_id": "pcb_port_altium_888",
+        "source_component_name": "J6",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_13",
       "type": "oval",
       "layers": [
@@ -5436,6 +6908,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_889",
+        "pcb_port_id": "pcb_port_altium_889",
+        "source_component_name": "J6",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_13",
       "type": "oval",
       "layers": [
@@ -5459,6 +6937,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_890",
+        "pcb_port_id": "pcb_port_altium_890",
+        "source_component_name": "J5",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "oval",
       "layers": [
@@ -5482,6 +6966,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_891",
+        "pcb_port_id": "pcb_port_altium_891",
+        "source_component_name": "J5",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "oval",
       "layers": [
@@ -5505,6 +6995,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_892",
+        "pcb_port_id": "pcb_port_altium_892",
+        "source_component_name": "J5",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "oval",
       "layers": [
@@ -5528,6 +7024,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_893",
+        "pcb_port_id": "pcb_port_altium_893",
+        "source_component_name": "J5",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "oval",
       "layers": [
@@ -5551,6 +7053,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_894",
+        "pcb_port_id": "pcb_port_altium_894",
+        "source_component_name": "J5",
+        "source_port_name": "pin3"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "oval",
       "layers": [
@@ -5574,6 +7082,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_895",
+        "pcb_port_id": "pcb_port_altium_895",
+        "source_component_name": "J5",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_12",
       "type": "rect",
       "layers": [
@@ -5597,6 +7111,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_896",
+        "pcb_port_id": "pcb_port_altium_896",
+        "source_component_name": "J6",
+        "source_port_name": "pin2"
+      },
       "componentId": "pcb_component_altium_13",
       "type": "oval",
       "layers": [
@@ -5620,6 +7140,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_897",
+        "pcb_port_id": "pcb_port_altium_897",
+        "source_component_name": "TP1",
+        "source_port_name": "pin1"
+      },
       "componentId": "pcb_component_altium_20",
       "type": "oval",
       "layers": [
@@ -5643,6 +7169,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_898",
+        "pcb_port_id": "pcb_port_altium_898",
+        "source_component_name": "J3",
+        "source_port_name": "pin4"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -5667,6 +7199,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_899",
+        "pcb_port_id": "pcb_port_altium_899",
+        "source_component_name": "J3",
+        "source_port_name": "pin6"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -5691,6 +7229,12 @@
       ]
     },
     {
+      "circuitJsonMetadata": {
+        "pcb_plated_hole_id": "pcb_plated_hole_altium_900",
+        "pcb_port_id": "pcb_port_altium_900",
+        "source_component_name": "J3",
+        "source_port_name": "pin5"
+      },
       "componentId": "pcb_component_altium_23",
       "type": "rect",
       "layers": [
@@ -7962,6 +9506,7 @@
     }
   ],
   "layerCount": 4,
+  "allowBlindAndBuriedVias": false,
   "minTraceWidth": 0.1,
   "outline": [
     {
