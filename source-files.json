@@ -622,5 +622,293 @@
       "vias": 767,
       "copper_pours": 126
     }
+  },
+  {
+    "sample": "sample021",
+    "board": "PMP23595 Four-Phase GaN Buck Converter",
+    "repository": "Texas Instruments PMP23595",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "SLVMEP2A",
+    "pcbDoc": "PMP23595.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP23595",
+    "rawUrl": "https://www.ti.com/lit/zip/SLVMEP2",
+    "archiveSha256": "73a47918b97d87275e6365ebde58fefc874f80eb2d473e28ee95a8d13b8751d5",
+    "sourceSha256": "18913410812b0993e4c8c3a00a489335d0fa58d27b79ec02e1294a8a6471e0f6",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample021-pmp23595-comparison.svg",
+    "description": "960 W four-phase GaN buck converter reference design converting a nominal 48 V input to 12 V.",
+    "properties": [
+      "48 V nominal input",
+      "12 V output at up to 80 A",
+      "4 interleaved GaN buck phases",
+      "6-layer PCB"
+    ],
+    "complexity": "high",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (6 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 538,
+      "components": 236,
+      "traces": 944,
+      "vias": 735,
+      "copper_pours": 60
+    },
+    "connectivity": {
+      "layerCount": 6,
+      "sourceNets": 76,
+      "routableNets": 75,
+      "singletonNets": 1,
+      "emptyNets": 0,
+      "connectedPads": 534,
+      "unconnectedPads": 36,
+      "omittedNetPads": 0
+    }
+  },
+  {
+    "sample": "sample022",
+    "board": "PMP23653 25 W Isolated USB-C Supply",
+    "repository": "Texas Instruments PMP23653",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "SLVMF61",
+    "pcbDoc": "PMP23653B.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP23653",
+    "rawUrl": "https://www.ti.com/lit/zip/SLVMF61",
+    "archiveSha256": "f2d4383b8c3713a8e3c68bb46568227075076f55f6f36977fbbef83e7e86bf9e",
+    "sourceSha256": "18a785d61c6fbe381c504f416bb25fa50f16475710b9ce00f36b13b58d57c544",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample022-pmp23653-main-comparison.svg",
+    "description": "Main PCB for a 25 W isolated USB-C power supply reference design using a planar transformer.",
+    "properties": [
+      "25 W isolated USB-C output",
+      "planar-transformer power stage",
+      "USB-C control and feedback circuitry",
+      "4-layer PCB"
+    ],
+    "complexity": "medium",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 277,
+      "components": 89,
+      "traces": 367,
+      "vias": 82,
+      "copper_pours": 26
+    },
+    "connectivity": {
+      "layerCount": 4,
+      "sourceNets": 44,
+      "routableNets": 44,
+      "singletonNets": 0,
+      "emptyNets": 0,
+      "connectedPads": 264,
+      "unconnectedPads": 26,
+      "omittedNetPads": 0
+    }
+  },
+  {
+    "sample": "sample023",
+    "board": "PMP23653 Planar Transformer",
+    "repository": "Texas Instruments PMP23653",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "SLVMF61",
+    "pcbDoc": "PMP23653-Planar-Transformer.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP23653",
+    "rawUrl": "https://www.ti.com/lit/zip/SLVMF61",
+    "archiveSha256": "f2d4383b8c3713a8e3c68bb46568227075076f55f6f36977fbbef83e7e86bf9e",
+    "sourceSha256": "e291efae1b3d42c8a90d3a01295a3a3129e6721d14163fc7c81045ffa2e29a5c",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample023-pmp23653-planar-transformer-comparison.svg",
+    "description": "Six-layer PCB implementation of the planar transformer used by the PMP23653 isolated supply.",
+    "properties": [
+      "PCB-winding planar transformer",
+      "6 copper layers",
+      "2 electrical winding nets",
+      "integrated plated-hole interconnects"
+    ],
+    "complexity": "low",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (6 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 18,
+      "components": 6,
+      "traces": 0,
+      "vias": 29,
+      "copper_pours": 17
+    },
+    "connectivity": {
+      "layerCount": 6,
+      "sourceNets": 2,
+      "routableNets": 2,
+      "singletonNets": 0,
+      "emptyNets": 0,
+      "connectedPads": 18,
+      "unconnectedPads": 0,
+      "omittedNetPads": 0
+    }
+  },
+  {
+    "sample": "sample024",
+    "board": "PMP22650 6.6 kW Bidirectional GaN Onboard Charger",
+    "repository": "Texas Instruments PMP22650",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "TIDM925",
+    "pcbDoc": "PMP22650 PCB.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP22650",
+    "rawUrl": "https://www.ti.com/lit/zip/TIDM925",
+    "archiveSha256": "4b3ae2e343346c36ffdc60402dcfe330ae07b7c7fd543c8bd2aee413fd1ea5d4",
+    "sourceSha256": "bc20338d29b9323b5af9182f91041c14b192aa363cf2d7a323441a7f28210002",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample024-pmp22650-main-comparison.svg",
+    "description": "Main water-cooled PCB for a 6.6 kW bidirectional GaN automotive onboard charger reference design.",
+    "properties": [
+      "6.6 kW bidirectional power conversion",
+      "GaN power stages",
+      "water-cooled mechanical design",
+      "8-layer PCB"
+    ],
+    "complexity": "very high",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (8 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 2494,
+      "components": 633,
+      "traces": 5970,
+      "vias": 1993,
+      "copper_pours": 401
+    },
+    "connectivity": {
+      "layerCount": 8,
+      "sourceNets": 410,
+      "routableNets": 409,
+      "singletonNets": 1,
+      "emptyNets": 0,
+      "connectedPads": 2344,
+      "unconnectedPads": 159,
+      "omittedNetPads": 0
+    }
+  },
+  {
+    "sample": "sample025",
+    "board": "PMP22712 Auxiliary Power Board",
+    "repository": "Texas Instruments PMP22712",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "TIDM925",
+    "pcbDoc": "PMP22712_PCB.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP22712",
+    "rawUrl": "https://www.ti.com/lit/zip/TIDM925",
+    "archiveSha256": "4b3ae2e343346c36ffdc60402dcfe330ae07b7c7fd543c8bd2aee413fd1ea5d4",
+    "sourceSha256": "3343b2cb765db52243ccfa584cdded44588d3ad85067e89192f09931b9a309c1",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample025-pmp22712-comparison.svg",
+    "description": "Auxiliary power PCB shipped in the PMP22650 onboard-charger design package.",
+    "properties": [
+      "PMP22650 auxiliary design",
+      "isolated auxiliary power conversion",
+      "power and feedback connections",
+      "4-layer PCB"
+    ],
+    "complexity": "low",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 80,
+      "components": 30,
+      "traces": 111,
+      "vias": 8,
+      "copper_pours": 20
+    },
+    "connectivity": {
+      "layerCount": 4,
+      "sourceNets": 23,
+      "routableNets": 23,
+      "singletonNets": 0,
+      "emptyNets": 0,
+      "connectedPads": 80,
+      "unconnectedPads": 1,
+      "omittedNetPads": 0
+    }
+  },
+  {
+    "sample": "sample026",
+    "board": "PMP22773 Sensing Auxiliary Board",
+    "repository": "Texas Instruments PMP22773",
+    "sourceType": "altium",
+    "sourceFormat": "Altium PcbDoc",
+    "ref": "TIDM925",
+    "pcbDoc": "PMP22773 Rev E3 PCB.PcbDoc",
+    "sourceUrl": "https://www.ti.com/tool/PMP22773",
+    "rawUrl": "https://www.ti.com/lit/zip/TIDM925",
+    "archiveSha256": "4b3ae2e343346c36ffdc60402dcfe330ae07b7c7fd543c8bd2aee413fd1ea5d4",
+    "sourceSha256": "a84ae2b3f463084053987c1bac0ce6c51c1b38b16bf53097d769366cd0eb59f7",
+    "license": "TI Terms of Use",
+    "licenseUrl": "https://www.ti.com/legal/terms-conditions/terms-of-use.html",
+    "redistributedSource": false,
+    "snapshotComparison": "snapshots/sample026-pmp22773-comparison.svg",
+    "description": "Voltage- and current-sensing auxiliary PCB shipped in the PMP22650 onboard-charger package.",
+    "properties": [
+      "PMP22650 auxiliary design",
+      "differential voltage sensing",
+      "isolated signal interfaces",
+      "4-layer PCB"
+    ],
+    "complexity": "low",
+    "normalizations": [
+      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
+      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+    ],
+    "repairs": [],
+    "warnings": [],
+    "stats": {
+      "pads": 106,
+      "components": 34,
+      "traces": 199,
+      "vias": 30,
+      "copper_pours": 19
+    },
+    "connectivity": {
+      "layerCount": 4,
+      "sourceNets": 28,
+      "routableNets": 28,
+      "singletonNets": 0,
+      "emptyNets": 0,
+      "connectedPads": 103,
+      "unconnectedPads": 3,
+      "omittedNetPads": 0
+    }
   }
 ]

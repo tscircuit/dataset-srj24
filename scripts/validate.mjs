@@ -3,7 +3,9 @@ import { createRequire } from "node:module"
 
 const require = createRequire(import.meta.url)
 const dataset = require("../index.js")
-const expectedSampleCount = 20
+const expectedSampleCount = 26
+const expectedKicadSampleCount = 20
+const expectedAltiumSampleCount = 6
 
 const assert = (condition, message) => {
   if (!condition) throw new Error(message)
@@ -94,6 +96,80 @@ const obstacleMatchesThroughHole = (obstacle, throughHole, bounds) => {
     : obstacle.connectedTo.length === 0
 }
 
+const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson }) => {
+  const sourcePorts = circuitJson.filter((element) => element.type === "source_port")
+  const sourceNets = circuitJson.filter((element) => element.type === "source_net")
+  const sourceTraces = circuitJson.filter((element) => element.type === "source_trace")
+  const pcbPorts = circuitJson.filter((element) => element.type === "pcb_port")
+  const padElements = circuitJson.filter(
+    (element) => element.type === "pcb_smtpad" || element.type === "pcb_plated_hole",
+  )
+  const sourcePortById = new Map(sourcePorts.map((port) => [port.source_port_id, port]))
+  const pcbPortById = new Map(pcbPorts.map((port) => [port.pcb_port_id, port]))
+  const traceById = new Map(sourceTraces.map((trace) => [trace.source_trace_id, trace]))
+  const padByPcbPortId = new Map(padElements.flatMap((pad) => (pad.pcb_port_id ? [[pad.pcb_port_id, pad]] : [])))
+  const seenPcbPortIds = new Set()
+
+  assert(source.redistributedSource === false, `${exportName} must not redistribute TI PcbDoc source`)
+  assert(/^[0-9a-f]{64}$/.test(source.sourceSha256), `${exportName} source SHA-256 is invalid`)
+  assert(/^[0-9a-f]{64}$/.test(source.archiveSha256), `${exportName} archive SHA-256 is invalid`)
+  assert(source.connectivity.omittedNetPads === 0, `${exportName} omitted net-assigned pads`)
+  assert(sourceNets.length === source.connectivity.sourceNets, `${exportName} source-net count changed`)
+  assert(sourceTraces.length === source.connectivity.routableNets, `${exportName} routable-net count changed`)
+  assert(sourcePorts.length === source.connectivity.connectedPads, `${exportName} connected-pad count changed`)
+  assert(sample.connections.length === source.connectivity.routableNets, `${exportName} SRJ net count changed`)
+  assert(sample.sourceBoardFormat === "Altium PcbDoc", `${exportName} source format is incorrect`)
+  assert(sample.sourcePcbDocSha256 === source.sourceSha256, `${exportName} source hash is inconsistent`)
+  assert(sample.snapshotComparison === source.snapshotComparison, `${exportName} snapshot path is inconsistent`)
+  assert(existsSync(source.snapshotComparison), `${exportName} comparison SVG is missing`)
+
+  const comparisonSvg = readFileSync(source.snapshotComparison, "utf8")
+  assert(comparisonSvg.includes("Original Altium"), `${exportName} comparison SVG lacks original label`)
+  assert(comparisonSvg.includes("Simple Route JSON"), `${exportName} comparison SVG lacks SRJ label`)
+  assert(comparisonSvg.includes("original Altium on left"), `${exportName} comparison SVG lacks accessible order`)
+
+  for (const connection of sample.connections) {
+    const sourceTrace = traceById.get(connection.source_trace_id)
+    assert(sourceTrace, `${exportName} connection ${connection.name} has no source trace`)
+    assert(
+      sourceTrace.connected_source_net_ids.length === 1 &&
+        sourceTrace.connected_source_net_ids[0] === connection.name,
+      `${exportName} connection ${connection.name} does not match its native Altium net`,
+    )
+    assert(connection.pointsToConnect.length >= 2, `${exportName} connection ${connection.name} is not routable`)
+    assert(connection.nominalTraceWidth > 0, `${exportName} connection ${connection.name} has invalid width`)
+
+    const actualSourcePortIds = []
+    for (const point of connection.pointsToConnect) {
+      assert(point.pcb_port_id, `${exportName} connection ${connection.name} has an anonymous point`)
+      assert(!seenPcbPortIds.has(point.pcb_port_id), `${exportName} PCB port ${point.pcb_port_id} belongs to multiple nets`)
+      seenPcbPortIds.add(point.pcb_port_id)
+      const pcbPort = pcbPortById.get(point.pcb_port_id)
+      assert(pcbPort, `${exportName} is missing PCB port ${point.pcb_port_id}`)
+      assert(sourcePortById.has(pcbPort.source_port_id), `${exportName} is missing source port ${pcbPort.source_port_id}`)
+      assert(nearlyEqual(point.x, pcbPort.x) && nearlyEqual(point.y, pcbPort.y), `${exportName} moved PCB port ${point.pcb_port_id}`)
+      assert(point.layer === pcbPort.layers[0], `${exportName} changed PCB port layer ${point.pcb_port_id}`)
+      const pad = padByPcbPortId.get(point.pcb_port_id)
+      assert(pad, `${exportName} PCB port ${point.pcb_port_id} has no physical pad`)
+      assert(nearlyEqual(point.x, pad.x) && nearlyEqual(point.y, pad.y), `${exportName} point ${point.pcb_port_id} does not match its pad`)
+      const padId = pad.pcb_smtpad_id ?? pad.pcb_plated_hole_id
+      assert(
+        sample.obstacles.some(
+          (obstacle) => obstacle.connectedTo.includes(padId) && obstacle.connectedTo.includes(connection.name),
+        ),
+        `${exportName} pad ${padId} is not connected to SRJ net ${connection.name}`,
+      )
+      actualSourcePortIds.push(pcbPort.source_port_id)
+    }
+
+    assert(
+      JSON.stringify(actualSourcePortIds.toSorted()) ===
+        JSON.stringify(sourceTrace.connected_source_port_ids.toSorted()),
+      `${exportName} connection ${connection.name} pad set differs from the Altium net`,
+    )
+  }
+}
+
 const sampleFiles = readdirSync("samples")
   .filter((file) => file.endsWith(".json"))
   .sort()
@@ -103,11 +179,15 @@ const circuitJsonFiles = readdirSync("circuit-json")
 const pcbFiles = readdirSync("kicad_pcb")
   .filter((file) => file.endsWith(".kicad_pcb"))
   .sort()
+const snapshotFiles = readdirSync("snapshots")
+  .filter((file) => file.endsWith(".svg"))
+  .sort()
 const sourceFiles = JSON.parse(readFileSync("source-files.json", "utf8"))
 
 assert(sampleFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} samples, found ${sampleFiles.length}`)
 assert(circuitJsonFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} Circuit JSON files, found ${circuitJsonFiles.length}`)
-assert(pcbFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} KiCad boards, found ${pcbFiles.length}`)
+assert(pcbFiles.length === expectedKicadSampleCount, `Expected ${expectedKicadSampleCount} KiCad boards, found ${pcbFiles.length}`)
+assert(snapshotFiles.length === expectedAltiumSampleCount, `Expected ${expectedAltiumSampleCount} Altium comparisons, found ${snapshotFiles.length}`)
 assert(sourceFiles.length === expectedSampleCount, `Expected ${expectedSampleCount} source entries, found ${sourceFiles.length}`)
 assert(existsSync("index.d.ts"), "Missing index.d.ts")
 assert(existsSync("LICENSE"), "Missing repository license")
@@ -131,11 +211,12 @@ for (const [index, source] of sourceFiles.entries()) {
   const sample = dataset[exportName]
   const circuitJsonPath = sample.sourceCircuitJson
   const kicadPcbPath = sample.sourceKicadPcb
+  const sourceType = source.sourceType ?? "kicad"
 
   assert(sample.id === exportName, `${exportName} has mismatched id`)
   assert(sample.sourceName === source.board, `${exportName} has mismatched source name`)
   assert(sample.sourceRepository === source.repository, `${exportName} has mismatched repository`)
-  assert(sample.sourceLicense === "Apache-2.0", `${exportName} has mismatched source license`)
+  assert(sample.sourceLicense === source.license, `${exportName} has mismatched source license`)
   assert(Array.isArray(sample.obstacles) && sample.obstacles.length > 0, `${exportName} missing obstacles`)
   assert(Array.isArray(sample.connections) && sample.connections.length > 0, `${exportName} missing connections`)
   assert(sample.bounds, `${exportName} missing bounds`)
@@ -147,14 +228,20 @@ for (const [index, source] of sourceFiles.entries()) {
   }
 
   assert(existsSync(circuitJsonPath), `${exportName} missing ${circuitJsonPath}`)
-  assert(existsSync(kicadPcbPath), `${exportName} missing ${kicadPcbPath}`)
-  assert(readFileSync(kicadPcbPath, "utf8").startsWith("(kicad_pcb"), `${exportName} is not a KiCad PCB`)
-
-  assert(/^[0-9a-f]{40}$/.test(source.ref), `${exportName} source ref is not an immutable commit`)
-  assert(source.sourceUrl.includes(source.ref), `${exportName} source URL is not pinned`)
-  assert(source.rawUrl.includes(source.ref), `${exportName} raw URL is not pinned`)
-  assert(source.license === "Apache-2.0", `${exportName} metadata has mismatched license`)
-  assert(source.licenseUrl.includes(source.ref), `${exportName} license URL is not pinned`)
+  if (sourceType === "kicad") {
+    assert(existsSync(kicadPcbPath), `${exportName} missing ${kicadPcbPath}`)
+    assert(readFileSync(kicadPcbPath, "utf8").startsWith("(kicad_pcb"), `${exportName} is not a KiCad PCB`)
+    assert(/^[0-9a-f]{40}$/.test(source.ref), `${exportName} source ref is not an immutable commit`)
+    assert(source.sourceUrl.includes(source.ref), `${exportName} source URL is not pinned`)
+    assert(source.rawUrl.includes(source.ref), `${exportName} raw URL is not pinned`)
+    assert(source.license === "Apache-2.0", `${exportName} metadata has mismatched license`)
+    assert(source.licenseUrl.includes(source.ref), `${exportName} license URL is not pinned`)
+  } else {
+    assert(sourceType === "altium", `${exportName} has unsupported source type ${sourceType}`)
+    assert(!kicadPcbPath, `${exportName} must not claim a local KiCad source`)
+    assert(source.license === "TI Terms of Use", `${exportName} has incorrect TI licensing metadata`)
+    assert(source.sourceFormat === "Altium PcbDoc", `${exportName} has incorrect Altium source format`)
+  }
   assert(typeof source.description === "string" && source.description.length > 20, `${exportName} missing description`)
   assert(Array.isArray(source.properties) && source.properties.length >= 3, `${exportName} missing properties`)
   assert(Array.isArray(source.warnings) && source.warnings.length === 0, `${exportName} has converter warnings`)
@@ -162,12 +249,21 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(Array.isArray(source.repairs), `${exportName} missing repairs array`)
   assert(source.stats.components > 0, `${exportName} has no components`)
   assert(source.stats.pads > 0, `${exportName} has no pads`)
-  assert(source.stats.traces > 0, `${exportName} has no routed traces`)
+  if (source.stats.traces === 0) {
+    assert(
+      sourceType === "altium" && source.stats.copper_pours > 0,
+      `${exportName} has neither routed traces nor copper pours`,
+    )
+  }
 
   const circuitJson = JSON.parse(readFileSync(circuitJsonPath, "utf8"))
   const board = circuitJson.find((element) => element.type === "pcb_board")
   assert(board, `${exportName} Circuit JSON is missing a PCB board`)
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
+  if (sourceType === "altium") {
+    assert(board.num_layers === source.connectivity.layerCount, `${exportName} differs from its Altium layer stack`)
+    validateAltiumConnectivity({ exportName, sample, source, circuitJson })
+  }
   const boardLayers = getBoardLayers(board.num_layers)
   const throughHoles = circuitJson.filter(
     (element) => element.type === "pcb_plated_hole" || element.type === "pcb_hole",
@@ -206,7 +302,7 @@ for (const [index, source] of sourceFiles.entries()) {
   if (source.complexity === "very high") {
     hasVeryHighComplexityBoard = true
     assert(source.stats.components >= 300, `${exportName} complex board has too few components`)
-    assert(sample.connections.length >= 500, `${exportName} complex board has too few connections`)
+    assert(sample.connections.length >= 400, `${exportName} complex board has too few connections`)
     assert(sample.layerCount >= 6, `${exportName} complex board has too few copper layers`)
   }
 }

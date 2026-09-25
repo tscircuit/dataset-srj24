@@ -125,7 +125,7 @@ function App() {
         <div className="sidebarHeader">
           <div>
             <h1>dataset-srj24</h1>
-            <p>{sourceFiles.length} KiCad boards</p>
+            <p>{sourceFiles.length} KiCad and Altium boards</p>
           </div>
         </div>
         <div className="sampleList">
