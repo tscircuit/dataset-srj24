@@ -28,3 +28,22 @@ No upstream root `NOTICE` file was present at any pinned revision.
 | `sample018` | [antmicro/programmable-led-panel at 1222b9447923](https://github.com/antmicro/programmable-led-panel/blob/1222b9447923657204ecf1d73e3b02683ad8c133/led-panel.kicad_pcb) |
 | `sample019` | [antmicro/hdmi-edid-debug-board at 615be304c1d2](https://github.com/antmicro/hdmi-edid-debug-board/blob/615be304c1d2a9ef7a1195692e9f67fb8a41cab3/hdmi-edid-debug-board.kicad_pcb) |
 | `sample020` | [antmicro/poe-usb-c-pd-converter at f9fdd79ce042](https://github.com/antmicro/poe-usb-c-pd-converter/blob/f9fdd79ce0428b7c195dcbecbb56e55076da3324/antmicro-poe-to-usbc-pd-adapter.kicad_pcb) |
+
+## Texas Instruments design resources
+
+Samples 021–026 are generated from publicly downloadable Texas Instruments
+Altium design resources. TI's native PcbDoc files are not redistributed in
+this repository. The generator downloads them from the official archives and
+verifies both archive and PcbDoc SHA-256 hashes recorded in
+`source-files.json` before conversion. Generated Circuit JSON, SRJ, and SVG
+comparisons remain subject to the applicable
+[TI Terms of Use](https://www.ti.com/legal/terms-conditions/terms-of-use.html).
+
+| Sample | TI design resource | Official archive |
+| --- | --- | --- |
+| `sample021` | [PMP23595](https://www.ti.com/tool/PMP23595) | [SLVMEP2](https://www.ti.com/lit/zip/SLVMEP2) |
+| `sample022` | [PMP23653 main PCB](https://www.ti.com/tool/PMP23653) | [SLVMF61](https://www.ti.com/lit/zip/SLVMF61) |
+| `sample023` | [PMP23653 planar transformer](https://www.ti.com/tool/PMP23653) | [SLVMF61](https://www.ti.com/lit/zip/SLVMF61) |
+| `sample024` | [PMP22650 main PCB](https://www.ti.com/tool/PMP22650) | [TIDM925](https://www.ti.com/lit/zip/TIDM925) |
+| `sample025` | PMP22712 auxiliary PCB in [PMP22650](https://www.ti.com/tool/PMP22650) | [TIDM925](https://www.ti.com/lit/zip/TIDM925) |
+| `sample026` | PMP22773 auxiliary PCB in [PMP22650](https://www.ti.com/tool/PMP22650) | [TIDM925](https://www.ti.com/lit/zip/TIDM925) |
