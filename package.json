@@ -54,7 +54,7 @@
     "@tscircuit/solver-utils": "^0.0.19",
     "@tscircuit/soup-util": "^0.0.41",
     "@vitejs/plugin-react": "4.3.4",
-    "altium-to-circuit-json": "github:tscircuit/altium-to-circuit-json#0679ecc0314aeb069cadc4e4e28f2b47c37d9bb9",
+    "altium-to-circuit-json": "github:tscircuit/altium-to-circuit-json#f938bc955a816464c86ed58e65c66ff4242d9db2",
     "altiumts": "github:tscircuit/altiumts#2010669c4e94819de68620b537ff9382d8f472f7",
     "bpc-graph": "^0.0.66",
     "calculate-elbow": "^0.0.12",
