@@ -57,6 +57,7 @@
     "circuit-json-to-gltf": "^0.0.101",
     "circuit-json-to-simple-3d": "^0.0.9",
     "circuit-json-to-spice": "^0.0.34",
+    "circuit-to-svg": "0.0.381",
     "connectivity-map": "^1.0.0",
     "debug": "^4.4.3",
     "eecircuit-engine": "^1.7.0",

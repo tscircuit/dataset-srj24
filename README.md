@@ -36,12 +36,12 @@ electrical-safety or manufacturing certification.
 | `sample018` | Programmable LED Panel | High | 6 | 315 | 1,069 | 1,250 | 741 | 465 |
 | `sample019` | HDMI EDID Debug Board | Medium | 4 | 110 | 409 | 460 | 175 | 154 |
 | `sample020` | PoE to USB-C PD Converter | High | 4 | 276 | 811 | 694 | 767 | 409 |
-| `sample021` | PMP23595 Four-Phase GaN Buck Converter | High | 6 | 236 | 538 | 944 | 735 | 75 |
-| `sample022` | PMP23653 25 W Isolated USB-C Supply | Medium | 4 | 89 | 277 | 367 | 82 | 44 |
-| `sample023` | PMP23653 Planar Transformer | Low | 6 | 6 | 18 | 0 | 29 | 2 |
-| `sample024` | PMP22650 6.6 kW Bidirectional GaN Onboard Charger | Very high | 8 | 633 | 2,494 | 5,970 | 1,993 | 409 |
-| `sample025` | PMP22712 Auxiliary Power Board | Low | 4 | 30 | 80 | 111 | 8 | 23 |
-| `sample026` | PMP22773 Sensing Auxiliary Board | Low | 4 | 34 | 106 | 199 | 30 | 28 |
+| `sample021` | PMP23595 Four-Phase GaN Buck Converter | High | 6 | 236 | 538 | 944 | 735 | 0 |
+| `sample022` | PMP23653 25 W Isolated USB-C Supply | Medium | 4 | 89 | 277 | 367 | 82 | 0 |
+| `sample023` | PMP23653 Planar Transformer | Low | 6 | 6 | 18 | 0 | 29 | 0 |
+| `sample024` | PMP22650 6.6 kW Bidirectional GaN Onboard Charger | Very high | 8 | 633 | 2,494 | 5,970 | 1,993 | 0 |
+| `sample025` | PMP22712 Auxiliary Power Board | Low | 4 | 30 | 80 | 111 | 8 | 0 |
+| `sample026` | PMP22773 Sensing Auxiliary Board | Low | 4 | 34 | 106 | 199 | 30 | 0 |
 
 ## Board descriptions and properties
 
@@ -260,7 +260,7 @@ TI 960 W reference design converting a nominal 48 V input to 12 V with four
 interleaved GaN buck phases on a six-layer board.
 
 [TI design resource](https://www.ti.com/tool/PMP23595) ·
-[Altium/SRJ comparison](snapshots/sample021-pmp23595-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample021-pmp23595-comparison.svg)
 
 ### `sample022` — PMP23653 25 W Isolated USB-C Supply
 
@@ -268,7 +268,7 @@ Main four-layer PCB for TI's 25 W isolated USB-C supply incorporating the
 separately modeled planar transformer.
 
 [TI design resource](https://www.ti.com/tool/PMP23653) ·
-[Altium/SRJ comparison](snapshots/sample022-pmp23653-main-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample022-pmp23653-main-comparison.svg)
 
 ### `sample023` — PMP23653 Planar Transformer
 
@@ -276,7 +276,7 @@ Six-layer PCB transformer whose plated holes and copper pours implement two
 electrical winding nets.
 
 [TI design resource](https://www.ti.com/tool/PMP23653) ·
-[Altium/SRJ comparison](snapshots/sample023-pmp23653-planar-transformer-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample023-pmp23653-planar-transformer-comparison.svg)
 
 ### `sample024` — PMP22650 6.6 kW Bidirectional GaN Onboard Charger
 
@@ -284,7 +284,7 @@ Eight-layer, water-cooled main board for TI's 6.6 kW bidirectional automotive
 onboard-charger design.
 
 [TI design resource](https://www.ti.com/tool/PMP22650) ·
-[Altium/SRJ comparison](snapshots/sample024-pmp22650-main-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample024-pmp22650-main-comparison.svg)
 
 ### `sample025` — PMP22712 Auxiliary Power Board
 
@@ -292,7 +292,7 @@ Four-layer isolated auxiliary-power board included in the PMP22650 design
 package.
 
 [TI design resource](https://www.ti.com/tool/PMP22650) ·
-[Altium/SRJ comparison](snapshots/sample025-pmp22712-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample025-pmp22712-comparison.svg)
 
 ### `sample026` — PMP22773 Sensing Auxiliary Board
 
@@ -300,15 +300,15 @@ Four-layer voltage- and current-sensing auxiliary board included in the
 PMP22650 design package.
 
 [TI design resource](https://www.ti.com/tool/PMP22650) ·
-[Altium/SRJ comparison](snapshots/sample026-pmp22773-comparison.svg)
+[Altium/Circuit JSON/SRJ comparison](snapshots/sample026-pmp22773-comparison.svg)
 
 ## Repository structure
 
 - `kicad_pcb/` contains the exact upstream KiCad boards.
 - `circuit-json/` contains converter output for each board.
 - `samples/` contains Simple Route JSON with existing top-level routing removed.
-- `snapshots/` contains labeled, side-by-side original Altium and SRJ SVGs for
-  the TI samples.
+- `snapshots/` contains labeled, side-by-side original Altium, converted Circuit
+  JSON, and SRJ SVGs for the TI samples.
 - `source-files.json` records immutable provenance, license links, descriptions,
   features, statistics, converter warnings, compatibility normalizations, and
   any unambiguous missing-port repairs.
@@ -352,8 +352,7 @@ bun run build
 ```
 
 The generators download each pinned source, verify its commit or SHA-256,
-convert it to Circuit JSON, and then produce Simple Route JSON. For Altium
-sources, native pad-to-net assignments, pad positions, copper-layer count, and
-per-net trace widths are copied into Circuit JSON before SRJ generation. The
-validator checks that every SRJ connection contains exactly the PCB ports from
-its corresponding Altium net.
+convert it to Circuit JSON, and then produce Simple Route JSON. The TI samples
+store the released Altium converter and SRJ output without repairing or
+normalizing it; the comparison SVGs make the resulting conversion limitations
+visible.

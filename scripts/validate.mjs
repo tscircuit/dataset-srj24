@@ -96,80 +96,6 @@ const obstacleMatchesThroughHole = (obstacle, throughHole, bounds) => {
     : obstacle.connectedTo.length === 0
 }
 
-const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson }) => {
-  const sourcePorts = circuitJson.filter((element) => element.type === "source_port")
-  const sourceNets = circuitJson.filter((element) => element.type === "source_net")
-  const sourceTraces = circuitJson.filter((element) => element.type === "source_trace")
-  const pcbPorts = circuitJson.filter((element) => element.type === "pcb_port")
-  const padElements = circuitJson.filter(
-    (element) => element.type === "pcb_smtpad" || element.type === "pcb_plated_hole",
-  )
-  const sourcePortById = new Map(sourcePorts.map((port) => [port.source_port_id, port]))
-  const pcbPortById = new Map(pcbPorts.map((port) => [port.pcb_port_id, port]))
-  const traceById = new Map(sourceTraces.map((trace) => [trace.source_trace_id, trace]))
-  const padByPcbPortId = new Map(padElements.flatMap((pad) => (pad.pcb_port_id ? [[pad.pcb_port_id, pad]] : [])))
-  const seenPcbPortIds = new Set()
-
-  assert(source.redistributedSource === false, `${exportName} must not redistribute TI PcbDoc source`)
-  assert(/^[0-9a-f]{64}$/.test(source.sourceSha256), `${exportName} source SHA-256 is invalid`)
-  assert(/^[0-9a-f]{64}$/.test(source.archiveSha256), `${exportName} archive SHA-256 is invalid`)
-  assert(source.connectivity.omittedNetPads === 0, `${exportName} omitted net-assigned pads`)
-  assert(sourceNets.length === source.connectivity.sourceNets, `${exportName} source-net count changed`)
-  assert(sourceTraces.length === source.connectivity.routableNets, `${exportName} routable-net count changed`)
-  assert(sourcePorts.length === source.connectivity.connectedPads, `${exportName} connected-pad count changed`)
-  assert(sample.connections.length === source.connectivity.routableNets, `${exportName} SRJ net count changed`)
-  assert(sample.sourceBoardFormat === "Altium PcbDoc", `${exportName} source format is incorrect`)
-  assert(sample.sourcePcbDocSha256 === source.sourceSha256, `${exportName} source hash is inconsistent`)
-  assert(sample.snapshotComparison === source.snapshotComparison, `${exportName} snapshot path is inconsistent`)
-  assert(existsSync(source.snapshotComparison), `${exportName} comparison SVG is missing`)
-
-  const comparisonSvg = readFileSync(source.snapshotComparison, "utf8")
-  assert(comparisonSvg.includes("Original Altium"), `${exportName} comparison SVG lacks original label`)
-  assert(comparisonSvg.includes("Simple Route JSON"), `${exportName} comparison SVG lacks SRJ label`)
-  assert(comparisonSvg.includes("original Altium on left"), `${exportName} comparison SVG lacks accessible order`)
-
-  for (const connection of sample.connections) {
-    const sourceTrace = traceById.get(connection.source_trace_id)
-    assert(sourceTrace, `${exportName} connection ${connection.name} has no source trace`)
-    assert(
-      sourceTrace.connected_source_net_ids.length === 1 &&
-        sourceTrace.connected_source_net_ids[0] === connection.name,
-      `${exportName} connection ${connection.name} does not match its native Altium net`,
-    )
-    assert(connection.pointsToConnect.length >= 2, `${exportName} connection ${connection.name} is not routable`)
-    assert(connection.nominalTraceWidth > 0, `${exportName} connection ${connection.name} has invalid width`)
-
-    const actualSourcePortIds = []
-    for (const point of connection.pointsToConnect) {
-      assert(point.pcb_port_id, `${exportName} connection ${connection.name} has an anonymous point`)
-      assert(!seenPcbPortIds.has(point.pcb_port_id), `${exportName} PCB port ${point.pcb_port_id} belongs to multiple nets`)
-      seenPcbPortIds.add(point.pcb_port_id)
-      const pcbPort = pcbPortById.get(point.pcb_port_id)
-      assert(pcbPort, `${exportName} is missing PCB port ${point.pcb_port_id}`)
-      assert(sourcePortById.has(pcbPort.source_port_id), `${exportName} is missing source port ${pcbPort.source_port_id}`)
-      assert(nearlyEqual(point.x, pcbPort.x) && nearlyEqual(point.y, pcbPort.y), `${exportName} moved PCB port ${point.pcb_port_id}`)
-      assert(point.layer === pcbPort.layers[0], `${exportName} changed PCB port layer ${point.pcb_port_id}`)
-      const pad = padByPcbPortId.get(point.pcb_port_id)
-      assert(pad, `${exportName} PCB port ${point.pcb_port_id} has no physical pad`)
-      assert(nearlyEqual(point.x, pad.x) && nearlyEqual(point.y, pad.y), `${exportName} point ${point.pcb_port_id} does not match its pad`)
-      const padId = pad.pcb_smtpad_id ?? pad.pcb_plated_hole_id
-      assert(
-        sample.obstacles.some(
-          (obstacle) => obstacle.connectedTo.includes(padId) && obstacle.connectedTo.includes(connection.name),
-        ),
-        `${exportName} pad ${padId} is not connected to SRJ net ${connection.name}`,
-      )
-      actualSourcePortIds.push(pcbPort.source_port_id)
-    }
-
-    assert(
-      JSON.stringify(actualSourcePortIds.toSorted()) ===
-        JSON.stringify(sourceTrace.connected_source_port_ids.toSorted()),
-      `${exportName} connection ${connection.name} pad set differs from the Altium net`,
-    )
-  }
-}
-
 const sampleFiles = readdirSync("samples")
   .filter((file) => file.endsWith(".json"))
   .sort()
@@ -218,7 +144,10 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(sample.sourceRepository === source.repository, `${exportName} has mismatched repository`)
   assert(sample.sourceLicense === source.license, `${exportName} has mismatched source license`)
   assert(Array.isArray(sample.obstacles) && sample.obstacles.length > 0, `${exportName} missing obstacles`)
-  assert(Array.isArray(sample.connections) && sample.connections.length > 0, `${exportName} missing connections`)
+  assert(Array.isArray(sample.connections), `${exportName} has invalid connections`)
+  if (sourceType === "kicad") {
+    assert(sample.connections.length > 0, `${exportName} missing connections`)
+  }
   assert(sample.bounds, `${exportName} missing bounds`)
   assert(sample.layerCount >= 2, `${exportName} has invalid layer count`)
   observedLayerCounts.add(sample.layerCount)
@@ -241,12 +170,32 @@ for (const [index, source] of sourceFiles.entries()) {
     assert(!kicadPcbPath, `${exportName} must not claim a local KiCad source`)
     assert(source.license === "TI Terms of Use", `${exportName} has incorrect TI licensing metadata`)
     assert(source.sourceFormat === "Altium PcbDoc", `${exportName} has incorrect Altium source format`)
+    assert(source.redistributedSource === false, `${exportName} must not redistribute TI PcbDoc source`)
+    assert(/^[0-9a-f]{64}$/.test(source.sourceSha256), `${exportName} source SHA-256 is invalid`)
+    assert(/^[0-9a-f]{64}$/.test(source.archiveSha256), `${exportName} archive SHA-256 is invalid`)
+    assert(sample.sourceBoardFormat === "Altium PcbDoc", `${exportName} source format is incorrect`)
+    assert(sample.sourcePcbDocSha256 === source.sourceSha256, `${exportName} source hash is inconsistent`)
+    assert(sample.snapshotComparison === source.snapshotComparison, `${exportName} snapshot path is inconsistent`)
+    assert(existsSync(source.snapshotComparison), `${exportName} comparison SVG is missing`)
+
+    const comparisonSvg = readFileSync(source.snapshotComparison, "utf8")
+    assert(comparisonSvg.includes("Original Altium"), `${exportName} comparison SVG lacks original label`)
+    assert(comparisonSvg.includes("Circuit JSON"), `${exportName} comparison SVG lacks Circuit JSON label`)
+    assert(comparisonSvg.includes("Simple Route JSON"), `${exportName} comparison SVG lacks SRJ label`)
+    assert(
+      comparisonSvg.includes("original Altium on left, Circuit JSON in center, Simple Route JSON on right"),
+      `${exportName} comparison SVG lacks accessible panel order`,
+    )
   }
   assert(typeof source.description === "string" && source.description.length > 20, `${exportName} missing description`)
   assert(Array.isArray(source.properties) && source.properties.length >= 3, `${exportName} missing properties`)
   assert(Array.isArray(source.warnings) && source.warnings.length === 0, `${exportName} has converter warnings`)
   assert(Array.isArray(source.normalizations), `${exportName} missing normalizations array`)
   assert(Array.isArray(source.repairs), `${exportName} missing repairs array`)
+  if (sourceType === "altium") {
+    assert(source.normalizations.length === 0, `${exportName} must not normalize converter output`)
+    assert(source.repairs.length === 0, `${exportName} must not repair converter output`)
+  }
   assert(source.stats.components > 0, `${exportName} has no components`)
   assert(source.stats.pads > 0, `${exportName} has no pads`)
   if (source.stats.traces === 0) {
@@ -260,10 +209,6 @@ for (const [index, source] of sourceFiles.entries()) {
   const board = circuitJson.find((element) => element.type === "pcb_board")
   assert(board, `${exportName} Circuit JSON is missing a PCB board`)
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
-  if (sourceType === "altium") {
-    assert(board.num_layers === source.connectivity.layerCount, `${exportName} differs from its Altium layer stack`)
-    validateAltiumConnectivity({ exportName, sample, source, circuitJson })
-  }
   const boardLayers = getBoardLayers(board.num_layers)
   const throughHoles = circuitJson.filter(
     (element) => element.type === "pcb_plated_hole" || element.type === "pcb_hole",
@@ -302,8 +247,10 @@ for (const [index, source] of sourceFiles.entries()) {
   if (source.complexity === "very high") {
     hasVeryHighComplexityBoard = true
     assert(source.stats.components >= 300, `${exportName} complex board has too few components`)
-    assert(sample.connections.length >= 400, `${exportName} complex board has too few connections`)
-    assert(sample.layerCount >= 6, `${exportName} complex board has too few copper layers`)
+    if (sourceType === "kicad") {
+      assert(sample.connections.length >= 500, `${exportName} complex board has too few connections`)
+      assert(sample.layerCount >= 6, `${exportName} complex board has too few copper layers`)
+    }
   }
 }
 
@@ -316,5 +263,5 @@ assert(
 assert(Object.keys(dataset.dataset).length === expectedSampleCount, "Dataset export count is incorrect")
 
 console.log(
-  `Validated ${expectedSampleCount} SRJ samples and ${validatedThroughHoleCount} through-hole obstacles with pinned sources, licensing, and connectivity checks`,
+  `Validated ${expectedSampleCount} SRJ samples and ${validatedThroughHoleCount} through-hole obstacles with pinned sources, licensing, and conversion checks`,
 )

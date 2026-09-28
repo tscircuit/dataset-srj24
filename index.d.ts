@@ -64,8 +64,6 @@ export interface SimpleRouteJson {
   jumpers?: unknown[]
 }
 
-
-
 export const sample001: SimpleRouteJson
 export const sample002: SimpleRouteJson
 export const sample003: SimpleRouteJson

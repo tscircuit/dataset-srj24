@@ -5,20 +5,13 @@ import { basename, join, resolve } from "node:path"
 import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 import { convertSrjToGraphicsObject } from "@tscircuit/capacity-autorouter"
 import { convertAltiumPcbDocToCircuitJson } from "altium-to-circuit-json"
-import {
-  AltiumPadRecord,
-  AltiumTrackRecord,
-  AltiumViaRecord,
-  getPcbLayerStack,
-  parseAltiumBinaryPcbDoc,
-  serializeAltiumPcbToSvg,
-} from "altiumts"
+import { parseAltiumBinaryPcbDoc, serializeAltiumPcbToSvg } from "altiumts"
 import { any_circuit_element } from "circuit-json"
+import { convertCircuitJsonToPcbSvg } from "circuit-to-svg"
 import { unzipSync } from "fflate"
 import { getSvgFromGraphicsObject } from "graphics-debug"
 import { stackSvgsHorizontally } from "stack-svgs"
 
-const MILS_TO_MILLIMETERS = 0.0254
 const samplesDir = "samples"
 const circuitJsonDir = "circuit-json"
 const snapshotsDir = "snapshots"
@@ -244,243 +237,6 @@ const getBoardBytes = async (board) => {
   return bytes
 }
 
-const isCopperStackEntry = (entry) => {
-  const id = Number(entry.layerId)
-  return id === 16777217 || id === 16842751 || (id >= 16777218 && id <= 16777248)
-}
-
-const getBoardLayers = (layerCount) => [
-  "top",
-  ...Array.from({ length: Math.max(0, layerCount - 2) }, (_, index) => `inner${index + 1}`),
-  "bottom",
-]
-
-const getConvertedPadId = (record, recordIndex) => {
-  const holeDiameterMils = record.holeSizeMils ?? 0
-  if (record.plated === false && holeDiameterMils > 0) return `pcb_hole_altium_${recordIndex}`
-  if (record.behavior === "through-hole" || holeDiameterMils > 0) {
-    return `pcb_plated_hole_altium_${recordIndex}`
-  }
-  return `pcb_smtpad_altium_${recordIndex}`
-}
-
-const getElementId = (element) =>
-  element.pcb_smtpad_id ??
-  element.pcb_plated_hole_id ??
-  element.pcb_hole_id ??
-  element.pcb_trace_id ??
-  element.pcb_via_id
-
-const uniqueName = (value, fallback) => {
-  const trimmed = value?.trim()
-  return trimmed ? trimmed : fallback
-}
-
-const mode = (values, fallback) => {
-  const counts = new Map()
-  for (const value of values) counts.set(value, (counts.get(value) ?? 0) + 1)
-  let bestValue = fallback
-  let bestCount = -1
-  for (const [value, count] of counts) {
-    if (count > bestCount || (count === bestCount && value < bestValue)) {
-      bestValue = value
-      bestCount = count
-    }
-  }
-  return bestValue
-}
-
-const roundJson = (value) => {
-  if (typeof value === "number" && Number.isFinite(value)) {
-    return Math.round(value * 1_000_000) / 1_000_000
-  }
-  if (Array.isArray(value)) return value.map(roundJson)
-  if (value && typeof value === "object") {
-    return Object.fromEntries(Object.entries(value).map(([key, nested]) => [key, roundJson(nested)]))
-  }
-  return value
-}
-
-const enrichCircuitJsonConnectivity = (document, rawCircuitJson) => {
-  const circuitJson = structuredClone(rawCircuitJson)
-  const elementById = new Map(
-    circuitJson.flatMap((element) => {
-      const id = getElementId(element)
-      return id ? [[id, element]] : []
-    }),
-  )
-  const componentIndexByRecord = new Map(document.components.map((component, index) => [component, index]))
-  const netIndexByRecord = new Map(document.nets.map((net, index) => [net, index]))
-  const copperLayerCount = getPcbLayerStack(document.board).entries.filter(isCopperStackEntry).length
-  const layerCount = Math.max(copperLayerCount, 2)
-  const boardLayers = getBoardLayers(layerCount)
-  const board = circuitJson.find((element) => element.type === "pcb_board")
-  if (!board) throw new Error("Converted Circuit JSON has no pcb_board")
-  board.num_layers = layerCount
-
-  const sourceComponents = document.components.map((component, index) => ({
-    type: "source_component",
-    source_component_id: `source_component_altium_${index}`,
-    name: uniqueName(component.designator, `component_${index}`),
-    ftype: "simple_chip",
-  }))
-  const sourceNets = document.nets.map((net, index) => ({
-    type: "source_net",
-    source_net_id: `source_net_altium_${index}`,
-    name: uniqueName(net.name, `net_${index}`),
-    member_source_group_ids: [],
-  }))
-  const sourcePorts = []
-  const pcbPorts = []
-  const sourcePortIdsByNet = new Map()
-  const padElementsByNet = new Map()
-  let unconnectedPads = 0
-  let omittedNetPads = 0
-
-  for (const [recordIndex, record] of document.records.entries()) {
-    if (!(record instanceof AltiumPadRecord)) continue
-    const padId = getConvertedPadId(record, recordIndex)
-    const padElement = elementById.get(padId)
-    const component = document.getComponentForRecord(record)
-    const componentIndex = component ? componentIndexByRecord.get(component) : undefined
-    const net = document.getNetForRecord(record)
-    const netIndex = net ? netIndexByRecord.get(net) : undefined
-    const pinName = uniqueName(record.name, String(recordIndex))
-    const pinNumber = /^\d+$/.test(pinName) ? Number(pinName) : recordIndex
-
-    if (padElement && componentIndex !== undefined) {
-      padElement.pcb_component_id = `pcb_component_altium_${componentIndex}`
-      padElement.port_hints = [pinName]
-      if (padElement.type === "pcb_plated_hole") padElement.layers = [...boardLayers]
-    }
-
-    if (!net || netIndex === undefined) {
-      unconnectedPads += 1
-      continue
-    }
-    if (!padElement || padElement.type === "pcb_hole" || componentIndex === undefined) {
-      omittedNetPads += 1
-      continue
-    }
-
-    const sourcePortId = `source_port_altium_${recordIndex}`
-    const pcbPortId = `pcb_port_altium_${recordIndex}`
-    const sourceComponentId = `source_component_altium_${componentIndex}`
-    const pcbComponentId = `pcb_component_altium_${componentIndex}`
-    const layers =
-      padElement.type === "pcb_smtpad" ? [padElement.layer] : [...boardLayers]
-
-    padElement.pcb_port_id = pcbPortId
-    sourcePorts.push({
-      type: "source_port",
-      source_port_id: sourcePortId,
-      source_component_id: sourceComponentId,
-      name: `pin${pinName}`,
-      pin_number: pinNumber,
-    })
-    pcbPorts.push({
-      type: "pcb_port",
-      pcb_port_id: pcbPortId,
-      pcb_component_id: pcbComponentId,
-      source_port_id: sourcePortId,
-      x: padElement.x,
-      y: padElement.y,
-      layers,
-    })
-
-    const sourcePortIds = sourcePortIdsByNet.get(netIndex) ?? []
-    sourcePortIds.push(sourcePortId)
-    sourcePortIdsByNet.set(netIndex, sourcePortIds)
-    const padElements = padElementsByNet.get(netIndex) ?? []
-    padElements.push({ padElement, pcbPortId, sourcePortId, layers })
-    padElementsByNet.set(netIndex, padElements)
-  }
-
-  const trackWidthsByNet = new Map()
-  for (const [recordIndex, record] of document.records.entries()) {
-    if (!(record instanceof AltiumTrackRecord)) continue
-    const net = document.getNetForRecord(record)
-    const netIndex = net ? netIndexByRecord.get(net) : undefined
-    if (netIndex === undefined) continue
-    const trace = elementById.get(`pcb_trace_altium_${recordIndex}`)
-    if (trace?.type === "pcb_trace") trace.source_trace_id = `source_trace_altium_${netIndex}`
-    if (trace?.type !== "pcb_trace" || !record.widthMils) continue
-    const widths = trackWidthsByNet.get(netIndex) ?? []
-    widths.push(Math.round(record.widthMils * MILS_TO_MILLIMETERS * 1_000_000) / 1_000_000)
-    trackWidthsByNet.set(netIndex, widths)
-  }
-
-  const sourceTraces = []
-  const connections = []
-  const obstacleConnectionIdsByElementId = new Map()
-  let singletonNets = 0
-  let emptyNets = 0
-  for (const [netIndex, net] of document.nets.entries()) {
-    const sourcePortIds = sourcePortIdsByNet.get(netIndex) ?? []
-    const padElements = padElementsByNet.get(netIndex) ?? []
-    if (sourcePortIds.length === 0) {
-      emptyNets += 1
-      continue
-    }
-    if (sourcePortIds.length === 1) {
-      singletonNets += 1
-      continue
-    }
-    const sourceNetId = `source_net_altium_${netIndex}`
-    const sourceTraceId = `source_trace_altium_${netIndex}`
-    const nominalTraceWidth = mode(trackWidthsByNet.get(netIndex) ?? [], 0.254)
-    sourceTraces.push({
-      type: "source_trace",
-      source_trace_id: sourceTraceId,
-      connected_source_port_ids: sourcePortIds,
-      connected_source_net_ids: [sourceNetId],
-      display_name: uniqueName(net.name, `net_${netIndex}`),
-      min_trace_thickness: nominalTraceWidth,
-    })
-    connections.push({
-      name: sourceNetId,
-      source_trace_id: sourceTraceId,
-      netConnectionName: uniqueName(net.name, `net_${netIndex}`),
-      nominalTraceWidth,
-      width: nominalTraceWidth,
-      pointsToConnect: padElements.map(({ padElement, pcbPortId }) => ({
-        x: padElement.x,
-        y: padElement.y,
-        layer: padElement.type === "pcb_smtpad" ? padElement.layer : "top",
-        pointId: pcbPortId,
-        pcb_port_id: pcbPortId,
-      })),
-    })
-    for (const { padElement, pcbPortId, sourcePortId } of padElements) {
-      obstacleConnectionIdsByElementId.set(getElementId(padElement), [
-        getElementId(padElement),
-        pcbPortId,
-        sourcePortId,
-        sourceNetId,
-        sourceTraceId,
-      ])
-    }
-  }
-
-  circuitJson.unshift(...sourceComponents, ...sourcePorts, ...sourceNets, ...sourceTraces, ...pcbPorts)
-
-  return {
-    circuitJson,
-    connections,
-    obstacleConnectionIdsByElementId,
-    stats: {
-      layerCount,
-      sourceNets: document.nets.length,
-      routableNets: connections.length,
-      singletonNets,
-      emptyNets,
-      connectedPads: sourcePorts.length,
-      unconnectedPads,
-      omittedNetPads,
-    },
-  }
-}
-
 const countCircuitElements = (circuitJson) => {
   const count = (type) => circuitJson.filter((element) => element.type === type).length
   return {
@@ -492,7 +248,7 @@ const countCircuitElements = (circuitJson) => {
   }
 }
 
-const makeComparisonSvg = ({ document, simpleRouteJson, boardName }) => {
+const makeComparisonSvg = ({ document, circuitJson, simpleRouteJson, boardName }) => {
   const outlineBounds = document.boardGeometry.outline.bounds
   const padding = outlineBounds
     ? Math.max(outlineBounds.maxX - outlineBounds.minX, outlineBounds.maxY - outlineBounds.minY) * 0.05
@@ -510,25 +266,32 @@ const makeComparisonSvg = ({ document, simpleRouteJson, boardName }) => {
         }
       : undefined,
   })
+  const circuitJsonSvg = convertCircuitJsonToPcbSvg(circuitJson, {
+    width: 800,
+    height: 600,
+    backgroundColor: "#11161b",
+    includeVersion: false,
+    shouldDrawRatsNest: false,
+  })
   const srjSvg = getSvgFromGraphicsObject(convertSrjToGraphicsObject(simpleRouteJson), {
     backgroundColor: "#11161b",
     svgWidth: 800,
     svgHeight: 600,
     hideInlineLabels: true,
   })
-  const comparison = stackSvgsHorizontally([altiumSvg, srjSvg], {
+  const comparison = stackSvgsHorizontally([altiumSvg, circuitJsonSvg, srjSvg], {
     gap: 24,
     normalizeSize: true,
     targetSize: 800,
     rootAttributes: {
-      "aria-label": `${boardName}: original Altium on left, Simple Route JSON on right`,
+      "aria-label": `${boardName}: original Altium on left, Circuit JSON in center, Simple Route JSON on right`,
       role: "img",
     },
   })
   return comparison
     .replace(
       /<\/svg>\s*$/,
-      '  <g font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#e7edf2" text-anchor="middle"><text x="400" y="22">Original Altium</text><text x="1224" y="22">Simple Route JSON</text></g>\n</svg>',
+      '  <g font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#e7edf2" text-anchor="middle"><text x="400" y="22">Original Altium</text><text x="1224" y="22">Circuit JSON</text><text x="2048" y="22">Simple Route JSON</text></g>\n</svg>',
     )
     .split("\n")
     .map((line) => line.trimEnd())
@@ -556,12 +319,14 @@ const writeIndexFiles = () => {
     .split("\n")
     .filter((line) => !/^export const sample\d+: SimpleRouteJson$/.test(line))
     .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trimEnd()
   const sampleExports = exportNames.map((name) => `export const ${name}: SimpleRouteJson`).join("\n")
   const indexDts = indexDtsWithoutSampleExports.replace(
     "export const dataset: Record<string, SimpleRouteJson>",
     `${sampleExports}\n\nexport const dataset: Record<string, SimpleRouteJson>`,
   )
-  writeFileSync("index.d.ts", indexDts)
+  writeFileSync("index.d.ts", `${indexDts}\n`)
 }
 
 mkdirSync(samplesDir, { recursive: true })
@@ -576,13 +341,7 @@ const generatedSourceFiles = []
 for (const board of boards) {
   const sourceBytes = await getBoardBytes(board)
   const document = parseAltiumBinaryPcbDoc(sourceBytes)
-  const converted = convertAltiumPcbDocToCircuitJson(document)
-  const {
-    circuitJson,
-    connections,
-    obstacleConnectionIdsByElementId,
-    stats: connectivity,
-  } = enrichCircuitJsonConnectivity(document, converted)
+  const circuitJson = convertAltiumPcbDocToCircuitJson(document)
 
   for (const [index, element] of circuitJson.entries()) {
     const result = any_circuit_element.safeParse(element)
@@ -598,19 +357,8 @@ for (const board of boards) {
     ignoreExistingTopLevelPcbRouteState: true,
   })
   const baseSimpleRouteJson = baseSrjResult.simpleRouteJson ?? baseSrjResult
-  const obstacles = baseSimpleRouteJson.obstacles.map((obstacle) => {
-    const compactConnectedTo = obstacle.connectedTo
-      .map((id) => obstacleConnectionIdsByElementId.get(id))
-      .find(Boolean)
-    return {
-      ...obstacle,
-      connectedTo: compactConnectedTo ?? obstacle.connectedTo,
-    }
-  })
-  const simpleRouteJson = roundJson({
+  const simpleRouteJson = {
     ...baseSimpleRouteJson,
-    obstacles,
-    connections,
     id: board.sample,
     sourceCircuitJson: `circuit-json/${board.sample}-${board.id}.json`,
     sourceName: board.name,
@@ -620,28 +368,17 @@ for (const board of boards) {
     sourceBoardFormat: "Altium PcbDoc",
     sourcePcbDocSha256: board.sourceSha256,
     snapshotComparison: `snapshots/${board.sample}-${board.id}-comparison.svg`,
-  })
-
-  const pointIds = new Set()
-  for (const connection of simpleRouteJson.connections) {
-    if (connection.pointsToConnect.length < 2) {
-      throw new Error(`${board.sample} connection ${connection.name} has fewer than two points`)
-    }
-    for (const point of connection.pointsToConnect) {
-      if (!point.pcb_port_id) throw new Error(`${board.sample} connection point is missing pcb_port_id`)
-      if (pointIds.has(point.pcb_port_id)) {
-        throw new Error(`${board.sample} PCB port appears in more than one net: ${point.pcb_port_id}`)
-      }
-      pointIds.add(point.pcb_port_id)
-    }
   }
 
   const circuitJsonPath = join(circuitJsonDir, `${board.sample}-${board.id}.json`)
   const samplePath = join(samplesDir, `${board.sample}.json`)
   const snapshotPath = join(snapshotsDir, `${board.sample}-${board.id}-comparison.svg`)
-  writeFileSync(circuitJsonPath, `${JSON.stringify(roundJson(circuitJson), null, 2)}\n`)
+  writeFileSync(circuitJsonPath, `${JSON.stringify(circuitJson, null, 2)}\n`)
   writeFileSync(samplePath, `${JSON.stringify(simpleRouteJson, null, 2)}\n`)
-  writeFileSync(snapshotPath, `${makeComparisonSvg({ document, simpleRouteJson, boardName: board.name })}\n`)
+  writeFileSync(
+    snapshotPath,
+    `${makeComparisonSvg({ document, circuitJson, simpleRouteJson, boardName: board.name })}\n`,
+  )
 
   generatedSourceFiles.push({
     sample: board.sample,
@@ -662,19 +399,13 @@ for (const board of boards) {
     description: board.description,
     properties: board.properties,
     complexity: board.complexity,
-    normalizations: [
-      `Corrected copper layer count from the Altium layer-stack IDs (${connectivity.layerCount} layers)`,
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments",
-    ],
+    normalizations: [],
     repairs: [],
     warnings: [],
     stats: countCircuitElements(circuitJson),
-    connectivity,
   })
 
-  console.log(
-    `${board.sample}: ${board.name} (${connections.length} routable nets, ${connectivity.connectedPads} connected pads)`,
-  )
+  console.log(`${board.sample}: ${board.name} (${simpleRouteJson.connections.length} SRJ connections)`)
 }
 
 writeFileSync(
