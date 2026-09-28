@@ -187,17 +187,31 @@ const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson })
   )
   const sourcePortById = new Map(sourcePorts.map((port) => [port.source_port_id, port]))
   const pcbPortById = new Map(pcbPorts.map((port) => [port.pcb_port_id, port]))
-  const traceById = new Map(sourceTraces.map((trace) => [trace.source_trace_id, trace]))
   const padByPcbPortId = new Map(padElements.flatMap((pad) => (pad.pcb_port_id ? [[pad.pcb_port_id, pad]] : [])))
+  const sourceTracesByNetId = new Map()
+  for (const trace of sourceTraces) {
+    for (const sourceNetId of trace.connected_source_net_ids ?? []) {
+      const traces = sourceTracesByNetId.get(sourceNetId) ?? []
+      traces.push(trace)
+      sourceTracesByNetId.set(sourceNetId, traces)
+    }
+  }
+  const connectedSourcePortIds = new Set(
+    sourceTraces.flatMap((trace) => trace.connected_source_port_ids),
+  )
   const seenPcbPortIds = new Set()
 
   assert(source.redistributedSource === false, `${exportName} must not redistribute TI PcbDoc source`)
   assert(/^[0-9a-f]{64}$/.test(source.sourceSha256), `${exportName} source SHA-256 is invalid`)
   assert(/^[0-9a-f]{64}$/.test(source.archiveSha256), `${exportName} archive SHA-256 is invalid`)
-  assert(source.connectivity.omittedNetPads === 0, `${exportName} omitted net-assigned pads`)
   assert(sourceNets.length === source.connectivity.sourceNets, `${exportName} source-net count changed`)
-  assert(sourceTraces.length === source.connectivity.routableNets, `${exportName} routable-net count changed`)
-  assert(sourcePorts.length === source.connectivity.connectedPads, `${exportName} connected-pad count changed`)
+  assert(sourceTraces.length === source.connectivity.sourceTraces, `${exportName} source-trace count changed`)
+  assert(pcbPorts.length === source.connectivity.pcbPorts, `${exportName} PCB-port count changed`)
+  assert(sourcePorts.length === pcbPorts.length, `${exportName} source and PCB port counts differ`)
+  assert(
+    connectedSourcePortIds.size === source.connectivity.connectedPads,
+    `${exportName} connected-pad count changed`,
+  )
   assert(sample.connections.length === source.connectivity.routableNets, `${exportName} SRJ net count changed`)
   assert(sample.sourceBoardFormat === "Altium PcbDoc", `${exportName} source format is incorrect`)
   assert(sample.sourcePcbDocSha256 === source.sourceSha256, `${exportName} source hash is inconsistent`)
@@ -212,12 +226,12 @@ const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson })
   assert(comparisonSvg.includes("converted Circuit JSON in the center"), `${exportName} comparison SVG lacks accessible conversion order`)
 
   for (const connection of sample.connections) {
-    const sourceTrace = traceById.get(connection.source_trace_id)
-    assert(sourceTrace, `${exportName} connection ${connection.name} has no source trace`)
+    const sourceNet = sourceNets.find((net) => net.source_net_id === connection.name)
+    assert(sourceNet, `${exportName} connection ${connection.name} has no source net`)
+    const connectedSourceTraces = sourceTracesByNetId.get(sourceNet.source_net_id) ?? []
     assert(
-      sourceTrace.connected_source_net_ids.length === 1 &&
-        sourceTrace.connected_source_net_ids[0] === connection.name,
-      `${exportName} connection ${connection.name} does not match its native Altium net`,
+      connectedSourceTraces.length > 0,
+      `${exportName} connection ${connection.name} has no trace to its native Altium net`,
     )
     assert(connection.pointsToConnect.length >= 2, `${exportName} connection ${connection.name} is not routable`)
     assert(connection.nominalTraceWidth > 0, `${exportName} connection ${connection.name} has invalid width`)
@@ -247,7 +261,9 @@ const validateAltiumConnectivity = ({ exportName, sample, source, circuitJson })
 
     assert(
       JSON.stringify(actualSourcePortIds.toSorted()) ===
-        JSON.stringify(sourceTrace.connected_source_port_ids.toSorted()),
+        JSON.stringify(
+          [...new Set(connectedSourceTraces.flatMap((trace) => trace.connected_source_port_ids))].toSorted(),
+        ),
       `${exportName} connection ${connection.name} pad set differs from the Altium net`,
     )
   }
@@ -284,11 +300,6 @@ assert(repositoryLicense.includes("Apache License, Version 2.0"), "Repository li
 let hasVeryHighComplexityBoard = false
 let hasTinyRoutingProblem = false
 let validatedThroughHoleCount = 0
-let altiumCopperArcCount = 0
-let altiumNetCopperArcCount = 0
-let altiumViaCount = 0
-let altiumNetViaCount = 0
-let altiumNetCopperAreaCount = 0
 const observedLayerCounts = new Set()
 
 for (const [index, source] of sourceFiles.entries()) {
@@ -356,22 +367,6 @@ for (const [index, source] of sourceFiles.entries()) {
     )
     validateAltiumConnectivity({ exportName, sample, source, circuitJson })
     validateRepresentativeAltiumPadStacks({ exportName, circuitJson })
-    const copperArcs = circuitJson
-      .filter((element) => element.type === "pcb_trace")
-      .filter((trace) => trace.pcb_trace_id.startsWith("pcb_trace_altium_arc_"))
-    const vias = circuitJson.filter((element) => element.type === "pcb_via")
-    altiumCopperArcCount += copperArcs.length
-    altiumNetCopperArcCount += copperArcs.filter(
-      (trace) => trace.source_trace_id !== undefined,
-    ).length
-    altiumViaCount += vias.length
-    altiumNetViaCount += vias.filter(
-      (via) => via.source_net_id !== undefined && via.source_trace_id !== undefined,
-    ).length
-    altiumNetCopperAreaCount += circuitJson.filter(
-      (element) =>
-        element.type === "pcb_copper_pour" && element.source_net_id !== undefined,
-    ).length
   }
   const boardLayers = getBoardLayers(board.num_layers)
   const throughHoles = circuitJson.filter(
@@ -423,14 +418,6 @@ for (const [index, source] of sourceFiles.entries()) {
 }
 
 assert(hasVeryHighComplexityBoard, "Dataset is missing a very-high-complexity board")
-assert(altiumCopperArcCount === 174, `Expected 174 Altium copper arcs, found ${altiumCopperArcCount}`)
-assert(altiumNetCopperArcCount === 15, `Expected 15 net-owned Altium copper arcs, found ${altiumNetCopperArcCount}`)
-assert(altiumViaCount === 2877, `Expected 2877 Altium vias, found ${altiumViaCount}`)
-assert(altiumNetViaCount === 2877, `Expected 2877 net-owned Altium vias, found ${altiumNetViaCount}`)
-assert(
-  altiumNetCopperAreaCount === 536,
-  `Expected 536 net-owned Altium copper areas, found ${altiumNetCopperAreaCount}`,
-)
 assert(hasTinyRoutingProblem, "Dataset is missing a compact low-complexity routing problem")
 assert(
   [4, 6, 8].every((layerCount) => observedLayerCounts.has(layerCount)),

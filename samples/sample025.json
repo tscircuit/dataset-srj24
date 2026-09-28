@@ -26,10 +26,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_332",
-        "pcb_port_altium_332",
-        "source_port_altium_332",
-        "source_net_altium_17",
-        "source_trace_altium_17"
+        "connectivity_net300",
+        "source_net_altium_pcb_17",
+        "source_trace_altium_pcb_17"
       ]
     },
     {
@@ -52,10 +51,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_333",
-        "pcb_port_altium_333",
-        "source_port_altium_333",
-        "source_net_altium_20",
-        "source_trace_altium_20"
+        "connectivity_net319",
+        "source_net_altium_pcb_20",
+        "source_trace_altium_pcb_20"
       ]
     },
     {
@@ -78,10 +76,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_334",
-        "pcb_port_altium_334",
-        "source_port_altium_334",
-        "source_net_altium_16",
-        "source_trace_altium_16"
+        "connectivity_net301",
+        "source_net_altium_pcb_16",
+        "source_trace_altium_pcb_16"
       ]
     },
     {
@@ -104,10 +101,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_335",
-        "pcb_port_altium_335",
-        "source_port_altium_335",
-        "source_net_altium_21",
-        "source_trace_altium_21"
+        "connectivity_net318",
+        "source_net_altium_pcb_21",
+        "source_trace_altium_pcb_21"
       ]
     },
     {
@@ -130,10 +126,9 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_336",
-        "pcb_port_altium_336",
-        "source_port_altium_336",
-        "source_net_altium_21",
-        "source_trace_altium_21"
+        "connectivity_net318",
+        "source_net_altium_pcb_21",
+        "source_trace_altium_pcb_21"
       ]
     },
     {
@@ -156,10 +151,9 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_337",
-        "pcb_port_altium_337",
-        "source_port_altium_337",
-        "source_net_altium_20",
-        "source_trace_altium_20"
+        "connectivity_net319",
+        "source_net_altium_pcb_20",
+        "source_trace_altium_pcb_20"
       ]
     },
     {
@@ -182,10 +176,9 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_338",
-        "pcb_port_altium_338",
-        "source_port_altium_338",
-        "source_net_altium_16",
-        "source_trace_altium_16"
+        "connectivity_net301",
+        "source_net_altium_pcb_16",
+        "source_trace_altium_pcb_16"
       ]
     },
     {
@@ -208,10 +201,9 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_339",
-        "pcb_port_altium_339",
-        "source_port_altium_339",
-        "source_net_altium_17",
-        "source_trace_altium_17"
+        "connectivity_net300",
+        "source_net_altium_pcb_17",
+        "source_trace_altium_pcb_17"
       ]
     },
     {
@@ -234,10 +226,9 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_340",
-        "pcb_port_altium_340",
-        "source_port_altium_340",
-        "source_net_altium_17",
-        "source_trace_altium_17"
+        "connectivity_net300",
+        "source_net_altium_pcb_17",
+        "source_trace_altium_pcb_17"
       ]
     },
     {
@@ -260,10 +251,9 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_341",
-        "pcb_port_altium_341",
-        "source_port_altium_341",
-        "source_net_altium_11",
-        "source_trace_altium_11"
+        "connectivity_net151",
+        "source_net_altium_pcb_11",
+        "source_trace_altium_pcb_11"
       ]
     },
     {
@@ -286,10 +276,9 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_342",
-        "pcb_port_altium_342",
-        "source_port_altium_342",
-        "source_net_altium_17",
-        "source_trace_altium_17"
+        "connectivity_net300",
+        "source_net_altium_pcb_17",
+        "source_trace_altium_pcb_17"
       ]
     },
     {
@@ -312,10 +301,9 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_343",
-        "pcb_port_altium_343",
-        "source_port_altium_343",
-        "source_net_altium_12",
-        "source_trace_altium_12"
+        "connectivity_net311",
+        "source_net_altium_pcb_12",
+        "source_trace_altium_pcb_12"
       ]
     },
     {
@@ -338,10 +326,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_344",
-        "pcb_port_altium_344",
-        "source_port_altium_344",
-        "source_net_altium_11",
-        "source_trace_altium_11"
+        "connectivity_net151",
+        "source_net_altium_pcb_11",
+        "source_trace_altium_pcb_11"
       ]
     },
     {
@@ -364,10 +351,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_345",
-        "pcb_port_altium_345",
-        "source_port_altium_345",
-        "source_net_altium_16",
-        "source_trace_altium_16"
+        "connectivity_net301",
+        "source_net_altium_pcb_16",
+        "source_trace_altium_pcb_16"
       ]
     },
     {
@@ -390,10 +376,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_346",
-        "pcb_port_altium_346",
-        "source_port_altium_346",
-        "source_net_altium_16",
-        "source_trace_altium_16"
+        "connectivity_net301",
+        "source_net_altium_pcb_16",
+        "source_trace_altium_pcb_16"
       ]
     },
     {
@@ -416,10 +401,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_347",
-        "pcb_port_altium_347",
-        "source_port_altium_347",
-        "source_net_altium_12",
-        "source_trace_altium_12"
+        "connectivity_net311",
+        "source_net_altium_pcb_12",
+        "source_trace_altium_pcb_12"
       ]
     },
     {
@@ -442,10 +426,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_348",
-        "pcb_port_altium_348",
-        "source_port_altium_348",
-        "source_net_altium_7",
-        "source_trace_altium_7"
+        "connectivity_net304",
+        "source_net_altium_pcb_7",
+        "source_trace_altium_pcb_7"
       ]
     },
     {
@@ -468,10 +451,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_349",
-        "pcb_port_altium_349",
-        "source_port_altium_349",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -494,10 +476,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_350",
-        "pcb_port_altium_350",
-        "source_port_altium_350",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -520,10 +501,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_351",
-        "pcb_port_altium_351",
-        "source_port_altium_351",
-        "source_net_altium_5",
-        "source_trace_altium_5"
+        "connectivity_net310",
+        "source_net_altium_pcb_5",
+        "source_trace_altium_pcb_5"
       ]
     },
     {
@@ -546,10 +526,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_352",
-        "pcb_port_altium_352",
-        "source_port_altium_352",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -572,10 +551,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_353",
-        "pcb_port_altium_353",
-        "source_port_altium_353",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -598,10 +576,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_354",
-        "pcb_port_altium_354",
-        "source_port_altium_354",
-        "source_net_altium_6",
-        "source_trace_altium_6"
+        "connectivity_net329",
+        "source_net_altium_pcb_6",
+        "source_trace_altium_pcb_6"
       ]
     },
     {
@@ -624,10 +601,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_355",
-        "pcb_port_altium_355",
-        "source_port_altium_355",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -650,10 +626,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_356",
-        "pcb_port_altium_356",
-        "source_port_altium_356",
-        "source_net_altium_8",
-        "source_trace_altium_8"
+        "connectivity_net332",
+        "source_net_altium_pcb_8",
+        "source_trace_altium_pcb_8"
       ]
     },
     {
@@ -676,10 +651,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_357",
-        "pcb_port_altium_357",
-        "source_port_altium_357",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -702,10 +676,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_358",
-        "pcb_port_altium_358",
-        "source_port_altium_358",
-        "source_net_altium_8",
-        "source_trace_altium_8"
+        "connectivity_net332",
+        "source_net_altium_pcb_8",
+        "source_trace_altium_pcb_8"
       ]
     },
     {
@@ -728,10 +701,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_359",
-        "pcb_port_altium_359",
-        "source_port_altium_359",
-        "source_net_altium_7",
-        "source_trace_altium_7"
+        "connectivity_net304",
+        "source_net_altium_pcb_7",
+        "source_trace_altium_pcb_7"
       ]
     },
     {
@@ -754,10 +726,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_360",
-        "pcb_port_altium_360",
-        "source_port_altium_360",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -780,10 +751,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_361",
-        "pcb_port_altium_361",
-        "source_port_altium_361",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -806,10 +776,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_362",
-        "pcb_port_altium_362",
-        "source_port_altium_362",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -832,10 +801,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_363",
-        "pcb_port_altium_363",
-        "source_port_altium_363",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -858,10 +826,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_364",
-        "pcb_port_altium_364",
-        "source_port_altium_364",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -884,10 +851,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_365",
-        "pcb_port_altium_365",
-        "source_port_altium_365",
-        "source_net_altium_6",
-        "source_trace_altium_6"
+        "connectivity_net329",
+        "source_net_altium_pcb_6",
+        "source_trace_altium_pcb_6"
       ]
     },
     {
@@ -910,10 +876,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_366",
-        "pcb_port_altium_366",
-        "source_port_altium_366",
-        "source_net_altium_5",
-        "source_trace_altium_5"
+        "connectivity_net310",
+        "source_net_altium_pcb_5",
+        "source_trace_altium_pcb_5"
       ]
     },
     {
@@ -936,10 +901,9 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_377",
-        "pcb_port_altium_377",
-        "source_port_altium_377",
-        "source_net_altium_18",
-        "source_trace_altium_18"
+        "connectivity_net379",
+        "source_net_altium_pcb_18",
+        "source_trace_altium_pcb_18"
       ]
     },
     {
@@ -962,10 +926,9 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_378",
-        "pcb_port_altium_378",
-        "source_port_altium_378",
-        "source_net_altium_19",
-        "source_trace_altium_19"
+        "connectivity_net377",
+        "source_net_altium_pcb_19",
+        "source_trace_altium_pcb_19"
       ]
     },
     {
@@ -988,10 +951,9 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_379",
-        "pcb_port_altium_379",
-        "source_port_altium_379",
-        "source_net_altium_13",
-        "source_trace_altium_13"
+        "connectivity_net368",
+        "source_net_altium_pcb_13",
+        "source_trace_altium_pcb_13"
       ]
     },
     {
@@ -1014,10 +976,9 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_380",
-        "pcb_port_altium_380",
-        "source_port_altium_380",
-        "source_net_altium_14",
-        "source_trace_altium_14"
+        "connectivity_net338",
+        "source_net_altium_pcb_14",
+        "source_trace_altium_pcb_14"
       ]
     },
     {
@@ -1040,10 +1001,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_381",
-        "pcb_port_altium_381",
-        "source_port_altium_381",
-        "source_net_altium_9",
-        "source_trace_altium_9"
+        "connectivity_net358",
+        "source_net_altium_pcb_9",
+        "source_trace_altium_pcb_9"
       ]
     },
     {
@@ -1066,10 +1026,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_382",
-        "pcb_port_altium_382",
-        "source_port_altium_382",
-        "source_net_altium_13",
-        "source_trace_altium_13"
+        "connectivity_net368",
+        "source_net_altium_pcb_13",
+        "source_trace_altium_pcb_13"
       ]
     },
     {
@@ -1092,10 +1051,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_383",
-        "pcb_port_altium_383",
-        "source_port_altium_383",
-        "source_net_altium_13",
-        "source_trace_altium_13"
+        "connectivity_net368",
+        "source_net_altium_pcb_13",
+        "source_trace_altium_pcb_13"
       ]
     },
     {
@@ -1118,10 +1076,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_384",
-        "pcb_port_altium_384",
-        "source_port_altium_384",
-        "source_net_altium_10",
-        "source_trace_altium_10"
+        "connectivity_net241",
+        "source_net_altium_pcb_10",
+        "source_trace_altium_pcb_10"
       ]
     },
     {
@@ -1144,10 +1101,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_385",
-        "pcb_port_altium_385",
-        "source_port_altium_385",
-        "source_net_altium_3",
-        "source_trace_altium_3"
+        "connectivity_net366",
+        "source_net_altium_pcb_3",
+        "source_trace_altium_pcb_3"
       ]
     },
     {
@@ -1170,10 +1126,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_386",
-        "pcb_port_altium_386",
-        "source_port_altium_386",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -1196,10 +1151,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_387",
-        "pcb_port_altium_387",
-        "source_port_altium_387",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -1222,10 +1176,9 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_388",
-        "pcb_port_altium_388",
-        "source_port_altium_388",
-        "source_net_altium_1",
-        "source_trace_altium_1"
+        "connectivity_net362",
+        "source_net_altium_pcb_1",
+        "source_trace_altium_pcb_1"
       ]
     },
     {
@@ -1248,10 +1201,9 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_389",
-        "pcb_port_altium_389",
-        "source_port_altium_389",
-        "source_net_altium_10",
-        "source_trace_altium_10"
+        "connectivity_net241",
+        "source_net_altium_pcb_10",
+        "source_trace_altium_pcb_10"
       ]
     },
     {
@@ -1274,10 +1226,9 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_390",
-        "pcb_port_altium_390",
-        "source_port_altium_390",
-        "source_net_altium_14",
-        "source_trace_altium_14"
+        "connectivity_net338",
+        "source_net_altium_pcb_14",
+        "source_trace_altium_pcb_14"
       ]
     },
     {
@@ -1300,10 +1251,9 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_391",
-        "pcb_port_altium_391",
-        "source_port_altium_391",
-        "source_net_altium_9",
-        "source_trace_altium_9"
+        "connectivity_net358",
+        "source_net_altium_pcb_9",
+        "source_trace_altium_pcb_9"
       ]
     },
     {
@@ -1326,10 +1276,9 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_392",
-        "pcb_port_altium_392",
-        "source_port_altium_392",
-        "source_net_altium_14",
-        "source_trace_altium_14"
+        "connectivity_net338",
+        "source_net_altium_pcb_14",
+        "source_trace_altium_pcb_14"
       ]
     },
     {
@@ -1352,10 +1301,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_393",
-        "pcb_port_altium_393",
-        "source_port_altium_393",
-        "source_net_altium_1",
-        "source_trace_altium_1"
+        "connectivity_net362",
+        "source_net_altium_pcb_1",
+        "source_trace_altium_pcb_1"
       ]
     },
     {
@@ -1378,10 +1326,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_394",
-        "pcb_port_altium_394",
-        "source_port_altium_394",
-        "source_net_altium_2",
-        "source_trace_altium_2"
+        "connectivity_net394",
+        "source_net_altium_pcb_2",
+        "source_trace_altium_pcb_2"
       ]
     },
     {
@@ -1404,10 +1351,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_395",
-        "pcb_port_altium_395",
-        "source_port_altium_395",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -1430,10 +1376,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_396",
-        "pcb_port_altium_396",
-        "source_port_altium_396",
-        "source_net_altium_4",
-        "source_trace_altium_4"
+        "connectivity_net388",
+        "source_net_altium_pcb_4",
+        "source_trace_altium_pcb_4"
       ]
     },
     {
@@ -1456,10 +1401,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_397",
-        "pcb_port_altium_397",
-        "source_port_altium_397",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -1482,10 +1426,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_398",
-        "pcb_port_altium_398",
-        "source_port_altium_398",
-        "source_net_altium_2",
-        "source_trace_altium_2"
+        "connectivity_net394",
+        "source_net_altium_pcb_2",
+        "source_trace_altium_pcb_2"
       ]
     },
     {
@@ -1508,10 +1451,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_399",
-        "pcb_port_altium_399",
-        "source_port_altium_399",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1534,10 +1476,9 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_400",
-        "pcb_port_altium_400",
-        "source_port_altium_400",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1560,10 +1501,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_401",
-        "pcb_port_altium_401",
-        "source_port_altium_401",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -1586,10 +1526,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_402",
-        "pcb_port_altium_402",
-        "source_port_altium_402",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1612,10 +1551,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_403",
-        "pcb_port_altium_403",
-        "source_port_altium_403",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -1638,10 +1576,9 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_404",
-        "pcb_port_altium_404",
-        "source_port_altium_404",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1664,10 +1601,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_405",
-        "pcb_port_altium_405",
-        "source_port_altium_405",
-        "source_net_altium_3",
-        "source_trace_altium_3"
+        "connectivity_net366",
+        "source_net_altium_pcb_3",
+        "source_trace_altium_pcb_3"
       ]
     },
     {
@@ -1690,10 +1626,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_406",
-        "pcb_port_altium_406",
-        "source_port_altium_406",
-        "source_net_altium_4",
-        "source_trace_altium_4"
+        "connectivity_net388",
+        "source_net_altium_pcb_4",
+        "source_trace_altium_pcb_4"
       ]
     },
     {
@@ -1716,10 +1651,9 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_407",
-        "pcb_port_altium_407",
-        "source_port_altium_407",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -1742,10 +1676,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_408",
-        "pcb_port_altium_408",
-        "source_port_altium_408",
-        "source_net_altium_14",
-        "source_trace_altium_14"
+        "connectivity_net338",
+        "source_net_altium_pcb_14",
+        "source_trace_altium_pcb_14"
       ]
     },
     {
@@ -1768,10 +1701,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_409",
-        "pcb_port_altium_409",
-        "source_port_altium_409",
-        "source_net_altium_19",
-        "source_trace_altium_19"
+        "connectivity_net377",
+        "source_net_altium_pcb_19",
+        "source_trace_altium_pcb_19"
       ]
     },
     {
@@ -1794,10 +1726,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_410",
-        "pcb_port_altium_410",
-        "source_port_altium_410",
-        "source_net_altium_13",
-        "source_trace_altium_13"
+        "connectivity_net368",
+        "source_net_altium_pcb_13",
+        "source_trace_altium_pcb_13"
       ]
     },
     {
@@ -1820,10 +1751,9 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_411",
-        "pcb_port_altium_411",
-        "source_port_altium_411",
-        "source_net_altium_18",
-        "source_trace_altium_18"
+        "connectivity_net379",
+        "source_net_altium_pcb_18",
+        "source_trace_altium_pcb_18"
       ]
     },
     {
@@ -1849,10 +1779,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_367",
-        "pcb_port_altium_367",
-        "source_port_altium_367",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -1878,10 +1807,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_368",
-        "pcb_port_altium_368",
-        "source_port_altium_368",
-        "source_net_altium_22",
-        "source_trace_altium_22"
+        "connectivity_net398",
+        "source_net_altium_pcb_22",
+        "source_trace_altium_pcb_22"
       ]
     },
     {
@@ -1907,10 +1835,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_369",
-        "pcb_port_altium_369",
-        "source_port_altium_369",
-        "source_net_altium_15",
-        "source_trace_altium_15"
+        "connectivity_net403",
+        "source_net_altium_pcb_15",
+        "source_trace_altium_pcb_15"
       ]
     },
     {
@@ -1936,10 +1863,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_370",
-        "pcb_port_altium_370",
-        "source_port_altium_370",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1965,10 +1891,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_371",
-        "pcb_port_altium_371",
-        "source_port_altium_371",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -1994,10 +1919,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_372",
-        "pcb_port_altium_372",
-        "source_port_altium_372",
-        "source_net_altium_0",
-        "source_trace_altium_0"
+        "connectivity_net404",
+        "source_net_altium_pcb_0",
+        "source_trace_altium_pcb_0"
       ]
     },
     {
@@ -2023,10 +1947,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_373",
-        "pcb_port_altium_373",
-        "source_port_altium_373",
-        "source_net_altium_18",
-        "source_trace_altium_18"
+        "connectivity_net379",
+        "source_net_altium_pcb_18",
+        "source_trace_altium_pcb_18"
       ]
     },
     {
@@ -2052,10 +1975,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_374",
-        "pcb_port_altium_374",
-        "source_port_altium_374",
-        "source_net_altium_19",
-        "source_trace_altium_19"
+        "connectivity_net377",
+        "source_net_altium_pcb_19",
+        "source_trace_altium_pcb_19"
       ]
     },
     {
@@ -2081,10 +2003,9 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_375",
-        "pcb_port_altium_375",
-        "source_port_altium_375",
-        "source_net_altium_20",
-        "source_trace_altium_20"
+        "connectivity_net319",
+        "source_net_altium_pcb_20",
+        "source_trace_altium_pcb_20"
       ]
     },
     {
@@ -2110,18 +2031,15 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_376",
-        "pcb_port_altium_376",
-        "source_port_altium_376",
-        "source_net_altium_21",
-        "source_trace_altium_21"
+        "connectivity_net318",
+        "source_net_altium_pcb_21",
+        "source_trace_altium_pcb_21"
       ]
     }
   ],
   "connections": [
     {
-      "name": "source_net_altium_0",
-      "source_trace_id": "source_trace_altium_0",
-      "netConnectionName": "PGND",
+      "name": "source_net_altium_pcb_0",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2130,84 +2048,93 @@
           "y": 49.129363,
           "layer": "top",
           "pointId": "pcb_port_altium_352",
-          "pcb_port_id": "pcb_port_altium_352"
+          "pcb_port_id": "pcb_port_altium_352",
+          "port_selector": "U1.pin5"
         },
         {
           "x": 20.0941,
           "y": 51.029362,
           "layer": "top",
           "pointId": "pcb_port_altium_353",
-          "pcb_port_id": "pcb_port_altium_353"
+          "pcb_port_id": "pcb_port_altium_353",
+          "port_selector": "U1.pin4"
         },
         {
           "x": 24.251803,
           "y": 51.889647,
           "layer": "top",
           "pointId": "pcb_port_altium_360",
-          "pcb_port_id": "pcb_port_altium_360"
+          "pcb_port_id": "pcb_port_altium_360",
+          "port_selector": "C4.pin2"
         },
         {
           "x": 20.069101,
           "y": 52.963394,
           "layer": "top",
           "pointId": "pcb_port_altium_362",
-          "pcb_port_id": "pcb_port_altium_362"
+          "pcb_port_id": "pcb_port_altium_362",
+          "port_selector": "C3.pin2"
         },
         {
           "x": 27.873056,
           "y": 42.0386,
           "layer": "top",
           "pointId": "pcb_port_altium_370",
-          "pcb_port_id": "pcb_port_altium_370"
+          "pcb_port_id": "pcb_port_altium_370",
+          "port_selector": "J1.pin5"
         },
         {
           "x": 25.333056,
           "y": 42.0386,
           "layer": "top",
           "pointId": "pcb_port_altium_371",
-          "pcb_port_id": "pcb_port_altium_371"
+          "pcb_port_id": "pcb_port_altium_371",
+          "port_selector": "J1.pin3"
         },
         {
           "x": 22.793056,
           "y": 42.0386,
           "layer": "top",
           "pointId": "pcb_port_altium_372",
-          "pcb_port_id": "pcb_port_altium_372"
+          "pcb_port_id": "pcb_port_altium_372",
+          "port_selector": "J1.pin1"
         },
         {
           "x": 20.051801,
           "y": 52.886066,
           "layer": "bottom",
           "pointId": "pcb_port_altium_399",
-          "pcb_port_id": "pcb_port_altium_399"
+          "pcb_port_id": "pcb_port_altium_399",
+          "port_selector": "U2.pin4"
         },
         {
           "x": 20.051801,
           "y": 54.786065,
           "layer": "bottom",
           "pointId": "pcb_port_altium_400",
-          "pcb_port_id": "pcb_port_altium_400"
+          "pcb_port_id": "pcb_port_altium_400",
+          "port_selector": "U2.pin5"
         },
         {
           "x": 20.0268,
           "y": 51.005519,
           "layer": "bottom",
           "pointId": "pcb_port_altium_402",
-          "pcb_port_id": "pcb_port_altium_402"
+          "pcb_port_id": "pcb_port_altium_402",
+          "port_selector": "C7.pin2"
         },
         {
           "x": 24.251803,
           "y": 51.856348,
           "layer": "bottom",
           "pointId": "pcb_port_altium_404",
-          "pcb_port_id": "pcb_port_altium_404"
+          "pcb_port_id": "pcb_port_altium_404",
+          "port_selector": "C8.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_1",
-      "source_trace_id": "source_trace_altium_1",
-      "netConnectionName": "L_FET_D2",
+      "name": "source_net_altium_pcb_1",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2216,21 +2143,21 @@
           "y": 48.010321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_388",
-          "pcb_port_id": "pcb_port_altium_388"
+          "pcb_port_id": "pcb_port_altium_388",
+          "port_selector": "T2.pin1"
         },
         {
           "x": 26.0518,
           "y": 49.066846,
           "layer": "bottom",
           "pointId": "pcb_port_altium_393",
-          "pcb_port_id": "pcb_port_altium_393"
+          "pcb_port_id": "pcb_port_altium_393",
+          "port_selector": "Q4.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_2",
-      "source_trace_id": "source_trace_altium_2",
-      "netConnectionName": "L_D2",
+      "name": "source_net_altium_pcb_2",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2239,21 +2166,21 @@
           "y": 50.016844,
           "layer": "bottom",
           "pointId": "pcb_port_altium_394",
-          "pcb_port_id": "pcb_port_altium_394"
+          "pcb_port_id": "pcb_port_altium_394",
+          "port_selector": "Q4.pin2"
         },
         {
           "x": 22.601801,
           "y": 52.886066,
           "layer": "bottom",
           "pointId": "pcb_port_altium_398",
-          "pcb_port_id": "pcb_port_altium_398"
+          "pcb_port_id": "pcb_port_altium_398",
+          "port_selector": "U2.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_3",
-      "source_trace_id": "source_trace_altium_3",
-      "netConnectionName": "L_FET_D1",
+      "name": "source_net_altium_pcb_3",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2262,21 +2189,21 @@
           "y": 55.630321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_385",
-          "pcb_port_id": "pcb_port_altium_385"
+          "pcb_port_id": "pcb_port_altium_385",
+          "port_selector": "T2.pin4"
         },
         {
           "x": 26.0518,
           "y": 54.786065,
           "layer": "bottom",
           "pointId": "pcb_port_altium_405",
-          "pcb_port_id": "pcb_port_altium_405"
+          "pcb_port_id": "pcb_port_altium_405",
+          "port_selector": "Q3.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_4",
-      "source_trace_id": "source_trace_altium_4",
-      "netConnectionName": "L_D1",
+      "name": "source_net_altium_pcb_4",
       "nominalTraceWidth": 0.508,
       "width": 0.508,
       "pointsToConnect": [
@@ -2285,21 +2212,21 @@
           "y": 54.786065,
           "layer": "bottom",
           "pointId": "pcb_port_altium_396",
-          "pcb_port_id": "pcb_port_altium_396"
+          "pcb_port_id": "pcb_port_altium_396",
+          "port_selector": "U2.pin1"
         },
         {
           "x": 23.651799,
           "y": 55.736063,
           "layer": "bottom",
           "pointId": "pcb_port_altium_406",
-          "pcb_port_id": "pcb_port_altium_406"
+          "pcb_port_id": "pcb_port_altium_406",
+          "port_selector": "Q3.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_5",
-      "source_trace_id": "source_trace_altium_5",
-      "netConnectionName": "H_FET_D2",
+      "name": "source_net_altium_pcb_5",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2308,21 +2235,21 @@
           "y": 55.592792,
           "layer": "top",
           "pointId": "pcb_port_altium_351",
-          "pcb_port_id": "pcb_port_altium_351"
+          "pcb_port_id": "pcb_port_altium_351",
+          "port_selector": "T1.pin1"
         },
         {
           "x": 26.0518,
           "y": 54.816847,
           "layer": "top",
           "pointId": "pcb_port_altium_366",
-          "pcb_port_id": "pcb_port_altium_366"
+          "pcb_port_id": "pcb_port_altium_366",
+          "port_selector": "Q2.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_6",
-      "source_trace_id": "source_trace_altium_6",
-      "netConnectionName": "H_D2",
+      "name": "source_net_altium_pcb_6",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2331,21 +2258,21 @@
           "y": 51.029362,
           "layer": "top",
           "pointId": "pcb_port_altium_354",
-          "pcb_port_id": "pcb_port_altium_354"
+          "pcb_port_id": "pcb_port_altium_354",
+          "port_selector": "U1.pin3"
         },
         {
           "x": 23.651799,
           "y": 53.866849,
           "layer": "top",
           "pointId": "pcb_port_altium_365",
-          "pcb_port_id": "pcb_port_altium_365"
+          "pcb_port_id": "pcb_port_altium_365",
+          "port_selector": "Q2.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_7",
-      "source_trace_id": "source_trace_altium_7",
-      "netConnectionName": "H_FET_D1",
+      "name": "source_net_altium_pcb_7",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2354,21 +2281,21 @@
           "y": 47.972792,
           "layer": "top",
           "pointId": "pcb_port_altium_348",
-          "pcb_port_id": "pcb_port_altium_348"
+          "pcb_port_id": "pcb_port_altium_348",
+          "port_selector": "T1.pin4"
         },
         {
           "x": 26.0518,
           "y": 49.129363,
           "layer": "top",
           "pointId": "pcb_port_altium_359",
-          "pcb_port_id": "pcb_port_altium_359"
+          "pcb_port_id": "pcb_port_altium_359",
+          "port_selector": "Q1.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_8",
-      "source_trace_id": "source_trace_altium_8",
-      "netConnectionName": "H_D1",
+      "name": "source_net_altium_pcb_8",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2377,21 +2304,21 @@
           "y": 49.129363,
           "layer": "top",
           "pointId": "pcb_port_altium_356",
-          "pcb_port_id": "pcb_port_altium_356"
+          "pcb_port_id": "pcb_port_altium_356",
+          "port_selector": "U1.pin1"
         },
         {
           "x": 23.651799,
           "y": 48.179365,
           "layer": "top",
           "pointId": "pcb_port_altium_358",
-          "pcb_port_id": "pcb_port_altium_358"
+          "pcb_port_id": "pcb_port_altium_358",
+          "port_selector": "Q1.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_9",
-      "source_trace_id": "source_trace_altium_9",
-      "netConnectionName": "L_T6",
+      "name": "source_net_altium_pcb_9",
       "nominalTraceWidth": 1.27,
       "width": 1.27,
       "pointsToConnect": [
@@ -2400,67 +2327,67 @@
           "y": 48.010321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_381",
-          "pcb_port_id": "pcb_port_altium_381"
+          "pcb_port_id": "pcb_port_altium_381",
+          "port_selector": "T2.pin8"
         },
         {
           "x": 43.393822,
           "y": 49.255063,
           "layer": "bottom",
           "pointId": "pcb_port_altium_391",
-          "pcb_port_id": "pcb_port_altium_391"
+          "pcb_port_id": "pcb_port_altium_391",
+          "port_selector": "D4.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_10",
-      "source_trace_id": "source_trace_altium_10",
-      "netConnectionName": "L_T4",
-      "nominalTraceWidth": 0.254,
-      "width": 0.254,
+      "name": "source_net_altium_pcb_10",
+      "nominalTraceWidth": 0.1,
+      "width": 0.1,
       "pointsToConnect": [
         {
           "x": 39.1468,
           "y": 55.630321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_384",
-          "pcb_port_id": "pcb_port_altium_384"
+          "pcb_port_id": "pcb_port_altium_384",
+          "port_selector": "T2.pin5"
         },
         {
           "x": 41.105397,
           "y": 55.882479,
           "layer": "bottom",
           "pointId": "pcb_port_altium_389",
-          "pcb_port_id": "pcb_port_altium_389"
+          "pcb_port_id": "pcb_port_altium_389",
+          "port_selector": "D3.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_11",
-      "source_trace_id": "source_trace_altium_11",
-      "netConnectionName": "H_T6",
-      "nominalTraceWidth": 0.254,
-      "width": 0.254,
+      "name": "source_net_altium_pcb_11",
+      "nominalTraceWidth": 0.1,
+      "width": 0.1,
       "pointsToConnect": [
         {
           "x": 40.871297,
           "y": 55.798623,
           "layer": "top",
           "pointId": "pcb_port_altium_341",
-          "pcb_port_id": "pcb_port_altium_341"
+          "pcb_port_id": "pcb_port_altium_341",
+          "port_selector": "D2.pin2"
         },
         {
           "x": 39.1468,
           "y": 55.592792,
           "layer": "top",
           "pointId": "pcb_port_altium_344",
-          "pcb_port_id": "pcb_port_altium_344"
+          "pcb_port_id": "pcb_port_altium_344",
+          "port_selector": "T1.pin8"
         }
       ]
     },
     {
-      "name": "source_net_altium_12",
-      "source_trace_id": "source_trace_altium_12",
-      "netConnectionName": "H_T4",
+      "name": "source_net_altium_pcb_12",
       "nominalTraceWidth": 1.27,
       "width": 1.27,
       "pointsToConnect": [
@@ -2469,21 +2396,21 @@
           "y": 49.110339,
           "layer": "top",
           "pointId": "pcb_port_altium_343",
-          "pcb_port_id": "pcb_port_altium_343"
+          "pcb_port_id": "pcb_port_altium_343",
+          "port_selector": "D1.pin2"
         },
         {
           "x": 39.1468,
           "y": 47.972792,
           "layer": "top",
           "pointId": "pcb_port_altium_347",
-          "pcb_port_id": "pcb_port_altium_347"
+          "pcb_port_id": "pcb_port_altium_347",
+          "port_selector": "T1.pin5"
         }
       ]
     },
     {
-      "name": "source_net_altium_13",
-      "source_trace_id": "source_trace_altium_13",
-      "netConnectionName": "L_T5",
+      "name": "source_net_altium_pcb_13",
       "nominalTraceWidth": 0.508,
       "width": 0.508,
       "pointsToConnect": [
@@ -2492,35 +2419,37 @@
           "y": 50.804315,
           "layer": "bottom",
           "pointId": "pcb_port_altium_379",
-          "pcb_port_id": "pcb_port_altium_379"
+          "pcb_port_id": "pcb_port_altium_379",
+          "port_selector": "C5.pin2"
         },
         {
           "x": 39.1468,
           "y": 50.550321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_382",
-          "pcb_port_id": "pcb_port_altium_382"
+          "pcb_port_id": "pcb_port_altium_382",
+          "port_selector": "T2.pin7"
         },
         {
           "x": 39.1468,
           "y": 53.090321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_383",
-          "pcb_port_id": "pcb_port_altium_383"
+          "pcb_port_id": "pcb_port_altium_383",
+          "port_selector": "T2.pin6"
         },
         {
           "x": 48.526799,
           "y": 50.768052,
           "layer": "bottom",
           "pointId": "pcb_port_altium_410",
-          "pcb_port_id": "pcb_port_altium_410"
+          "pcb_port_id": "pcb_port_altium_410",
+          "port_selector": "L2.pin2"
         }
       ]
     },
     {
-      "name": "source_net_altium_14",
-      "source_trace_id": "source_trace_altium_14",
-      "netConnectionName": "L_VOUT",
+      "name": "source_net_altium_pcb_14",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2529,35 +2458,37 @@
           "y": 52.836315,
           "layer": "bottom",
           "pointId": "pcb_port_altium_380",
-          "pcb_port_id": "pcb_port_altium_380"
+          "pcb_port_id": "pcb_port_altium_380",
+          "port_selector": "C5.pin1"
         },
         {
           "x": 44.381997,
           "y": 55.882479,
           "layer": "bottom",
           "pointId": "pcb_port_altium_390",
-          "pcb_port_id": "pcb_port_altium_390"
+          "pcb_port_id": "pcb_port_altium_390",
+          "port_selector": "D3.pin1"
         },
         {
           "x": 43.393822,
           "y": 52.531663,
           "layer": "bottom",
           "pointId": "pcb_port_altium_392",
-          "pcb_port_id": "pcb_port_altium_392"
+          "pcb_port_id": "pcb_port_altium_392",
+          "port_selector": "D4.pin1"
         },
         {
           "x": 47.726801,
           "y": 50.768052,
           "layer": "bottom",
           "pointId": "pcb_port_altium_408",
-          "pcb_port_id": "pcb_port_altium_408"
+          "pcb_port_id": "pcb_port_altium_408",
+          "port_selector": "L2.pin1"
         }
       ]
     },
     {
-      "name": "source_net_altium_15",
-      "source_trace_id": "source_trace_altium_15",
-      "netConnectionName": "5V_PRI",
+      "name": "source_net_altium_pcb_15",
       "nominalTraceWidth": 0.508,
       "width": 0.508,
       "pointsToConnect": [
@@ -2566,70 +2497,77 @@
           "y": 50.079364,
           "layer": "top",
           "pointId": "pcb_port_altium_355",
-          "pcb_port_id": "pcb_port_altium_355"
+          "pcb_port_id": "pcb_port_altium_355",
+          "port_selector": "U1.pin2"
         },
         {
           "x": 23.651799,
           "y": 50.079364,
           "layer": "top",
           "pointId": "pcb_port_altium_357",
-          "pcb_port_id": "pcb_port_altium_357"
+          "pcb_port_id": "pcb_port_altium_357",
+          "port_selector": "Q1.pin1"
         },
         {
           "x": 21.669101,
           "y": 52.963394,
           "layer": "top",
           "pointId": "pcb_port_altium_363",
-          "pcb_port_id": "pcb_port_altium_363"
+          "pcb_port_id": "pcb_port_altium_363",
+          "port_selector": "C3.pin1"
         },
         {
           "x": 23.651799,
           "y": 55.766848,
           "layer": "top",
           "pointId": "pcb_port_altium_364",
-          "pcb_port_id": "pcb_port_altium_364"
+          "pcb_port_id": "pcb_port_altium_364",
+          "port_selector": "Q2.pin1"
         },
         {
           "x": 22.793056,
           "y": 44.5786,
           "layer": "top",
           "pointId": "pcb_port_altium_369",
-          "pcb_port_id": "pcb_port_altium_369"
+          "pcb_port_id": "pcb_port_altium_369",
+          "port_selector": "J1.pin2"
         },
         {
           "x": 23.651799,
           "y": 48.116846,
           "layer": "bottom",
           "pointId": "pcb_port_altium_395",
-          "pcb_port_id": "pcb_port_altium_395"
+          "pcb_port_id": "pcb_port_altium_395",
+          "port_selector": "Q4.pin1"
         },
         {
           "x": 22.601801,
           "y": 53.836065,
           "layer": "bottom",
           "pointId": "pcb_port_altium_397",
-          "pcb_port_id": "pcb_port_altium_397"
+          "pcb_port_id": "pcb_port_altium_397",
+          "port_selector": "U2.pin2"
         },
         {
           "x": 21.6268,
           "y": 51.005519,
           "layer": "bottom",
           "pointId": "pcb_port_altium_401",
-          "pcb_port_id": "pcb_port_altium_401"
+          "pcb_port_id": "pcb_port_altium_401",
+          "port_selector": "C7.pin1"
         },
         {
           "x": 23.651799,
           "y": 53.836065,
           "layer": "bottom",
           "pointId": "pcb_port_altium_407",
-          "pcb_port_id": "pcb_port_altium_407"
+          "pcb_port_id": "pcb_port_altium_407",
+          "port_selector": "Q3.pin1"
         }
       ]
     },
     {
-      "name": "source_net_altium_16",
-      "source_trace_id": "source_trace_altium_16",
-      "netConnectionName": "H_T5",
+      "name": "source_net_altium_pcb_16",
       "nominalTraceWidth": 0.508,
       "width": 0.508,
       "pointsToConnect": [
@@ -2638,35 +2576,37 @@
           "y": 50.764874,
           "layer": "top",
           "pointId": "pcb_port_altium_334",
-          "pcb_port_id": "pcb_port_altium_334"
+          "pcb_port_id": "pcb_port_altium_334",
+          "port_selector": "L1.pin2"
         },
         {
           "x": 45.839299,
           "y": 50.804315,
           "layer": "top",
           "pointId": "pcb_port_altium_338",
-          "pcb_port_id": "pcb_port_altium_338"
+          "pcb_port_id": "pcb_port_altium_338",
+          "port_selector": "C1.pin2"
         },
         {
           "x": 39.1468,
           "y": 53.052792,
           "layer": "top",
           "pointId": "pcb_port_altium_345",
-          "pcb_port_id": "pcb_port_altium_345"
+          "pcb_port_id": "pcb_port_altium_345",
+          "port_selector": "T1.pin7"
         },
         {
           "x": 39.1468,
           "y": 50.512792,
           "layer": "top",
           "pointId": "pcb_port_altium_346",
-          "pcb_port_id": "pcb_port_altium_346"
+          "pcb_port_id": "pcb_port_altium_346",
+          "port_selector": "T1.pin6"
         }
       ]
     },
     {
-      "name": "source_net_altium_17",
-      "source_trace_id": "source_trace_altium_17",
-      "netConnectionName": "H_VOUT",
+      "name": "source_net_altium_pcb_17",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2675,35 +2615,37 @@
           "y": 50.764874,
           "layer": "top",
           "pointId": "pcb_port_altium_332",
-          "pcb_port_id": "pcb_port_altium_332"
+          "pcb_port_id": "pcb_port_altium_332",
+          "port_selector": "L1.pin1"
         },
         {
           "x": 45.839299,
           "y": 52.836315,
           "layer": "top",
           "pointId": "pcb_port_altium_339",
-          "pcb_port_id": "pcb_port_altium_339"
+          "pcb_port_id": "pcb_port_altium_339",
+          "port_selector": "C1.pin1"
         },
         {
           "x": 44.147897,
           "y": 55.798623,
           "layer": "top",
           "pointId": "pcb_port_altium_340",
-          "pcb_port_id": "pcb_port_altium_340"
+          "pcb_port_id": "pcb_port_altium_340",
+          "port_selector": "D2.pin1"
         },
         {
           "x": 43.436697,
           "y": 52.386939,
           "layer": "top",
           "pointId": "pcb_port_altium_342",
-          "pcb_port_id": "pcb_port_altium_342"
+          "pcb_port_id": "pcb_port_altium_342",
+          "port_selector": "D1.pin1"
         }
       ]
     },
     {
-      "name": "source_net_altium_18",
-      "source_trace_id": "source_trace_altium_18",
-      "netConnectionName": "LS_GND",
+      "name": "source_net_altium_pcb_18",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2712,28 +2654,29 @@
           "y": 44.578598,
           "layer": "top",
           "pointId": "pcb_port_altium_373",
-          "pcb_port_id": "pcb_port_altium_373"
+          "pcb_port_id": "pcb_port_altium_373",
+          "port_selector": "J2.pin4"
         },
         {
           "x": 48.286203,
           "y": 47.037793,
           "layer": "bottom",
           "pointId": "pcb_port_altium_377",
-          "pcb_port_id": "pcb_port_altium_377"
+          "pcb_port_id": "pcb_port_altium_377",
+          "port_selector": "C6.pin2"
         },
         {
           "x": 48.526799,
           "y": 48.918053,
           "layer": "bottom",
           "pointId": "pcb_port_altium_411",
-          "pcb_port_id": "pcb_port_altium_411"
+          "pcb_port_id": "pcb_port_altium_411",
+          "port_selector": "L2.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_19",
-      "source_trace_id": "source_trace_altium_19",
-      "netConnectionName": "ISO_12V_L",
+      "name": "source_net_altium_pcb_19",
       "nominalTraceWidth": 0.508,
       "width": 0.508,
       "pointsToConnect": [
@@ -2742,28 +2685,29 @@
           "y": 44.578598,
           "layer": "top",
           "pointId": "pcb_port_altium_374",
-          "pcb_port_id": "pcb_port_altium_374"
+          "pcb_port_id": "pcb_port_altium_374",
+          "port_selector": "J2.pin2"
         },
         {
           "x": 46.254203,
           "y": 47.037793,
           "layer": "bottom",
           "pointId": "pcb_port_altium_378",
-          "pcb_port_id": "pcb_port_altium_378"
+          "pcb_port_id": "pcb_port_altium_378",
+          "port_selector": "C6.pin1"
         },
         {
           "x": 47.726801,
           "y": 48.918053,
           "layer": "bottom",
           "pointId": "pcb_port_altium_409",
-          "pcb_port_id": "pcb_port_altium_409"
+          "pcb_port_id": "pcb_port_altium_409",
+          "port_selector": "L2.pin4"
         }
       ]
     },
     {
-      "name": "source_net_altium_20",
-      "source_trace_id": "source_trace_altium_20",
-      "netConnectionName": "ISO_12V_H",
+      "name": "source_net_altium_pcb_20",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2772,28 +2716,29 @@
           "y": 48.914876,
           "layer": "top",
           "pointId": "pcb_port_altium_333",
-          "pcb_port_id": "pcb_port_altium_333"
+          "pcb_port_id": "pcb_port_altium_333",
+          "port_selector": "L1.pin4"
         },
         {
           "x": 48.290396,
           "y": 47.02667,
           "layer": "top",
           "pointId": "pcb_port_altium_337",
-          "pcb_port_id": "pcb_port_altium_337"
+          "pcb_port_id": "pcb_port_altium_337",
+          "port_selector": "C2.pin1"
         },
         {
           "x": 45.640473,
           "y": 42.038598,
           "layer": "top",
           "pointId": "pcb_port_altium_375",
-          "pcb_port_id": "pcb_port_altium_375"
+          "pcb_port_id": "pcb_port_altium_375",
+          "port_selector": "J2.pin3"
         }
       ]
     },
     {
-      "name": "source_net_altium_21",
-      "source_trace_id": "source_trace_altium_21",
-      "netConnectionName": "HS_GND",
+      "name": "source_net_altium_pcb_21",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2802,28 +2747,29 @@
           "y": 48.914876,
           "layer": "top",
           "pointId": "pcb_port_altium_335",
-          "pcb_port_id": "pcb_port_altium_335"
+          "pcb_port_id": "pcb_port_altium_335",
+          "port_selector": "L1.pin3"
         },
         {
           "x": 46.258396,
           "y": 47.02667,
           "layer": "top",
           "pointId": "pcb_port_altium_336",
-          "pcb_port_id": "pcb_port_altium_336"
+          "pcb_port_id": "pcb_port_altium_336",
+          "port_selector": "C2.pin2"
         },
         {
           "x": 43.100473,
           "y": 42.038598,
           "layer": "top",
           "pointId": "pcb_port_altium_376",
-          "pcb_port_id": "pcb_port_altium_376"
+          "pcb_port_id": "pcb_port_altium_376",
+          "port_selector": "J2.pin1"
         }
       ]
     },
     {
-      "name": "source_net_altium_22",
-      "source_trace_id": "source_trace_altium_22",
-      "netConnectionName": "12V_PRI",
+      "name": "source_net_altium_pcb_22",
       "nominalTraceWidth": 0.635,
       "width": 0.635,
       "pointsToConnect": [
@@ -2832,56 +2778,64 @@
           "y": 50.512792,
           "layer": "top",
           "pointId": "pcb_port_altium_349",
-          "pcb_port_id": "pcb_port_altium_349"
+          "pcb_port_id": "pcb_port_altium_349",
+          "port_selector": "T1.pin3"
         },
         {
           "x": 27.506798,
           "y": 53.052792,
           "layer": "top",
           "pointId": "pcb_port_altium_350",
-          "pcb_port_id": "pcb_port_altium_350"
+          "pcb_port_id": "pcb_port_altium_350",
+          "port_selector": "T1.pin2"
         },
         {
           "x": 25.851802,
           "y": 51.889647,
           "layer": "top",
           "pointId": "pcb_port_altium_361",
-          "pcb_port_id": "pcb_port_altium_361"
+          "pcb_port_id": "pcb_port_altium_361",
+          "port_selector": "C4.pin1"
         },
         {
           "x": 27.873056,
           "y": 44.5786,
           "layer": "top",
           "pointId": "pcb_port_altium_367",
-          "pcb_port_id": "pcb_port_altium_367"
+          "pcb_port_id": "pcb_port_altium_367",
+          "port_selector": "J1.pin6"
         },
         {
           "x": 25.333056,
           "y": 44.5786,
           "layer": "top",
           "pointId": "pcb_port_altium_368",
-          "pcb_port_id": "pcb_port_altium_368"
+          "pcb_port_id": "pcb_port_altium_368",
+          "port_selector": "J1.pin4"
         },
         {
           "x": 27.506798,
           "y": 53.090321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_386",
-          "pcb_port_id": "pcb_port_altium_386"
+          "pcb_port_id": "pcb_port_altium_386",
+          "port_selector": "T2.pin3"
         },
         {
           "x": 27.506798,
           "y": 50.550321,
           "layer": "bottom",
           "pointId": "pcb_port_altium_387",
-          "pcb_port_id": "pcb_port_altium_387"
+          "pcb_port_id": "pcb_port_altium_387",
+          "port_selector": "T2.pin2"
         },
         {
           "x": 25.851802,
           "y": 51.856348,
           "layer": "bottom",
           "pointId": "pcb_port_altium_403",
-          "pcb_port_id": "pcb_port_altium_403"
+          "pcb_port_id": "pcb_port_altium_403",
+          "port_selector": "C8.pin1"
         }
       ]
     }

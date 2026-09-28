@@ -648,8 +648,7 @@
     ],
     "complexity": "high",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (6 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 6-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -663,12 +662,11 @@
     "connectivity": {
       "layerCount": 6,
       "sourceNets": 76,
+      "sourceTraces": 76,
       "routableNets": 75,
-      "singletonNets": 1,
-      "emptyNets": 0,
       "connectedPads": 534,
-      "unconnectedPads": 36,
-      "omittedNetPads": 0
+      "unconnectedPads": 4,
+      "pcbPorts": 538
     }
   },
   {
@@ -696,8 +694,7 @@
     ],
     "complexity": "medium",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 4-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -711,12 +708,11 @@
     "connectivity": {
       "layerCount": 4,
       "sourceNets": 44,
+      "sourceTraces": 44,
       "routableNets": 44,
-      "singletonNets": 0,
-      "emptyNets": 0,
       "connectedPads": 264,
-      "unconnectedPads": 26,
-      "omittedNetPads": 0
+      "unconnectedPads": 13,
+      "pcbPorts": 277
     }
   },
   {
@@ -744,8 +740,7 @@
     ],
     "complexity": "low",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (6 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 6-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -759,12 +754,11 @@
     "connectivity": {
       "layerCount": 6,
       "sourceNets": 2,
+      "sourceTraces": 2,
       "routableNets": 2,
-      "singletonNets": 0,
-      "emptyNets": 0,
       "connectedPads": 18,
       "unconnectedPads": 0,
-      "omittedNetPads": 0
+      "pcbPorts": 18
     }
   },
   {
@@ -792,8 +786,7 @@
     ],
     "complexity": "very high",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (8 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 8-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -807,12 +800,11 @@
     "connectivity": {
       "layerCount": 8,
       "sourceNets": 410,
+      "sourceTraces": 410,
       "routableNets": 409,
-      "singletonNets": 1,
-      "emptyNets": 0,
       "connectedPads": 2344,
-      "unconnectedPads": 159,
-      "omittedNetPads": 0
+      "unconnectedPads": 150,
+      "pcbPorts": 2494
     }
   },
   {
@@ -840,8 +832,7 @@
     ],
     "complexity": "low",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 4-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -855,12 +846,11 @@
     "connectivity": {
       "layerCount": 4,
       "sourceNets": 23,
+      "sourceTraces": 23,
       "routableNets": 23,
-      "singletonNets": 0,
-      "emptyNets": 0,
       "connectedPads": 80,
-      "unconnectedPads": 1,
-      "omittedNetPads": 0
+      "unconnectedPads": 0,
+      "pcbPorts": 80
     }
   },
   {
@@ -888,8 +878,7 @@
     ],
     "complexity": "low",
     "normalizations": [
-      "Corrected copper layer count from the Altium layer-stack IDs (4 layers)",
-      "Added source-net, source-port, PCB-port, and trace associations from native Altium net assignments"
+      "Mapped the 4-layer Altium copper stack to Circuit JSON layer names"
     ],
     "repairs": [],
     "warnings": [],
@@ -903,12 +892,11 @@
     "connectivity": {
       "layerCount": 4,
       "sourceNets": 28,
+      "sourceTraces": 28,
       "routableNets": 28,
-      "singletonNets": 0,
-      "emptyNets": 0,
       "connectedPads": 103,
       "unconnectedPads": 3,
-      "omittedNetPads": 0
+      "pcbPorts": 106
     }
   }
 ]
