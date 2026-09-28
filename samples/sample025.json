@@ -26,7 +26,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_332",
-        "connectivity_net300",
         "source_net_altium_pcb_17",
         "source_trace_altium_pcb_17"
       ]
@@ -51,7 +50,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_333",
-        "connectivity_net319",
         "source_net_altium_pcb_20",
         "source_trace_altium_pcb_20"
       ]
@@ -76,7 +74,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_334",
-        "connectivity_net301",
         "source_net_altium_pcb_16",
         "source_trace_altium_pcb_16"
       ]
@@ -101,7 +98,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_335",
-        "connectivity_net318",
         "source_net_altium_pcb_21",
         "source_trace_altium_pcb_21"
       ]
@@ -126,7 +122,6 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_336",
-        "connectivity_net318",
         "source_net_altium_pcb_21",
         "source_trace_altium_pcb_21"
       ]
@@ -151,7 +146,6 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_337",
-        "connectivity_net319",
         "source_net_altium_pcb_20",
         "source_trace_altium_pcb_20"
       ]
@@ -176,7 +170,6 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_338",
-        "connectivity_net301",
         "source_net_altium_pcb_16",
         "source_trace_altium_pcb_16"
       ]
@@ -201,7 +194,6 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_339",
-        "connectivity_net300",
         "source_net_altium_pcb_17",
         "source_trace_altium_pcb_17"
       ]
@@ -226,7 +218,6 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_340",
-        "connectivity_net300",
         "source_net_altium_pcb_17",
         "source_trace_altium_pcb_17"
       ]
@@ -251,7 +242,6 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_341",
-        "connectivity_net151",
         "source_net_altium_pcb_11",
         "source_trace_altium_pcb_11"
       ]
@@ -276,7 +266,6 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_342",
-        "connectivity_net300",
         "source_net_altium_pcb_17",
         "source_trace_altium_pcb_17"
       ]
@@ -301,7 +290,6 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_343",
-        "connectivity_net311",
         "source_net_altium_pcb_12",
         "source_trace_altium_pcb_12"
       ]
@@ -326,7 +314,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_344",
-        "connectivity_net151",
         "source_net_altium_pcb_11",
         "source_trace_altium_pcb_11"
       ]
@@ -351,7 +338,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_345",
-        "connectivity_net301",
         "source_net_altium_pcb_16",
         "source_trace_altium_pcb_16"
       ]
@@ -376,7 +362,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_346",
-        "connectivity_net301",
         "source_net_altium_pcb_16",
         "source_trace_altium_pcb_16"
       ]
@@ -401,7 +386,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_347",
-        "connectivity_net311",
         "source_net_altium_pcb_12",
         "source_trace_altium_pcb_12"
       ]
@@ -426,7 +410,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_348",
-        "connectivity_net304",
         "source_net_altium_pcb_7",
         "source_trace_altium_pcb_7"
       ]
@@ -451,7 +434,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_349",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -476,7 +458,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_350",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -501,7 +482,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_351",
-        "connectivity_net310",
         "source_net_altium_pcb_5",
         "source_trace_altium_pcb_5"
       ]
@@ -526,7 +506,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_352",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -551,7 +530,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_353",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -576,7 +554,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_354",
-        "connectivity_net329",
         "source_net_altium_pcb_6",
         "source_trace_altium_pcb_6"
       ]
@@ -601,7 +578,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_355",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -626,7 +602,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_356",
-        "connectivity_net332",
         "source_net_altium_pcb_8",
         "source_trace_altium_pcb_8"
       ]
@@ -651,7 +626,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_357",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -676,7 +650,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_358",
-        "connectivity_net332",
         "source_net_altium_pcb_8",
         "source_trace_altium_pcb_8"
       ]
@@ -701,7 +674,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_359",
-        "connectivity_net304",
         "source_net_altium_pcb_7",
         "source_trace_altium_pcb_7"
       ]
@@ -726,7 +698,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_360",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -751,7 +722,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_361",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -776,7 +746,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_362",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -801,7 +770,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_363",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -826,7 +794,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_364",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -851,7 +818,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_365",
-        "connectivity_net329",
         "source_net_altium_pcb_6",
         "source_trace_altium_pcb_6"
       ]
@@ -876,7 +842,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_366",
-        "connectivity_net310",
         "source_net_altium_pcb_5",
         "source_trace_altium_pcb_5"
       ]
@@ -901,7 +866,6 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_377",
-        "connectivity_net379",
         "source_net_altium_pcb_18",
         "source_trace_altium_pcb_18"
       ]
@@ -926,7 +890,6 @@
       "height": 1.6002,
       "connectedTo": [
         "pcb_smtpad_altium_378",
-        "connectivity_net377",
         "source_net_altium_pcb_19",
         "source_trace_altium_pcb_19"
       ]
@@ -951,7 +914,6 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_379",
-        "connectivity_net368",
         "source_net_altium_pcb_13",
         "source_trace_altium_pcb_13"
       ]
@@ -976,7 +938,6 @@
       "height": 1.27,
       "connectedTo": [
         "pcb_smtpad_altium_380",
-        "connectivity_net338",
         "source_net_altium_pcb_14",
         "source_trace_altium_pcb_14"
       ]
@@ -1001,7 +962,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_381",
-        "connectivity_net358",
         "source_net_altium_pcb_9",
         "source_trace_altium_pcb_9"
       ]
@@ -1026,7 +986,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_382",
-        "connectivity_net368",
         "source_net_altium_pcb_13",
         "source_trace_altium_pcb_13"
       ]
@@ -1051,7 +1010,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_383",
-        "connectivity_net368",
         "source_net_altium_pcb_13",
         "source_trace_altium_pcb_13"
       ]
@@ -1076,7 +1034,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_384",
-        "connectivity_net241",
         "source_net_altium_pcb_10",
         "source_trace_altium_pcb_10"
       ]
@@ -1101,7 +1058,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_385",
-        "connectivity_net366",
         "source_net_altium_pcb_3",
         "source_trace_altium_pcb_3"
       ]
@@ -1126,7 +1082,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_386",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -1151,7 +1106,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_387",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -1176,7 +1130,6 @@
       "height": 1.12,
       "connectedTo": [
         "pcb_smtpad_altium_388",
-        "connectivity_net362",
         "source_net_altium_pcb_1",
         "source_trace_altium_pcb_1"
       ]
@@ -1201,7 +1154,6 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_389",
-        "connectivity_net241",
         "source_net_altium_pcb_10",
         "source_trace_altium_pcb_10"
       ]
@@ -1226,7 +1178,6 @@
       "height": 1.2192,
       "connectedTo": [
         "pcb_smtpad_altium_390",
-        "connectivity_net338",
         "source_net_altium_pcb_14",
         "source_trace_altium_pcb_14"
       ]
@@ -1251,7 +1202,6 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_391",
-        "connectivity_net358",
         "source_net_altium_pcb_9",
         "source_trace_altium_pcb_9"
       ]
@@ -1276,7 +1226,6 @@
       "height": 0.9144,
       "connectedTo": [
         "pcb_smtpad_altium_392",
-        "connectivity_net338",
         "source_net_altium_pcb_14",
         "source_trace_altium_pcb_14"
       ]
@@ -1301,7 +1250,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_393",
-        "connectivity_net362",
         "source_net_altium_pcb_1",
         "source_trace_altium_pcb_1"
       ]
@@ -1326,7 +1274,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_394",
-        "connectivity_net394",
         "source_net_altium_pcb_2",
         "source_trace_altium_pcb_2"
       ]
@@ -1351,7 +1298,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_395",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -1376,7 +1322,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_396",
-        "connectivity_net388",
         "source_net_altium_pcb_4",
         "source_trace_altium_pcb_4"
       ]
@@ -1401,7 +1346,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_397",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -1426,7 +1370,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_398",
-        "connectivity_net394",
         "source_net_altium_pcb_2",
         "source_trace_altium_pcb_2"
       ]
@@ -1451,7 +1394,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_399",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1476,7 +1418,6 @@
       "height": 0.549999,
       "connectedTo": [
         "pcb_smtpad_altium_400",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1501,7 +1442,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_401",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -1526,7 +1466,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_402",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1551,7 +1490,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_403",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -1576,7 +1514,6 @@
       "height": 0.950001,
       "connectedTo": [
         "pcb_smtpad_altium_404",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1601,7 +1538,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_405",
-        "connectivity_net366",
         "source_net_altium_pcb_3",
         "source_trace_altium_pcb_3"
       ]
@@ -1626,7 +1562,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_406",
-        "connectivity_net388",
         "source_net_altium_pcb_4",
         "source_trace_altium_pcb_4"
       ]
@@ -1651,7 +1586,6 @@
       "height": 0.599999,
       "connectedTo": [
         "pcb_smtpad_altium_407",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -1676,7 +1610,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_408",
-        "connectivity_net338",
         "source_net_altium_pcb_14",
         "source_trace_altium_pcb_14"
       ]
@@ -1701,7 +1634,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_409",
-        "connectivity_net377",
         "source_net_altium_pcb_19",
         "source_trace_altium_pcb_19"
       ]
@@ -1726,7 +1658,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_410",
-        "connectivity_net368",
         "source_net_altium_pcb_13",
         "source_trace_altium_pcb_13"
       ]
@@ -1751,7 +1682,6 @@
       "height": 0.750001,
       "connectedTo": [
         "pcb_smtpad_altium_411",
-        "connectivity_net379",
         "source_net_altium_pcb_18",
         "source_trace_altium_pcb_18"
       ]
@@ -1779,7 +1709,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_367",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -1807,7 +1736,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_368",
-        "connectivity_net398",
         "source_net_altium_pcb_22",
         "source_trace_altium_pcb_22"
       ]
@@ -1835,7 +1763,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_369",
-        "connectivity_net403",
         "source_net_altium_pcb_15",
         "source_trace_altium_pcb_15"
       ]
@@ -1863,7 +1790,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_370",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1891,7 +1817,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_371",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1919,7 +1844,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_372",
-        "connectivity_net404",
         "source_net_altium_pcb_0",
         "source_trace_altium_pcb_0"
       ]
@@ -1947,7 +1871,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_373",
-        "connectivity_net379",
         "source_net_altium_pcb_18",
         "source_trace_altium_pcb_18"
       ]
@@ -1975,7 +1898,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_374",
-        "connectivity_net377",
         "source_net_altium_pcb_19",
         "source_trace_altium_pcb_19"
       ]
@@ -2003,7 +1925,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_375",
-        "connectivity_net319",
         "source_net_altium_pcb_20",
         "source_trace_altium_pcb_20"
       ]
@@ -2031,7 +1952,6 @@
       "height": 1.569999,
       "connectedTo": [
         "pcb_plated_hole_altium_376",
-        "connectivity_net318",
         "source_net_altium_pcb_21",
         "source_trace_altium_pcb_21"
       ]
