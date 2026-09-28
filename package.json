@@ -23,9 +23,6 @@
     "generate:ti": "bun scripts/generate-ti-altium-samples.mjs",
     "test": "bun scripts/validate.mjs"
   },
-  "trustedDependencies": [
-    "altiumts"
-  ],
   "devDependencies": {
     "@tscircuit/capacity-autorouter": "^0.0.919",
     "@tscircuit/checks": "^0.0.217",
@@ -52,7 +49,7 @@
     "@tscircuit/soup-util": "^0.0.41",
     "@vitejs/plugin-react": "4.3.4",
     "altium-to-circuit-json": "^0.0.63",
-    "altiumts": "github:tscircuit/altiumts#2010669c4e94819de68620b537ff9382d8f472f7",
+    "altiumts": "^0.0.80",
     "bpc-graph": "^0.0.66",
     "calculate-elbow": "^0.0.12",
     "circuit-json": "^0.0.506",

@@ -30,7 +30,7 @@
         "@tscircuit/soup-util": "^0.0.41",
         "@vitejs/plugin-react": "4.3.4",
         "altium-to-circuit-json": "^0.0.63",
-        "altiumts": "github:tscircuit/altiumts#2010669c4e94819de68620b537ff9382d8f472f7",
+        "altiumts": "^0.0.80",
         "bpc-graph": "^0.0.66",
         "calculate-elbow": "^0.0.12",
         "circuit-json": "^0.0.506",
@@ -63,9 +63,6 @@
       },
     },
   },
-  "trustedDependencies": [
-    "altiumts",
-  ],
   "packages": {
     "@babel/code-frame": ["@babel/code-frame@7.29.7", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.29.7", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw=="],
 
@@ -467,7 +464,7 @@
 
     "altium-to-circuit-json": ["altium-to-circuit-json@0.0.63", "", { "dependencies": { "altiumts": "github:tscircuit/altiumts#2010669c4e94819de68620b537ff9382d8f472f7", "circuit-json": "^0.0.479", "format-si-unit": "^0.0.11", "schematic-symbols": "^0.0.238", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" } }, "sha512-2Sh4xJer7AxoKJDg9s068Au69cTYNqPj+u91gQwE0dALsA9CtfpI4+rrbnqVxA0ZzNsVMccjZKeYqAkUwj/vFw=="],
 
-    "altiumts": ["altiumts@github:tscircuit/altiumts#2010669", { "dependencies": { "cfb": "^1.2.2", "fflate": "^0.8.3", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" }, "bin": { "altiumts": "./dist/cli.js" } }, "tscircuit-altiumts-2010669", "sha512-XwLp70mNEJEGw/BiQQmWYTkb0Yu57lEbs4w1HBaroz2WCFWDjn1FB55/0BA0ahC200ExsIcpc5zam/fDbbtE9w=="],
+    "altiumts": ["altiumts@0.0.80", "", { "dependencies": { "cfb": "^1.2.2", "fflate": "^0.8.3", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" }, "bin": { "altiumts": "dist/cli.js" } }, "sha512-WiIai2lGm5nzdHCqbKFlYxlsJY8JNfoyLNxxMHp2YLk2yEsCc0KZQnOsNDjy8z33VxG67ZrvGfbP8Hc1coXhDg=="],
 
     "any-promise": ["any-promise@1.3.0", "", {}, "sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A=="],
 
