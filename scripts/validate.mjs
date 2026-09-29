@@ -52,17 +52,20 @@ const getThroughHoleObstacleBounds = (throughHole) => {
       height: throughHole.outer_height,
     }
   }
-  if (
-    [
-      "circular_hole_with_rect_pad",
-      "pill_hole_with_rect_pad",
-      "rotated_pill_hole_with_rect_pad",
-    ].includes(throughHole.shape)
-  ) {
+  if (["circular_hole_with_rect_pad", "pill_hole_with_rect_pad"].includes(throughHole.shape)) {
     return {
       center: { x: throughHole.x, y: throughHole.y },
       width: throughHole.rect_pad_width,
       height: throughHole.rect_pad_height,
+    }
+  }
+  if (throughHole.shape === "rotated_pill_hole_with_rect_pad") {
+    const normalizedRotation = ((throughHole.rect_ccw_rotation % 360) + 360) % 360
+    const isQuarterTurn = nearlyEqual(normalizedRotation, 90) || nearlyEqual(normalizedRotation, 270)
+    return {
+      center: { x: throughHole.x, y: throughHole.y },
+      width: isQuarterTurn ? throughHole.rect_pad_height : throughHole.rect_pad_width,
+      height: isQuarterTurn ? throughHole.rect_pad_width : throughHole.rect_pad_height,
     }
   }
   if (throughHole.shape === "hole_with_polygon_pad" && throughHole.pad_outline?.length > 0) {
@@ -91,9 +94,11 @@ const obstacleMatchesThroughHole = (obstacle, throughHole, bounds) => {
     return false
   }
 
-  return throughHole.type === "pcb_plated_hole"
+  if (throughHole.type !== "pcb_plated_hole") return obstacle.connectedTo.length === 0
+  const metadataId = obstacle.circuitJsonMetadata?.pcb_plated_hole_id
+  return metadataId === undefined
     ? obstacle.connectedTo.includes(throughHole.pcb_plated_hole_id)
-    : obstacle.connectedTo.length === 0
+    : metadataId === throughHole.pcb_plated_hole_id
 }
 
 const sampleFiles = readdirSync("samples")
@@ -145,9 +150,7 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(sample.sourceLicense === source.license, `${exportName} has mismatched source license`)
   assert(Array.isArray(sample.obstacles) && sample.obstacles.length > 0, `${exportName} missing obstacles`)
   assert(Array.isArray(sample.connections), `${exportName} has invalid connections`)
-  if (sourceType === "kicad") {
-    assert(sample.connections.length > 0, `${exportName} missing connections`)
-  }
+  assert(sample.connections.length > 0, `${exportName} missing connections`)
   assert(sample.bounds, `${exportName} missing bounds`)
   assert(sample.layerCount >= 2, `${exportName} has invalid layer count`)
   observedLayerCounts.add(sample.layerCount)
@@ -221,10 +224,9 @@ for (const [index, source] of sourceFiles.entries()) {
       obstacleMatchesThroughHole(candidate, throughHole, bounds),
     )
     assert(obstacle, `${exportName} is missing an SRJ obstacle for ${throughHoleId}`)
-    const expectedLayers =
-      throughHole.type === "pcb_plated_hole" && throughHole.layers?.length > 0
-        ? throughHole.layers
-        : boardLayers
+    // The drill barrel crosses the full board stack even when the plated
+    // annulus is declared only on the outer copper layers.
+    const expectedLayers = boardLayers
     assert(
       JSON.stringify(obstacle.layers) === JSON.stringify(expectedLayers),
       `${exportName} ${throughHoleId} obstacle layers ${JSON.stringify(obstacle.layers)} do not match ${JSON.stringify(expectedLayers)}`,
