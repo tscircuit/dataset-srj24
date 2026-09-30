@@ -890,466 +890,306 @@
   </g>
   <g transform="translate(1648, 0) scale(1, 1) translate(0, 0)">
     <rect width="100%" height="100%" fill="#11161b"/><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_17, source_net_altium_pcb_17" data-x="48.526799059999995" data-y="50.76487434" x="745.3397885245356" y="244.4780912595595" width="9.796366512025998" height="18.368249417100287" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_20, source_net_altium_pcb_20" data-x="48.526799059999995" data-y="48.9148755" x="745.3397885245356" y="289.7863485847314" width="9.796366512025998" height="18.368249417100515" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_16, source_net_altium_pcb_16" data-x="47.72680066" data-y="50.76487434" x="725.7470555004838" y="244.4780912595595" width="9.796366512025998" height="18.368249417100287" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_21, source_net_altium_pcb_21" data-x="47.72680066" data-y="48.9148755" x="725.7470555004838" y="289.7863485847314" width="9.796366512025998" height="18.368249417100515" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_21, source_net_altium_pcb_21" data-x="46.25839618" data-y="47.02666998" x="679.130832704891" y="325.61922778498695" width="31.103525882734175" height="39.190442612245306" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_20, source_net_altium_pcb_20" data-x="48.290396179999995" data-y="47.02666998" x="728.8964741172658" y="325.61922778498695" width="31.103525882734175" height="39.190442612245306" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_16, source_net_altium_pcb_16" data-x="45.839298719999995" data-y="50.80431546" x="664.823273005885" y="237.14450192692834" width="39.190442612245306" height="31.103525882734175" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_17, source_net_altium_pcb_17" data-x="45.839298719999995" data-y="52.836315459999994" x="664.823273005885" y="187.3788605145537" width="39.190442612245306" height="31.103525882734175" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_17, source_net_altium_pcb_17" data-x="44.14789748" data-y="55.79862348" x="631.7971759812871" y="115.45114821905747" width="22.39453863556878" height="29.859384847424963" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_11, source_net_altium_pcb_11" data-x="40.871297479999996" data-y="55.79862348" x="551.5500792038326" y="115.45114821905747" width="22.394538635568665" height="29.859384847424963" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_17, source_net_altium_pcb_17" data-x="43.43669748" data-y="52.38693865999999" x="610.646778381028" y="202.7390257364832" width="29.859384847424963" height="22.39453863556855" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_12, source_net_altium_pcb_12" data-x="43.43669748" data-y="49.110338660000004" x="610.646778381028" y="282.9861225139372" width="29.859384847424963" height="22.39453863556878" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_11, source_net_altium_pcb_11" data-x="39.14680004" data-y="55.59279203999999" x="498.225976705792" y="121.70690706927428" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_16, source_net_altium_pcb_16" data-x="39.14680004" data-y="53.05279203999999" x="498.225976705792" y="183.91395883474297" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_16, source_net_altium_pcb_16" data-x="39.14680004" data-y="50.51279204" x="498.225976705792" y="246.12101060021132" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_12, source_net_altium_pcb_12" data-x="39.14680004" data-y="47.97279204" x="498.225976705792" y="308.3280623656798" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_7, source_net_altium_pcb_7" data-x="27.506797919999997" data-y="47.97279204" x="213.15108913531805" y="308.3280623656798" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="27.506797919999997" data-y="50.51279204" x="213.15108913531805" y="246.12101060021132" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="27.506797919999997" data-y="53.05279203999999" x="213.15108913531805" y="183.91395883474297" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_5, source_net_altium_pcb_5" data-x="27.506797919999997" data-y="55.59279203999999" x="213.15108913531805" y="121.70690706927428" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.09410002" data-y="49.12936326" x="44.09732967158442" y="286.98245903698046" width="19.59279523110365" height="13.470003954035974" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.09410002" data-y="51.029362" x="44.09732967158442" y="240.44965589780531" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_6, source_net_altium_pcb_6" data-x="22.644099999999998" data-y="51.029362" x="106.54929059985358" y="240.44965589780531" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="22.644099999999998" data-y="50.0793639" x="106.54929059985358" y="263.71602636386706" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_8, source_net_altium_pcb_8" data-x="22.644099999999998" data-y="49.12936326" x="106.54929059985358" y="286.98245903698046" width="19.59279523110365" height="13.470003954035974" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="23.65179928" data-y="50.0793639" x="128.7797270328649" y="263.10375345686543" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_8, source_net_altium_pcb_8" data-x="23.65179928" data-y="48.179365159999996" x="128.7797270328649" y="309.6365565960407" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_7, source_net_altium_pcb_7" data-x="26.05179956" data-y="49.12936326" x="187.55805051912432" y="286.37018612997906" width="24.490978487116763" height="14.694549768038769" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="24.251803159999998" data-y="51.8896473" x="143.47440121500745" y="214.48222414056113" width="24.490978487116763" height="23.266432673113286" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="25.851802499999998" data-y="51.8896473" x="182.6599294701631" y="214.48222414056113" width="24.490978487116763" height="23.266432673113286" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.06910134" data-y="52.96339419999999" x="41.03599624010212" y="188.18512611248605" width="24.490978487116763" height="23.266432673113513" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="21.66910068" data-y="52.96339419999999" x="80.22152449525788" y="188.18512611248605" width="24.490978487116763" height="23.266432673113513" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="23.65179928" data-y="55.766848079999995" x="128.7797270328649" y="123.81177597633655" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_6, source_net_altium_pcb_6" data-x="23.65179928" data-y="53.866849339999995" x="128.7797270328649" y="170.3445791155118" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_5, source_net_altium_pcb_5" data-x="26.05179956" data-y="54.81684744" x="187.55805051912432" y="147.07820864945006" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_18, source_net_altium_pcb_18" data-x="48.28620264" data-y="47.03779264" x="728.7937702748011" y="325.34682310530616" width="31.103525882734175" height="39.19044261224508" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_19, source_net_altium_pcb_19" data-x="46.254202639999995" data-y="47.03779264" x="679.0281288624262" y="325.34682310530616" width="31.103525882734175" height="39.19044261224508" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_13, source_net_altium_pcb_13" data-x="45.839298719999995" data-y="50.80431546" x="664.823273005885" y="237.14450192692834" width="39.190442612245306" height="31.103525882734175" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_14, source_net_altium_pcb_14" data-x="45.839298719999995" data-y="52.836315459999994" x="664.823273005885" y="187.3788605145537" width="39.190442612245306" height="31.103525882734175" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_9, source_net_altium_pcb_9" data-x="39.14680004" data-y="48.01032054" x="498.225976705792" y="307.408953175845" width="44.573529836770035" height="27.429888440724426" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_13, source_net_altium_pcb_13" data-x="39.14680004" data-y="50.55032054" x="498.225976705792" y="245.2019014103763" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_13, source_net_altium_pcb_13" data-x="39.14680004" data-y="53.09032053999999" x="498.225976705792" y="182.99484964490796" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_10, source_net_altium_pcb_10" data-x="39.14680004" data-y="55.63032053999999" x="498.225976705792" y="120.78779787943961" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_3, source_net_altium_pcb_3" data-x="27.506797919999997" data-y="55.63032053999999" x="213.15108913531805" y="120.78779787943961" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="27.506797919999997" data-y="53.09032053999999" x="213.15108913531805" y="182.99484964490796" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="27.506797919999997" data-y="50.55032054" x="213.15108913531805" y="245.2019014103763" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_1, source_net_altium_pcb_1" data-x="27.506797919999997" data-y="48.01032054" x="213.15108913531805" y="307.408953175845" width="44.573529836770035" height="27.429888440724426" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_10, source_net_altium_pcb_10" data-x="41.10539658" data-y="55.88247904" x="557.2833921297971" y="113.39744461207226" width="22.39453863556878" height="29.859384847424963" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_14, source_net_altium_pcb_14" data-x="44.38199658" data-y="55.88247904" x="637.5304889072517" y="113.39744461207226" width="22.39453863556878" height="29.859384847424963" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_9, source_net_altium_pcb_9" data-x="43.39382228" data-y="49.255062779999996" x="609.5967233472269" y="279.44168911844463" width="29.859384847424963" height="22.39453863556855" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_14, source_net_altium_pcb_14" data-x="43.39382228" data-y="52.53166277999999" x="609.5967233472269" y="199.1945923409902" width="29.859384847424963" height="22.39453863556878" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_1, source_net_altium_pcb_1" data-x="26.05179956" data-y="49.06684624" x="187.55805051912432" y="287.9012882950824" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_2, source_net_altium_pcb_2" data-x="23.65179928" data-y="50.01684434" x="128.7797270328649" y="264.63491782902065" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="23.65179928" data-y="48.1168456" x="128.7797270328649" y="311.167720968196" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_4, source_net_altium_pcb_4" data-x="22.601801379999998" data-y="54.78606518" x="105.51335656680322" y="148.44436881679724" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="22.601801379999998" data-y="53.836064539999995" x="105.51335656680322" y="171.71080148991086" width="19.59279523110365" height="13.470003954035747" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_2, source_net_altium_pcb_2" data-x="22.601801379999998" data-y="52.88606644" x="105.51335656680322" y="194.97717195597227" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.0518014" data-y="52.88606644" x="43.061395638534066" y="194.97717195597227" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.0518014" data-y="54.78606518" x="43.061395638534066" y="148.44436881679724" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="21.62679952" data-y="51.00551902" x="79.18552825515576" y="236.13537913318885" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="20.02680018" data-y="51.00551902" x="40" y="236.13537913318885" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="25.851802499999998" data-y="51.8563479" x="182.6599294701631" y="215.29775858920618" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="24.251803159999998" data-y="51.8563479" x="143.47440121500745" y="215.29775858920618" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_3, source_net_altium_pcb_3" data-x="26.05179956" data-y="54.78606518" x="187.55805051912432" y="147.83209590979584" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_4, source_net_altium_pcb_4" data-x="23.65179928" data-y="55.736063279999996" x="128.7797270328649" y="124.5657254437341" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="23.65179928" data-y="53.836064539999995" x="128.7797270328649" y="171.09852858290924" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_14, source_net_altium_pcb_14" data-x="47.72680066" data-y="50.768051879999994" x="725.7470555004838" y="244.400270237801" width="9.796366512025998" height="18.368249417100515" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_19, source_net_altium_pcb_19" data-x="47.72680066" data-y="48.91805304" x="725.7470555004838" y="289.7085275629729" width="9.796366512025998" height="18.368249417100287" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_13, source_net_altium_pcb_13" data-x="48.526799059999995" data-y="50.768051879999994" x="745.3397885245356" y="244.400270237801" width="9.796366512025998" height="18.368249417100515" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
-source_trace_altium_pcb_18, source_net_altium_pcb_18" data-x="48.526799059999995" data-y="48.91805304" x="745.3397885245356" y="289.7085275629729" width="9.796366512025998" height="18.368249417100287" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_17" data-x="48.526799059999995" data-y="50.76487434" x="745.3397885245356" y="244.4780912595595" width="9.796366512025998" height="18.368249417100287" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_20" data-x="48.526799059999995" data-y="48.9148755" x="745.3397885245356" y="289.7863485847314" width="9.796366512025998" height="18.368249417100515" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_16" data-x="47.72680066" data-y="50.76487434" x="725.7470555004838" y="244.4780912595595" width="9.796366512025998" height="18.368249417100287" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_21" data-x="47.72680066" data-y="48.9148755" x="725.7470555004838" y="289.7863485847314" width="9.796366512025998" height="18.368249417100515" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_21" data-x="46.25839618" data-y="47.02666998" x="679.130832704891" y="325.61922778498695" width="31.103525882734175" height="39.190442612245306" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_20" data-x="48.290396179999995" data-y="47.02666998" x="728.8964741172658" y="325.61922778498695" width="31.103525882734175" height="39.190442612245306" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_16" data-x="45.839298719999995" data-y="50.80431546" x="664.823273005885" y="237.14450192692834" width="39.190442612245306" height="31.103525882734175" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_17" data-x="45.839298719999995" data-y="52.836315459999994" x="664.823273005885" y="187.3788605145537" width="39.190442612245306" height="31.103525882734175" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_17" data-x="44.14789748" data-y="55.79862348" x="631.7971759812871" y="115.45114821905747" width="22.39453863556878" height="29.859384847424963" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_11" data-x="40.871297479999996" data-y="55.79862348" x="551.5500792038326" y="115.45114821905747" width="22.394538635568665" height="29.859384847424963" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_17" data-x="43.43669748" data-y="52.38693865999999" x="610.646778381028" y="202.7390257364832" width="29.859384847424963" height="22.39453863556855" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_12" data-x="43.43669748" data-y="49.110338660000004" x="610.646778381028" y="282.9861225139372" width="29.859384847424963" height="22.39453863556878" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_11" data-x="39.14680004" data-y="55.59279203999999" x="498.225976705792" y="121.70690706927428" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_16" data-x="39.14680004" data-y="53.05279203999999" x="498.225976705792" y="183.91395883474297" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_16" data-x="39.14680004" data-y="50.51279204" x="498.225976705792" y="246.12101060021132" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_12" data-x="39.14680004" data-y="47.97279204" x="498.225976705792" y="308.3280623656798" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_7" data-x="27.506797919999997" data-y="47.97279204" x="213.15108913531805" y="308.3280623656798" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_22" data-x="27.506797919999997" data-y="50.51279204" x="213.15108913531805" y="246.12101060021132" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_22" data-x="27.506797919999997" data-y="53.05279203999999" x="213.15108913531805" y="183.91395883474297" width="44.573529836770035" height="27.429888440724426" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_5" data-x="27.506797919999997" data-y="55.59279203999999" x="213.15108913531805" y="121.70690706927428" width="44.573529836770035" height="27.429888440724653" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0" data-x="20.09410002" data-y="49.12936326" x="44.09732967158442" y="286.98245903698046" width="19.59279523110365" height="13.470003954035974" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0" data-x="20.09410002" data-y="51.029362" x="44.09732967158442" y="240.44965589780531" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_6" data-x="22.644099999999998" data-y="51.029362" x="106.54929059985358" y="240.44965589780531" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_15" data-x="22.644099999999998" data-y="50.0793639" x="106.54929059985358" y="263.71602636386706" width="19.59279523110365" height="13.470003954035747" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_8" data-x="22.644099999999998" data-y="49.12936326" x="106.54929059985358" y="286.98245903698046" width="19.59279523110365" height="13.470003954035974" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_15" data-x="23.65179928" data-y="50.0793639" x="128.7797270328649" y="263.10375345686543" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_8" data-x="23.65179928" data-y="48.179365159999996" x="128.7797270328649" y="309.6365565960407" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_7" data-x="26.05179956" data-y="49.12936326" x="187.55805051912432" y="286.37018612997906" width="24.490978487116763" height="14.694549768038769" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0" data-x="24.251803159999998" data-y="51.8896473" x="143.47440121500745" y="214.48222414056113" width="24.490978487116763" height="23.266432673113286" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_22" data-x="25.851802499999998" data-y="51.8896473" x="182.6599294701631" y="214.48222414056113" width="24.490978487116763" height="23.266432673113286" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0" data-x="20.06910134" data-y="52.96339419999999" x="41.03599624010212" y="188.18512611248605" width="24.490978487116763" height="23.266432673113513" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_15" data-x="21.66910068" data-y="52.96339419999999" x="80.22152449525788" y="188.18512611248605" width="24.490978487116763" height="23.266432673113513" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_15" data-x="23.65179928" data-y="55.766848079999995" x="128.7797270328649" y="123.81177597633655" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_6" data-x="23.65179928" data-y="53.866849339999995" x="128.7797270328649" y="170.3445791155118" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_5" data-x="26.05179956" data-y="54.81684744" x="187.55805051912432" y="147.07820864945006" width="24.490978487116763" height="14.694549768038996" fill="rgba(255,0,0,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_18" data-x="48.28620264" data-y="47.03779264" x="728.7937702748011" y="325.34682310530616" width="31.103525882734175" height="39.19044261224508" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_19" data-x="46.254202639999995" data-y="47.03779264" x="679.0281288624262" y="325.34682310530616" width="31.103525882734175" height="39.19044261224508" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_13" data-x="45.839298719999995" data-y="50.80431546" x="664.823273005885" y="237.14450192692834" width="39.190442612245306" height="31.103525882734175" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_14" data-x="45.839298719999995" data-y="52.836315459999994" x="664.823273005885" y="187.3788605145537" width="39.190442612245306" height="31.103525882734175" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_9" data-x="39.14680004" data-y="48.01032054" x="498.225976705792" y="307.408953175845" width="44.573529836770035" height="27.429888440724426" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_13" data-x="39.14680004" data-y="50.55032054" x="498.225976705792" y="245.2019014103763" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_13" data-x="39.14680004" data-y="53.09032053999999" x="498.225976705792" y="182.99484964490796" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_10" data-x="39.14680004" data-y="55.63032053999999" x="498.225976705792" y="120.78779787943961" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_3" data-x="27.506797919999997" data-y="55.63032053999999" x="213.15108913531805" y="120.78779787943961" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_22" data-x="27.506797919999997" data-y="53.09032053999999" x="213.15108913531805" y="182.99484964490796" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_22" data-x="27.506797919999997" data-y="50.55032054" x="213.15108913531805" y="245.2019014103763" width="44.573529836770035" height="27.429888440724653" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_1" data-x="27.506797919999997" data-y="48.01032054" x="213.15108913531805" y="307.408953175845" width="44.573529836770035" height="27.429888440724426" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_10" data-x="41.10539658" data-y="55.88247904" x="557.2833921297971" y="113.39744461207226" width="22.39453863556878" height="29.859384847424963" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_14" data-x="44.38199658" data-y="55.88247904" x="637.5304889072517" y="113.39744461207226" width="22.39453863556878" height="29.859384847424963" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_9" data-x="43.39382228" data-y="49.255062779999996" x="609.5967233472269" y="279.44168911844463" width="29.859384847424963" height="22.39453863556855" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_14" data-x="43.39382228" data-y="52.53166277999999" x="609.5967233472269" y="199.1945923409902" width="29.859384847424963" height="22.39453863556878" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_1" data-x="26.05179956" data-y="49.06684624" x="187.55805051912432" y="287.9012882950824" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_2" data-x="23.65179928" data-y="50.01684434" x="128.7797270328649" y="264.63491782902065" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_15" data-x="23.65179928" data-y="48.1168456" x="128.7797270328649" y="311.167720968196" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_4" data-x="22.601801379999998" data-y="54.78606518" x="105.51335656680322" y="148.44436881679724" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_15" data-x="22.601801379999998" data-y="53.836064539999995" x="105.51335656680322" y="171.71080148991086" width="19.59279523110365" height="13.470003954035747" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_2" data-x="22.601801379999998" data-y="52.88606644" x="105.51335656680322" y="194.97717195597227" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_0" data-x="20.0518014" data-y="52.88606644" x="43.061395638534066" y="194.97717195597227" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_0" data-x="20.0518014" data-y="54.78606518" x="43.061395638534066" y="148.44436881679724" width="19.59279523110365" height="13.470003954035974" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_15" data-x="21.62679952" data-y="51.00551902" x="79.18552825515576" y="236.13537913318885" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_0" data-x="20.02680018" data-y="51.00551902" x="40" y="236.13537913318885" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_22" data-x="25.851802499999998" data-y="51.8563479" x="182.6599294701631" y="215.29775858920618" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_0" data-x="24.251803159999998" data-y="51.8563479" x="143.47440121500745" y="215.29775858920618" width="24.490978487116763" height="23.266432673113513" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_3" data-x="26.05179956" data-y="54.78606518" x="187.55805051912432" y="147.83209590979584" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_4" data-x="23.65179928" data-y="55.736063279999996" x="128.7797270328649" y="124.5657254437341" width="24.490978487116763" height="14.694549768038769" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_15" data-x="23.65179928" data-y="53.836064539999995" x="128.7797270328649" y="171.09852858290924" width="24.490978487116763" height="14.694549768038996" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_14" data-x="47.72680066" data-y="50.768051879999994" x="725.7470555004838" y="244.400270237801" width="9.796366512025998" height="18.368249417100515" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_19" data-x="47.72680066" data-y="48.91805304" x="725.7470555004838" y="289.7085275629729" width="9.796366512025998" height="18.368249417100287" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_13" data-x="48.526799059999995" data-y="50.768051879999994" x="745.3397885245356" y="244.400270237801" width="9.796366512025998" height="18.368249417100515" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="bottom
+source_net_altium_pcb_18" data-x="48.526799059999995" data-y="48.91805304" x="745.3397885245356" y="289.7085275629729" width="9.796366512025998" height="18.368249417100287" fill="rgba(0,0,255,0.5)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_22
 inner1
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_22
 inner2
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_22
 bottom
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="27.873055759999996" data-y="44.578600200000004" x="225.1824617066997" y="385.9446406486535" width="38.45080076675379" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_22" data-x="27.873055759999996" data-y="44.578600200000004" x="225.1824617066997" y="385.9446406486535" width="38.45080076675379" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_22
 inner1
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_22
 inner2
-source_trace_altium_pcb_22, source_net_altium_pcb_22
+source_net_altium_pcb_22
 bottom
-source_trace_altium_pcb_22, source_net_altium_pcb_22" data-x="25.33305576" data-y="44.578600200000004" x="162.9754099412313" y="385.9446406486535" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_15, source_net_altium_pcb_15
+source_net_altium_pcb_22" data-x="25.33305576" data-y="44.578600200000004" x="162.9754099412313" y="385.9446406486535" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_15
 inner1
-source_trace_altium_pcb_15, source_net_altium_pcb_15
+source_net_altium_pcb_15
 inner2
-source_trace_altium_pcb_15, source_net_altium_pcb_15
+source_net_altium_pcb_15
 bottom
-source_trace_altium_pcb_15, source_net_altium_pcb_15" data-x="22.79305576" data-y="44.578600200000004" x="100.76835817576278" y="385.9446406486535" width="38.45080076675379" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_15" data-x="22.79305576" data-y="44.578600200000004" x="100.76835817576278" y="385.9446406486535" width="38.45080076675379" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0
 inner1
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 inner2
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="27.873055759999996" data-y="42.0386002" x="225.1824617066997" y="448.1516924141224" width="38.45080076675379" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0" data-x="27.873055759999996" data-y="42.0386002" x="225.1824617066997" y="448.1516924141224" width="38.45080076675379" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0
 inner1
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 inner2
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="25.33305576" data-y="42.0386002" x="162.9754099412313" y="448.1516924141224" width="38.45080076675367" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0" data-x="25.33305576" data-y="42.0386002" x="162.9754099412313" y="448.1516924141224" width="38.45080076675367" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_0
 inner1
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 inner2
-source_trace_altium_pcb_0, source_net_altium_pcb_0
+source_net_altium_pcb_0
 bottom
-source_trace_altium_pcb_0, source_net_altium_pcb_0" data-x="22.79305576" data-y="42.0386002" x="100.76835817576278" y="448.1516924141224" width="38.45080076675379" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_18, source_net_altium_pcb_18
+source_net_altium_pcb_0" data-x="22.79305576" data-y="42.0386002" x="100.76835817576278" y="448.1516924141224" width="38.45080076675379" height="38.45080076675367" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_18
 inner1
-source_trace_altium_pcb_18, source_net_altium_pcb_18
+source_net_altium_pcb_18
 inner2
-source_trace_altium_pcb_18, source_net_altium_pcb_18
+source_net_altium_pcb_18
 bottom
-source_trace_altium_pcb_18, source_net_altium_pcb_18" data-x="45.640472599999995" data-y="44.57859765999999" x="660.3236503305334" y="385.9447028557057" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_19, source_net_altium_pcb_19
+source_net_altium_pcb_18" data-x="45.640472599999995" data-y="44.57859765999999" x="660.3236503305334" y="385.9447028557057" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_19
 inner1
-source_trace_altium_pcb_19, source_net_altium_pcb_19
+source_net_altium_pcb_19
 inner2
-source_trace_altium_pcb_19, source_net_altium_pcb_19
+source_net_altium_pcb_19
 bottom
-source_trace_altium_pcb_19, source_net_altium_pcb_19" data-x="43.100472599999996" data-y="44.57859765999999" x="598.1165985650648" y="385.9447028557057" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_20, source_net_altium_pcb_20
+source_net_altium_pcb_19" data-x="43.100472599999996" data-y="44.57859765999999" x="598.1165985650648" y="385.9447028557057" width="38.45080076675367" height="38.4508007667539" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_20
 inner1
-source_trace_altium_pcb_20, source_net_altium_pcb_20
+source_net_altium_pcb_20
 inner2
-source_trace_altium_pcb_20, source_net_altium_pcb_20
+source_net_altium_pcb_20
 bottom
-source_trace_altium_pcb_20, source_net_altium_pcb_20" data-x="45.640472599999995" data-y="42.03859765999999" x="660.3236503305334" y="448.1517546211741" width="38.45080076675367" height="38.45080076675379" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
-source_trace_altium_pcb_21, source_net_altium_pcb_21
+source_net_altium_pcb_20" data-x="45.640472599999995" data-y="42.03859765999999" x="660.3236503305334" y="448.1517546211741" width="38.45080076675367" height="38.45080076675379" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><rect data-type="rect" data-label="top
+source_net_altium_pcb_21
 inner1
-source_trace_altium_pcb_21, source_net_altium_pcb_21
+source_net_altium_pcb_21
 inner2
-source_trace_altium_pcb_21, source_net_altium_pcb_21
+source_net_altium_pcb_21
 bottom
-source_trace_altium_pcb_21, source_net_altium_pcb_21" data-x="43.100472599999996" data-y="42.03859765999999" x="598.1165985650648" y="448.1517546211741" width="38.45080076675367" height="38.45080076675379" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="20.09410002" data-y="49.12936326" cx="53.893727287136244" cy="293.71746101399845" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="20.09410002" data-y="51.029362" cx="53.893727287136244" cy="247.1846578748232" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="24.251803159999998" data-y="51.8896473" cx="155.71989045856583" cy="226.11544047711777" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="20.06910134" data-y="52.96339419999999" cx="53.281485483660504" cy="199.8183424490428" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="27.873055759999996" data-y="42.0386002" cx="244.4078620900766" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="25.33305576" data-y="42.0386002" cx="182.20081032460814" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-top" data-x="22.79305576" data-y="42.0386002" cx="119.99375855913968" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-bottom" data-x="20.0518014" data-y="52.88606644" cx="52.85779325408589" cy="201.71217393299025" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-bottom" data-x="20.0518014" data-y="54.78606518" cx="52.85779325408589" cy="155.17937079381522" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-bottom" data-x="20.02680018" data-y="51.00551902" cx="52.24548924355838" cy="247.7685954697456" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_0
-source_trace_altium_pcb_0
-bottom" data-x="24.251803159999998" data-y="51.8563479" cx="155.71989045856583" cy="226.93097492576294" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_1
-source_trace_altium_pcb_1
-bottom" data-x="27.506797919999997" data-y="48.01032054" cx="235.43785405370306" cy="321.1238973962072" r="3" fill="hsl(7.391304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_1
-source_trace_altium_pcb_1
-bottom" data-x="26.05179956" data-y="49.06684624" cx="199.8035397626827" cy="295.2485631791019" r="3" fill="hsl(7.391304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_2
-source_trace_altium_pcb_2
-bottom" data-x="23.65179928" data-y="50.01684434" cx="141.0252162764233" cy="271.98219271304015" r="3" fill="hsl(14.782608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_2
-source_trace_altium_pcb_2
-bottom" data-x="22.601801379999998" data-y="52.88606644" cx="115.30975418235505" cy="201.71217393299025" r="3" fill="hsl(14.782608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_3
-source_trace_altium_pcb_3
-bottom" data-x="27.506797919999997" data-y="55.63032053999999" cx="235.43785405370306" cy="134.50274209980194" r="3" fill="hsl(22.17391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_3
-source_trace_altium_pcb_3
-bottom" data-x="26.05179956" data-y="54.78606518" cx="199.8035397626827" cy="155.17937079381522" r="3" fill="hsl(22.17391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_4
-source_trace_altium_pcb_4
-bottom" data-x="22.601801379999998" data-y="54.78606518" cx="115.30975418235505" cy="155.17937079381522" r="3" fill="hsl(29.565217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_4
-source_trace_altium_pcb_4
-bottom" data-x="23.65179928" data-y="55.736063279999996" cx="141.0252162764233" cy="131.91300032775348" r="3" fill="hsl(29.565217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_5
-source_trace_altium_pcb_5
-top" data-x="27.506797919999997" data-y="55.59279203999999" cx="235.43785405370306" cy="135.4218512896366" r="3" fill="hsl(36.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_5
-source_trace_altium_pcb_5
-top" data-x="26.05179956" data-y="54.81684744" cx="199.8035397626827" cy="154.42548353346956" r="3" fill="hsl(36.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_6
-source_trace_altium_pcb_6
-top" data-x="22.644099999999998" data-y="51.029362" cx="116.3456882154054" cy="247.1846578748232" r="3" fill="hsl(44.34782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_6
-source_trace_altium_pcb_6
-top" data-x="23.65179928" data-y="53.866849339999995" cx="141.0252162764233" cy="177.6918539995313" r="3" fill="hsl(44.34782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_7
-source_trace_altium_pcb_7
-top" data-x="27.506797919999997" data-y="47.97279204" cx="235.43785405370306" cy="322.0430065860421" r="3" fill="hsl(51.73913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_7
-source_trace_altium_pcb_7
-top" data-x="26.05179956" data-y="49.12936326" cx="199.8035397626827" cy="293.71746101399845" r="3" fill="hsl(51.73913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_8
-source_trace_altium_pcb_8
-top" data-x="22.644099999999998" data-y="49.12936326" cx="116.3456882154054" cy="293.71746101399845" r="3" fill="hsl(59.130434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_8
-source_trace_altium_pcb_8
-top" data-x="23.65179928" data-y="48.179365159999996" cx="141.0252162764233" cy="316.9838314800602" r="3" fill="hsl(59.130434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_9
-source_trace_altium_pcb_9
-bottom" data-x="39.14680004" data-y="48.01032054" cx="520.512741624177" cy="321.1238973962072" r="3" fill="hsl(66.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_9
-source_trace_altium_pcb_9
-bottom" data-x="43.39382228" data-y="49.255062779999996" cx="624.5264157709394" cy="290.6389584362289" r="3" fill="hsl(66.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_10
-source_trace_altium_pcb_10
-bottom" data-x="39.14680004" data-y="55.63032053999999" cx="520.512741624177" cy="134.50274209980194" r="3" fill="hsl(73.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_10
-source_trace_altium_pcb_10
-bottom" data-x="41.10539658" data-y="55.88247904" cx="568.4806614475815" cy="128.32713703578474" r="3" fill="hsl(73.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_11
-source_trace_altium_pcb_11
-top" data-x="40.871297479999996" data-y="55.79862348" cx="562.747348521617" cy="130.38084064276995" r="3" fill="hsl(81.30434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_11
-source_trace_altium_pcb_11
-top" data-x="39.14680004" data-y="55.59279203999999" cx="520.512741624177" cy="135.4218512896366" r="3" fill="hsl(81.30434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_12
-source_trace_altium_pcb_12
-top" data-x="43.43669748" data-y="49.110338660000004" cx="625.5764708047404" cy="294.18339183172156" r="3" fill="hsl(88.69565217391305, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_12
-source_trace_altium_pcb_12
-top" data-x="39.14680004" data-y="47.97279204" cx="520.512741624177" cy="322.0430065860421" r="3" fill="hsl(88.69565217391305, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_13
-source_trace_altium_pcb_13
-bottom" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(96.08695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_13
-source_trace_altium_pcb_13
-bottom" data-x="39.14680004" data-y="50.55032054" cx="520.512741624177" cy="258.91684563073864" r="3" fill="hsl(96.08695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_13
-source_trace_altium_pcb_13
-bottom" data-x="39.14680004" data-y="53.09032053999999" cx="520.512741624177" cy="196.70979386527029" r="3" fill="hsl(96.08695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_13
-source_trace_altium_pcb_13
-bottom" data-x="48.526799059999995" data-y="50.768051879999994" cx="750.2379717805486" cy="253.58439494635127" r="3" fill="hsl(96.08695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_14
-source_trace_altium_pcb_14
-bottom" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_14
-source_trace_altium_pcb_14
-bottom" data-x="44.38199658" data-y="55.88247904" cx="648.727758225036" cy="128.32713703578474" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_14
-source_trace_altium_pcb_14
-bottom" data-x="43.39382228" data-y="52.53166277999999" cx="624.5264157709394" cy="210.3918616587746" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_14
-source_trace_altium_pcb_14
-bottom" data-x="47.72680066" data-y="50.768051879999994" cx="730.6452387564968" cy="253.58439494635127" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-top" data-x="22.644099999999998" data-y="50.0793639" cx="116.3456882154054" cy="270.45102834088493" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-top" data-x="23.65179928" data-y="50.0793639" cx="141.0252162764233" cy="270.45102834088493" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-top" data-x="21.66910068" data-y="52.96339419999999" cx="92.46701373881626" cy="199.8183424490428" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-top" data-x="23.65179928" data-y="55.766848079999995" cx="141.0252162764233" cy="131.15905086035605" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-top" data-x="22.79305576" data-y="44.578600200000004" cx="119.99375855913968" cy="405.17004103203044" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-bottom" data-x="23.65179928" data-y="48.1168456" cx="141.0252162764233" cy="318.5149958522154" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-bottom" data-x="22.601801379999998" data-y="53.836064539999995" cx="115.30975418235505" cy="178.44580346692874" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-bottom" data-x="21.62679952" data-y="51.00551902" cx="91.43101749871414" cy="247.7685954697456" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_15
-source_trace_altium_pcb_15
-bottom" data-x="23.65179928" data-y="53.836064539999995" cx="141.0252162764233" cy="178.44580346692874" r="3" fill="hsl(110.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_16
-source_trace_altium_pcb_16
-top" data-x="47.72680066" data-y="50.76487434" cx="730.6452387564968" cy="253.66221596810965" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_16
-source_trace_altium_pcb_16
-top" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_16
-source_trace_altium_pcb_16
-top" data-x="39.14680004" data-y="53.05279203999999" cx="520.512741624177" cy="197.62890305510518" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_16
-source_trace_altium_pcb_16
-top" data-x="39.14680004" data-y="50.51279204" cx="520.512741624177" cy="259.83595482057353" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_17
-source_trace_altium_pcb_17
-top" data-x="48.526799059999995" data-y="50.76487434" cx="750.2379717805486" cy="253.66221596810965" r="3" fill="hsl(125.65217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_17
-source_trace_altium_pcb_17
-top" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(125.65217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_17
-source_trace_altium_pcb_17
-top" data-x="44.14789748" data-y="55.79862348" cx="642.9944452990715" cy="130.38084064276995" r="3" fill="hsl(125.65217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_17
-source_trace_altium_pcb_17
-top" data-x="43.43669748" data-y="52.38693865999999" cx="625.5764708047404" cy="213.93629505426748" r="3" fill="hsl(125.65217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_18
-source_trace_altium_pcb_18
-top" data-x="45.640472599999995" data-y="44.57859765999999" cx="679.5490507139102" cy="405.17010323908266" r="3" fill="hsl(133.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_18
-source_trace_altium_pcb_18
-bottom" data-x="48.28620264" data-y="47.03779264" cx="744.3455332161682" cy="344.9420444114287" r="3" fill="hsl(133.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_18
-source_trace_altium_pcb_18
-bottom" data-x="48.526799059999995" data-y="48.91805304" cx="750.2379717805486" cy="298.89265227152305" r="3" fill="hsl(133.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_19
-source_trace_altium_pcb_19
-top" data-x="43.100472599999996" data-y="44.57859765999999" cx="617.3419989484416" cy="405.17010323908266" r="3" fill="hsl(140.43478260869566, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_19
-source_trace_altium_pcb_19
-bottom" data-x="46.254202639999995" data-y="47.03779264" cx="694.5798918037933" cy="344.9420444114287" r="3" fill="hsl(140.43478260869566, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_19
-source_trace_altium_pcb_19
-bottom" data-x="47.72680066" data-y="48.91805304" cx="730.6452387564968" cy="298.89265227152305" r="3" fill="hsl(140.43478260869566, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_20
-source_trace_altium_pcb_20
-top" data-x="48.526799059999995" data-y="48.9148755" cx="750.2379717805486" cy="298.97047329328166" r="3" fill="hsl(147.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_20
-source_trace_altium_pcb_20
-top" data-x="48.290396179999995" data-y="47.02666998" cx="744.4482370586329" cy="345.2144490911096" r="3" fill="hsl(147.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_20
-source_trace_altium_pcb_20
-top" data-x="45.640472599999995" data-y="42.03859765999999" cx="679.5490507139102" cy="467.377155004551" r="3" fill="hsl(147.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_21
-source_trace_altium_pcb_21
-top" data-x="47.72680066" data-y="48.9148755" cx="730.6452387564968" cy="298.97047329328166" r="3" fill="hsl(155.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_21
-source_trace_altium_pcb_21
-top" data-x="46.25839618" data-y="47.02666998" cx="694.682595646258" cy="345.2144490911096" r="3" fill="hsl(155.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_21
-source_trace_altium_pcb_21
-top" data-x="43.100472599999996" data-y="42.03859765999999" cx="617.3419989484416" cy="467.377155004551" r="3" fill="hsl(155.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-top" data-x="27.506797919999997" data-y="50.51279204" cx="235.43785405370306" cy="259.83595482057353" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-top" data-x="27.506797919999997" data-y="53.05279203999999" cx="235.43785405370306" cy="197.62890305510518" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-top" data-x="25.851802499999998" data-y="51.8896473" cx="194.90541871372147" cy="226.11544047711777" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-top" data-x="27.873055759999996" data-y="44.578600200000004" cx="244.4078620900766" cy="405.17004103203044" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-top" data-x="25.33305576" data-y="44.578600200000004" cx="182.20081032460814" cy="405.17004103203044" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-bottom" data-x="27.506797919999997" data-y="53.09032053999999" cx="235.43785405370306" cy="196.70979386527029" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-bottom" data-x="27.506797919999997" data-y="50.55032054" cx="235.43785405370306" cy="258.91684563073864" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_trace_altium_pcb_22
-source_trace_altium_pcb_22
-bottom" data-x="25.851802499999998" data-y="51.8563479" cx="194.90541871372147" cy="226.93097492576294" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+source_net_altium_pcb_21" data-x="43.100472599999996" data-y="42.03859765999999" x="598.1165985650648" y="448.1517546211741" width="38.45080076675367" height="38.45080076675379" fill="rgba(255,0,0,0.9375)" stroke="black" stroke-width="0.04083138370833333"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="20.09410002" data-y="49.12936326" cx="53.893727287136244" cy="293.71746101399845" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="20.09410002" data-y="49.12936326" cx="53.893727287136244" cy="293.71746101399845" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="20.09410002" data-y="51.029362" cx="53.893727287136244" cy="247.1846578748232" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="20.09410002" data-y="51.029362" cx="53.893727287136244" cy="247.1846578748232" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="24.251803159999998" data-y="51.8896473" cx="155.71989045856583" cy="226.11544047711777" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="24.251803159999998" data-y="51.8896473" cx="155.71989045856583" cy="226.11544047711777" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="20.06910134" data-y="52.96339419999999" cx="53.281485483660504" cy="199.8183424490428" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="20.06910134" data-y="52.96339419999999" cx="53.281485483660504" cy="199.8183424490428" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="27.873055759999996" data-y="42.0386002" cx="244.4078620900766" cy="467.37709279749924" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="27.873055759999996" data-y="42.0386002" cx="244.4078620900766" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="25.33305576" data-y="42.0386002" cx="182.20081032460814" cy="467.37709279749924" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="25.33305576" data-y="42.0386002" cx="182.20081032460814" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-top" data-x="22.79305576" data-y="42.0386002" cx="119.99375855913968" cy="467.37709279749924" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+top" data-x="22.79305576" data-y="42.0386002" cx="119.99375855913968" cy="467.37709279749924" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-bottom" data-x="20.0518014" data-y="52.88606644" cx="52.85779325408589" cy="201.71217393299025" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+bottom" data-x="20.0518014" data-y="52.88606644" cx="52.85779325408589" cy="201.71217393299025" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-bottom" data-x="20.0518014" data-y="54.78606518" cx="52.85779325408589" cy="155.17937079381522" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+bottom" data-x="20.0518014" data-y="54.78606518" cx="52.85779325408589" cy="155.17937079381522" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-bottom" data-x="20.02680018" data-y="51.00551902" cx="52.24548924355838" cy="247.7685954697456" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
+bottom" data-x="20.02680018" data-y="51.00551902" cx="52.24548924355838" cy="247.7685954697456" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_0
 source_net_altium_pcb_0
-bottom" data-x="24.251803159999998" data-y="51.8563479" cx="155.71989045856583" cy="226.93097492576294" r="3" fill="hsl(170, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_1
+bottom" data-x="24.251803159999998" data-y="51.8563479" cx="155.71989045856583" cy="226.93097492576294" r="3" fill="hsl(0, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_1
 source_net_altium_pcb_1
-bottom" data-x="27.506797919999997" data-y="48.01032054" cx="235.43785405370306" cy="321.1238973962072" r="3" fill="hsl(177.3913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_1
+bottom" data-x="27.506797919999997" data-y="48.01032054" cx="235.43785405370306" cy="321.1238973962072" r="3" fill="hsl(14.782608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_1
 source_net_altium_pcb_1
-bottom" data-x="26.05179956" data-y="49.06684624" cx="199.8035397626827" cy="295.2485631791019" r="3" fill="hsl(177.3913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_2
+bottom" data-x="26.05179956" data-y="49.06684624" cx="199.8035397626827" cy="295.2485631791019" r="3" fill="hsl(14.782608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_2
 source_net_altium_pcb_2
-bottom" data-x="23.65179928" data-y="50.01684434" cx="141.0252162764233" cy="271.98219271304015" r="3" fill="hsl(184.7826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_2
+bottom" data-x="23.65179928" data-y="50.01684434" cx="141.0252162764233" cy="271.98219271304015" r="3" fill="hsl(29.565217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_2
 source_net_altium_pcb_2
-bottom" data-x="22.601801379999998" data-y="52.88606644" cx="115.30975418235505" cy="201.71217393299025" r="3" fill="hsl(184.7826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_3
+bottom" data-x="22.601801379999998" data-y="52.88606644" cx="115.30975418235505" cy="201.71217393299025" r="3" fill="hsl(29.565217391304348, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_3
 source_net_altium_pcb_3
-bottom" data-x="27.506797919999997" data-y="55.63032053999999" cx="235.43785405370306" cy="134.50274209980194" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_3
+bottom" data-x="27.506797919999997" data-y="55.63032053999999" cx="235.43785405370306" cy="134.50274209980194" r="3" fill="hsl(44.34782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_3
 source_net_altium_pcb_3
-bottom" data-x="26.05179956" data-y="54.78606518" cx="199.8035397626827" cy="155.17937079381522" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_4
+bottom" data-x="26.05179956" data-y="54.78606518" cx="199.8035397626827" cy="155.17937079381522" r="3" fill="hsl(44.34782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_4
 source_net_altium_pcb_4
-bottom" data-x="22.601801379999998" data-y="54.78606518" cx="115.30975418235505" cy="155.17937079381522" r="3" fill="hsl(199.56521739130434, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_4
+bottom" data-x="22.601801379999998" data-y="54.78606518" cx="115.30975418235505" cy="155.17937079381522" r="3" fill="hsl(59.130434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_4
 source_net_altium_pcb_4
-bottom" data-x="23.65179928" data-y="55.736063279999996" cx="141.0252162764233" cy="131.91300032775348" r="3" fill="hsl(199.56521739130434, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_5
+bottom" data-x="23.65179928" data-y="55.736063279999996" cx="141.0252162764233" cy="131.91300032775348" r="3" fill="hsl(59.130434782608695, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_5
 source_net_altium_pcb_5
-top" data-x="27.506797919999997" data-y="55.59279203999999" cx="235.43785405370306" cy="135.4218512896366" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_5
+top" data-x="27.506797919999997" data-y="55.59279203999999" cx="235.43785405370306" cy="135.4218512896366" r="3" fill="hsl(73.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_5
 source_net_altium_pcb_5
-top" data-x="26.05179956" data-y="54.81684744" cx="199.8035397626827" cy="154.42548353346956" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_6
+top" data-x="26.05179956" data-y="54.81684744" cx="199.8035397626827" cy="154.42548353346956" r="3" fill="hsl(73.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_6
 source_net_altium_pcb_6
-top" data-x="22.644099999999998" data-y="51.029362" cx="116.3456882154054" cy="247.1846578748232" r="3" fill="hsl(214.34782608695653, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_6
+top" data-x="22.644099999999998" data-y="51.029362" cx="116.3456882154054" cy="247.1846578748232" r="3" fill="hsl(88.69565217391305, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_6
 source_net_altium_pcb_6
-top" data-x="23.65179928" data-y="53.866849339999995" cx="141.0252162764233" cy="177.6918539995313" r="3" fill="hsl(214.34782608695653, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_7
+top" data-x="23.65179928" data-y="53.866849339999995" cx="141.0252162764233" cy="177.6918539995313" r="3" fill="hsl(88.69565217391305, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_7
 source_net_altium_pcb_7
-top" data-x="27.506797919999997" data-y="47.97279204" cx="235.43785405370306" cy="322.0430065860421" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_7
+top" data-x="27.506797919999997" data-y="47.97279204" cx="235.43785405370306" cy="322.0430065860421" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_7
 source_net_altium_pcb_7
-top" data-x="26.05179956" data-y="49.12936326" cx="199.8035397626827" cy="293.71746101399845" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_8
+top" data-x="26.05179956" data-y="49.12936326" cx="199.8035397626827" cy="293.71746101399845" r="3" fill="hsl(103.47826086956522, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_8
 source_net_altium_pcb_8
-top" data-x="22.644099999999998" data-y="49.12936326" cx="116.3456882154054" cy="293.71746101399845" r="3" fill="hsl(229.1304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_8
+top" data-x="22.644099999999998" data-y="49.12936326" cx="116.3456882154054" cy="293.71746101399845" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_8
 source_net_altium_pcb_8
-top" data-x="23.65179928" data-y="48.179365159999996" cx="141.0252162764233" cy="316.9838314800602" r="3" fill="hsl(229.1304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_9
+top" data-x="23.65179928" data-y="48.179365159999996" cx="141.0252162764233" cy="316.9838314800602" r="3" fill="hsl(118.26086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_9
 source_net_altium_pcb_9
-bottom" data-x="39.14680004" data-y="48.01032054" cx="520.512741624177" cy="321.1238973962072" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_9
+bottom" data-x="39.14680004" data-y="48.01032054" cx="520.512741624177" cy="321.1238973962072" r="3" fill="hsl(133.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_9
 source_net_altium_pcb_9
-bottom" data-x="43.39382228" data-y="49.255062779999996" cx="624.5264157709394" cy="290.6389584362289" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_10
+bottom" data-x="43.39382228" data-y="49.255062779999996" cx="624.5264157709394" cy="290.6389584362289" r="3" fill="hsl(133.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_10
 source_net_altium_pcb_10
-bottom" data-x="39.14680004" data-y="55.63032053999999" cx="520.512741624177" cy="134.50274209980194" r="3" fill="hsl(243.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_10
+bottom" data-x="39.14680004" data-y="55.63032053999999" cx="520.512741624177" cy="134.50274209980194" r="3" fill="hsl(147.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_10
 source_net_altium_pcb_10
-bottom" data-x="41.10539658" data-y="55.88247904" cx="568.4806614475815" cy="128.32713703578474" r="3" fill="hsl(243.91304347826087, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_11
+bottom" data-x="41.10539658" data-y="55.88247904" cx="568.4806614475815" cy="128.32713703578474" r="3" fill="hsl(147.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_11
 source_net_altium_pcb_11
-top" data-x="40.871297479999996" data-y="55.79862348" cx="562.747348521617" cy="130.38084064276995" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_11
+top" data-x="40.871297479999996" data-y="55.79862348" cx="562.747348521617" cy="130.38084064276995" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_11
 source_net_altium_pcb_11
-top" data-x="39.14680004" data-y="55.59279203999999" cx="520.512741624177" cy="135.4218512896366" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_12
+top" data-x="39.14680004" data-y="55.59279203999999" cx="520.512741624177" cy="135.4218512896366" r="3" fill="hsl(162.6086956521739, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_12
 source_net_altium_pcb_12
-top" data-x="43.43669748" data-y="49.110338660000004" cx="625.5764708047404" cy="294.18339183172156" r="3" fill="hsl(258.69565217391306, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_12
+top" data-x="43.43669748" data-y="49.110338660000004" cx="625.5764708047404" cy="294.18339183172156" r="3" fill="hsl(177.3913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_12
 source_net_altium_pcb_12
-top" data-x="39.14680004" data-y="47.97279204" cx="520.512741624177" cy="322.0430065860421" r="3" fill="hsl(258.69565217391306, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
+top" data-x="39.14680004" data-y="47.97279204" cx="520.512741624177" cy="322.0430065860421" r="3" fill="hsl(177.3913043478261, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
 source_net_altium_pcb_13
-bottom" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
+bottom" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
 source_net_altium_pcb_13
-bottom" data-x="39.14680004" data-y="50.55032054" cx="520.512741624177" cy="258.91684563073864" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
+bottom" data-x="39.14680004" data-y="50.55032054" cx="520.512741624177" cy="258.91684563073864" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
 source_net_altium_pcb_13
-bottom" data-x="39.14680004" data-y="53.09032053999999" cx="520.512741624177" cy="196.70979386527029" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
+bottom" data-x="39.14680004" data-y="53.09032053999999" cx="520.512741624177" cy="196.70979386527029" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_13
 source_net_altium_pcb_13
-bottom" data-x="48.526799059999995" data-y="50.768051879999994" cx="750.2379717805486" cy="253.58439494635127" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
+bottom" data-x="48.526799059999995" data-y="50.768051879999994" cx="750.2379717805486" cy="253.58439494635127" r="3" fill="hsl(192.17391304347825, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
 source_net_altium_pcb_14
-bottom" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(273.4782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
+bottom" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
 source_net_altium_pcb_14
-bottom" data-x="44.38199658" data-y="55.88247904" cx="648.727758225036" cy="128.32713703578474" r="3" fill="hsl(273.4782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
+bottom" data-x="44.38199658" data-y="55.88247904" cx="648.727758225036" cy="128.32713703578474" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
 source_net_altium_pcb_14
-bottom" data-x="43.39382228" data-y="52.53166277999999" cx="624.5264157709394" cy="210.3918616587746" r="3" fill="hsl(273.4782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
+bottom" data-x="43.39382228" data-y="52.53166277999999" cx="624.5264157709394" cy="210.3918616587746" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_14
 source_net_altium_pcb_14
-bottom" data-x="47.72680066" data-y="50.768051879999994" cx="730.6452387564968" cy="253.58439494635127" r="3" fill="hsl(273.4782608695652, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+bottom" data-x="47.72680066" data-y="50.768051879999994" cx="730.6452387564968" cy="253.58439494635127" r="3" fill="hsl(206.95652173913044, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-top" data-x="22.644099999999998" data-y="50.0793639" cx="116.3456882154054" cy="270.45102834088493" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+top" data-x="22.644099999999998" data-y="50.0793639" cx="116.3456882154054" cy="270.45102834088493" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-top" data-x="23.65179928" data-y="50.0793639" cx="141.0252162764233" cy="270.45102834088493" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+top" data-x="23.65179928" data-y="50.0793639" cx="141.0252162764233" cy="270.45102834088493" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-top" data-x="21.66910068" data-y="52.96339419999999" cx="92.46701373881626" cy="199.8183424490428" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+top" data-x="21.66910068" data-y="52.96339419999999" cx="92.46701373881626" cy="199.8183424490428" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-top" data-x="23.65179928" data-y="55.766848079999995" cx="141.0252162764233" cy="131.15905086035605" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+top" data-x="23.65179928" data-y="55.766848079999995" cx="141.0252162764233" cy="131.15905086035605" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-top" data-x="22.79305576" data-y="44.578600200000004" cx="119.99375855913968" cy="405.17004103203044" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+top" data-x="22.79305576" data-y="44.578600200000004" cx="119.99375855913968" cy="405.17004103203044" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-bottom" data-x="23.65179928" data-y="48.1168456" cx="141.0252162764233" cy="318.5149958522154" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+bottom" data-x="23.65179928" data-y="48.1168456" cx="141.0252162764233" cy="318.5149958522154" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-bottom" data-x="22.601801379999998" data-y="53.836064539999995" cx="115.30975418235505" cy="178.44580346692874" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+bottom" data-x="22.601801379999998" data-y="53.836064539999995" cx="115.30975418235505" cy="178.44580346692874" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-bottom" data-x="21.62679952" data-y="51.00551902" cx="91.43101749871414" cy="247.7685954697456" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
+bottom" data-x="21.62679952" data-y="51.00551902" cx="91.43101749871414" cy="247.7685954697456" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_15
 source_net_altium_pcb_15
-bottom" data-x="23.65179928" data-y="53.836064539999995" cx="141.0252162764233" cy="178.44580346692874" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
+bottom" data-x="23.65179928" data-y="53.836064539999995" cx="141.0252162764233" cy="178.44580346692874" r="3" fill="hsl(221.7391304347826, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
 source_net_altium_pcb_16
-top" data-x="47.72680066" data-y="50.76487434" cx="730.6452387564968" cy="253.66221596810965" r="3" fill="hsl(288.2608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
+top" data-x="47.72680066" data-y="50.76487434" cx="730.6452387564968" cy="253.66221596810965" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
 source_net_altium_pcb_16
-top" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(288.2608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
+top" data-x="45.839298719999995" data-y="50.80431546" cx="684.4184943120076" cy="252.69626486829543" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
 source_net_altium_pcb_16
-top" data-x="39.14680004" data-y="53.05279203999999" cx="520.512741624177" cy="197.62890305510518" r="3" fill="hsl(288.2608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
+top" data-x="39.14680004" data-y="53.05279203999999" cx="520.512741624177" cy="197.62890305510518" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_16
 source_net_altium_pcb_16
-top" data-x="39.14680004" data-y="50.51279204" cx="520.512741624177" cy="259.83595482057353" r="3" fill="hsl(288.2608695652174, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
+top" data-x="39.14680004" data-y="50.51279204" cx="520.512741624177" cy="259.83595482057353" r="3" fill="hsl(236.52173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
 source_net_altium_pcb_17
-top" data-x="48.526799059999995" data-y="50.76487434" cx="750.2379717805486" cy="253.66221596810965" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
+top" data-x="48.526799059999995" data-y="50.76487434" cx="750.2379717805486" cy="253.66221596810965" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
 source_net_altium_pcb_17
-top" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
+top" data-x="45.839298719999995" data-y="52.836315459999994" cx="684.4184943120076" cy="202.9306234559208" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
 source_net_altium_pcb_17
-top" data-x="44.14789748" data-y="55.79862348" cx="642.9944452990715" cy="130.38084064276995" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
+top" data-x="44.14789748" data-y="55.79862348" cx="642.9944452990715" cy="130.38084064276995" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_17
 source_net_altium_pcb_17
-top" data-x="43.43669748" data-y="52.38693865999999" cx="625.5764708047404" cy="213.93629505426748" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
+top" data-x="43.43669748" data-y="52.38693865999999" cx="625.5764708047404" cy="213.93629505426748" r="3" fill="hsl(251.30434782608697, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
 source_net_altium_pcb_18
-top" data-x="45.640472599999995" data-y="44.57859765999999" cx="679.5490507139102" cy="405.17010323908266" r="3" fill="hsl(303.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
+top" data-x="45.640472599999995" data-y="44.57859765999999" cx="679.5490507139102" cy="405.17010323908266" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
 source_net_altium_pcb_18
-bottom" data-x="48.28620264" data-y="47.03779264" cx="744.3455332161682" cy="344.9420444114287" r="3" fill="hsl(303.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
+bottom" data-x="48.28620264" data-y="47.03779264" cx="744.3455332161682" cy="344.9420444114287" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_18
 source_net_altium_pcb_18
-bottom" data-x="48.526799059999995" data-y="48.91805304" cx="750.2379717805486" cy="298.89265227152305" r="3" fill="hsl(303.04347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
+bottom" data-x="48.526799059999995" data-y="48.91805304" cx="750.2379717805486" cy="298.89265227152305" r="3" fill="hsl(266.0869565217391, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
 source_net_altium_pcb_19
-top" data-x="43.100472599999996" data-y="44.57859765999999" cx="617.3419989484416" cy="405.17010323908266" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
+top" data-x="43.100472599999996" data-y="44.57859765999999" cx="617.3419989484416" cy="405.17010323908266" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
 source_net_altium_pcb_19
-bottom" data-x="46.254202639999995" data-y="47.03779264" cx="694.5798918037933" cy="344.9420444114287" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
+bottom" data-x="46.254202639999995" data-y="47.03779264" cx="694.5798918037933" cy="344.9420444114287" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_19
 source_net_altium_pcb_19
-bottom" data-x="47.72680066" data-y="48.91805304" cx="730.6452387564968" cy="298.89265227152305" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
+bottom" data-x="47.72680066" data-y="48.91805304" cx="730.6452387564968" cy="298.89265227152305" r="3" fill="hsl(280.8695652173913, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
 source_net_altium_pcb_20
-top" data-x="48.526799059999995" data-y="48.9148755" cx="750.2379717805486" cy="298.97047329328166" r="3" fill="hsl(317.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
+top" data-x="48.526799059999995" data-y="48.9148755" cx="750.2379717805486" cy="298.97047329328166" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
 source_net_altium_pcb_20
-top" data-x="48.290396179999995" data-y="47.02666998" cx="744.4482370586329" cy="345.2144490911096" r="3" fill="hsl(317.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
+top" data-x="48.290396179999995" data-y="47.02666998" cx="744.4482370586329" cy="345.2144490911096" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_20
 source_net_altium_pcb_20
-top" data-x="45.640472599999995" data-y="42.03859765999999" cx="679.5490507139102" cy="467.377155004551" r="3" fill="hsl(317.82608695652175, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
+top" data-x="45.640472599999995" data-y="42.03859765999999" cx="679.5490507139102" cy="467.377155004551" r="3" fill="hsl(295.6521739130435, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
 source_net_altium_pcb_21
-top" data-x="47.72680066" data-y="48.9148755" cx="730.6452387564968" cy="298.97047329328166" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
+top" data-x="47.72680066" data-y="48.9148755" cx="730.6452387564968" cy="298.97047329328166" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
 source_net_altium_pcb_21
-top" data-x="46.25839618" data-y="47.02666998" cx="694.682595646258" cy="345.2144490911096" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
+top" data-x="46.25839618" data-y="47.02666998" cx="694.682595646258" cy="345.2144490911096" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_21
 source_net_altium_pcb_21
-top" data-x="43.100472599999996" data-y="42.03859765999999" cx="617.3419989484416" cy="467.377155004551" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="43.100472599999996" data-y="42.03859765999999" cx="617.3419989484416" cy="467.377155004551" r="3" fill="hsl(310.4347826086956, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-top" data-x="27.506797919999997" data-y="50.51279204" cx="235.43785405370306" cy="259.83595482057353" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="27.506797919999997" data-y="50.51279204" cx="235.43785405370306" cy="259.83595482057353" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-top" data-x="27.506797919999997" data-y="53.05279203999999" cx="235.43785405370306" cy="197.62890305510518" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="27.506797919999997" data-y="53.05279203999999" cx="235.43785405370306" cy="197.62890305510518" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-top" data-x="25.851802499999998" data-y="51.8896473" cx="194.90541871372147" cy="226.11544047711777" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="25.851802499999998" data-y="51.8896473" cx="194.90541871372147" cy="226.11544047711777" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-top" data-x="27.873055759999996" data-y="44.578600200000004" cx="244.4078620900766" cy="405.17004103203044" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="27.873055759999996" data-y="44.578600200000004" cx="244.4078620900766" cy="405.17004103203044" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-top" data-x="25.33305576" data-y="44.578600200000004" cx="182.20081032460814" cy="405.17004103203044" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+top" data-x="25.33305576" data-y="44.578600200000004" cx="182.20081032460814" cy="405.17004103203044" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-bottom" data-x="27.506797919999997" data-y="53.09032053999999" cx="235.43785405370306" cy="196.70979386527029" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+bottom" data-x="27.506797919999997" data-y="53.09032053999999" cx="235.43785405370306" cy="196.70979386527029" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-bottom" data-x="27.506797919999997" data-y="50.55032054" cx="235.43785405370306" cy="258.91684563073864" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
+bottom" data-x="27.506797919999997" data-y="50.55032054" cx="235.43785405370306" cy="258.91684563073864" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g><circle data-type="point" data-label="source_net_altium_pcb_22
 source_net_altium_pcb_22
-bottom" data-x="25.851802499999998" data-y="51.8563479" cx="194.90541871372147" cy="226.93097492576294" r="3" fill="hsl(332.60869565217394, 100%, 50%)"/></g><g id="crosshair__stack2" style="display: none"><line id="crosshair-h__stack2" y1="0" y2="600" stroke="#666" stroke-width="0.5"/><line id="crosshair-v__stack2" x1="0" x2="800" stroke="#666" stroke-width="0.5"/><text id="coordinates__stack2" font-family="monospace" font-size="12" fill="#666"></text></g><script><![CDATA[
+bottom" data-x="25.851802499999998" data-y="51.8563479" cx="194.90541871372147" cy="226.93097492576294" r="3" fill="hsl(325.2173913043478, 100%, 50%)"/></g><g id="crosshair__stack2" style="display: none"><line id="crosshair-h__stack2" y1="0" y2="600" stroke="#666" stroke-width="0.5"/><line id="crosshair-v__stack2" x1="0" x2="800" stroke="#666" stroke-width="0.5"/><text id="coordinates__stack2" font-family="monospace" font-size="12" fill="#666"></text></g><script><![CDATA[
               document.currentScript.parentElement.addEventListener('mousemove', (e) => {
                 const svg = e.currentTarget;
                 const rect = svg.getBoundingClientRect();

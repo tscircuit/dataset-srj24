@@ -212,6 +212,45 @@ for (const [index, source] of sourceFiles.entries()) {
   const board = circuitJson.find((element) => element.type === "pcb_board")
   assert(board, `${exportName} Circuit JSON is missing a PCB board`)
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
+
+  if (sourceType === "altium") {
+    const sourceNetIds = new Set(
+      circuitJson
+        .filter((element) => element.type === "source_net")
+        .map((sourceNet) => sourceNet.source_net_id),
+    )
+    const pcbPortIds = new Set(
+      circuitJson
+        .filter((element) => element.type === "pcb_port")
+        .map((pcbPort) => pcbPort.pcb_port_id),
+    )
+    const connectedPcbPortIds = []
+
+    for (const connection of sample.connections) {
+      assert(
+        sourceNetIds.has(connection.name),
+        `${exportName} connection ${connection.name} is not owned by a source net`,
+      )
+      assert(
+        connection.pointsToConnect.length >= 2,
+        `${exportName} connection ${connection.name} has fewer than two endpoints`,
+      )
+      for (const point of connection.pointsToConnect) {
+        if (!point.pcb_port_id) continue
+        assert(
+          pcbPortIds.has(point.pcb_port_id),
+          `${exportName} connection ${connection.name} references missing PCB port ${point.pcb_port_id}`,
+        )
+        connectedPcbPortIds.push(point.pcb_port_id)
+      }
+    }
+
+    assert(
+      new Set(connectedPcbPortIds).size === connectedPcbPortIds.length,
+      `${exportName} submits the same PCB port through multiple autorouter connections`,
+    )
+  }
+
   const boardLayers = getBoardLayers(board.num_layers)
   const throughHoles = circuitJson.filter(
     (element) => element.type === "pcb_plated_hole" || element.type === "pcb_hole",
