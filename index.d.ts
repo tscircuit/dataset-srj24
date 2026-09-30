@@ -42,6 +42,9 @@ export interface SimpleRouteJson {
   id?: string
   sourceCircuitJson?: string
   sourceKicadPcb?: string
+  sourceBoardFormat?: string
+  sourcePcbDocSha256?: string
+  snapshotComparison?: string
   sourceName?: string
   sourceUrl?: string
   sourceRepository?: string
@@ -81,6 +84,12 @@ export const sample017: SimpleRouteJson
 export const sample018: SimpleRouteJson
 export const sample019: SimpleRouteJson
 export const sample020: SimpleRouteJson
+export const sample021: SimpleRouteJson
+export const sample022: SimpleRouteJson
+export const sample023: SimpleRouteJson
+export const sample024: SimpleRouteJson
+export const sample025: SimpleRouteJson
+export const sample026: SimpleRouteJson
 
 export const dataset: Record<string, SimpleRouteJson>
 declare const defaultDataset: Record<string, SimpleRouteJson>

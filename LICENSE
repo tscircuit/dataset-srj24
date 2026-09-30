@@ -31,3 +31,10 @@ materials and are not relicensed by this file. They remain licensed under the
 Apache License, Version 2.0. Their provenance and attribution are documented in
 `THIRD_PARTY_NOTICES.md` and `source-files.json`, and the applicable license
 text is included at `LICENSES/Apache-2.0.txt`.
+
+The generated board data and comparison snapshots derived from Texas
+Instruments Altium design resources are also third-party materials and are not
+relicensed by this file. They remain subject to the applicable Texas
+Instruments terms identified in `THIRD_PARTY_NOTICES.md` and
+`source-files.json`. The native Altium PcbDoc files are not redistributed in
+this repository.
