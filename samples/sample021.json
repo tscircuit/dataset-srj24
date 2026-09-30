@@ -149072,8 +149072,8 @@
         "x": 69.7484,
         "y": 103.124
       },
-      "width": 17.272,
-      "height": 12.7,
+      "width": 12.7,
+      "height": 17.272,
       "connectedTo": [
         "pcb_plated_hole_altium_1896",
         "connectivity_net3444",
@@ -149881,8 +149881,8 @@
         "x": 86.0552,
         "y": 103.1494
       },
-      "width": 17.272,
-      "height": 12.7,
+      "width": 12.7,
+      "height": 17.272,
       "connectedTo": [
         "pcb_plated_hole_altium_1897",
         "connectivity_net3342",
@@ -150357,8 +150357,8 @@
         "x": 42.9768,
         "y": 48.768
       },
-      "width": 17.272,
-      "height": 12.7,
+      "width": 12.7,
+      "height": 17.272,
       "connectedTo": [
         "pcb_plated_hole_altium_1898",
         "connectivity_net3444",
@@ -151166,8 +151166,8 @@
         "x": 60.096399999999996,
         "y": 48.641
       },
-      "width": 17.272,
-      "height": 12.7,
+      "width": 12.7,
+      "height": 17.272,
       "connectedTo": [
         "pcb_plated_hole_altium_1899",
         "connectivity_net3273",

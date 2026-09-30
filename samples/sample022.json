@@ -25783,8 +25783,8 @@
         "x": 62.57679889999999,
         "y": 45.78860032
       },
-      "width": 0.9144,
-      "height": 1.778,
+      "width": 1.778,
+      "height": 0.9144,
       "connectedTo": [
         "pcb_plated_hole_altium_880",
         "connectivity_net1363",

@@ -19,7 +19,10 @@ const getBoardLayers = (layerCount) => [
   "bottom",
 ]
 
-const getThroughHoleObstacleBounds = (throughHole) => {
+const getThroughHoleObstacleBounds = (
+  throughHole,
+  { applyCircularRectPadRotation = false } = {},
+) => {
   if (throughHole.type === "pcb_hole") {
     if (["oval", "pill", "rotated_pill", "rect"].includes(throughHole.hole_shape)) {
       return {
@@ -52,15 +55,19 @@ const getThroughHoleObstacleBounds = (throughHole) => {
       height: throughHole.outer_height,
     }
   }
-  if (["circular_hole_with_rect_pad", "pill_hole_with_rect_pad"].includes(throughHole.shape)) {
-    return {
-      center: { x: throughHole.x, y: throughHole.y },
-      width: throughHole.rect_pad_width,
-      height: throughHole.rect_pad_height,
-    }
-  }
-  if (throughHole.shape === "rotated_pill_hole_with_rect_pad") {
-    const normalizedRotation = ((throughHole.rect_ccw_rotation % 360) + 360) % 360
+  if (
+    [
+      "circular_hole_with_rect_pad",
+      "pill_hole_with_rect_pad",
+      "rotated_pill_hole_with_rect_pad",
+    ].includes(throughHole.shape)
+  ) {
+    const rect_ccw_rotation =
+      throughHole.shape === "rotated_pill_hole_with_rect_pad" ||
+      (throughHole.shape === "circular_hole_with_rect_pad" && applyCircularRectPadRotation)
+        ? (throughHole.rect_ccw_rotation ?? 0)
+        : 0
+    const normalizedRotation = ((rect_ccw_rotation % 360) + 360) % 360
     const isQuarterTurn = nearlyEqual(normalizedRotation, 90) || nearlyEqual(normalizedRotation, 270)
     return {
       center: { x: throughHole.x, y: throughHole.y },
@@ -257,7 +264,9 @@ for (const [index, source] of sourceFiles.entries()) {
   )
   for (const throughHole of throughHoles) {
     const throughHoleId = throughHole.pcb_plated_hole_id ?? throughHole.pcb_hole_id
-    const bounds = getThroughHoleObstacleBounds(throughHole)
+    const bounds = getThroughHoleObstacleBounds(throughHole, {
+      applyCircularRectPadRotation: sourceType === "altium",
+    })
     assert(bounds, `${exportName} cannot validate unsupported through-hole ${throughHoleId}`)
     const obstacle = sample.obstacles.find((candidate) =>
       obstacleMatchesThroughHole(candidate, throughHole, bounds),
