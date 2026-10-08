@@ -3,7 +3,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_0",
     "name": "PGND",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -31,7 +32,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_1",
     "name": "L_FET_D2",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -50,7 +52,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_2",
     "name": "L_D2",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -69,7 +72,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_3",
     "name": "L_FET_D1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -88,7 +92,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_4",
     "name": "L_D1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -107,7 +112,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_5",
     "name": "H_FET_D2",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -126,7 +132,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_6",
     "name": "H_D2",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -145,7 +152,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_7",
     "name": "H_FET_D1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -164,7 +172,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_8",
     "name": "H_D1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -183,7 +192,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_9",
     "name": "L_T6",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -202,7 +212,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_10",
     "name": "L_T4",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -221,7 +232,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_11",
     "name": "H_T6",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -240,7 +252,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_12",
     "name": "H_T4",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -259,7 +272,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_13",
     "name": "L_T5",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -280,7 +294,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_14",
     "name": "L_VOUT",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -301,7 +316,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_15",
     "name": "5V_PRI",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -327,7 +343,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_16",
     "name": "H_T5",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -348,7 +365,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_17",
     "name": "H_VOUT",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -369,7 +387,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_18",
     "name": "LS_GND",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -389,7 +408,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_19",
     "name": "ISO_12V_L",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -409,7 +429,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_20",
     "name": "ISO_12V_H",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -429,7 +450,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_21",
     "name": "HS_GND",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -449,7 +471,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_22",
     "name": "12V_PRI",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -504,7 +527,11 @@
     ],
     "thickness": 1.6,
     "num_layers": 4,
-    "material": "fr4"
+    "material": "fr4",
+    "is_via_in_pad_allowed": true,
+    "min_trace_width": 0.15239999999999998,
+    "min_via_hole_diameter": 0.19999959999999997,
+    "min_via_pad_diameter": 0.6604
   },
   {
     "type": "source_component",
@@ -4810,18 +4837,36 @@
       "y": 38.9636
     },
     "to": {
-      "x": 17.576792379999997,
+      "x": 17.576800000000002,
       "y": 64.96360641999999
     },
     "text": "26.00 mm",
-    "offset_distance": 2.539999999999891,
+    "offset_distance": 2.54,
     "offset_direction": {
-      "x": -0.999999999999957,
-      "y": -2.930768507469677e-7
+      "x": -1,
+      "y": 6.123233995736766e-17
     },
     "font": "tscircuit2024",
     "font_size": 1.524,
     "arrow_size": 1.524,
+    "color": "#ec4899"
+  },
+  {
+    "type": "pcb_fabrication_note_path",
+    "pcb_fabrication_note_path_id": "pcb_fabrication_note_path_altium_dimension_53_reference_extension",
+    "pcb_component_id": "pcb_component_altium_board_graphics",
+    "layer": "top",
+    "route": [
+      {
+        "x": 17.576792379999997,
+        "y": 64.96360641999999
+      },
+      {
+        "x": 17.576800000000002,
+        "y": 64.96360641999999
+      }
+    ],
+    "stroke_width": 0.254,
     "color": "#ec4899"
   },
   {
@@ -4835,17 +4880,35 @@
     },
     "to": {
       "x": 50.82680208,
-      "y": 37.71358726
+      "y": 38.9636
     },
-    "text": "33.27 mm",
-    "offset_distance": 2.563589032883133,
+    "text": "33.25 mm",
+    "offset_distance": 2.5654,
     "offset_direction": {
-      "x": -0.037567827154598867,
-      "y": -0.9992940800199319
+      "x": 0,
+      "y": -1
     },
     "font": "tscircuit2024",
     "font_size": 1.524,
     "arrow_size": 1.524,
+    "color": "#ec4899"
+  },
+  {
+    "type": "pcb_fabrication_note_path",
+    "pcb_fabrication_note_path_id": "pcb_fabrication_note_path_altium_dimension_54_reference_extension",
+    "pcb_component_id": "pcb_component_altium_board_graphics",
+    "layer": "top",
+    "route": [
+      {
+        "x": 50.82680208,
+        "y": 37.71358726
+      },
+      {
+        "x": 50.82680208,
+        "y": 38.9636
+      }
+    ],
+    "stroke_width": 0.254,
     "color": "#ec4899"
   },
   {
@@ -9930,7 +9993,7 @@
     "type": "pcb_copper_text",
     "pcb_copper_text_id": "pcb_copper_text_altium_530",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Top Layer",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -9946,7 +10009,7 @@
     "type": "pcb_copper_text",
     "pcb_copper_text_id": "pcb_copper_text_altium_531",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Bottom Layer",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -9994,7 +10057,7 @@
     "type": "pcb_silkscreen_text",
     "pcb_silkscreen_text_id": "pcb_silkscreen_text_altium_534",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Top Overlay",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -10218,7 +10281,7 @@
     "type": "pcb_silkscreen_text",
     "pcb_silkscreen_text_id": "pcb_silkscreen_text_altium_571",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Bottom Overlay",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {

@@ -2014,8 +2014,8 @@
   "connections": [
     {
       "name": "source_net_altium_pcb_0",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 18.941801079999998,
@@ -2117,8 +2117,8 @@
     },
     {
       "name": "source_net_altium_pcb_1",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 46.57680042,
@@ -2172,8 +2172,14 @@
     }
   ],
   "layerCount": 6,
-  "allowBlindAndBuriedVias": false,
-  "minTraceWidth": 0.1,
+  "allowBlindAndBuriedVias": true,
+  "allowViaInPad": false,
+  "minTraceWidth": 0.15239999999999998,
+  "minViaDiameter": 0.6095999999999999,
+  "minViaHoleDiameter": 0.19999959999999997,
+  "minViaPadDiameter": 0.6095999999999999,
+  "min_via_hole_diameter": 0.19999959999999997,
+  "min_via_pad_diameter": 0.6095999999999999,
   "outline": [
     {
       "x": 17.5768,
