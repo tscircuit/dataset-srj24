@@ -4,7 +4,7 @@ import { tmpdir } from "node:os"
 import { basename, join, resolve } from "node:path"
 import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 import { convertSrjToGraphicsObject } from "@tscircuit/capacity-autorouter"
-import { convertAltiumPcbDocToCircuitJson } from "altium-to-circuit-json"
+import { convertAltiumToCircuitJson } from "altium-to-circuit-json"
 import { parseAltiumBinaryPcbDoc, serializeAltiumPcbToSvg } from "altiumts"
 import { any_circuit_element } from "circuit-json"
 import { convertCircuitJsonToPcbSvg } from "circuit-to-svg"
@@ -341,7 +341,9 @@ const generatedSourceFiles = []
 for (const board of boards) {
   const sourceBytes = await getBoardBytes(board)
   const document = parseAltiumBinaryPcbDoc(sourceBytes)
-  const circuitJson = convertAltiumPcbDocToCircuitJson(document)
+  const circuitJson = convertAltiumToCircuitJson(sourceBytes, {
+    sourceType: "pcb",
+  })
 
   for (const [index, element] of circuitJson.entries()) {
     const result = any_circuit_element.safeParse(element)

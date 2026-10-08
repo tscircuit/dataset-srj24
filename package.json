@@ -26,10 +26,10 @@
   "devDependencies": {
     "@tscircuit/capacity-autorouter": "^0.0.941",
     "@tscircuit/checks": "^0.0.227",
-    "@tscircuit/circuit-json-util": "^0.0.116",
+    "@tscircuit/circuit-json-util": "^0.0.119",
     "@tscircuit/common": "^0.0.42",
     "@tscircuit/copper-pour-solver": "^0.0.30",
-    "@tscircuit/core": "0.0.2025",
+    "@tscircuit/core": "https://pkg.pr.new/tscircuit/core/@tscircuit/core@6e2d280",
     "@tscircuit/create-fdm-enclosure": "0.0.4",
     "@tscircuit/footprinter": "^0.0.426",
     "@tscircuit/image-utils": "^0.0.8",
@@ -42,17 +42,17 @@
     "@tscircuit/miniflex": "^0.0.4",
     "@tscircuit/ngspice-spice-engine": "^0.0.8",
     "@tscircuit/pcb-viewer": "^1.11.371",
-    "@tscircuit/props": "^0.0.670",
+    "@tscircuit/props": "^0.0.697",
     "@tscircuit/schematic-match-adapt": "^0.0.22",
     "@tscircuit/schematic-trace-solver": "^0.0.60",
     "@tscircuit/solver-utils": "^0.0.19",
     "@tscircuit/soup-util": "^0.0.41",
     "@vitejs/plugin-react": "4.3.4",
-    "altium-to-circuit-json": "0.0.75",
-    "altiumts": "github:tscircuit/altiumts#eccc0a7a99bfdff794ee6070adf21587b602e8e2",
+    "altium-to-circuit-json": "github:tscircuit/altium-to-circuit-json#236fac3f95aa5446eec4c10ca13e279b104eaf50",
+    "altiumts": "github:tscircuit/altiumts#8db22cf449c7bf6584a968b4913be4e1bd4a93ad",
     "bpc-graph": "^0.0.66",
     "calculate-elbow": "^0.0.12",
-    "circuit-json": "0.0.506",
+    "circuit-json": "0.0.521",
     "circuit-json-to-bpc": "^0.0.13",
     "circuit-json-to-connectivity-map": "^0.0.30",
     "circuit-json-to-gltf": "^0.0.101",
@@ -81,6 +81,7 @@
     "vite": "5.4.21"
   },
   "trustedDependencies": [
+    "altium-to-circuit-json",
     "altiumts"
   ]
 }

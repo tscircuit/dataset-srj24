@@ -5302,8 +5302,8 @@
   "connections": [
     {
       "name": "source_net_altium_pcb_0",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -5373,8 +5373,8 @@
     },
     {
       "name": "source_net_altium_pcb_1",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 47.1678,
@@ -5396,8 +5396,8 @@
     },
     {
       "name": "source_net_altium_pcb_2",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 45.8127989,
@@ -5419,8 +5419,8 @@
     },
     {
       "name": "source_net_altium_pcb_3",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -5442,8 +5442,8 @@
     },
     {
       "name": "source_net_altium_pcb_4",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -5465,8 +5465,8 @@
     },
     {
       "name": "source_net_altium_pcb_5",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 44.49280916,
@@ -5488,8 +5488,8 @@
     },
     {
       "name": "source_net_altium_pcb_6",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 45.81279635999999,
@@ -5519,8 +5519,8 @@
     },
     {
       "name": "source_net_altium_pcb_7",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 40.1828,
@@ -5590,8 +5590,8 @@
     },
     {
       "name": "source_net_altium_pcb_8",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -5693,8 +5693,8 @@
     },
     {
       "name": "source_net_altium_pcb_9",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 45.81279635999999,
@@ -5716,8 +5716,8 @@
     },
     {
       "name": "source_net_altium_pcb_10",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 44.49280916,
@@ -5739,8 +5739,8 @@
     },
     {
       "name": "source_net_altium_pcb_11",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 45.8127989,
@@ -5762,8 +5762,8 @@
     },
     {
       "name": "source_net_altium_pcb_12",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 44.49280916,
@@ -5785,8 +5785,8 @@
     },
     {
       "name": "source_net_altium_pcb_13",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -5816,8 +5816,8 @@
     },
     {
       "name": "source_net_altium_pcb_14",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -5847,8 +5847,8 @@
     },
     {
       "name": "source_net_altium_pcb_15",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -5878,8 +5878,8 @@
     },
     {
       "name": "source_net_altium_pcb_16",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -5909,8 +5909,8 @@
     },
     {
       "name": "source_net_altium_pcb_17",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -5956,8 +5956,8 @@
     },
     {
       "name": "source_net_altium_pcb_18",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 40.1828,
@@ -5987,8 +5987,8 @@
     },
     {
       "name": "source_net_altium_pcb_19",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -6018,8 +6018,8 @@
     },
     {
       "name": "source_net_altium_pcb_20",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 37.71719914,
@@ -6049,8 +6049,8 @@
     },
     {
       "name": "source_net_altium_pcb_21",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 26.0858,
@@ -6080,8 +6080,8 @@
     },
     {
       "name": "source_net_altium_pcb_22",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 41.3258,
@@ -6127,8 +6127,8 @@
     },
     {
       "name": "source_net_altium_pcb_23",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -6150,8 +6150,8 @@
     },
     {
       "name": "source_net_altium_pcb_24",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -6173,8 +6173,8 @@
     },
     {
       "name": "source_net_altium_pcb_25",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -6220,8 +6220,8 @@
     },
     {
       "name": "source_net_altium_pcb_26",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 44.49280916,
@@ -6243,8 +6243,8 @@
     },
     {
       "name": "source_net_altium_pcb_27",
-      "nominalTraceWidth": 0.1,
-      "width": 0.1,
+      "nominalTraceWidth": 0.254,
+      "width": 0.254,
       "pointsToConnect": [
         {
           "x": 27.96720086,
@@ -6323,7 +6323,13 @@
   ],
   "layerCount": 4,
   "allowBlindAndBuriedVias": false,
-  "minTraceWidth": 0.1,
+  "allowViaInPad": false,
+  "minTraceWidth": 0.15239999999999998,
+  "minViaDiameter": 0.6604,
+  "minViaHoleDiameter": 0.19999959999999997,
+  "minViaPadDiameter": 0.6604,
+  "min_via_hole_diameter": 0.19999959999999997,
+  "min_via_pad_diameter": 0.6604,
   "outline": [
     {
       "x": 17.5768,
