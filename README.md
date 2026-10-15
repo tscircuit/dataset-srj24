@@ -372,6 +372,11 @@ unchanged. Tests subtract the emitted cutout rectangles from all 27 source
 polygons on every copper layer, with nanometre-scale numerical tolerance, and
 check the previously uncovered PMP22650 point on inner6.
 
+`bun run generate:cutouts --check` verifies the checked-in output without
+writing files. Across operating systems it allows only floating-point drift
+of 1e-12 mm in JSON and 1e-9 in SVG numbers; structure, text and metadata must
+match. The saved geometry is never rounded to satisfy this check.
+
 The core dependency is pinned to the successful commit preview from
 [core #4639](https://github.com/tscircuit/core/pull/4639), commit
 `2023e52e3782f00e42e49a6d0921ef9697512c1e`. Replace that pin with the first

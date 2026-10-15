@@ -3,6 +3,12 @@ import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 import { convertSrjToGraphicsObject } from "@tscircuit/capacity-autorouter"
 import { getSvgFromGraphicsObject } from "graphics-debug"
 import { validatePolygonCutoutCoverage } from "./lib/polygon-cutout-coverage.mjs"
+import {
+  assertRegeneratedJsonEqual,
+  assertRegeneratedSvgEqual,
+} from "./lib/assert-regenerated-equal.mjs"
+
+const checkOnly = process.argv.includes("--check")
 
 // Keep the original Altium and Circuit JSON panels byte-for-byte. Only replace
 // the third (800 x 600) panel produced by generate-ti-altium-samples.mjs.
@@ -70,8 +76,18 @@ for (const filename of readdirSync("samples")
     .split("\n")
     .map((line) => line.trimEnd())
     .join("\n")
-  writeFileSync(samplePath, `${JSON.stringify(regenerated, null, 2)}\n`)
-  writeFileSync(previous.snapshotComparison, updatedComparison)
+  if (checkOnly) {
+    // Match JSON serialization's omission of undefined optional core fields.
+    assertRegeneratedJsonEqual(
+      previous,
+      JSON.parse(JSON.stringify(regenerated)),
+      previous.id,
+    )
+    assertRegeneratedSvgEqual(comparison, updatedComparison)
+  } else {
+    writeFileSync(samplePath, `${JSON.stringify(regenerated, null, 2)}\n`)
+    writeFileSync(previous.snapshotComparison, updatedComparison)
+  }
   console.log(
     `${previous.id}: ${previous.obstacles.length} -> ${regenerated.obstacles.length} obstacles`,
   )
