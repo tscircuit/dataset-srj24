@@ -1345,6 +1345,7 @@
       ]
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_0",
       "type": "rect",
       "layers": [
         "top",
@@ -1355,14 +1356,15 @@
         "bottom"
       ],
       "center": {
-        "x": 22.98929957062717,
-        "y": 55.40319932921686
+        "x": 23.363997692464256,
+        "y": 55.10370892049949
       },
-      "width": 1.5215879301213207,
-      "height": 0.6,
+      "width": 0.09982383140784634,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_1",
       "type": "rect",
       "layers": [
         "top",
@@ -1373,14 +1375,15 @@
         "bottom"
       ],
       "center": {
-        "x": 36.16527631876194,
-        "y": 55.40319932921686
+        "x": 23.315231779371757,
+        "y": 55.10472810306476
       },
-      "width": 1.5230461624761062,
-      "height": 0.6,
+      "width": 0.19964766281639257,
+      "height": 0.001019182565265453,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_2",
       "type": "rect",
       "layers": [
         "top",
@@ -1391,14 +1394,15 @@
         "bottom"
       ],
       "center": {
-        "x": 23.358540360839555,
-        "y": 56.00319932921686
+        "x": 23.266465866279603,
+        "y": 55.10574728563002
       },
-      "width": 2.2605868174887185,
-      "height": 0.6,
+      "width": 0.2994714942242389,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_3",
       "type": "rect",
       "layers": [
         "top",
@@ -1409,14 +1413,15 @@
         "bottom"
       ],
       "center": {
-        "x": 35.79609947054221,
-        "y": 56.00319932921686
+        "x": 23.2176999531871,
+        "y": 55.106766468195275
       },
-      "width": 2.261399858915567,
-      "height": 0.6,
+      "width": 0.3992953256327816,
+      "height": 0.001019182565265453,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_4",
       "type": "rect",
       "layers": [
         "top",
@@ -1427,14 +1432,15 @@
         "bottom"
       ],
       "center": {
-        "x": 23.83729491089191,
-        "y": 56.603199329216864
+        "x": 23.168934040094946,
+        "y": 55.10778565076054
       },
-      "width": 3.218613224536057,
-      "height": 0.6,
+      "width": 0.4991191570406279,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_5",
       "type": "rect",
       "layers": [
         "top",
@@ -1445,14 +1451,15 @@
         "bottom"
       ],
       "center": {
-        "x": 35.31711485326805,
-        "y": 56.603199329216864
+        "x": 23.120168127002785,
+        "y": 55.1088048333258
       },
-      "width": 3.2193690934638894,
-      "height": 0.6,
+      "width": 0.5989429884484743,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_6",
       "type": "rect",
       "layers": [
         "top",
@@ -1463,14 +1470,15 @@
         "bottom"
       ],
       "center": {
-        "x": 24.519843418541672,
-        "y": 57.203199329216865
+        "x": 23.07140221391029,
+        "y": 55.109824015891064
       },
-      "width": 4.584227546778209,
-      "height": 0.6,
+      "width": 0.6987668198570169,
+      "height": 0.001019182565265453,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_7",
       "type": "rect",
       "layers": [
         "top",
@@ -1481,14 +1489,15 @@
         "bottom"
       ],
       "center": {
-        "x": 34.63326475886953,
-        "y": 57.203199329216865
+        "x": 23.022636300818135,
+        "y": 55.11084319845632
       },
-      "width": 4.58706928226092,
-      "height": 0.6,
+      "width": 0.7985906512648633,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_8",
       "type": "rect",
       "layers": [
         "top",
@@ -1499,14 +1508,15 @@
         "bottom"
       ],
       "center": {
-        "x": 29.577135195840626,
-        "y": 57.803199329216866
+        "x": 22.973870387725633,
+        "y": 55.11186238102158
       },
-      "width": 14.699328408318738,
-      "height": 0.6,
+      "width": 0.898414482673406,
+      "height": 0.001019182565265453,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_9",
       "type": "rect",
       "layers": [
         "top",
@@ -1517,14 +1527,15 @@
         "bottom"
       ],
       "center": {
-        "x": 29.577005869104966,
-        "y": 58.40319932921687
+        "x": 22.92510447463348,
+        "y": 55.112881563586846
       },
-      "width": 14.699587061790051,
-      "height": 0.6,
+      "width": 0.9982383140812523,
+      "height": 0.0010191825652583475,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_10",
       "type": "rect",
       "layers": [
         "top",
@@ -1535,14 +1546,3511 @@
         "bottom"
       ],
       "center": {
-        "x": 29.57687654236931,
-        "y": 59.00319932921687
+        "x": 22.87633856154098,
+        "y": 55.11390074615211
       },
-      "width": 14.699845715261368,
-      "height": 0.6,
+      "width": 1.0980621454897985,
+      "height": 0.001019182565265453,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_0_rect_11",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82757264844882,
+        "y": 55.11491992871737
+      },
+      "width": 1.1978859768976449,
+      "height": 0.0010191825652583475,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_12",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82757268499212,
+        "y": 55.11542955251177
+      },
+      "width": 1.1978860500402995,
+      "height": 6.502354210624617e-8,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_13",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82758065205777,
+        "y": 55.115436673147556
+      },
+      "width": 1.1979019963940551,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_14",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.778543926073894,
+        "y": 55.115436673147556
+      },
+      "width": 0.09986361037869784,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_15",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827588619123425,
+        "y": 55.1154508493956
+      },
+      "width": 1.197917942747818,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_16",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.82845972712424,
+        "y": 55.1154508493956
+      },
+      "width": 0.19972722075738858,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_17",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827596586189077,
+        "y": 55.11546502564363
+      },
+      "width": 1.1979338891015772,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_18",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.87837552817459,
+        "y": 55.11546502564363
+      },
+      "width": 0.2995908311360935,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_19",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827604553254737,
+        "y": 55.115479201891674
+      },
+      "width": 1.1979498354553435,
+      "height": 0.000014176248043895612,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_20",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.92829132924995,
+        "y": 55.115479201891674
+      },
+      "width": 0.399454441564842,
+      "height": 0.000014176248043895612,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_21",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827612520320386,
+        "y": 55.11549337813972
+      },
+      "width": 1.1979657818090992,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_22",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.978207130300305,
+        "y": 55.11549337813972
+      },
+      "width": 0.49931805194353984,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_23",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827620487386042,
+        "y": 55.11550755438775
+      },
+      "width": 1.197981728162862,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_24",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.02812293135065,
+        "y": 55.11550755438775
+      },
+      "width": 0.5991816623222306,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_25",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82762845445169,
+        "y": 55.11552173063579
+      },
+      "width": 1.1979976745166176,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_26",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.078038732401,
+        "y": 55.11552173063579
+      },
+      "width": 0.6990452727009284,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_27",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827636421517347,
+        "y": 55.11553590688382
+      },
+      "width": 1.1980136208703769,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_28",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.127954533451344,
+        "y": 55.11553590688382
+      },
+      "width": 0.7989088830796334,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_29",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827644388583003,
+        "y": 55.115550083131865
+      },
+      "width": 1.1980295672241432,
+      "height": 0.000014176248043895612,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_30",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.177870334526716,
+        "y": 55.115550083131865
+      },
+      "width": 0.8987724935083818,
+      "height": 0.000014176248043895612,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_31",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82765235564866,
+        "y": 55.11556425937991
+      },
+      "width": 1.198045513577906,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_32",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.22778613557706,
+        "y": 55.11556425937991
+      },
+      "width": 0.9986361038870797,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_33",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.82766032271431,
+        "y": 55.11557843562794
+      },
+      "width": 1.1980614599316617,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_34",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.27770193662741,
+        "y": 55.11557843562794
+      },
+      "width": 1.0984997142657704,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_35",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.827668289779965,
+        "y": 55.11559261187598
+      },
+      "width": 1.198077406285421,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_36",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.327617737677755,
+        "y": 55.11559261187598
+      },
+      "width": 1.1983633246444683,
+      "height": 0.000014176248036790184,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_37",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.875905475334037,
+        "y": 55.158515268716336
+      },
+      "width": 1.2946257791323816,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_38",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.27916861875531,
+        "y": 55.158515268716336
+      },
+      "width": 1.2952615624893653,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_39",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.92414266088811,
+        "y": 55.24434640614901
+      },
+      "width": 1.3911741519793352,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_40",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.23071949983286,
+        "y": 55.24434640614901
+      },
+      "width": 1.3921598003342623,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_41",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.97237984644218,
+        "y": 55.33017754358169
+      },
+      "width": 1.487722524826296,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_42",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.18227038091042,
+        "y": 55.33017754358169
+      },
+      "width": 1.4890580381791523,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_43",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.02061703199626,
+        "y": 55.416008681014375
+      },
+      "width": 1.5842708976732602,
+      "height": 0.08583113743268456,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_44",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.13382126198796,
+        "y": 55.416008681014375
+      },
+      "width": 1.5859562760240564,
+      "height": 0.08583113743268456,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_45",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.06885421755033,
+        "y": 55.50183981844705
+      },
+      "width": 1.6808192705202174,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_46",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.08537214306551,
+        "y": 55.50183981844705
+      },
+      "width": 1.6828545138689535,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_47",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.117091403104403,
+        "y": 55.58767095587973
+      },
+      "width": 1.7773676433671781,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_48",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.03692302414307,
+        "y": 55.58767095587973
+      },
+      "width": 1.7797527517138434,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_49",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.165328588658475,
+        "y": 55.67350209331241
+      },
+      "width": 1.8739160162141317,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_50",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.98847390522062,
+        "y": 55.67350209331241
+      },
+      "width": 1.8766509895587404,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_51",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.213565774212547,
+        "y": 55.759333230745085
+      },
+      "width": 1.9704643890610924,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_52",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.94002478629818,
+        "y": 55.759333230745085
+      },
+      "width": 1.9735492274036304,
+      "height": 0.08583113743267745,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_53",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.221261951148296,
+        "y": 55.8075826682046
+      },
+      "width": 1.9858659404236931,
+      "height": 0.010667737486357964,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_54",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.93400316643422,
+        "y": 55.8075826682046
+      },
+      "width": 1.9855924671315321,
+      "height": 0.010667737486357964,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_55",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.26842891317576,
+        "y": 55.84560580417349
+      },
+      "width": 2.080256232428244,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_56",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.88662136472036,
+        "y": 55.84560580417349
+      },
+      "width": 2.0803560705592616,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_57",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.31559587520323,
+        "y": 55.910984338624914
+      },
+      "width": 2.174646524432795,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_58",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.839239563006494,
+        "y": 55.910984338624914
+      },
+      "width": 2.1751196739869982,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_59",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.362762837230697,
+        "y": 55.976362873076326
+      },
+      "width": 2.269036816437346,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_60",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.79185776129263,
+        "y": 55.976362873076326
+      },
+      "width": 2.2698832774147277,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_61",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.409929799258165,
+        "y": 56.04174140752775
+      },
+      "width": 2.3634271084419005,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_62",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.744475959578764,
+        "y": 56.04174140752775
+      },
+      "width": 2.364646880842457,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_63",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.457096761285634,
+        "y": 56.10711994197917
+      },
+      "width": 2.457817400446462,
+      "height": 0.06537853445142616,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_64",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.697094157864896,
+        "y": 56.10711994197917
+      },
+      "width": 2.459410484270201,
+      "height": 0.06537853445142616,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_65",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.5042637233131,
+        "y": 56.17249847643059
+      },
+      "width": 2.552207692451013,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_66",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.64971235615103,
+        "y": 56.17249847643059
+      },
+      "width": 2.5541740876979304,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_67",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.55143068534057,
+        "y": 56.237877010882016
+      },
+      "width": 2.646597984455564,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_68",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.60233055443716,
+        "y": 56.237877010882016
+      },
+      "width": 2.648937691125667,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_69",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.598597647368035,
+        "y": 56.30325554533343
+      },
+      "width": 2.740988276460115,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_70",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.55494875272329,
+        "y": 56.30325554533343
+      },
+      "width": 2.7437012945533965,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_71",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.645764609395503,
+        "y": 56.368634079784854
+      },
+      "width": 2.8353785684646624,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_72",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.50756695100943,
+        "y": 56.368634079784854
+      },
+      "width": 2.838464897981126,
+      "height": 0.06537853445141906,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_73",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.654255246422608,
+        "y": 56.4057979802044
+      },
+      "width": 2.8523675583816015,
+      "height": 0.00894926638768112,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_74",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.50108114692979,
+        "y": 56.4057979802044
+      },
+      "width": 2.851436506140402,
+      "height": 0.00894926638768112,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_75",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.69992746319702,
+        "y": 56.43434223462485
+      },
+      "width": 2.943753496537642,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_76",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.45517771683083,
+        "y": 56.43434223462485
+      },
+      "width": 2.9432433663383293,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_77",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.74559967997143,
+        "y": 56.48248147707807
+      },
+      "width": 3.03513943469369,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_78",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.40927428673187,
+        "y": 56.48248147707807
+      },
+      "width": 3.0350502265362493,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_79",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.79127189674584,
+        "y": 56.530620719531285
+      },
+      "width": 3.126525372849734,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_80",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.363370856632905,
+        "y": 56.530620719531285
+      },
+      "width": 3.1268570867341765,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_81",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.83694411352025,
+        "y": 56.5787599619845
+      },
+      "width": 3.2179113110057784,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_82",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.31746742653394,
+        "y": 56.5787599619845
+      },
+      "width": 3.2186639469321037,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_83",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.882616330294663,
+        "y": 56.62689920443772
+      },
+      "width": 3.3092972491618227,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_84",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.27156399643498,
+        "y": 56.62689920443772
+      },
+      "width": 3.3104708071300237,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_85",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.928288547069073,
+        "y": 56.67503844689094
+      },
+      "width": 3.400683187317867,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_86",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.22566056633602,
+        "y": 56.67503844689094
+      },
+      "width": 3.402277667327951,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_87",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.973960763843486,
+        "y": 56.723177689344155
+      },
+      "width": 3.4920691254739147,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_88",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.17975713623706,
+        "y": 56.723177689344155
+      },
+      "width": 3.494084527525878,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_89",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.019632980617892,
+        "y": 56.77131693179737
+      },
+      "width": 3.583455063629959,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_90",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.1338537061381,
+        "y": 56.77131693179737
+      },
+      "width": 3.585891387723798,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_91",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.065305197392306,
+        "y": 56.81945617425059
+      },
+      "width": 3.674841001786003,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_92",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.08795027603913,
+        "y": 56.81945617425059
+      },
+      "width": 3.6776982479217253,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_93",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.11097741416672,
+        "y": 56.86759541670381
+      },
+      "width": 3.7662269399420474,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_94",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.04204684594017,
+        "y": 56.86759541670381
+      },
+      "width": 3.7695051081196453,
+      "height": 0.048139242453217435,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_95",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.12029559970975,
+        "y": 56.89521502044077
+      },
+      "width": 3.784869432463445,
+      "height": 0.007099965020721299,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_96",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.035276636617695,
+        "y": 56.89521502044077
+      },
+      "width": 3.783045526764603,
+      "height": 0.007099965020721299,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_97",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.168506359090244,
+        "y": 56.91713202857234
+      },
+      "width": 3.881322622523996,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_98",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.98676855575048,
+        "y": 56.91713202857234
+      },
+      "width": 3.880061688499026,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_99",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.216717118470747,
+        "y": 56.95386607981474
+      },
+      "width": 3.9777758125845715,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_100",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.93826047488326,
+        "y": 56.95386607981474
+      },
+      "width": 3.9770778502334707,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_101",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.264927877851246,
+        "y": 56.990600131057136
+      },
+      "width": 4.074229002645126,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_102",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.88975239401604,
+        "y": 56.990600131057136
+      },
+      "width": 4.074094011967901,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_103",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.31313863723175,
+        "y": 57.02733418229954
+      },
+      "width": 4.170682192705698,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_104",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.84124431314882,
+        "y": 57.02733418229954
+      },
+      "width": 4.1711101737023455,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_105",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.361349396612244,
+        "y": 57.064068233541946
+      },
+      "width": 4.267135382766256,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_106",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.79273623228161,
+        "y": 57.064068233541946
+      },
+      "width": 4.268126335436769,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_107",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.40956015599274,
+        "y": 57.100802284784336
+      },
+      "width": 4.3635885728268065,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_108",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.74422815141439,
+        "y": 57.100802284784336
+      },
+      "width": 4.365142497171199,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_109",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.457770915373246,
+        "y": 57.13753633602674
+      },
+      "width": 4.460041762887382,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_110",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.69572007054717,
+        "y": 57.13753633602674
+      },
+      "width": 4.4621586589056434,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_111",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.50598167475374,
+        "y": 57.17427038726915
+      },
+      "width": 4.55649495294794,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_112",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.64721198967996,
+        "y": 57.17427038726915
+      },
+      "width": 4.559174820640067,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_113",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.554192434134244,
+        "y": 57.211004438511544
+      },
+      "width": 4.6529481430085085,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_114",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.59870390881274,
+        "y": 57.211004438511544
+      },
+      "width": 4.656190982374511,
+      "height": 0.03673405124240503,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_115",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.60240319351474,
+        "y": 57.24773848975394
+      },
+      "width": 4.749401333069066,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_116",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.55019582794552,
+        "y": 57.24773848975394
+      },
+      "width": 4.753207144108941,
+      "height": 0.036734051242397925,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_117",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.612784872323086,
+        "y": 57.26867894963365
+      },
+      "width": 4.77016912820379,
+      "height": 0.005146868517016401,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_118",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.54339928071503,
+        "y": 57.26867894963365
+      },
+      "width": 4.766800238569928,
+      "height": 0.005146868517016401,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_119",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.658246042311063,
+        "y": 57.28252140255847
+      },
+      "width": 4.861110899985054,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_120",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.497543422606014,
+        "y": 57.28252140255847
+      },
+      "width": 4.85851195478795,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_121",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.70370721229903,
+        "y": 57.305059439891096
+      },
+      "width": 4.952052671766285,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_122",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.45168756449702,
+        "y": 57.305059439891096
+      },
+      "width": 4.950223671005947,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_123",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.749168382287003,
+        "y": 57.32759747722371
+      },
+      "width": 5.042994443547553,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_124",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.40583170638801,
+        "y": 57.32759747722371
+      },
+      "width": 5.041935387223969,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_125",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.79462955227497,
+        "y": 57.35013551455633
+      },
+      "width": 5.133936215328784,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_126",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.35997584827901,
+        "y": 57.35013551455633
+      },
+      "width": 5.133647103441966,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_127",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.840090722262943,
+        "y": 57.37267355188895
+      },
+      "width": 5.224877987110052,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_128",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.31411999017,
+        "y": 57.37267355188895
+      },
+      "width": 5.225358819659988,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_129",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.88555189225091,
+        "y": 57.395211589221574
+      },
+      "width": 5.315819758891283,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_130",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.268264132061,
+        "y": 57.395211589221574
+      },
+      "width": 5.317070535877985,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_131",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.931013062238886,
+        "y": 57.41774962655419
+      },
+      "width": 5.406761530672547,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_132",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.22240827395199,
+        "y": 57.41774962655419
+      },
+      "width": 5.408782252096007,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_133",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.97647423222685,
+        "y": 57.44028766388681
+      },
+      "width": 5.4977033024537825,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_134",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.17655241584299,
+        "y": 57.44028766388681
+      },
+      "width": 5.500493968314004,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_135",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.021935402214826,
+        "y": 57.46282570121943
+      },
+      "width": 5.588645074235046,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_136",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.130696557733984,
+        "y": 57.46282570121943
+      },
+      "width": 5.592205684532026,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_137",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.06739657220279,
+        "y": 57.48536373855205
+      },
+      "width": 5.6795868460162815,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_138",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.08484069962498,
+        "y": 57.48536373855205
+      },
+      "width": 5.683917400750019,
+      "height": 0.022538037332616057,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_139",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.112857742190766,
+        "y": 57.50790177588467
+      },
+      "width": 5.770528617797545,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_140",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.03898484151597,
+        "y": 57.50790177588467
+      },
+      "width": 5.7756291169680445,
+      "height": 0.022538037332623162,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_141",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.125576949515473,
+        "y": 57.52073005925105
+      },
+      "width": 5.79596972117514,
+      "height": 0.0031185294001474517,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_142",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.032639886115845,
+        "y": 57.52073005925105
+      },
+      "width": 5.788319027768303,
+      "height": 0.0031185294001474517,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_143",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.171877106046992,
+        "y": 57.5279653222932
+      },
+      "width": 5.888579821682679,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_144",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.98556328224325,
+        "y": 57.5279653222932
+      },
+      "width": 5.882472235513482,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_145",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.218177262578514,
+        "y": 57.53931731897734
+      },
+      "width": 5.981189922190218,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_146",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.938486678370666,
+        "y": 57.53931731897734
+      },
+      "width": 5.976625443258662,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_147",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.264477419110037,
+        "y": 57.55066931566148
+      },
+      "width": 6.07380002269775,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_148",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.89141007449807,
+        "y": 57.55066931566148
+      },
+      "width": 6.070778651003842,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_149",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.310777575641556,
+        "y": 57.56202131234562
+      },
+      "width": 6.166410123205289,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_150",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.844333470625486,
+        "y": 57.56202131234562
+      },
+      "width": 6.164931858749021,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_151",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.357077732173074,
+        "y": 57.57337330902976
+      },
+      "width": 6.259020223712827,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_152",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.79725686675289,
+        "y": 57.57337330902976
+      },
+      "width": 6.259085066494205,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_153",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.40337788870457,
+        "y": 57.5847253057139
+      },
+      "width": 6.351630324220306,
+      "height": 0.01135199668413378,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_154",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.750180262880335,
+        "y": 57.5847253057139
+      },
+      "width": 6.353238274239324,
+      "height": 0.01135199668413378,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_155",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.44967804523609,
+        "y": 57.59607730239804
+      },
+      "width": 6.444240424727841,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_156",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.70310365900774,
+        "y": 57.59607730239804
+      },
+      "width": 6.4473914819845035,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_157",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.49597820176761,
+        "y": 57.60742929908218
+      },
+      "width": 6.53685052523538,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_158",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.656027055135155,
+        "y": 57.60742929908218
+      },
+      "width": 6.541544689729683,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_159",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.54227835829913,
+        "y": 57.61878129576632
+      },
+      "width": 6.629460625742919,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_160",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.60895045126256,
+        "y": 57.61878129576632
+      },
+      "width": 6.635697897474866,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_161",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.58857851483065,
+        "y": 57.63013329245046
+      },
+      "width": 6.722070726250454,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_162",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.56187384738997,
+        "y": 57.63013329245046
+      },
+      "width": 6.729851105220046,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_163",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.634878671362173,
+        "y": 57.6414852891346
+      },
+      "width": 6.814680826757989,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_164",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51479724351738,
+        "y": 57.6414852891346
+      },
+      "width": 6.824004312965226,
+      "height": 0.011351996684140886,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_165",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.6826928377887,
+        "y": 57.647208769302736
+      },
+      "width": 6.91030924148664,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_166",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51440343030921,
+        "y": 57.647208769302736
+      },
+      "width": 6.824791939381569,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_167",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.730507004215227,
+        "y": 57.64730373295485
+      },
+      "width": 7.005937656215291,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_168",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51400961710104,
+        "y": 57.64730373295485
+      },
+      "width": 6.825579565797913,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_169",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.778321170645334,
+        "y": 57.647398696606984
+      },
+      "width": 7.1015660709510975,
+      "height": 0.00009496365213124136,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_170",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51361580389283,
+        "y": 57.647398696606984
+      },
+      "width": 6.826367192214317,
+      "height": 0.00009496365213124136,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_171",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.82613533707186,
+        "y": 57.647493660259116
+      },
+      "width": 7.197194485679745,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_172",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51322199068466,
+        "y": 57.647493660259116
+      },
+      "width": 6.827154818630664,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_173",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.873949503498388,
+        "y": 57.64758862391123
+      },
+      "width": 7.292822900408396,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_174",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51282817747649,
+        "y": 57.64758862391123
+      },
+      "width": 6.827942445047007,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_175",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.921763669924918,
+        "y": 57.647683587563364
+      },
+      "width": 7.388451315137047,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_176",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.512434364268316,
+        "y": 57.647683587563364
+      },
+      "width": 6.828730071463351,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_177",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.969577836351444,
+        "y": 57.64777855121548
+      },
+      "width": 7.484079729865698,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_178",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.512040551060146,
+        "y": 57.64777855121548
+      },
+      "width": 6.8295176978796945,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_179",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 26.017392002777974,
+        "y": 57.64787351486761
+      },
+      "width": 7.5797081445943455,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_180",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.511646737851976,
+        "y": 57.64787351486761
+      },
+      "width": 6.830305324296042,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_181",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 26.065206169208075,
+        "y": 57.647968478519736
+      },
+      "width": 7.675336559330152,
+      "height": 0.00009496365213124136,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_182",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51125292464377,
+        "y": 57.647968478519736
+      },
+      "width": 6.831092950712442,
+      "height": 0.00009496365213124136,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_183",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 26.11302033563461,
+        "y": 57.64806344217186
+      },
+      "width": 7.770964974058803,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_184",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.5108591114356,
+        "y": 57.64806344217186
+      },
+      "width": 6.831880577128789,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_185",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 26.160834502061135,
+        "y": 57.64815840582399
+      },
+      "width": 7.866593388787454,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_186",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.51046529822743,
+        "y": 57.64815840582399
+      },
+      "width": 6.832668203545133,
+      "height": 0.00009496365212413593,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_187",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57712752118551,
+        "y": 57.74350555166949
+      },
+      "width": 14.699343757628963,
+      "height": 0.19059932803888557,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_188",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57708643853732,
+        "y": 57.93410487970837
+      },
+      "width": 14.699425922925343,
+      "height": 0.19059932803887847,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_189",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.577045355889133,
+        "y": 58.12470420774726
+      },
+      "width": 14.699508088221723,
+      "height": 0.19059932803888557,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_190",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57700427324094,
+        "y": 58.31530353578614
+      },
+      "width": 14.699590253518103,
+      "height": 0.19059932803888557,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_191",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576963190592753,
+        "y": 58.50590286382503
+      },
+      "width": 14.69967241881448,
+      "height": 0.19059932803887847,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_192",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57692210794456,
+        "y": 58.69650219186391
+      },
+      "width": 14.69975458411086,
+      "height": 0.19059932803888557,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_193",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576881025296373,
+        "y": 58.88710151990279
+      },
+      "width": 14.69983674940724,
+      "height": 0.19059932803888557,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_194",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576839942648185,
+        "y": 59.07770084794167
+      },
+      "width": 14.699918914703616,
+      "height": 0.19059932803887847,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_0_rect_195",
       "type": "rect",
       "layers": [
         "top",
@@ -1554,13 +5062,14 @@
       ],
       "center": {
         "x": 29.576798859999997,
-        "y": 38.86360079999999
+        "y": 59.268300175980556
       },
       "width": 14.700001079999996,
-      "height": 0.6,
+      "height": 0.19059932803888557,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_0",
       "type": "rect",
       "layers": [
         "top",
@@ -1572,13 +5081,14 @@
       ],
       "center": {
         "x": 29.576798859999997,
-        "y": 39.463600799999995
+        "y": 39.42161805299904
       },
       "width": 14.700001079999996,
-      "height": 0.6,
+      "height": 1.7160345059980742,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_1",
       "type": "rect",
       "layers": [
         "top",
@@ -1589,14 +5099,15 @@
         "bottom"
       ],
       "center": {
-        "x": 29.576798859999997,
-        "y": 40.063600799999996
+        "x": 25.637810783657216,
+        "y": 40.28545023689557
       },
-      "width": 14.700001079999996,
-      "height": 0.6,
+      "width": 6.822024927314434,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_2",
       "type": "rect",
       "layers": [
         "top",
@@ -1607,14 +5118,15 @@
         "bottom"
       ],
       "center": {
-        "x": 24.598540183336326,
-        "y": 40.6636008
+        "x": 33.515786936342785,
+        "y": 40.28545023689557
       },
-      "width": 4.7434837266726575,
-      "height": 0.6,
+      "width": 6.822024927314416,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_3",
       "type": "rect",
       "layers": [
         "top",
@@ -1625,14 +5137,15 @@
         "bottom"
       ],
       "center": {
-        "x": 34.55505753666367,
-        "y": 40.6636008
+        "x": 25.590166542149678,
+        "y": 40.297080098690586
       },
-      "width": 4.74348372667265,
-      "height": 0.6,
+      "width": 6.7267364442993625,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_4",
       "type": "rect",
       "layers": [
         "top",
@@ -1643,14 +5156,15 @@
         "bottom"
       ],
       "center": {
-        "x": 23.894111708779914,
-        "y": 41.2636008
+        "x": 33.56343117785032,
+        "y": 40.297080098690586
       },
-      "width": 3.3346267775598335,
-      "height": 0.6,
+      "width": 6.726736444299345,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_5",
       "type": "rect",
       "layers": [
         "top",
@@ -1661,14 +5175,15 @@
         "bottom"
       ],
       "center": {
-        "x": 35.25948601122008,
-        "y": 41.2636008
+        "x": 25.542522300642144,
+        "y": 40.30870996048559
       },
-      "width": 3.3346267775598193,
-      "height": 0.6,
+      "width": 6.6314479612842945,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_6",
       "type": "rect",
       "layers": [
         "top",
@@ -1679,14 +5194,15 @@
         "bottom"
       ],
       "center": {
-        "x": 23.401583555698224,
-        "y": 41.8636008
+        "x": 33.61107541935785,
+        "y": 40.30870996048559
       },
-      "width": 2.3495704713964507,
-      "height": 0.6,
+      "width": 6.631447961284277,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_7",
       "type": "rect",
       "layers": [
         "top",
@@ -1697,14 +5213,15 @@
         "bottom"
       ],
       "center": {
-        "x": 35.75201416430177,
-        "y": 41.8636008
+        "x": 25.494878059134606,
+        "y": 40.3203398222806
       },
-      "width": 2.34957047139644,
-      "height": 0.6,
+      "width": 6.536159478269223,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_8",
       "type": "rect",
       "layers": [
         "top",
@@ -1715,14 +5232,15 @@
         "bottom"
       ],
       "center": {
-        "x": 23.02246348492333,
-        "y": 42.4636008
+        "x": 33.65871966086539,
+        "y": 40.3203398222806
       },
-      "width": 1.5913303298466595,
-      "height": 0.6,
+      "width": 6.536159478269205,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_9",
       "type": "rect",
       "layers": [
         "top",
@@ -1733,14 +5251,15 @@
         "bottom"
       ],
       "center": {
-        "x": 36.13113423507667,
-        "y": 42.4636008
+        "x": 25.447233817627072,
+        "y": 40.3319696840756
       },
-      "width": 1.5913303298466417,
-      "height": 0.6,
+      "width": 6.440870995254155,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_10",
       "type": "rect",
       "layers": [
         "top",
@@ -1751,14 +5270,2637 @@
         "bottom"
       ],
       "center": {
-        "x": 29.576798859999997,
-        "y": 44.66359936
+        "x": 33.70636390237293,
+        "y": 40.3319696840756
       },
-      "width": 3.2251891563556967,
-      "height": 0.6,
+      "width": 6.440870995254137,
+      "height": 0.011629861795007912,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_1_rect_11",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.39958957611954,
+        "y": 40.34359954587062
+      },
+      "width": 6.345582512239083,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_12",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.75400814388046,
+        "y": 40.34359954587062
+      },
+      "width": 6.345582512239066,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_13",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.351945334612005,
+        "y": 40.35522940766562
+      },
+      "width": 6.2502940292240154,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_14",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.801652385387996,
+        "y": 40.35522940766562
+      },
+      "width": 6.250294029223998,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_15",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.30430109310447,
+        "y": 40.36685926946063
+      },
+      "width": 6.155005546208944,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_16",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.84929662689553,
+        "y": 40.36685926946063
+      },
+      "width": 6.155005546208926,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_17",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.256656851596937,
+        "y": 40.378489131255634
+      },
+      "width": 6.059717063193876,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_18",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.896940868403064,
+        "y": 40.378489131255634
+      },
+      "width": 6.059717063193858,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_19",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.2090126100894,
+        "y": 40.39011899305065
+      },
+      "width": 5.964428580178804,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_20",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.9445851099106,
+        "y": 40.39011899305065
+      },
+      "width": 5.964428580178787,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_21",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.161368368581865,
+        "y": 40.40174885484565
+      },
+      "width": 5.869140097163736,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_22",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 33.99222935141813,
+        "y": 40.40174885484565
+      },
+      "width": 5.869140097163719,
+      "height": 0.011629861795007912,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_23",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.113724127074327,
+        "y": 40.41910798444897
+      },
+      "width": 5.773851614148665,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_24",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.03987359292567,
+        "y": 40.41910798444897
+      },
+      "width": 5.773851614148647,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_25",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.067135301735938,
+        "y": 40.4421963818606
+      },
+      "width": 5.680673963471882,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_26",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.08646241826406,
+        "y": 40.4421963818606
+      },
+      "width": 5.680673963471865,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_27",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 25.020546476397534,
+        "y": 40.46528477927223
+      },
+      "width": 5.587496312795071,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_28",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.133051243602466,
+        "y": 40.46528477927223
+      },
+      "width": 5.587496312795057,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_29",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.973957651059138,
+        "y": 40.488373176683865
+      },
+      "width": 5.494318662118285,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_30",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.179640068940856,
+        "y": 40.488373176683865
+      },
+      "width": 5.494318662118275,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_31",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.927368825720734,
+        "y": 40.51146157409549
+      },
+      "width": 5.401141011441474,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_32",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.22622889427926,
+        "y": 40.51146157409549
+      },
+      "width": 5.401141011441467,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_33",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.880780000382344,
+        "y": 40.53454997150712
+      },
+      "width": 5.307963360764692,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_34",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.27281771961765,
+        "y": 40.53454997150712
+      },
+      "width": 5.307963360764685,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_35",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.834191175043937,
+        "y": 40.55763836891875
+      },
+      "width": 5.214785710087881,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_36",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.31940654495605,
+        "y": 40.55763836891875
+      },
+      "width": 5.214785710087877,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_37",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.787602349705544,
+        "y": 40.580726766330386
+      },
+      "width": 5.121608059411098,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_38",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.36599537029444,
+        "y": 40.580726766330386
+      },
+      "width": 5.121608059411095,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_39",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.74101352436714,
+        "y": 40.60381516374201
+      },
+      "width": 5.0284304087342875,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_40",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.412584195632846,
+        "y": 40.60381516374201
+      },
+      "width": 5.0284304087342875,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_41",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.694424699028747,
+        "y": 40.62690356115364
+      },
+      "width": 4.935252758057501,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_42",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.45917302097124,
+        "y": 40.62690356115364
+      },
+      "width": 4.935252758057505,
+      "height": 0.02308839741163382,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_43",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.64783587369034,
+        "y": 40.64999195856527
+      },
+      "width": 4.8420751073806905,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_44",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.505761846309646,
+        "y": 40.64999195856527
+      },
+      "width": 4.842075107380694,
+      "height": 0.023088397411626715,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_45",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.60124704835195,
+        "y": 40.66153615727109
+      },
+      "width": 4.748897456703908,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_46",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.552350671648036,
+        "y": 40.66153615727109
+      },
+      "width": 4.748897456703915,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_47",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.601247048351944,
+        "y": 40.68034989978783
+      },
+      "width": 4.74889745670389,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_48",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.55235067164805,
+        "y": 40.68034989978783
+      },
+      "width": 4.748897456703887,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_49",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.551915257705126,
+        "y": 40.71797738482131
+      },
+      "width": 4.650233875410262,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_50",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.60168246229486,
+        "y": 40.71797738482131
+      },
+      "width": 4.650233875410258,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_51",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.502583467058315,
+        "y": 40.75560486985478
+      },
+      "width": 4.551570294116633,
+      "height": 0.03762748503346813,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_52",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.65101425294168,
+        "y": 40.75560486985478
+      },
+      "width": 4.55157029411663,
+      "height": 0.03762748503346813,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_53",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.45325167641151,
+        "y": 40.79323235488825
+      },
+      "width": 4.452906712823026,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_54",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.70034604358848,
+        "y": 40.79323235488825
+      },
+      "width": 4.452906712823015,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_55",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.403919885764694,
+        "y": 40.83085983992173
+      },
+      "width": 4.3542431315293975,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_56",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.7496778342353,
+        "y": 40.83085983992173
+      },
+      "width": 4.354243131529387,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_57",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.354588095117883,
+        "y": 40.8684873249552
+      },
+      "width": 4.255579550235769,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_58",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.79900962488212,
+        "y": 40.8684873249552
+      },
+      "width": 4.255579550235758,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_59",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.30525630447107,
+        "y": 40.90611480998868
+      },
+      "width": 4.156915968942144,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_60",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.84834141552893,
+        "y": 40.90611480998868
+      },
+      "width": 4.15691596894213,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_61",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.255924513824255,
+        "y": 40.94374229502215
+      },
+      "width": 4.0582523876485155,
+      "height": 0.03762748503346813,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_62",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.89767320617574,
+        "y": 40.94374229502215
+      },
+      "width": 4.058252387648501,
+      "height": 0.03762748503346813,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_63",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.20659272317745,
+        "y": 40.981369780055616
+      },
+      "width": 3.9595888063549047,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_64",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.94700499682255,
+        "y": 40.981369780055616
+      },
+      "width": 3.959588806354887,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_65",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.157260932530637,
+        "y": 41.0189972650891
+      },
+      "width": 3.8609252250612798,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_66",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 34.99633678746936,
+        "y": 41.0189972650891
+      },
+      "width": 3.8609252250612585,
+      "height": 0.03762748503347524,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_67",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.107929141883822,
+        "y": 41.06246271800866
+      },
+      "width": 3.7622616437676513,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_68",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.04566857811618,
+        "y": 41.06246271800866
+      },
+      "width": 3.76226164376763,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_69",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.061240003423986,
+        "y": 41.11176613881433
+      },
+      "width": 3.6688833668479788,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_70",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.09235771657602,
+        "y": 41.11176613881433
+      },
+      "width": 3.6688833668479575,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_71",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 24.01455086496415,
+        "y": 41.161069559619996
+      },
+      "width": 3.5755050899283063,
+      "height": 0.049303420805671294,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_72",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.13904685503585,
+        "y": 41.161069559619996
+      },
+      "width": 3.575505089928285,
+      "height": 0.049303420805671294,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_73",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.967861726504307,
+        "y": 41.21037298042566
+      },
+      "width": 3.4821268130086196,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_74",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.1857359934957,
+        "y": 41.21037298042566
+      },
+      "width": 3.4821268130085983,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_75",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.92117258804447,
+        "y": 41.25967640123133
+      },
+      "width": 3.388748536088947,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_76",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.23242513195553,
+        "y": 41.25967640123133
+      },
+      "width": 3.388748536088926,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_77",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.874483449584634,
+        "y": 41.30897982203699
+      },
+      "width": 3.2953702591692746,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_78",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.27911427041536,
+        "y": 41.30897982203699
+      },
+      "width": 3.2953702591692604,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_79",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.827794311124798,
+        "y": 41.35828324284266
+      },
+      "width": 3.201991982249602,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_80",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.3258034088752,
+        "y": 41.35828324284266
+      },
+      "width": 3.201991982249588,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_81",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.78110517266496,
+        "y": 41.407586663648324
+      },
+      "width": 3.1086137053299296,
+      "height": 0.049303420805671294,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_82",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.372492547335035,
+        "y": 41.407586663648324
+      },
+      "width": 3.1086137053299154,
+      "height": 0.049303420805671294,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_83",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.73441603420512,
+        "y": 41.45689008445399
+      },
+      "width": 3.015235428410243,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_84",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.41918168579488,
+        "y": 41.45689008445399
+      },
+      "width": 3.0152354284102287,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_85",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.687726895745282,
+        "y": 41.50619350525966
+      },
+      "width": 2.9218571514905705,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_86",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.465870824254715,
+        "y": 41.50619350525966
+      },
+      "width": 2.9218571514905562,
+      "height": 0.04930342080566419,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_87",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.641037757285446,
+        "y": 41.5643191265229
+      },
+      "width": 2.828478874570898,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_88",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.51255996271455,
+        "y": 41.5643191265229
+      },
+      "width": 2.8284788745708838,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_89",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.592861444241507,
+        "y": 41.63126694824372
+      },
+      "width": 2.7321262484830164,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_90",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.560736275758494,
+        "y": 41.63126694824372
+      },
+      "width": 2.7321262484829987,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_91",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.54468513119756,
+        "y": 41.69821476996455
+      },
+      "width": 2.6357736223951314,
+      "height": 0.0669478217208308,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_92",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.60891258880243,
+        "y": 41.69821476996455
+      },
+      "width": 2.6357736223951207,
+      "height": 0.0669478217208308,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_93",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.496508818153615,
+        "y": 41.76516259168538
+      },
+      "width": 2.539420996307239,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_94",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.65708890184638,
+        "y": 41.76516259168538
+      },
+      "width": 2.5394209963072285,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_95",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.448332505109676,
+        "y": 41.8321104134062
+      },
+      "width": 2.4430683702193576,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_96",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.70526521489032,
+        "y": 41.8321104134062
+      },
+      "width": 2.4430683702193434,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_97",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.400156192065737,
+        "y": 41.89905823512703
+      },
+      "width": 2.346715744131476,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_98",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.753441527934264,
+        "y": 41.89905823512703
+      },
+      "width": 2.3467157441314583,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_99",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.351979879021794,
+        "y": 41.96600605684785
+      },
+      "width": 2.2503631180435946,
+      "height": 0.0669478217208308,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_100",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.8016178409782,
+        "y": 41.96600605684785
+      },
+      "width": 2.2503631180435804,
+      "height": 0.0669478217208308,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_101",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.303803565977844,
+        "y": 42.03295387856868
+      },
+      "width": 2.154010491955699,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_102",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.84979415402215,
+        "y": 42.03295387856868
+      },
+      "width": 2.154010491955688,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_103",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.255627252933905,
+        "y": 42.09990170028951
+      },
+      "width": 2.0576578658678173,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_104",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.89797046706609,
+        "y": 42.09990170028951
+      },
+      "width": 2.057657865867803,
+      "height": 0.0669478217208237,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_105",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.207450939889966,
+        "y": 42.133375611149916
+      },
+      "width": 1.9613052397799358,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_106",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.946146780110034,
+        "y": 42.133375611149916
+      },
+      "width": 1.961305239779918,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_107",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.20745093988996,
+        "y": 42.17732250873473
+      },
+      "width": 1.9613052397799287,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_108",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.94614678011004,
+        "y": 42.17732250873473
+      },
+      "width": 1.961305239779911,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_109",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.158214085692364,
+        "y": 42.26521630390434
+      },
+      "width": 1.8628315313847317,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_110",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 35.995383634307636,
+        "y": 42.26521630390434
+      },
+      "width": 1.862831531384714,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_111",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.10897723149477,
+        "y": 42.353110099073945
+      },
+      "width": 1.7643578229895454,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_112",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.04462048850523,
+        "y": 42.353110099073945
+      },
+      "width": 1.7643578229895311,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_113",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.059740377297175,
+        "y": 42.44100389424355
+      },
+      "width": 1.665884114594359,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_114",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.09385734270282,
+        "y": 42.44100389424355
+      },
+      "width": 1.6658841145943413,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_115",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 23.01050352309958,
+        "y": 42.52889768941317
+      },
+      "width": 1.567410406199162,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_116",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.14309419690042,
+        "y": 42.52889768941317
+      },
+      "width": 1.5674104061991443,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_117",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.96126666890198,
+        "y": 42.61679148458278
+      },
+      "width": 1.4689366978039686,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_118",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.192331051098016,
+        "y": 42.61679148458278
+      },
+      "width": 1.4689366978039544,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_119",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.91202981470439,
+        "y": 42.70468527975238
+      },
+      "width": 1.3704629894087823,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_120",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.24156790529561,
+        "y": 42.70468527975238
+      },
+      "width": 1.3704629894087645,
+      "height": 0.08789379516960594,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_121",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.862792960506795,
+        "y": 42.79257907492199
+      },
+      "width": 1.271989281013596,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_122",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.2908047594932,
+        "y": 42.79257907492199
+      },
+      "width": 1.2719892810135818,
+      "height": 0.08789379516961304,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_123",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.813556106309196,
+        "y": 42.836525972506806
+      },
+      "width": 1.173515572618399,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_124",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.3400416136908,
+        "y": 42.836525972506806
+      },
+      "width": 1.1735155726183848,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_125",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.813556106309193,
+        "y": 42.83652904115236
+      },
+      "width": 1.173515572618392,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_126",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.34004161374741,
+        "y": 42.83652904115236
+      },
+      "width": 1.173515572505167,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_127",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.76465962409317,
+        "y": 42.836535178443455
+      },
+      "width": 1.07572260818635,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_128",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.388938095958714,
+        "y": 42.836535178443455
+      },
+      "width": 1.0757226080825575,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_129",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.715763141933763,
+        "y": 42.83654131573455
+      },
+      "width": 0.9779296438675296,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_130",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.43783457811341,
+        "y": 42.83654131573455
+      },
+      "width": 0.977929643773173,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_131",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.66686665971774,
+        "y": 42.83654745302565
+      },
+      "width": 0.8801366794354877,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_132",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.48673106032471,
+        "y": 42.83654745302565
+      },
+      "width": 0.8801366793505707,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_133",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.61797017755833,
+        "y": 42.836553590316754
+      },
+      "width": 0.7823437151166672,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_134",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.5356275424794,
+        "y": 42.836553590316754
+      },
+      "width": 0.7823437150411863,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_135",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.56907369534231,
+        "y": 42.83655972760785
+      },
+      "width": 0.6845507506846253,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_136",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.58452402469071,
+        "y": 42.83655972760785
+      },
+      "width": 0.6845507506185768,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_137",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.52017721312629,
+        "y": 42.83656586489895
+      },
+      "width": 0.586757786252587,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_138",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.633420506902006,
+        "y": 42.83656586489895
+      },
+      "width": 0.5867577861959745,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_139",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.471280730966882,
+        "y": 42.83657200219005
+      },
+      "width": 0.48896482193376656,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_140",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.6823169890567,
+        "y": 42.83657200219005
+      },
+      "width": 0.4889648218865901,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_141",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.42238424875086,
+        "y": 42.83657813948115
+      },
+      "width": 0.3911718575017247,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_142",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.731213471268006,
+        "y": 42.83657813948115
+      },
+      "width": 0.39117185746398064,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_143",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.37348776659145,
+        "y": 42.83658427677224
+      },
+      "width": 0.2933788931829042,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_144",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.780109953422695,
+        "y": 42.83658427677224
+      },
+      "width": 0.2933788931545962,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_145",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.32459128437543,
+        "y": 42.836590414063345
+      },
+      "width": 0.19558592875086234,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_146",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.829006435634,
+        "y": 42.836590414063345
+      },
+      "width": 0.19558592873199387,
+      "height": 0.000006137291094887587,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_147",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 22.275694802216016,
+        "y": 42.83659655135445
+      },
+      "width": 0.09779296443204188,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_1_rect_148",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 36.87790291778869,
+        "y": 42.83659655135445
+      },
+      "width": 0.09779296442260232,
+      "height": 0.000006137291101993014,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_0",
       "type": "rect",
       "layers": [
         "top",
@@ -1770,67 +7912,14 @@
       ],
       "center": {
         "x": 29.57679886,
-        "y": 45.26359936
+        "y": 44.36641033470667
       },
-      "width": 5.449225142551832,
-      "height": 0.6,
+      "width": 0.17154874557648725,
+      "height": 0.005621949413345817,
       "connectedTo": []
     },
     {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 45.86359936
-      },
-      "width": 6.773196416927256,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 46.46359936
-      },
-      "width": 7.7001632809664,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 47.063599360000005
-      },
-      "width": 8.361951244991054,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
+      "obstacleId": "pcb_cutout_altium_2_rect_1",
       "type": "rect",
       "layers": [
         "top",
@@ -1842,85 +7931,14 @@
       ],
       "center": {
         "x": 29.576798860000004,
-        "y": 47.663599360000006
+        "y": 44.37203228412002
       },
-      "width": 8.81222438996797,
-      "height": 0.6,
+      "width": 0.3430974911527578,
+      "height": 0.0056219494133387116,
       "connectedTo": []
     },
     {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 48.26359936000001
-      },
-      "width": 9.081679101695208,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 48.86359936000001
-      },
-      "width": 9.186893101593505,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.576798859999997,
-        "y": 49.46359936000001
-      },
-      "width": 9.134458583028206,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 50.06359936000001
-      },
-      "width": 8.922549971614963,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
+      "obstacleId": "pcb_cutout_altium_2_rect_2",
       "type": "rect",
       "layers": [
         "top",
@@ -1932,31 +7950,14 @@
       ],
       "center": {
         "x": 29.576798860000004,
-        "y": 50.66359936000001
+        "y": 44.37765423353336
       },
-      "width": 8.540662286381604,
-      "height": 0.6,
+      "width": 0.514646236729245,
+      "height": 0.005621949413345817,
       "connectedTo": []
     },
     {
-      "type": "rect",
-      "layers": [
-        "top",
-        "inner1",
-        "inner2",
-        "inner3",
-        "inner4",
-        "bottom"
-      ],
-      "center": {
-        "x": 29.57679886,
-        "y": 51.263599360000015
-      },
-      "width": 7.967436797844421,
-      "height": 0.6,
-      "connectedTo": []
-    },
-    {
+      "obstacleId": "pcb_cutout_altium_2_rect_3",
       "type": "rect",
       "layers": [
         "top",
@@ -1968,13 +7969,14 @@
       ],
       "center": {
         "x": 29.576798860000004,
-        "y": 51.863599360000016
+        "y": 44.3832761829467
       },
-      "width": 7.123990369713955,
-      "height": 0.6,
+      "width": 0.6861949823055191,
+      "height": 0.0056219494133387116,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_2_rect_4",
       "type": "rect",
       "layers": [
         "top",
@@ -1985,14 +7987,53 @@
         "bottom"
       ],
       "center": {
-        "x": 29.576798859999997,
-        "y": 52.46359936000002
+        "x": 29.576798860000004,
+        "y": 44.38889813236004
       },
-      "width": 5.941384188916555,
-      "height": 0.6,
+      "width": 0.8577437278820064,
+      "height": 0.005621949413345817,
       "connectedTo": []
     },
     {
+      "obstacleId": "pcb_cutout_altium_2_rect_5",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 44.394520081773386
+      },
+      "width": 1.029292473458277,
+      "height": 0.0056219494133387116,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_6",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 44.40014203118673
+      },
+      "width": 1.2008412190347642,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_7",
       "type": "rect",
       "layers": [
         "top",
@@ -2004,10 +8045,2043 @@
       ],
       "center": {
         "x": 29.57679886,
-        "y": 53.06359936000002
+        "y": 44.41273530471741
       },
-      "width": 4.128410451119024,
-      "height": 0.6,
+      "width": 1.397556967841581,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_8",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 44.43229990236542
+      },
+      "width": 1.594272716648394,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_9",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999993,
+        "y": 44.45186450001344
+      },
+      "width": 1.7909884654552783,
+      "height": 0.019564597648020765,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_10",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679885999999,
+        "y": 44.471429097661456
+      },
+      "width": 1.987704214262095,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_11",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679885999999,
+        "y": 44.49099369530947
+      },
+      "width": 2.1844199630689083,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_12",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999982,
+        "y": 44.510558292957484
+      },
+      "width": 2.381135711875725,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_13",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679885999999,
+        "y": 44.52034059178149
+      },
+      "width": 2.381135711875782,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_14",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999993,
+        "y": 44.53645834109335
+      },
+      "width": 2.5710611453149923,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_15",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999993,
+        "y": 44.56869383971706
+      },
+      "width": 2.7609865787542063,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_16",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 44.60092933834076
+      },
+      "width": 2.9509120121933776,
+      "height": 0.03223549862369879,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_17",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 44.63316483696446
+      },
+      "width": 3.140837445632588,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_18",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 44.66540033558817
+      },
+      "width": 3.330762879071802,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_19",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.69763583421187
+      },
+      "width": 3.5206883125110124,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_20",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.735931004164016
+      },
+      "width": 3.70057375375918,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_21",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.780285845444595
+      },
+      "width": 3.8804591950073544,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_22",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.824640686725175
+      },
+      "width": 4.060344636255522,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_23",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.868995528005755
+      },
+      "width": 4.240230077503661,
+      "height": 0.04435484128057254,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_24",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.91335036928633
+      },
+      "width": 4.420115518751835,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_25",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 44.95770521056691
+      },
+      "width": 4.600000960000003,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_26",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 45.00774026136003
+      },
+      "width": 4.766768519283701,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_27",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 45.063455521665674
+      },
+      "width": 4.933536078567403,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_28",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 45.119170781971334
+      },
+      "width": 5.1003036378511055,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_29",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.17488604227698
+      },
+      "width": 5.267071197134779,
+      "height": 0.05571526030564655,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_30",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.23060130258263
+      },
+      "width": 5.433838756418478,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_31",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.28631656288829
+      },
+      "width": 5.600606315702176,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_32",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.35384761850894
+      },
+      "width": 5.781561801473984,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_33",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.43319446944459
+      },
+      "width": 5.962517287245813,
+      "height": 0.07934685093565719,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_34",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.512541320380244
+      },
+      "width": 6.143472773017617,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_35",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 45.5918881713159
+      },
+      "width": 6.324428258789446,
+      "height": 0.07934685093565719,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_36",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.67123502225155
+      },
+      "width": 6.505383744561254,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_37",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 45.767457037023064
+      },
+      "width": 6.703750871900379,
+      "height": 0.11309717860738289,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_38",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 45.880554215630454
+      },
+      "width": 6.902117999239511,
+      "height": 0.11309717860738289,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_39",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 45.99365139423784
+      },
+      "width": 7.100485126578651,
+      "height": 0.11309717860738999,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_40",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 46.10674857284522
+      },
+      "width": 7.298852253917776,
+      "height": 0.11309717860738289,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_41",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 46.225834996880295
+      },
+      "width": 7.46599803483473,
+      "height": 0.12507566946276683,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_42",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 46.35091066634307
+      },
+      "width": 7.633143815751694,
+      "height": 0.12507566946277393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_43",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 46.47598633580584
+      },
+      "width": 7.800289596668655,
+      "height": 0.12507566946277393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_44",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 46.601062005268616
+      },
+      "width": 7.967435377585609,
+      "height": 0.12507566946276683,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_45",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 46.75354256062408
+      },
+      "width": 8.144854742707924,
+      "height": 0.1798854412481674,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_46",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 46.933428001872244
+      },
+      "width": 8.322274107830232,
+      "height": 0.1798854412481603,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_47",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 47.113313443120404
+      },
+      "width": 8.499693472952547,
+      "height": 0.1798854412481674,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_48",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 47.29821888046409
+      },
+      "width": 8.62863546744737,
+      "height": 0.18992543343920687,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_49",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 47.488144313903305
+      },
+      "width": 8.757577461942194,
+      "height": 0.18992543343921398,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_50",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 47.67806974734252
+      },
+      "width": 8.886519456437018,
+      "height": 0.18992543343920687,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_51",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 47.87139033846553
+      },
+      "width": 8.964777847029076,
+      "height": 0.19671574880683096,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_52",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 48.06810608727237
+      },
+      "width": 9.04303623762113,
+      "height": 0.19671574880683806,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_53",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 48.26482183607921
+      },
+      "width": 9.121294628213189,
+      "height": 0.19671574880683096,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_54",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 48.43823228667229
+      },
+      "width": 9.140971451159892,
+      "height": 0.1501051523793464,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_55",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 48.588337439051635
+      },
+      "width": 9.160648274106588,
+      "height": 0.1501051523793393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_56",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 48.73844259143098
+      },
+      "width": 9.180325097053295,
+      "height": 0.1501051523793464,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_57",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 48.96360032
+      },
+      "width": 9.200001919999998,
+      "height": 0.3002103047586928,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_58",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 49.188758048569014
+      },
+      "width": 9.180325097053295,
+      "height": 0.1501051523793464,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_59",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 49.33886320094836
+      },
+      "width": 9.160648274106588,
+      "height": 0.1501051523793393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_60",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 49.48896835332771
+      },
+      "width": 9.140971451159892,
+      "height": 0.1501051523793464,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_61",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 49.66237880392079
+      },
+      "width": 9.121294628213189,
+      "height": 0.19671574880683096,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_62",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 49.859094552727626
+      },
+      "width": 9.04303623762113,
+      "height": 0.19671574880683806,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_63",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 50.055810301534464
+      },
+      "width": 8.964777847029076,
+      "height": 0.19671574880683096,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_64",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 50.249130892657476
+      },
+      "width": 8.886519456437018,
+      "height": 0.18992543343920687,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_65",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 50.43905632609669
+      },
+      "width": 8.757577461942194,
+      "height": 0.18992543343921398,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_66",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 50.628981759535904
+      },
+      "width": 8.628635467447367,
+      "height": 0.18992543343920687,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_67",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 50.81388719687959
+      },
+      "width": 8.499693472952544,
+      "height": 0.1798854412481674,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_68",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 50.99377263812775
+      },
+      "width": 8.322274107830228,
+      "height": 0.1798854412481603,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_69",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 51.17365807937591
+      },
+      "width": 8.144854742707924,
+      "height": 0.1798854412481674,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_70",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 51.32613863473138
+      },
+      "width": 7.967435377585609,
+      "height": 0.12507566946276683,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_71",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 51.45121430419415
+      },
+      "width": 7.800289596668655,
+      "height": 0.12507566946277393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_72",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 51.57628997365693
+      },
+      "width": 7.633143815751698,
+      "height": 0.12507566946277393,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_73",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 51.7013656431197
+      },
+      "width": 7.465998034834733,
+      "height": 0.12507566946276683,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_74",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 51.76390347785109
+      },
+      "width": 7.2988522539177865,
+      "height": 7.105427357601002e-15,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_75",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 51.82045206715478
+      },
+      "width": 7.298852253917772,
+      "height": 0.11309717860738999,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_76",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 51.933549245762165
+      },
+      "width": 7.100485126578636,
+      "height": 0.11309717860738289,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_77",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.046646424369555
+      },
+      "width": 6.902117999239515,
+      "height": 0.11309717860738289,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_78",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.15974360297694
+      },
+      "width": 6.7037508719003895,
+      "height": 0.11309717860738999,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_79",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.25596561774846
+      },
+      "width": 6.505383744561254,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_80",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.33531246868411
+      },
+      "width": 6.324428258789435,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_81",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.41465931961976
+      },
+      "width": 6.143472773017621,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_82",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.49400617055541
+      },
+      "width": 5.962517287245809,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_83",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.57335302149106
+      },
+      "width": 5.781561801473995,
+      "height": 0.07934685093565008,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_84",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.64088407711171
+      },
+      "width": 5.600606315702176,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_85",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.69659933741737
+      },
+      "width": 5.433838756418478,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_86",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798859999997,
+        "y": 52.752314597723014
+      },
+      "width": 5.267071197134779,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_87",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.808029858028675
+      },
+      "width": 5.100303637851091,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_88",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.86374511833432
+      },
+      "width": 4.933536078567393,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_89",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 52.91946037863998
+      },
+      "width": 4.766768519283694,
+      "height": 0.05571526030565366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_90",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 52.969495429433096
+      },
+      "width": 4.600000959999999,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_91",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 53.013850270713675
+      },
+      "width": 4.420115518751825,
+      "height": 0.04435484128057254,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_92",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 53.05820511199425
+      },
+      "width": 4.2402300775036785,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_93",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.576798860000004,
+        "y": 53.10255995327483
+      },
+      "width": 4.060344636255504,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_94",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.1469147945554
+      },
+      "width": 3.880459195007333,
+      "height": 0.04435484128057254,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_95",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.19126963583598
+      },
+      "width": 3.700573753759187,
+      "height": 0.04435484128057965,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_96",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.22956480578812
+      },
+      "width": 3.5206883125110124,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_97",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.26180030441183
+      },
+      "width": 3.3307628790718127,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_98",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.294035803035534
+      },
+      "width": 3.140837445632606,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_99",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.32627130165925
+      },
+      "width": 2.950912012193406,
+      "height": 0.032235498623713,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_100",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.35850680028295
+      },
+      "width": 2.7609865787541636,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_101",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.39074229890666
+      },
+      "width": 2.5710611453149568,
+      "height": 0.032235498623705894,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_102",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.41664234704252
+      },
+      "width": 2.381135711875757,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_103",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.43620694469053
+      },
+      "width": 2.184419963068912,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_104",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.45577154233854
+      },
+      "width": 1.9877042142620667,
+      "height": 0.019564597648006554,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_105",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.47533613998655
+      },
+      "width": 1.7909884654552926,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_106",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.494900737634566
+      },
+      "width": 1.5942727166484474,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_107",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.51446533528258
+      },
+      "width": 1.3975569678416022,
+      "height": 0.01956459764801366,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_108",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.52705860881326
+      },
+      "width": 1.200841219034757,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_109",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.5326805582266
+      },
+      "width": 1.0292924734583622,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_110",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.538302507639955
+      },
+      "width": 0.8577437278819673,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_111",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.54392445705329
+      },
+      "width": 0.6861949823055724,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_112",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.549546406466646
+      },
+      "width": 0.5146462367291846,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_113",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.555168355879985
+      },
+      "width": 0.34309749115278976,
+      "height": 0.005621949413345817,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "pcb_cutout_altium_2_rect_114",
+      "type": "rect",
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "inner3",
+        "inner4",
+        "bottom"
+      ],
+      "center": {
+        "x": 29.57679886,
+        "y": 53.56079030529334
+      },
+      "width": 0.17154874557639488,
+      "height": 0.005621949413345817,
       "connectedTo": []
     }
   ],
