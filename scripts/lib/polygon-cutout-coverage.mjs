@@ -1,52 +1,30 @@
 import assert from "node:assert/strict"
-import polygonClipping from "polygon-clipping"
+import Flatten from "@flatten-js/core"
 
 // Board world points: millimetres, +X right, +Y up. Quantize to a 1 nm grid
 // and expand rectangle bounds by 1 nm to absorb floating point corner error.
 // Boolean subtraction checks the whole interior, including between scanlines.
 export const uncoveredPolygonArea = (points, obstacles) => {
   const scale = 1e6
-  const polygon = [
-    points.map(({ x, y }) => [Math.round(x * scale), Math.round(y * scale)]),
-  ]
-  const rectangles = obstacles.map(({ center, width, height }) => {
-    const minX = Math.floor((center.x - width / 2) * scale) - 1
-    const maxX = Math.ceil((center.x + width / 2) * scale) + 1
-    const minY = Math.floor((center.y - height / 2) * scale) - 1
-    const maxY = Math.ceil((center.y + height / 2) * scale) + 1
-    return [
-      [
-        [minX, minY],
-        [maxX, minY],
-        [maxX, maxY],
-        [minX, maxY],
-        [minX, minY],
-      ],
-    ]
-  })
-  const difference = rectangles.length
-    ? polygonClipping.difference(polygon, ...rectangles)
-    : [polygon]
-  return difference.reduce(
-    (area, rings) =>
-      area +
-      rings.reduce((sum, ring, ringIndex) => {
-        const [originX, originY] = ring[0]
-        let twiceArea = 0
-        for (let i = 0; i + 1 < ring.length; i++) {
-          const a = ring[i],
-            b = ring[i + 1]
-          twiceArea +=
-            (a[0] - originX) * (b[1] - originY) -
-            (b[0] - originX) * (a[1] - originY)
-        }
-        return (
-          sum +
-          ((ringIndex === 0 ? 1 : -1) * Math.abs(twiceArea)) / 2 / scale ** 2
-        )
-      }, 0),
-    0,
+  let uncovered = new Flatten.Polygon(
+    points.map(({ x, y }) =>
+      new Flatten.Point(Math.round(x * scale), Math.round(y * scale)),
+    ),
   )
+  if (uncovered.orientation() === Flatten.ORIENTATION.CW) uncovered.reverse()
+  for (const { center, width, height } of obstacles) {
+    const bounds = new Flatten.Box(
+      Math.floor((center.x - width / 2) * scale) - 1,
+      Math.floor((center.y - height / 2) * scale) - 1,
+      Math.ceil((center.x + width / 2) * scale) + 1,
+      Math.ceil((center.y + height / 2) * scale) + 1,
+    )
+    uncovered = Flatten.BooleanOperations.subtract(
+      uncovered,
+      new Flatten.Polygon(bounds),
+    )
+  }
+  return uncovered.area() / scale ** 2
 }
 
 export const validatePolygonCutoutCoverage = (sample, circuitJson) => {
