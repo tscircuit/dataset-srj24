@@ -356,3 +356,23 @@ convert it to Circuit JSON, and then produce Simple Route JSON. The TI samples
 store the released Altium converter and SRJ output without repairing or
 normalizing it; the comparison SVGs make the resulting conversion limitations
 visible.
+
+To refresh polygon-cutout SRJs from the checked-in Circuit JSON without
+downloading or reconverting the original boards:
+
+```sh
+bun install --frozen-lockfile
+bun run generate:cutouts
+bun run test
+```
+
+This regenerates sample023 and sample024 and their SRJ comparison panels.
+The original Altium and Circuit JSON panels, source data and provenance remain
+unchanged. Tests subtract the emitted cutout rectangles from all 27 source
+polygons on every copper layer, with nanometre-scale numerical tolerance, and
+check the previously uncovered PMP22650 point on inner6.
+
+The core dependency is pinned to the successful commit preview from
+[core #4639](https://github.com/tscircuit/core/pull/4639), commit
+`2023e52e3782f00e42e49a6d0921ef9697512c1e`. Replace that pin with the first
+published core release containing the fix before merging this dataset update.
