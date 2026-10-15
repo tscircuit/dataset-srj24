@@ -378,6 +378,7 @@ of 1e-12 mm in JSON and 1e-9 in SVG numbers; structure, text and metadata must
 match. The saved geometry is never rounded to satisfy this check.
 
 The core dependency is pinned to the successful commit preview from
-[core #4639](https://github.com/tscircuit/core/pull/4639), commit
-`2023e52e3782f00e42e49a6d0921ef9697512c1e`. Replace that pin with the first
+[core #4641](https://github.com/tscircuit/core/pull/4641), commit
+`6963ab59482e6b9592a0f3eeabdb019c3c8ad309`, stacked on the test-only
+[repro #4640](https://github.com/tscircuit/core/pull/4640). Replace that pin with the first
 published core release containing the fix before merging this dataset update.

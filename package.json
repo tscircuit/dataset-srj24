@@ -30,7 +30,7 @@
     "@tscircuit/circuit-json-util": "^0.0.116",
     "@tscircuit/common": "^0.0.42",
     "@tscircuit/copper-pour-solver": "^0.0.30",
-    "@tscircuit/core": "https://pkg.pr.new/tscircuit/core/@tscircuit/core@2023e52",
+    "@tscircuit/core": "https://pkg.pr.new/tscircuit/core/@tscircuit/core@6963ab5",
     "@tscircuit/create-fdm-enclosure": "0.0.4",
     "@tscircuit/footprinter": "^0.0.426",
     "@tscircuit/image-utils": "^0.0.8",
