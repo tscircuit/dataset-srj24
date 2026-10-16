@@ -1938,6 +1938,10 @@
     "material": "fr4",
     "is_via_in_pad_allowed": true,
     "min_trace_width": 0.15239999999999998,
+    "min_trace_to_pad_edge_clearance": 0.09999979999999999,
+    "min_pad_edge_to_pad_edge_clearance": 0.09999979999999999,
+    "min_different_net_trace_edge_to_trace_edge_clearance": 0.09999979999999999,
+    "min_via_edge_to_pad_edge_clearance": 0.09999979999999999,
     "min_via_hole_diameter": 0.254,
     "min_via_pad_diameter": 0.508
   },

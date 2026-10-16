@@ -52,6 +52,7 @@ const boards = [
       "6-layer PCB",
     ],
     complexity: "high",
+    excludeCopperPourNetsFromRouting: true,
   },
   {
     sample: "sample022",
@@ -167,6 +168,28 @@ const boards = [
 
 const sha256 = (bytes) => createHash("sha256").update(bytes).digest("hex")
 
+const excludeCopperPourNetConnections = ({ circuitJson, simpleRouteJson }) => {
+  const copperPourNetIds = new Set(
+    circuitJson
+      .filter(
+        (element) => element.type === "pcb_copper_pour" && element.source_net_id,
+      )
+      .map((element) => element.source_net_id),
+  )
+  const excludedConnections = simpleRouteJson.connections.filter((connection) =>
+    copperPourNetIds.has(connection.name),
+  )
+  return {
+    excludedConnections,
+    simpleRouteJson: {
+      ...simpleRouteJson,
+      connections: simpleRouteJson.connections.filter(
+        (connection) => !copperPourNetIds.has(connection.name),
+      ),
+    },
+  }
+}
+
 const assertHash = (bytes, expected, label) => {
   const actual = sha256(bytes)
   if (actual !== expected) {
@@ -210,6 +233,17 @@ const sourceRoot =
     : process.env.TI_ALTIUM_SOURCE_ROOT
       ? resolve(process.env.TI_ALTIUM_SOURCE_ROOT)
       : null
+const sampleFlagIndex = process.argv.indexOf("--sample")
+const selectedSample = sampleFlagIndex >= 0 ? process.argv[sampleFlagIndex + 1] : null
+if (sampleFlagIndex >= 0 && !selectedSample) {
+  throw new Error("--sample requires a sample ID")
+}
+const selectedBoards = selectedSample
+  ? boards.filter((board) => board.sample === selectedSample)
+  : boards
+if (selectedSample && selectedBoards.length === 0) {
+  throw new Error(`Unknown TI sample: ${selectedSample}`)
+}
 const archiveCache = new Map()
 const temporaryDirectory = mkdtempSync(join(tmpdir(), "dataset-srj24-ti-"))
 
@@ -334,11 +368,11 @@ mkdirSync(circuitJsonDir, { recursive: true })
 mkdirSync(snapshotsDir, { recursive: true })
 
 const existingSourceFiles = JSON.parse(readFileSync(sourceFilesPath, "utf8")).filter(
-  (source) => !boards.some((board) => board.sample === source.sample),
+  (source) => !selectedBoards.some((board) => board.sample === source.sample),
 )
 const generatedSourceFiles = []
 
-for (const board of boards) {
+for (const board of selectedBoards) {
   const sourceBytes = await getBoardBytes(board)
   const document = parseAltiumBinaryPcbDoc(sourceBytes)
   const circuitJson = convertAltiumToCircuitJson(sourceBytes, { sourceType: "pcb" })
@@ -356,9 +390,19 @@ for (const board of boards) {
     circuitJson,
     ignoreExistingTopLevelPcbRouteState: true,
   })
-  const baseSimpleRouteJson = baseSrjResult.simpleRouteJson ?? baseSrjResult
+  const convertedSimpleRouteJson = baseSrjResult.simpleRouteJson ?? baseSrjResult
+  const routingSelection = board.excludeCopperPourNetsFromRouting
+    ? excludeCopperPourNetConnections({
+        circuitJson,
+        simpleRouteJson: convertedSimpleRouteJson,
+      })
+    : { excludedConnections: [], simpleRouteJson: convertedSimpleRouteJson }
+  const baseSimpleRouteJson = routingSelection.simpleRouteJson
   const simpleRouteJson = {
     ...baseSimpleRouteJson,
+    ...(baseSimpleRouteJson.minTraceToPadEdgeClearance !== undefined
+      ? { defaultObstacleMargin: baseSimpleRouteJson.minTraceToPadEdgeClearance }
+      : {}),
     id: board.sample,
     sourceCircuitJson: `circuit-json/${board.sample}-${board.id}.json`,
     sourceName: board.name,
@@ -402,6 +446,22 @@ for (const board of boards) {
     normalizations: [],
     repairs: [],
     warnings: [],
+    routingExclusions:
+      routingSelection.excludedConnections.length === 0
+        ? []
+        : [
+            {
+              type: "native-copper-pour-net",
+              sourceNetIds: routingSelection.excludedConnections.map(
+                (connection) => connection.name,
+              ),
+              connectionCount: routingSelection.excludedConnections.length,
+              terminalCount: routingSelection.excludedConnections.reduce(
+                (sum, connection) => sum + connection.pointsToConnect.length,
+                0,
+              ),
+            },
+          ],
     stats: countCircuitElements(circuitJson),
   })
 
@@ -410,6 +470,12 @@ for (const board of boards) {
 
 writeFileSync(
   sourceFilesPath,
-  `${JSON.stringify([...existingSourceFiles, ...generatedSourceFiles], null, 2)}\n`,
+  `${JSON.stringify(
+    [...existingSourceFiles, ...generatedSourceFiles].sort((first, second) =>
+      first.sample.localeCompare(second.sample),
+    ),
+    null,
+    2,
+  )}\n`,
 )
 writeIndexFiles()

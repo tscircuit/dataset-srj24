@@ -29,7 +29,7 @@
         "@tscircuit/solver-utils": "^0.0.19",
         "@tscircuit/soup-util": "^0.0.41",
         "@vitejs/plugin-react": "4.3.4",
-        "altium-to-circuit-json": "0.0.106",
+        "altium-to-circuit-json": "git+https://github.com/tscircuit/altium-to-circuit-json.git#04366a4e3906d8635111d452352b862ca5075255",
         "altiumts": "0.0.94",
         "bpc-graph": "^0.0.66",
         "calculate-elbow": "^0.0.12",
@@ -64,6 +64,7 @@
     },
   },
   "trustedDependencies": [
+    "altium-to-circuit-json",
     "altiumts",
   ],
   "packages": {
@@ -471,7 +472,7 @@
 
     "adler-32": ["adler-32@1.3.1", "", {}, "sha512-ynZ4w/nUUv5rrsR8UUGoe1VC9hZj6V5hU9Qw1HlMDJGEJw5S7TfTErWTjMys6M7vr0YWcPqs3qAr4ss0nDfP+A=="],
 
-    "altium-to-circuit-json": ["altium-to-circuit-json@0.0.106", "", { "dependencies": { "@tscircuit/math-utils": "^0.0.9", "altiumts": "github:tscircuit/altiumts#8db22cf449c7bf6584a968b4913be4e1bd4a93ad", "circuit-json": "0.0.486", "format-si-unit": "^0.0.11", "polygon-clipping": "^0.15.7", "schematic-symbols": "^0.0.238", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" } }, "sha512-Dx0n6rdY1bk3aDbUhxIDcpvIidmryJUzaeuuYw08MB6d0DqQg5Q3Y4bAEgibyFaJwlj6jTo+9sRtHjydCfLQLQ=="],
+    "altium-to-circuit-json": ["altium-to-circuit-json@github:tscircuit/altium-to-circuit-json#04366a4", { "dependencies": { "@tscircuit/math-utils": "^0.0.9", "altiumts": "github:tscircuit/altiumts#8db22cf449c7bf6584a968b4913be4e1bd4a93ad", "circuit-json": "0.0.486", "format-si-unit": "^0.0.11", "polygon-clipping": "^0.15.7", "schematic-symbols": "^0.0.238", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" } }, "tscircuit-altium-to-circuit-json-04366a4", "sha512-ZqYg1nUy5+qN1MuRnn1p8a3ScZJ29QlSxEJAiQo3IzipCZQhftJjPmZfAk2vPkXmJDcK25YhUCihNWiyGw7x1g=="],
 
     "altiumts": ["altiumts@0.0.94", "", { "dependencies": { "cfb": "^1.2.2", "fflate": "^0.8.3", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" }, "bin": { "altiumts": "dist/cli.js" } }, "sha512-6fdt9/0FMtvyXIMVzkmtjGn8UZgZRXlpm7dzy3FFNDCTUMRx5Htaa8LPO2XK6k+RKwjvBo/MZOPS0CZn0761fw=="],
 
@@ -1191,7 +1192,7 @@
 
     "tscircuit/calculate-cell-boundaries/react-dom/scheduler": ["scheduler@0.23.2", "", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ=="],
 
-    "tscircuit/circuit-json-to-gltf/jscad-electronics/circuit-json": ["circuit-json@0.0.525", "", { "peerDependencies": { "format-si-unit": "*" } }, "sha512-reqY2m91wE2OcdVsTpnCZusZplsJl/rtq49SnN5beIDMVy2jRIiimDNuiQkcWYek9eYKScHhrBfFsA7hDM9OIw=="],
+    "tscircuit/circuit-json-to-gltf/jscad-electronics/circuit-json": ["circuit-json@0.0.528", "", { "peerDependencies": { "format-si-unit": "*" } }, "sha512-B9yGwpboXYPhXPrj49LNrDrC10hLHJrdm4MvIj7iwUneL1QYXuVfyQYz/qta1uAOSLpqSqCbX71nPF731F9RtQ=="],
 
     "tscircuit/circuit-json-to-spice/circuit-json-to-connectivity-map/@tscircuit/math-utils": ["@tscircuit/math-utils@0.0.9", "", { "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-sPzfXndijet8z29X6f5vnSZddiso2tRg7m6rB+268bVj60mxnxUMD14rKuMlLn6n84fMOpD/X7pRTZUfi6M+Tg=="],
 
