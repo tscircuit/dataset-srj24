@@ -29,7 +29,7 @@
         "@tscircuit/solver-utils": "^0.0.19",
         "@tscircuit/soup-util": "^0.0.41",
         "@vitejs/plugin-react": "4.3.4",
-        "altium-to-circuit-json": "git+https://github.com/tscircuit/altium-to-circuit-json.git#fff9a4f4d5959c272571a4f86a0e9f1dcf990f1e",
+        "altium-to-circuit-json": "git+https://github.com/tscircuit/altium-to-circuit-json.git#04366a4e3906d8635111d452352b862ca5075255",
         "altiumts": "0.0.94",
         "bpc-graph": "^0.0.66",
         "calculate-elbow": "^0.0.12",
@@ -64,6 +64,7 @@
     },
   },
   "trustedDependencies": [
+    "altium-to-circuit-json",
     "altiumts",
   ],
   "packages": {
@@ -471,7 +472,7 @@
 
     "adler-32": ["adler-32@1.3.1", "", {}, "sha512-ynZ4w/nUUv5rrsR8UUGoe1VC9hZj6V5hU9Qw1HlMDJGEJw5S7TfTErWTjMys6M7vr0YWcPqs3qAr4ss0nDfP+A=="],
 
-    "altium-to-circuit-json": ["altium-to-circuit-json@github:tscircuit/altium-to-circuit-json#fff9a4f", { "dependencies": { "@tscircuit/math-utils": "^0.0.9", "altiumts": "github:tscircuit/altiumts#8db22cf449c7bf6584a968b4913be4e1bd4a93ad", "circuit-json": "0.0.486", "format-si-unit": "^0.0.11", "polygon-clipping": "^0.15.7", "schematic-symbols": "^0.0.238", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" } }, "tscircuit-altium-to-circuit-json-fff9a4f", "sha512-QQn+KhYhAkNytcI0Gw7BVr7zMoFbNXMj+Ass4BkOjBsACoKcXhYgQC62DBg8BfSC8FMtQlIqbnqNDUQRmUXeMA=="],
+    "altium-to-circuit-json": ["altium-to-circuit-json@github:tscircuit/altium-to-circuit-json#04366a4", { "dependencies": { "@tscircuit/math-utils": "^0.0.9", "altiumts": "github:tscircuit/altiumts#8db22cf449c7bf6584a968b4913be4e1bd4a93ad", "circuit-json": "0.0.486", "format-si-unit": "^0.0.11", "polygon-clipping": "^0.15.7", "schematic-symbols": "^0.0.238", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" } }, "tscircuit-altium-to-circuit-json-04366a4", "sha512-ZqYg1nUy5+qN1MuRnn1p8a3ScZJ29QlSxEJAiQo3IzipCZQhftJjPmZfAk2vPkXmJDcK25YhUCihNWiyGw7x1g=="],
 
     "altiumts": ["altiumts@0.0.94", "", { "dependencies": { "cfb": "^1.2.2", "fflate": "^0.8.3", "transformation-matrix": "^2.16.1" }, "peerDependencies": { "typescript": "^5" }, "bin": { "altiumts": "dist/cli.js" } }, "sha512-6fdt9/0FMtvyXIMVzkmtjGn8UZgZRXlpm7dzy3FFNDCTUMRx5Htaa8LPO2XK6k+RKwjvBo/MZOPS0CZn0761fw=="],
 
