@@ -3,7 +3,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_0",
     "name": "NetJ5_1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -32,7 +33,8 @@
     "type": "source_net",
     "source_net_id": "source_net_altium_pcb_1",
     "name": "NetJ3_1",
-    "member_source_group_ids": []
+    "member_source_group_ids": [],
+    "trace_width": 0.254
   },
   {
     "type": "source_trace",
@@ -145,7 +147,11 @@
     ],
     "thickness": 1.6,
     "num_layers": 6,
-    "material": "fr4"
+    "material": "fr4",
+    "allow_blind_and_buried_vias": true,
+    "min_trace_width": 0.15239999999999998,
+    "min_via_hole_diameter": 0.19999959999999997,
+    "min_via_pad_diameter": 0.6095999999999999
   },
   {
     "type": "pcb_cutout",
@@ -848,6 +854,1569 @@
     "rotation": 0,
     "position_mode": "none",
     "obstructs_within_bounds": false
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_0",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                2.9750969199999986
+              ],
+              [
+                -0.19994625999999727,
+                3.375096119999995
+              ],
+              [
+                0.20005548000000317,
+                3.375096119999995
+              ],
+              [
+                0.20005548000000317,
+                2.9750969199999986
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_1",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                1.7050969200000026
+              ],
+              [
+                -0.19994625999999727,
+                2.105096119999999
+              ],
+              [
+                0.20005548000000317,
+                2.105096119999999
+              ],
+              [
+                0.20005548000000317,
+                1.7050969200000026
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_2",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                0.43509691999999944
+              ],
+              [
+                -0.19994625999999727,
+                0.8350961200000029
+              ],
+              [
+                0.20005548000000317,
+                0.8350961200000029
+              ],
+              [
+                0.20005548000000317,
+                0.43509691999999944
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_3",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                -2.1049030799999997
+              ],
+              [
+                -0.19994625999999727,
+                -1.7049038799999963
+              ],
+              [
+                0.20005548000000317,
+                -1.7049038799999963
+              ],
+              [
+                0.20005548000000317,
+                -2.1049030799999997
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_4",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                -3.374903080000003
+              ],
+              [
+                -0.19994625999999727,
+                -2.9749038799999994
+              ],
+              [
+                0.20005548000000317,
+                -2.9749038799999994
+              ],
+              [
+                0.20005548000000317,
+                -3.374903080000003
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_5",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.19994625999999727,
+                -0.8349030799999966
+              ],
+              [
+                -0.19994625999999727,
+                -0.43490388000000024
+              ],
+              [
+                0.20005548000000317,
+                -0.43490388000000024
+              ],
+              [
+                0.20005548000000317,
+                -0.8349030799999966
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_6",
+    "pcb_component_id": "pcb_component_altium_4",
+    "source_component_id": "source_component_altium_4",
+    "position": {
+      "x": 46.57680042,
+      "y": 48.96360032,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        0.5019607843137255,
+        0.5019607843137255,
+        0.5019607843137255
+      ],
+      "shape": {
+        "type": "extrudeLinear",
+        "options": {
+          "height": -1.00000054
+        },
+        "shape": {
+          "type": "fromPointsGeom2",
+          "points": [
+            [
+              -1.0994923399999976,
+              -3.8494919199999984
+            ],
+            [
+              1.0994923399999976,
+              -3.8494919199999984
+            ],
+            [
+              1.0994923399999976,
+              3.8494919199999984
+            ],
+            [
+              -1.0994923399999976,
+              3.8494919199999984
+            ]
+          ]
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_7",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        0.3764705882352941,
+        0.3764705882352941,
+        0.3764705882352941
+      ],
+      "shape": {
+        "type": "extrudeLinear",
+        "options": {
+          "height": -1.00000054
+        },
+        "shape": {
+          "type": "fromPointsGeom2",
+          "points": [
+            [
+              -1.8499988399999978,
+              2.1549995000000024
+            ],
+            [
+              -1.8499988399999978,
+              -2.1549994999999953
+            ],
+            [
+              1.8499988399999978,
+              -2.1549994999999953
+            ],
+            [
+              1.8499988399999978,
+              2.1549995000000024
+            ]
+          ]
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_8",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                -1.0700994599999945
+              ],
+              [
+                -0.8350961199999993,
+                -1.470098659999998
+              ],
+              [
+                -0.43509691999999944,
+                -1.470098659999998
+              ],
+              [
+                -0.43509691999999944,
+                -1.0700994599999945
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_9",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                0.19990054000000157
+              ],
+              [
+                -0.8350961199999993,
+                -0.20009865999999477
+              ],
+              [
+                -0.43509691999999944,
+                -0.20009865999999477
+              ],
+              [
+                -0.43509691999999944,
+                0.19990054000000157
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_10",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                1.4699005400000047
+              ],
+              [
+                -0.8350961199999993,
+                1.0699013400000013
+              ],
+              [
+                -0.43509691999999944,
+                1.0699013400000013
+              ],
+              [
+                -0.43509691999999944,
+                1.4699005400000047
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_11",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                -1.0700994599999945
+              ],
+              [
+                0.43490388000000024,
+                -1.470098659999998
+              ],
+              [
+                0.8349030800000001,
+                -1.470098659999998
+              ],
+              [
+                0.8349030800000001,
+                -1.0700994599999945
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_12",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                0.19990054000000157
+              ],
+              [
+                0.43490388000000024,
+                -0.20009865999999477
+              ],
+              [
+                0.8349030800000001,
+                -0.20009865999999477
+              ],
+              [
+                0.8349030800000001,
+                0.19990054000000157
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_13",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                1.4699005400000047
+              ],
+              [
+                0.43490388000000024,
+                1.0699013400000013
+              ],
+              [
+                0.8349030800000001,
+                1.0699013400000013
+              ],
+              [
+                0.8349030800000001,
+                1.4699005400000047
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_14",
+    "pcb_component_id": "pcb_component_altium_3",
+    "source_component_id": "source_component_altium_3",
+    "position": {
+      "x": 19.57680108,
+      "y": 45.113600399999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          -1.00000054
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -0.009999979999999908
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                1.4761006800000018,
+                1.4823694000000032
+              ],
+              [
+                1.076101480000002,
+                1.4823694000000032
+              ],
+              [
+                1.076101480000002,
+                1.0823701999999997
+              ],
+              [
+                1.4761006800000018,
+                1.0823701999999997
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_15",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        0.3764705882352941,
+        0.3764705882352941,
+        0.3764705882352941
+      ],
+      "shape": {
+        "type": "extrudeLinear",
+        "options": {
+          "height": -1.00000054
+        },
+        "shape": {
+          "type": "fromPointsGeom2",
+          "points": [
+            [
+              -1.8499988399999978,
+              2.1549995000000024
+            ],
+            [
+              -1.8499988399999978,
+              -2.1549995000000024
+            ],
+            [
+              1.8499988399999978,
+              -2.1549995000000024
+            ],
+            [
+              1.8499988399999978,
+              2.1549995000000024
+            ]
+          ]
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_16",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                -1.0700994600000016
+              ],
+              [
+                -0.8350961199999993,
+                -1.470098659999998
+              ],
+              [
+                -0.43509691999999944,
+                -1.470098659999998
+              ],
+              [
+                -0.43509691999999944,
+                -1.0700994600000016
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_17",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                0.19990054000000157
+              ],
+              [
+                -0.8350961199999993,
+                -0.20009866000000187
+              ],
+              [
+                -0.43509691999999944,
+                -0.20009866000000187
+              ],
+              [
+                -0.43509691999999944,
+                0.19990054000000157
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_18",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                -0.8350961199999993,
+                1.4699005400000047
+              ],
+              [
+                -0.8350961199999993,
+                1.0699013400000013
+              ],
+              [
+                -0.43509691999999944,
+                1.0699013400000013
+              ],
+              [
+                -0.43509691999999944,
+                1.4699005400000047
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_19",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                -1.0700994600000016
+              ],
+              [
+                0.43490388000000024,
+                -1.470098659999998
+              ],
+              [
+                0.8349030800000001,
+                -1.470098659999998
+              ],
+              [
+                0.8349030800000001,
+                -1.0700994600000016
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_20",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                0.19990054000000157
+              ],
+              [
+                0.43490388000000024,
+                -0.20009866000000187
+              ],
+              [
+                0.8349030800000001,
+                -0.20009866000000187
+              ],
+              [
+                0.8349030800000001,
+                0.19990054000000157
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_21",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        0.7725490196078432,
+        0.10196078431372549
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          2.50000008
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -14.70000108
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                0.43490388000000024,
+                1.4699005400000047
+              ],
+              [
+                0.43490388000000024,
+                1.0699013400000013
+              ],
+              [
+                0.8349030800000001,
+                1.0699013400000013
+              ],
+              [
+                0.8349030800000001,
+                1.4699005400000047
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
+  },
+  {
+    "type": "cad_component",
+    "cad_component_id": "cad_component_altium_primitive_22",
+    "pcb_component_id": "pcb_component_altium_2",
+    "source_component_id": "source_component_altium_2",
+    "position": {
+      "x": 19.57680108,
+      "y": 52.863600139999996,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "layer": "bottom",
+    "model_jscad": {
+      "type": "colorize",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "shape": {
+        "type": "translate",
+        "vector": [
+          0,
+          0,
+          -1.00000054
+        ],
+        "shape": {
+          "type": "extrudeLinear",
+          "options": {
+            "height": -0.009999979999999908
+          },
+          "shape": {
+            "type": "fromPointsGeom2",
+            "points": [
+              [
+                1.4761006800000018,
+                1.4823694000000103
+              ],
+              [
+                1.076101480000002,
+                1.4823694000000103
+              ],
+              [
+                1.076101480000002,
+                1.0823702000000068
+              ],
+              [
+                1.4761006800000018,
+                1.0823702000000068
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "model_unit_to_mm_scale_factor": 1,
+    "model_board_normal_direction": "z+",
+    "model_origin_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "model_object_fit": "contain_within_bounds",
+    "anchor_alignment": "center"
   },
   {
     "type": "pcb_copper_pour",
@@ -1672,7 +3241,7 @@
     "offset_distance": 14.53999886,
     "offset_direction": {
       "x": -1,
-      "y": 0
+      "y": 6.123233995736766e-17
     },
     "font": "tscircuit2024",
     "font_size": 1.524,
@@ -1690,17 +3259,35 @@
     },
     "to": {
       "x": 47.877155959999996,
-      "y": 41.10731428
+      "y": 38.9636
     },
-    "text": "30.38 mm",
-    "offset_distance": 2.5590035825042,
+    "text": "30.30 mm",
+    "offset_distance": 2.5654,
     "offset_direction": {
-      "x": 0.07057241412289533,
-      "y": -0.9975066588072816
+      "x": 0,
+      "y": -1
     },
     "font": "tscircuit2024",
     "font_size": 1.524,
     "arrow_size": 1.524,
+    "color": "#ec4899"
+  },
+  {
+    "type": "pcb_fabrication_note_path",
+    "pcb_fabrication_note_path_id": "pcb_fabrication_note_path_altium_dimension_25_reference_extension",
+    "pcb_component_id": "pcb_component_altium_board_graphics",
+    "layer": "top",
+    "route": [
+      {
+        "x": 47.877155959999996,
+        "y": 41.10731428
+      },
+      {
+        "x": 47.877155959999996,
+        "y": 38.9636
+      }
+    ],
+    "stroke_width": 0.254,
     "color": "#ec4899"
   },
   {
@@ -18259,7 +19846,7 @@
     "type": "pcb_copper_text",
     "pcb_copper_text_id": "pcb_copper_text_altium_468",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Top Layer",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -18275,7 +19862,7 @@
     "type": "pcb_silkscreen_text",
     "pcb_silkscreen_text_id": "pcb_silkscreen_text_altium_471",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Top Overlay",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -18291,7 +19878,7 @@
     "type": "pcb_copper_text",
     "pcb_copper_text_id": "pcb_copper_text_altium_476",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Bottom Layer",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {
@@ -18307,7 +19894,7 @@
     "type": "pcb_silkscreen_text",
     "pcb_silkscreen_text_id": "pcb_silkscreen_text_altium_477",
     "pcb_component_id": "pcb_component_altium_65535",
-    "text": ".Layer_Name",
+    "text": "Bottom Overlay",
     "font": "tscircuit2024",
     "font_size": 1.524,
     "anchor_position": {

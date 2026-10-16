@@ -36,12 +36,12 @@ electrical-safety or manufacturing certification.
 | `sample018` | Programmable LED Panel | High | 6 | 315 | 1,069 | 1,250 | 741 | 465 |
 | `sample019` | HDMI EDID Debug Board | Medium | 4 | 110 | 409 | 460 | 175 | 154 |
 | `sample020` | PoE to USB-C PD Converter | High | 4 | 276 | 811 | 694 | 767 | 409 |
-| `sample021` | PMP23595 Four-Phase GaN Buck Converter | High | 6 | 236 | 538 | 944 | 735 | 0 |
-| `sample022` | PMP23653 25 W Isolated USB-C Supply | Medium | 4 | 89 | 277 | 367 | 82 | 0 |
-| `sample023` | PMP23653 Planar Transformer | Low | 6 | 6 | 18 | 0 | 29 | 0 |
-| `sample024` | PMP22650 6.6 kW Bidirectional GaN Onboard Charger | Very high | 8 | 633 | 2,494 | 5,970 | 1,993 | 0 |
-| `sample025` | PMP22712 Auxiliary Power Board | Low | 4 | 30 | 80 | 111 | 8 | 0 |
-| `sample026` | PMP22773 Sensing Auxiliary Board | Low | 4 | 34 | 106 | 199 | 30 | 0 |
+| `sample021` | PMP23595 Four-Phase GaN Buck Converter | High | 6 | 236 | 538 | 944 | 735 | 75 |
+| `sample022` | PMP23653 25 W Isolated USB-C Supply | Medium | 4 | 89 | 277 | 367 | 82 | 44 |
+| `sample023` | PMP23653 Planar Transformer | Low | 6 | 6 | 18 | 0 | 29 | 2 |
+| `sample024` | PMP22650 6.6 kW Bidirectional GaN Onboard Charger | Very high | 8 | 633 | 2,494 | 5,970 | 1,993 | 409 |
+| `sample025` | PMP22712 Auxiliary Power Board | Low | 4 | 30 | 80 | 111 | 8 | 23 |
+| `sample026` | PMP22773 Sensing Auxiliary Board | Low | 4 | 34 | 106 | 199 | 30 | 28 |
 
 ## Board descriptions and properties
 
