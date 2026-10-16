@@ -1,0 +1,118 @@
+{
+  "id": "obstacle-shapes",
+  "layerCount": 2,
+  "minTraceWidth": 0.2,
+  "bounds": {
+    "minX": -14,
+    "maxX": 14,
+    "minY": -8,
+    "maxY": 8
+  },
+  "obstacles": [
+    {
+      "obstacleId": "start",
+      "type": "rect",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": -12,
+        "y": 0
+      },
+      "width": 1.5,
+      "height": 1.5,
+      "connectedTo": [
+        "signal"
+      ]
+    },
+    {
+      "obstacleId": "end",
+      "type": "rect",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": 12,
+        "y": 0
+      },
+      "width": 1.5,
+      "height": 1.5,
+      "connectedTo": [
+        "signal"
+      ]
+    },
+    {
+      "obstacleId": "rectangle",
+      "type": "rect",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": -5,
+        "y": 3.5
+      },
+      "width": 6,
+      "height": 3,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "horizontal-oval",
+      "type": "oval",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": 5,
+        "y": 3.5
+      },
+      "width": 6,
+      "height": 3,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "vertical-oval",
+      "type": "oval",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": -5,
+        "y": -3
+      },
+      "width": 3,
+      "height": 5,
+      "connectedTo": []
+    },
+    {
+      "obstacleId": "circular-oval",
+      "type": "oval",
+      "layers": [
+        "top"
+      ],
+      "center": {
+        "x": 5,
+        "y": -3
+      },
+      "width": 4,
+      "height": 4,
+      "connectedTo": []
+    }
+  ],
+  "connections": [
+    {
+      "name": "signal",
+      "pointsToConnect": [
+        {
+          "x": -12,
+          "y": 0,
+          "layer": "top"
+        },
+        {
+          "x": 12,
+          "y": 0,
+          "layer": "top"
+        }
+      ]
+    }
+  ]
+}

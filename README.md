@@ -342,6 +342,36 @@ revisions contains a root `NOTICE` file.
 const { sample001, dataset } = require("@tscircuit/dataset-srj24")
 ```
 
+### Rectangle and oval example
+
+`SimpleRouteObstacle.type` accepts both `"rect"` and `"oval"`, matching the
+existing board data. For example, a TypeScript consumer can select oval obstacles
+without a cast:
+
+```ts
+import { sample001 } from "@tscircuit/dataset-srj24"
+
+const ovals = sample001.obstacles.filter((obstacle) => obstacle.type === "oval")
+```
+
+The [runnable TypeScript example](examples/obstacle-shapes.ts) defines a small
+synthetic SRJ problem with rectangular, horizontal oval, vertical oval, and
+circular obstacles. Its [generated JSON](examples/obstacle-shapes.json) can be
+loaded directly by an SRJ consumer. It is separate from the 26 source-derived
+boards and is not exported in `dataset`.
+
+![The synthetic sample shown as rectangular bounds on the left and with oval shapes on the right](snapshots/examples/obstacle-shapes.svg)
+
+This comparison illustrates a shape-aware consumer of the corrected types.
+The declaration fix does not change board geometry or the existing dataset
+viewer, whose capacity-autorouter renderer displays obstacle bounding rectangles.
+The dashed line is an unrouted connection, not a solved route.
+
+```sh
+bun run generate:example # Regenerate the example JSON and SVG locally
+bun run test:example     # Type-check the consumer and verify both artifacts
+```
+
 ## Regenerate and validate
 
 ```sh
