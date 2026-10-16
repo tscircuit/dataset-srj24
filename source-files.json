@@ -650,6 +650,37 @@
     "normalizations": [],
     "repairs": [],
     "warnings": [],
+    "routingExclusions": [
+      {
+        "type": "native-copper-pour-net",
+        "sourceNetIds": [
+          "source_net_altium_pcb_18",
+          "source_net_altium_pcb_19",
+          "source_net_altium_pcb_20",
+          "source_net_altium_pcb_25",
+          "source_net_altium_pcb_26",
+          "source_net_altium_pcb_31",
+          "source_net_altium_pcb_34",
+          "source_net_altium_pcb_35",
+          "source_net_altium_pcb_36",
+          "source_net_altium_pcb_37",
+          "source_net_altium_pcb_40",
+          "source_net_altium_pcb_41",
+          "source_net_altium_pcb_42",
+          "source_net_altium_pcb_43",
+          "source_net_altium_pcb_44",
+          "source_net_altium_pcb_48",
+          "source_net_altium_pcb_49",
+          "source_net_altium_pcb_58",
+          "source_net_altium_pcb_72",
+          "source_net_altium_pcb_73",
+          "source_net_altium_pcb_74",
+          "source_net_altium_pcb_75"
+        ],
+        "connectionCount": 22,
+        "terminalCount": 349
+      }
+    ],
     "stats": {
       "pads": 538,
       "components": 236,

@@ -259,6 +259,10 @@ to 60 W, power monitoring, programmable power profiles, and a fan driver.
 TI 960 W reference design converting a nominal 48 V input to 12 V with four
 interleaved GaN buck phases on a six-layer board.
 
+The routing problem excludes nets already implemented with native copper pours.
+This keeps the SRJ benchmark focused on trace routing instead of replacing plane
+and polygon geometry that Simple Route JSON cannot represent.
+
 [TI design resource](https://www.ti.com/tool/PMP23595) ·
 [Altium/Circuit JSON/SRJ comparison](snapshots/sample021-pmp23595-comparison.svg)
 

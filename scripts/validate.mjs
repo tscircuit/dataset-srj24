@@ -232,6 +232,11 @@ for (const [index, source] of sourceFiles.entries()) {
         .map((pcbPort) => pcbPort.pcb_port_id),
     )
     const connectedPcbPortIds = []
+    const copperPourSourceNetIds = new Set(
+      circuitJson
+        .filter((element) => element.type === "pcb_copper_pour" && element.source_net_id)
+        .map((copperPour) => copperPour.source_net_id),
+    )
 
     for (const connection of sample.connections) {
       assert(
@@ -256,6 +261,57 @@ for (const [index, source] of sourceFiles.entries()) {
       new Set(connectedPcbPortIds).size === connectedPcbPortIds.length,
       `${exportName} submits the same PCB port through multiple autorouter connections`,
     )
+
+    const routingExclusions = source.routingExclusions ?? []
+    assert(Array.isArray(routingExclusions), `${exportName} has invalid routing exclusions`)
+    for (const exclusion of routingExclusions) {
+      assert(
+        exclusion.type === "native-copper-pour-net",
+        `${exportName} has unsupported routing exclusion ${exclusion.type}`,
+      )
+      assert(
+        exclusion.connectionCount === exclusion.sourceNetIds.length,
+        `${exportName} has inconsistent copper-pour exclusion count`,
+      )
+      assert(
+        new Set(exclusion.sourceNetIds).size === exclusion.sourceNetIds.length,
+        `${exportName} repeats a copper-pour routing exclusion`,
+      )
+      assert(
+        exclusion.sourceNetIds.every((sourceNetId) => copperPourSourceNetIds.has(sourceNetId)),
+        `${exportName} excludes a net without native copper pours`,
+      )
+      assert(
+        exclusion.sourceNetIds.length === copperPourSourceNetIds.size &&
+          exclusion.sourceNetIds.every((sourceNetId) =>
+            copperPourSourceNetIds.has(sourceNetId),
+          ),
+        `${exportName} does not exclude every native copper-pour net`,
+      )
+      const excludedTerminalCount = circuitJson
+        .filter(
+          (element) =>
+            element.type === "source_trace" &&
+            element.connected_source_net_ids.some((sourceNetId) =>
+              exclusion.sourceNetIds.includes(sourceNetId),
+            ),
+        )
+        .reduce(
+          (terminalCount, sourceTrace) =>
+            terminalCount + sourceTrace.connected_source_port_ids.length,
+          0,
+        )
+      assert(
+        exclusion.terminalCount === excludedTerminalCount,
+        `${exportName} has inconsistent copper-pour terminal count`,
+      )
+      assert(
+        exclusion.sourceNetIds.every(
+          (sourceNetId) => !sample.connections.some((connection) => connection.name === sourceNetId),
+        ),
+        `${exportName} submits an excluded copper-pour net to the autorouter`,
+      )
+    }
   }
 
   const boardLayers = getBoardLayers(board.num_layers)
