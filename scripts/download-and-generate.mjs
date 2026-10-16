@@ -663,7 +663,7 @@ const writeIndexFiles = () => {
     "export interface SimpleRouteObstacle {",
     "  obstacleId?: string",
     "  componentId?: string",
-    "  type: \"rect\"",
+    "  type: \"rect\" | \"oval\"",
     "  layers: string[]",
     "  zLayers?: number[]",
     "  center: { x: number; y: number }",
