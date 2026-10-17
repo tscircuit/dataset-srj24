@@ -204,6 +204,10 @@ const fetchArchive = async (archiveId, cacheDir) => {
 }
 
 const sourceRootFlagIndex = process.argv.indexOf("--source-root")
+const sampleFlagIndex = process.argv.indexOf("--sample")
+const selectedSample = sampleFlagIndex >= 0 ? process.argv[sampleFlagIndex + 1] : null
+const selectedBoards = selectedSample ? boards.filter((board) => board.sample === selectedSample) : boards
+if (selectedBoards.length === 0) throw new Error(`Unknown Altium sample: ${selectedSample}`)
 const sourceRoot =
   sourceRootFlagIndex >= 0
     ? resolve(process.argv[sourceRootFlagIndex + 1] ?? "")
@@ -334,11 +338,11 @@ mkdirSync(circuitJsonDir, { recursive: true })
 mkdirSync(snapshotsDir, { recursive: true })
 
 const existingSourceFiles = JSON.parse(readFileSync(sourceFilesPath, "utf8")).filter(
-  (source) => !boards.some((board) => board.sample === source.sample),
+  (source) => !selectedBoards.some((board) => board.sample === source.sample),
 )
 const generatedSourceFiles = []
 
-for (const board of boards) {
+for (const board of selectedBoards) {
   const sourceBytes = await getBoardBytes(board)
   const document = parseAltiumBinaryPcbDoc(sourceBytes)
   const circuitJson = convertAltiumToCircuitJson(sourceBytes, { sourceType: "pcb" })
@@ -410,6 +414,6 @@ for (const board of boards) {
 
 writeFileSync(
   sourceFilesPath,
-  `${JSON.stringify([...existingSourceFiles, ...generatedSourceFiles], null, 2)}\n`,
+  `${JSON.stringify([...existingSourceFiles, ...generatedSourceFiles].sort((a, b) => a.sample.localeCompare(b.sample)), null, 2)}\n`,
 )
 writeIndexFiles()

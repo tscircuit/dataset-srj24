@@ -1,0 +1,157 @@
+diff --git a/dist/index.js b/dist/index.js
+index 484722e2e0d75c38c5acaf41d709bc2171910350..208234b47af2d5aa84516c56ac9ba974c86e7ef0 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -3630,12 +3630,14 @@ function fillPolygonWithRects(polygon, options = {}) {
+   if (polygon.length < 3) return [];
+   const { rectHeight = 0.1 } = options;
+   const rects = [];
++  let previousScanlineRects = [];
+   const yCoords = polygon.map((p2) => p2.y);
+   const minY = Math.min(...yCoords);
+   const maxY = Math.max(...yCoords);
+   for (let y2 = minY; y2 < maxY; y2 += rectHeight) {
+     const scanlineY = y2 + rectHeight / 2;
+     const intersections2 = [];
++    const currentScanlineRects = [];
+     for (let i2 = 0; i2 < polygon.length; i2++) {
+       const p1 = polygon[i2];
+       const p2 = polygon[(i2 + 1) % polygon.length];
+@@ -3651,17 +3653,30 @@ function fillPolygonWithRects(polygon, options = {}) {
+         const x2 = intersections2[i2 + 1];
+         const width = x2 - x1;
+         if (width > 1e-6) {
+-          rects.push({
++          const centerX = x1 + width / 2;
++          const previousRect = previousScanlineRects.find(
++            (rect) => rect.center.x === centerX && rect.width === width
++          );
++          if (previousRect) {
++            previousRect.center.y += rectHeight / 2;
++            previousRect.height += rectHeight;
++            currentScanlineRects.push(previousRect);
++            continue;
++          }
++          const rect = {
+             center: {
+-              x: x1 + width / 2,
++              x: centerX,
+               y: scanlineY
+             },
+             width,
+             height: rectHeight
+-          });
++          };
++          rects.push(rect);
++          currentScanlineRects.push(rect);
+         }
+       }
+     }
++    previousScanlineRects = currentScanlineRects;
+   }
+   return rects;
+ }
+@@ -3707,13 +3722,16 @@ var getAxisAlignedRectFromPolygon = (points) => {
+ var MINIMUM_CIRCULAR_OUTLINE_POINT_COUNT = 12;
+ var MINIMUM_CIRCULAR_OUTLINE_ASPECT_RATIO = 0.99;
+ var MAXIMUM_RADIUS_VARIATION_RATIO = 1e-3;
+-var getCircumscribedRectFromCircularPcbKeepoutOutline = (keepout) => {
++var getCircumscribedRectFromCircularPcbKeepoutOutline = (keepout, minTraceWidth) => {
+   const { outline, stroke_width } = keepout;
+   const firstPoint = outline[0];
+   const lastPoint = outline.at(-1);
+   if (!firstPoint || !lastPoint) return null;
+-  if (firstPoint.x !== lastPoint.x || firstPoint.y !== lastPoint.y) return null;
+-  const centerlinePoints = outline.slice(0, -1);
++  const isClosed = firstPoint.x === lastPoint.x && firstPoint.y === lastPoint.y;
++  const endpointGap = Math.hypot(firstPoint.x - lastPoint.x, firstPoint.y - lastPoint.y);
++  const openingCannotFitTrace = minTraceWidth !== undefined && Number.isFinite(minTraceWidth) && minTraceWidth > 0 && endpointGap <= stroke_width + minTraceWidth;
++  if (!isClosed && !openingCannotFitTrace) return null;
++  const centerlinePoints = isClosed ? outline.slice(0, -1) : outline;
+   if (centerlinePoints.length < MINIMUM_CIRCULAR_OUTLINE_POINT_COUNT)
+     return null;
+   const minX = Math.min(...centerlinePoints.map(({ x: x2 }) => x2));
+@@ -3751,10 +3769,10 @@ var getCircumscribedRectFromCircularPcbKeepoutOutline = (keepout) => {
+ };
+ 
+ // lib/utils/obstacles/getObstaclesFromPcbKeepoutOutline.ts
+-var getObstaclesFromPcbKeepoutOutline = (keepout, componentId) => {
++var getObstaclesFromPcbKeepoutOutline = (keepout, componentId, minTraceWidth) => {
+   const { outline, stroke_width } = keepout;
+   if (!Number.isFinite(stroke_width) || stroke_width <= 0) return [];
+-  const circularKeepoutRect = getCircumscribedRectFromCircularPcbKeepoutOutline(keepout);
++  const circularKeepoutRect = getCircumscribedRectFromCircularPcbKeepoutOutline(keepout, minTraceWidth);
+   if (circularKeepoutRect) {
+     return [
+       {
+@@ -3873,7 +3891,7 @@ var getAxisAlignedRectFromRotatedRect = (rotatedRect) => {
+   }
+   return null;
+ };
+-var getObstaclesFromCircuitJson = (circuitJson, connMap) => {
++var getObstaclesFromCircuitJson = (circuitJson, connMap, minTraceWidth) => {
+   const board = circuitJson.find((element) => element.type === "pcb_board");
+   const everyLayer = getViaBoardLayers(board?.num_layers ?? 4);
+   const pcbComponentById = new Map(
+@@ -4047,7 +4065,7 @@ var getObstaclesFromCircuitJson = (circuitJson, connMap) => {
+         });
+       } else if (element.shape === "outline") {
+         obstacles.push(
+-          ...getObstaclesFromPcbKeepoutOutline(element, pcbComponentId)
++          ...getObstaclesFromPcbKeepoutOutline(element, pcbComponentId, minTraceWidth)
+         );
+       }
+     } else if (element.type === "pcb_cutout") {
+@@ -4085,6 +4103,17 @@ var getObstaclesFromCircuitJson = (circuitJson, connMap) => {
+           });
+         }
+       } else if (element.shape === "polygon") {
++        const axisAlignedRect = getAxisAlignedRectFromPolygon(element.points);
++        if (axisAlignedRect) {
++          obstacles.push({
++            componentId: pcbComponentId,
++            type: "rect",
++            layers: everyLayer,
++            ...axisAlignedRect,
++            connectedTo: []
++          });
++          continue;
++        }
+         const approximatingRects = fillPolygonWithRects(element.points, {
+           rectHeight: 0.6
+         });
+@@ -110045,6 +110074,7 @@ var getSimpleRouteJsonFromCircuitJson = ({
+       return routeViaLayerNames.size === pcbViaLayerNames.size && [...routeViaLayerNames].every((layer) => pcbViaLayerNames.has(layer));
+     });
+   };
++  const resolvedMinTraceWidth = minTraceWidth ?? board?.min_trace_width ?? 0.1;
+   const obstacles = getObstaclesFromCircuitJson(
+     [
+       ...board ? [board] : [],
+@@ -110065,7 +110095,8 @@ var getSimpleRouteJsonFromCircuitJson = ({
+     ].filter(
+       (e2) => e2.type === "pcb_board" || !subcircuit_id || relevantSubcircuitIds?.has(e2.subcircuit_id)
+     ),
+-    sharedConnMap
++    sharedConnMap,
++    resolvedMinTraceWidth
+   );
+   obstacles.push(
+     ...getUnbrokenCopperPourObstacles({
+@@ -110435,7 +110466,7 @@ var getSimpleRouteJsonFromCircuitJson = ({
+     ...routableConnectionsFromNets,
+     ...connectionsFromBreakoutPoints
+   ];
+-  const defaultTraceWidth = minTraceWidth ?? board?.min_trace_width ?? 0.1;
++  const defaultTraceWidth = resolvedMinTraceWidth;
+   for (const conn of allConns) {
+     conn.nominalTraceWidth ??= nominalTraceWidth ?? defaultTraceWidth;
+     conn.width ??= nominalTraceWidth ?? defaultTraceWidth;
+@@ -110507,6 +110538,7 @@ var getSimpleRouteJsonFromCircuitJson = ({
+       traces: preservedRoutedSubcircuitTraces.length > 0 ? preservedRoutedSubcircuitTraces : void 0,
+       layerCount: board?.num_layers ?? 2,
+       allowBlindAndBuriedVias: board?.allow_blind_and_buried_vias ?? false,
++      allowViaInPad: board?.is_via_in_pad_allowed ?? false,
+       minTraceWidth: Math.min(
+         defaultTraceWidth,
+         ...allConns.map((c2) => c2.width)

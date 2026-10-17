@@ -21,7 +21,7 @@
     "build": "NODE_OPTIONS=--max-old-space-size=8192 vite build",
     "generate": "bun scripts/download-and-generate.mjs && bun scripts/generate-ti-altium-samples.mjs",
     "generate:ti": "bun scripts/generate-ti-altium-samples.mjs",
-    "test": "bun scripts/validate.mjs"
+    "test": "bun scripts/validate.mjs && bun scripts/check-sample024-conversion.mjs"
   },
   "devDependencies": {
     "@tscircuit/capacity-autorouter": "0.0.985",
@@ -79,6 +79,12 @@
     "transformation-matrix": "^3.1.0",
     "tscircuit": "^0.0.2060",
     "vite": "5.4.21"
+  },
+  "overrides": {
+    "altiumts": "0.0.94"
+  },
+  "patchedDependencies": {
+    "@tscircuit/core@0.0.2163": "patches/@tscircuit%2Fcore@0.0.2163.patch"
   },
   "trustedDependencies": [
     "altiumts"
