@@ -221,6 +221,10 @@ for (const [index, source] of sourceFiles.entries()) {
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
 
   if (sourceType === "altium") {
+    assert(
+      sample.allowViaInPad === (board.is_via_in_pad_allowed ?? false),
+      `${exportName} via-in-pad policy does not match its Circuit JSON board`,
+    )
     const sourceNetIds = new Set(
       circuitJson
         .filter((element) => element.type === "source_net")

@@ -688,6 +688,7 @@ const writeIndexFiles = () => {
     "  sourceRepository?: string",
     "  sourceLicense?: string",
     "  layerCount: number",
+    "  allowViaInPad?: boolean",
     "  minTraceWidth: number",
     "  nominalTraceWidth?: number",
     "  minViaDiameter?: number",
