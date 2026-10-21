@@ -27910,6 +27910,24 @@
           "pcb_port_id": "pcb_port_altium_1067",
           "port_selector": "U6.3"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_876",
+          "pcb_port_altium_884",
+          "pcb_port_altium_885",
+          "pcb_port_altium_905",
+          "pcb_port_altium_916",
+          "pcb_port_altium_925",
+          "pcb_port_altium_930",
+          "pcb_port_altium_931",
+          "pcb_port_altium_932",
+          "pcb_port_altium_933",
+          "pcb_port_altium_934",
+          "pcb_port_altium_943",
+          "pcb_port_altium_1056",
+          "pcb_port_altium_1066"
+        ]
       ]
     },
     {
@@ -28085,6 +28103,35 @@
           "pcb_port_id": "pcb_port_altium_1065",
           "port_selector": "U7.16"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_877",
+          "pcb_port_altium_878",
+          "pcb_port_altium_879",
+          "pcb_port_altium_880",
+          "pcb_port_altium_881",
+          "pcb_port_altium_882",
+          "pcb_port_altium_883",
+          "pcb_port_altium_902",
+          "pcb_port_altium_910",
+          "pcb_port_altium_915",
+          "pcb_port_altium_1050",
+          "pcb_port_altium_1057",
+          "pcb_port_altium_1058",
+          "pcb_port_altium_1059",
+          "pcb_port_altium_1060",
+          "pcb_port_altium_1062",
+          "pcb_port_altium_1063"
+        ],
+        [
+          "pcb_port_altium_1042",
+          "pcb_port_altium_1065"
+        ],
+        [
+          "pcb_port_altium_1061",
+          "pcb_port_altium_1064"
+        ]
       ]
     },
     {
@@ -28244,6 +28291,26 @@
           "pcb_port_id": "pcb_port_altium_1028",
           "port_selector": "U4.14"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_866",
+          "pcb_port_altium_867",
+          "pcb_port_altium_868",
+          "pcb_port_altium_869",
+          "pcb_port_altium_870",
+          "pcb_port_altium_871",
+          "pcb_port_altium_872",
+          "pcb_port_altium_873",
+          "pcb_port_altium_920",
+          "pcb_port_altium_1010",
+          "pcb_port_altium_1011",
+          "pcb_port_altium_1012",
+          "pcb_port_altium_1023",
+          "pcb_port_altium_1024",
+          "pcb_port_altium_1025",
+          "pcb_port_altium_1026"
+        ]
       ]
     },
     {
@@ -28492,6 +28559,14 @@
           "pcb_port_id": "pcb_port_altium_1047",
           "port_selector": "Q2.3"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_945",
+          "pcb_port_altium_1045",
+          "pcb_port_altium_1046",
+          "pcb_port_altium_1047"
+        ]
       ]
     },
     {
@@ -28626,6 +28701,21 @@
           "pcb_port_id": "pcb_port_altium_1103",
           "port_selector": "Q2.9"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_890",
+          "pcb_port_altium_891",
+          "pcb_port_altium_892",
+          "pcb_port_altium_893",
+          "pcb_port_altium_894",
+          "pcb_port_altium_895",
+          "pcb_port_altium_1099",
+          "pcb_port_altium_1100",
+          "pcb_port_altium_1101",
+          "pcb_port_altium_1102",
+          "pcb_port_altium_1103"
+        ]
       ]
     },
     {
@@ -28929,6 +29019,20 @@
           "pcb_port_id": "pcb_port_altium_1105",
           "port_selector": "C9.2"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_898",
+          "pcb_port_altium_899",
+          "pcb_port_altium_900",
+          "pcb_port_altium_922",
+          "pcb_port_altium_926",
+          "pcb_port_altium_927",
+          "pcb_port_altium_928",
+          "pcb_port_altium_940",
+          "pcb_port_altium_944",
+          "pcb_port_altium_1105"
+        ]
       ]
     },
     {
@@ -29062,6 +29166,18 @@
           "pcb_port_id": "pcb_port_altium_1112",
           "port_selector": "U2.4"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_858",
+          "pcb_port_altium_859",
+          "pcb_port_altium_897",
+          "pcb_port_altium_1091",
+          "pcb_port_altium_1107",
+          "pcb_port_altium_1110",
+          "pcb_port_altium_1111",
+          "pcb_port_altium_1112"
+        ]
       ]
     },
     {
@@ -29125,6 +29241,17 @@
           "pcb_port_id": "pcb_port_altium_1030",
           "port_selector": "C2.1"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_991",
+          "pcb_port_altium_994",
+          "pcb_port_altium_998",
+          "pcb_port_altium_999",
+          "pcb_port_altium_1000",
+          "pcb_port_altium_1029",
+          "pcb_port_altium_1030"
+        ]
       ]
     },
     {
@@ -29587,6 +29714,66 @@
           "pcb_port_id": "pcb_port_altium_985",
           "port_selector": "R7.2"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_841",
+          "pcb_port_altium_842",
+          "pcb_port_altium_843",
+          "pcb_port_altium_844",
+          "pcb_port_altium_845",
+          "pcb_port_altium_846",
+          "pcb_port_altium_847",
+          "pcb_port_altium_860",
+          "pcb_port_altium_861",
+          "pcb_port_altium_862",
+          "pcb_port_altium_863",
+          "pcb_port_altium_864",
+          "pcb_port_altium_865",
+          "pcb_port_altium_947",
+          "pcb_port_altium_952",
+          "pcb_port_altium_953",
+          "pcb_port_altium_955",
+          "pcb_port_altium_958",
+          "pcb_port_altium_963",
+          "pcb_port_altium_964",
+          "pcb_port_altium_965",
+          "pcb_port_altium_966",
+          "pcb_port_altium_969",
+          "pcb_port_altium_970",
+          "pcb_port_altium_971",
+          "pcb_port_altium_972",
+          "pcb_port_altium_973",
+          "pcb_port_altium_974",
+          "pcb_port_altium_975",
+          "pcb_port_altium_976",
+          "pcb_port_altium_977",
+          "pcb_port_altium_985"
+        ],
+        [
+          "pcb_port_altium_907",
+          "pcb_port_altium_949",
+          "pcb_port_altium_951",
+          "pcb_port_altium_978",
+          "pcb_port_altium_982"
+        ],
+        [
+          "pcb_port_altium_946",
+          "pcb_port_altium_948",
+          "pcb_port_altium_954",
+          "pcb_port_altium_959",
+          "pcb_port_altium_960",
+          "pcb_port_altium_961",
+          "pcb_port_altium_962",
+          "pcb_port_altium_980",
+          "pcb_port_altium_983",
+          "pcb_port_altium_984"
+        ],
+        [
+          "pcb_port_altium_950",
+          "pcb_port_altium_979",
+          "pcb_port_altium_981"
+        ]
       ]
     },
     {
@@ -29778,6 +29965,7 @@
   ],
   "layerCount": 4,
   "allowBlindAndBuriedVias": false,
+  "allowViaInPad": true,
   "minTraceWidth": 0.15239999999999998,
   "minViaDiameter": 0.49999899999999997,
   "minViaHoleDiameter": 0.19999959999999997,
