@@ -356,3 +356,8 @@ convert it to Circuit JSON, and then produce Simple Route JSON. The TI samples
 store the released Altium converter and SRJ output without repairing or
 normalizing it; the comparison SVGs make the resulting conversion limitations
 visible.
+
+The TI samples (021–026) preserve the Circuit JSON board's via-in-pad policy as
+`allowViaInPad`, defaulting to `false` when the source policy is unspecified.
+Validation rejects a missing or mismatched policy in these samples. The public
+type keeps this field optional because the older KiCad samples omit it.

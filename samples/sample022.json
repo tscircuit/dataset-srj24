@@ -29778,6 +29778,7 @@
   ],
   "layerCount": 4,
   "allowBlindAndBuriedVias": false,
+  "allowViaInPad": true,
   "minTraceWidth": 0.15239999999999998,
   "minViaDiameter": 0.49999899999999997,
   "minViaHoleDiameter": 0.19999959999999997,
