@@ -25,7 +25,7 @@
     "generate:sample024-clearances": "bun scripts/generate-sample024-clearances.mjs"
   },
   "devDependencies": {
-    "@tscircuit/capacity-autorouter": "0.0.985",
+    "@tscircuit/capacity-autorouter": "https://npm-releases.tscircuit.com/npm-tarballs/41184105039-1/tscircuit-capacity-autorouter-0.0.1027.tgz",
     "@tscircuit/checks": "https://pkg.pr.new/@tscircuit/checks@297e991",
     "@tscircuit/circuit-json-util": "^0.0.121",
     "@tscircuit/common": "^0.0.42",
