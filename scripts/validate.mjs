@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs"
 import { createRequire } from "node:module"
+import { validateScopedClearance } from "./validate-scoped-clearance.mjs"
 
 const require = createRequire(import.meta.url)
 const dataset = require("../index.js")
@@ -217,6 +218,7 @@ for (const [index, source] of sourceFiles.entries()) {
 
   const circuitJson = JSON.parse(readFileSync(circuitJsonPath, "utf8"))
   const board = circuitJson.find((element) => element.type === "pcb_board")
+  validateScopedClearance(sample, circuitJson)
   assert(board, `${exportName} Circuit JSON is missing a PCB board`)
   assert(board.num_layers === sample.layerCount, `${exportName} has inconsistent board layer counts`)
 

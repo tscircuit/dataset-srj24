@@ -1,3 +1,5 @@
+import type { PcbClearanceRule } from "circuit-json"
+
 export interface SimpleRouteConnectionPointBase {
   x: number
   y: number
@@ -11,6 +13,7 @@ export type SimpleRouteConnectionPoint =
 
 export interface SimpleRouteConnection {
   name: string
+  sourceNetIds?: string[]
   source_trace_id?: string
   rootConnectionName?: string
   mergedConnectionNames?: string[]
@@ -39,6 +42,7 @@ export interface SimpleRouteObstacle {
 }
 
 export interface SimpleRouteJson {
+  clearanceRules?: PcbClearanceRule[]
   id?: string
   sourceCircuitJson?: string
   sourceKicadPcb?: string

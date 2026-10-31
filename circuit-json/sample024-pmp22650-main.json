@@ -9760,7 +9760,920 @@
     "is_via_in_pad_allowed": true,
     "min_trace_width": 0.15239999999999998,
     "min_via_hole_diameter": 0.1016,
-    "min_via_pad_diameter": 0.2032
+    "min_via_pad_diameter": 0.2032,
+    "clearance_rules": [
+      {
+        "name": "Clearance_HV_SW_Inside",
+        "priority": 6,
+        "enabled": true,
+        "clearance": 0.4064,
+        "scope1": {
+          "type": "net",
+          "net_ids": [
+            "source_net_altium_pcb_373",
+            "source_net_altium_pcb_376",
+            "source_net_altium_pcb_377",
+            "source_net_altium_pcb_384",
+            "source_net_altium_pcb_387",
+            "source_net_altium_pcb_398",
+            "source_net_altium_pcb_400",
+            "source_net_altium_pcb_396",
+            "source_net_altium_pcb_406",
+            "source_net_altium_pcb_370",
+            "source_net_altium_pcb_369",
+            "source_net_altium_pcb_368",
+            "source_net_altium_pcb_367",
+            "source_net_altium_pcb_366",
+            "source_net_altium_pcb_306",
+            "source_net_altium_pcb_305",
+            "source_net_altium_pcb_304",
+            "source_net_altium_pcb_303",
+            "source_net_altium_pcb_302",
+            "source_net_altium_pcb_288",
+            "source_net_altium_pcb_287",
+            "source_net_altium_pcb_286",
+            "source_net_altium_pcb_285",
+            "source_net_altium_pcb_284",
+            "source_net_altium_pcb_276",
+            "source_net_altium_pcb_275",
+            "source_net_altium_pcb_274",
+            "source_net_altium_pcb_273",
+            "source_net_altium_pcb_272",
+            "source_net_altium_pcb_143",
+            "source_net_altium_pcb_142",
+            "source_net_altium_pcb_141",
+            "source_net_altium_pcb_140",
+            "source_net_altium_pcb_139",
+            "source_net_altium_pcb_130",
+            "source_net_altium_pcb_129",
+            "source_net_altium_pcb_128",
+            "source_net_altium_pcb_127",
+            "source_net_altium_pcb_126",
+            "source_net_altium_pcb_120",
+            "source_net_altium_pcb_119",
+            "source_net_altium_pcb_118",
+            "source_net_altium_pcb_113",
+            "source_net_altium_pcb_112",
+            "source_net_altium_pcb_111",
+            "source_net_altium_pcb_110",
+            "source_net_altium_pcb_109",
+            "source_net_altium_pcb_81",
+            "source_net_altium_pcb_80",
+            "source_net_altium_pcb_73",
+            "source_net_altium_pcb_72",
+            "source_net_altium_pcb_71",
+            "source_net_altium_pcb_70",
+            "source_net_altium_pcb_69",
+            "source_net_altium_pcb_182",
+            "source_net_altium_pcb_180",
+            "source_net_altium_pcb_178",
+            "source_net_altium_pcb_176",
+            "source_net_altium_pcb_207",
+            "source_net_altium_pcb_209",
+            "source_net_altium_pcb_205",
+            "source_net_altium_pcb_203",
+            "source_net_altium_pcb_199",
+            "source_net_altium_pcb_197",
+            "source_net_altium_pcb_165",
+            "source_net_altium_pcb_163",
+            "source_net_altium_pcb_18",
+            "source_net_altium_pcb_17",
+            "source_net_altium_pcb_16",
+            "source_net_altium_pcb_12",
+            "source_net_altium_pcb_11",
+            "source_net_altium_pcb_10",
+            "source_net_altium_pcb_1",
+            "source_net_altium_pcb_0",
+            "source_net_altium_pcb_2",
+            "source_net_altium_pcb_3",
+            "source_net_altium_pcb_4",
+            "source_net_altium_pcb_5",
+            "source_net_altium_pcb_6",
+            "source_net_altium_pcb_7",
+            "source_net_altium_pcb_8"
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "not",
+              "scope": {
+                "type": "net",
+                "net_ids": [
+                  "source_net_altium_pcb_373",
+                  "source_net_altium_pcb_376",
+                  "source_net_altium_pcb_377",
+                  "source_net_altium_pcb_384",
+                  "source_net_altium_pcb_387",
+                  "source_net_altium_pcb_398",
+                  "source_net_altium_pcb_400",
+                  "source_net_altium_pcb_396",
+                  "source_net_altium_pcb_406",
+                  "source_net_altium_pcb_370",
+                  "source_net_altium_pcb_369",
+                  "source_net_altium_pcb_368",
+                  "source_net_altium_pcb_367",
+                  "source_net_altium_pcb_366",
+                  "source_net_altium_pcb_306",
+                  "source_net_altium_pcb_305",
+                  "source_net_altium_pcb_304",
+                  "source_net_altium_pcb_303",
+                  "source_net_altium_pcb_302",
+                  "source_net_altium_pcb_288",
+                  "source_net_altium_pcb_287",
+                  "source_net_altium_pcb_286",
+                  "source_net_altium_pcb_285",
+                  "source_net_altium_pcb_284",
+                  "source_net_altium_pcb_276",
+                  "source_net_altium_pcb_275",
+                  "source_net_altium_pcb_274",
+                  "source_net_altium_pcb_273",
+                  "source_net_altium_pcb_272",
+                  "source_net_altium_pcb_143",
+                  "source_net_altium_pcb_142",
+                  "source_net_altium_pcb_141",
+                  "source_net_altium_pcb_140",
+                  "source_net_altium_pcb_139",
+                  "source_net_altium_pcb_130",
+                  "source_net_altium_pcb_129",
+                  "source_net_altium_pcb_128",
+                  "source_net_altium_pcb_127",
+                  "source_net_altium_pcb_126",
+                  "source_net_altium_pcb_120",
+                  "source_net_altium_pcb_119",
+                  "source_net_altium_pcb_118",
+                  "source_net_altium_pcb_113",
+                  "source_net_altium_pcb_112",
+                  "source_net_altium_pcb_111",
+                  "source_net_altium_pcb_110",
+                  "source_net_altium_pcb_109",
+                  "source_net_altium_pcb_81",
+                  "source_net_altium_pcb_80",
+                  "source_net_altium_pcb_73",
+                  "source_net_altium_pcb_72",
+                  "source_net_altium_pcb_71",
+                  "source_net_altium_pcb_70",
+                  "source_net_altium_pcb_69",
+                  "source_net_altium_pcb_182",
+                  "source_net_altium_pcb_180",
+                  "source_net_altium_pcb_178",
+                  "source_net_altium_pcb_176",
+                  "source_net_altium_pcb_207",
+                  "source_net_altium_pcb_209",
+                  "source_net_altium_pcb_205",
+                  "source_net_altium_pcb_203",
+                  "source_net_altium_pcb_199",
+                  "source_net_altium_pcb_197",
+                  "source_net_altium_pcb_165",
+                  "source_net_altium_pcb_163",
+                  "source_net_altium_pcb_18",
+                  "source_net_altium_pcb_17",
+                  "source_net_altium_pcb_16",
+                  "source_net_altium_pcb_12",
+                  "source_net_altium_pcb_11",
+                  "source_net_altium_pcb_10",
+                  "source_net_altium_pcb_1",
+                  "source_net_altium_pcb_0",
+                  "source_net_altium_pcb_2",
+                  "source_net_altium_pcb_3",
+                  "source_net_altium_pcb_4",
+                  "source_net_altium_pcb_5",
+                  "source_net_altium_pcb_6",
+                  "source_net_altium_pcb_7",
+                  "source_net_altium_pcb_8"
+                ]
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "source_scope1": "InNetClass('HV_SW')",
+        "source_scope2": "Not InNetClass('HV_SW') And InAnyNet"
+      },
+      {
+        "name": "Clearance_HV_SW_Outside",
+        "priority": 5,
+        "enabled": true,
+        "clearance": 1.524,
+        "scope1": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "net",
+              "net_ids": [
+                "source_net_altium_pcb_373",
+                "source_net_altium_pcb_376",
+                "source_net_altium_pcb_377",
+                "source_net_altium_pcb_384",
+                "source_net_altium_pcb_387",
+                "source_net_altium_pcb_398",
+                "source_net_altium_pcb_400",
+                "source_net_altium_pcb_396",
+                "source_net_altium_pcb_406",
+                "source_net_altium_pcb_370",
+                "source_net_altium_pcb_369",
+                "source_net_altium_pcb_368",
+                "source_net_altium_pcb_367",
+                "source_net_altium_pcb_366",
+                "source_net_altium_pcb_306",
+                "source_net_altium_pcb_305",
+                "source_net_altium_pcb_304",
+                "source_net_altium_pcb_303",
+                "source_net_altium_pcb_302",
+                "source_net_altium_pcb_288",
+                "source_net_altium_pcb_287",
+                "source_net_altium_pcb_286",
+                "source_net_altium_pcb_285",
+                "source_net_altium_pcb_284",
+                "source_net_altium_pcb_276",
+                "source_net_altium_pcb_275",
+                "source_net_altium_pcb_274",
+                "source_net_altium_pcb_273",
+                "source_net_altium_pcb_272",
+                "source_net_altium_pcb_143",
+                "source_net_altium_pcb_142",
+                "source_net_altium_pcb_141",
+                "source_net_altium_pcb_140",
+                "source_net_altium_pcb_139",
+                "source_net_altium_pcb_130",
+                "source_net_altium_pcb_129",
+                "source_net_altium_pcb_128",
+                "source_net_altium_pcb_127",
+                "source_net_altium_pcb_126",
+                "source_net_altium_pcb_120",
+                "source_net_altium_pcb_119",
+                "source_net_altium_pcb_118",
+                "source_net_altium_pcb_113",
+                "source_net_altium_pcb_112",
+                "source_net_altium_pcb_111",
+                "source_net_altium_pcb_110",
+                "source_net_altium_pcb_109",
+                "source_net_altium_pcb_81",
+                "source_net_altium_pcb_80",
+                "source_net_altium_pcb_73",
+                "source_net_altium_pcb_72",
+                "source_net_altium_pcb_71",
+                "source_net_altium_pcb_70",
+                "source_net_altium_pcb_69",
+                "source_net_altium_pcb_182",
+                "source_net_altium_pcb_180",
+                "source_net_altium_pcb_178",
+                "source_net_altium_pcb_176",
+                "source_net_altium_pcb_207",
+                "source_net_altium_pcb_209",
+                "source_net_altium_pcb_205",
+                "source_net_altium_pcb_203",
+                "source_net_altium_pcb_199",
+                "source_net_altium_pcb_197",
+                "source_net_altium_pcb_165",
+                "source_net_altium_pcb_163",
+                "source_net_altium_pcb_18",
+                "source_net_altium_pcb_17",
+                "source_net_altium_pcb_16",
+                "source_net_altium_pcb_12",
+                "source_net_altium_pcb_11",
+                "source_net_altium_pcb_10",
+                "source_net_altium_pcb_1",
+                "source_net_altium_pcb_0",
+                "source_net_altium_pcb_2",
+                "source_net_altium_pcb_3",
+                "source_net_altium_pcb_4",
+                "source_net_altium_pcb_5",
+                "source_net_altium_pcb_6",
+                "source_net_altium_pcb_7",
+                "source_net_altium_pcb_8"
+              ]
+            },
+            {
+              "type": "or",
+              "scopes": [
+                {
+                  "type": "layer",
+                  "layers": [
+                    "top"
+                  ]
+                },
+                {
+                  "type": "layer",
+                  "layers": [
+                    "bottom"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "via"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "pad"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "not",
+              "scope": {
+                "type": "property",
+                "property": "is_keepout"
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "not",
+              "scope": {
+                "type": "net",
+                "net_ids": [
+                  "source_net_altium_pcb_373",
+                  "source_net_altium_pcb_376",
+                  "source_net_altium_pcb_377",
+                  "source_net_altium_pcb_384",
+                  "source_net_altium_pcb_387",
+                  "source_net_altium_pcb_398",
+                  "source_net_altium_pcb_400",
+                  "source_net_altium_pcb_396",
+                  "source_net_altium_pcb_406",
+                  "source_net_altium_pcb_370",
+                  "source_net_altium_pcb_369",
+                  "source_net_altium_pcb_368",
+                  "source_net_altium_pcb_367",
+                  "source_net_altium_pcb_366",
+                  "source_net_altium_pcb_306",
+                  "source_net_altium_pcb_305",
+                  "source_net_altium_pcb_304",
+                  "source_net_altium_pcb_303",
+                  "source_net_altium_pcb_302",
+                  "source_net_altium_pcb_288",
+                  "source_net_altium_pcb_287",
+                  "source_net_altium_pcb_286",
+                  "source_net_altium_pcb_285",
+                  "source_net_altium_pcb_284",
+                  "source_net_altium_pcb_276",
+                  "source_net_altium_pcb_275",
+                  "source_net_altium_pcb_274",
+                  "source_net_altium_pcb_273",
+                  "source_net_altium_pcb_272",
+                  "source_net_altium_pcb_143",
+                  "source_net_altium_pcb_142",
+                  "source_net_altium_pcb_141",
+                  "source_net_altium_pcb_140",
+                  "source_net_altium_pcb_139",
+                  "source_net_altium_pcb_130",
+                  "source_net_altium_pcb_129",
+                  "source_net_altium_pcb_128",
+                  "source_net_altium_pcb_127",
+                  "source_net_altium_pcb_126",
+                  "source_net_altium_pcb_120",
+                  "source_net_altium_pcb_119",
+                  "source_net_altium_pcb_118",
+                  "source_net_altium_pcb_113",
+                  "source_net_altium_pcb_112",
+                  "source_net_altium_pcb_111",
+                  "source_net_altium_pcb_110",
+                  "source_net_altium_pcb_109",
+                  "source_net_altium_pcb_81",
+                  "source_net_altium_pcb_80",
+                  "source_net_altium_pcb_73",
+                  "source_net_altium_pcb_72",
+                  "source_net_altium_pcb_71",
+                  "source_net_altium_pcb_70",
+                  "source_net_altium_pcb_69",
+                  "source_net_altium_pcb_182",
+                  "source_net_altium_pcb_180",
+                  "source_net_altium_pcb_178",
+                  "source_net_altium_pcb_176",
+                  "source_net_altium_pcb_207",
+                  "source_net_altium_pcb_209",
+                  "source_net_altium_pcb_205",
+                  "source_net_altium_pcb_203",
+                  "source_net_altium_pcb_199",
+                  "source_net_altium_pcb_197",
+                  "source_net_altium_pcb_165",
+                  "source_net_altium_pcb_163",
+                  "source_net_altium_pcb_18",
+                  "source_net_altium_pcb_17",
+                  "source_net_altium_pcb_16",
+                  "source_net_altium_pcb_12",
+                  "source_net_altium_pcb_11",
+                  "source_net_altium_pcb_10",
+                  "source_net_altium_pcb_1",
+                  "source_net_altium_pcb_0",
+                  "source_net_altium_pcb_2",
+                  "source_net_altium_pcb_3",
+                  "source_net_altium_pcb_4",
+                  "source_net_altium_pcb_5",
+                  "source_net_altium_pcb_6",
+                  "source_net_altium_pcb_7",
+                  "source_net_altium_pcb_8"
+                ]
+              }
+            },
+            {
+              "type": "or",
+              "scopes": [
+                {
+                  "type": "layer",
+                  "layers": [
+                    "top"
+                  ]
+                },
+                {
+                  "type": "layer",
+                  "layers": [
+                    "bottom"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "via"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "pad"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "not",
+              "scope": {
+                "type": "property",
+                "property": "is_keepout"
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "source_scope1": "InNetClass('HV_SW') And (OnTopLayer Or OnBottomLayer Or IsVia Or IsPad) And (Not Keepout) And InAnyNet",
+        "source_scope2": "(Not InNetClass('HV_SW')) And (OnTopLayer Or OnBottomLayer Or IsVia Or IsPad) And (Not Keepout) And InAnyNet"
+      },
+      {
+        "name": "Clearance_Earth_Inside",
+        "priority": 2,
+        "enabled": true,
+        "clearance": 1.5999993399999999,
+        "scope1": {
+          "type": "net",
+          "net_ids": [
+            "source_net_altium_pcb_307"
+          ]
+        },
+        "scope2": {
+          "type": "all"
+        },
+        "source_scope1": "InNet('EARTH')",
+        "source_scope2": "All"
+      },
+      {
+        "name": "Clearance_Earth_Outside",
+        "priority": 1,
+        "enabled": true,
+        "clearance": 4.139999339999999,
+        "scope1": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "or",
+              "scopes": [
+                {
+                  "type": "layer",
+                  "layers": [
+                    "top"
+                  ]
+                },
+                {
+                  "type": "layer",
+                  "layers": [
+                    "bottom"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "net",
+              "net_ids": [
+                "source_net_altium_pcb_307"
+              ]
+            }
+          ]
+        },
+        "scope2": {
+          "type": "all"
+        },
+        "source_scope1": "(OnLayer('Layer 1') Or OnLayer('Layer 8')) And InNet('EARTH')",
+        "source_scope2": "All"
+      },
+      {
+        "name": "Clearance_HV_Inside",
+        "priority": 4,
+        "enabled": true,
+        "clearance": 0.4064,
+        "scope1": {
+          "type": "net",
+          "net_ids": [
+            "source_net_altium_pcb_374",
+            "source_net_altium_pcb_9",
+            "source_net_altium_pcb_133",
+            "source_net_altium_pcb_151",
+            "source_net_altium_pcb_154",
+            "source_net_altium_pcb_157",
+            "source_net_altium_pcb_161",
+            "source_net_altium_pcb_214",
+            "source_net_altium_pcb_215",
+            "source_net_altium_pcb_216",
+            "source_net_altium_pcb_217",
+            "source_net_altium_pcb_390",
+            "source_net_altium_pcb_218",
+            "source_net_altium_pcb_271",
+            "source_net_altium_pcb_401",
+            "source_net_altium_pcb_223",
+            "source_net_altium_pcb_224",
+            "source_net_altium_pcb_221",
+            "source_net_altium_pcb_358",
+            "source_net_altium_pcb_41",
+            "source_net_altium_pcb_196",
+            "source_net_altium_pcb_222",
+            "source_net_altium_pcb_220",
+            "source_net_altium_pcb_58",
+            "source_net_altium_pcb_195"
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "not",
+              "scope": {
+                "type": "net",
+                "net_ids": [
+                  "source_net_altium_pcb_374",
+                  "source_net_altium_pcb_9",
+                  "source_net_altium_pcb_133",
+                  "source_net_altium_pcb_151",
+                  "source_net_altium_pcb_154",
+                  "source_net_altium_pcb_157",
+                  "source_net_altium_pcb_161",
+                  "source_net_altium_pcb_214",
+                  "source_net_altium_pcb_215",
+                  "source_net_altium_pcb_216",
+                  "source_net_altium_pcb_217",
+                  "source_net_altium_pcb_390",
+                  "source_net_altium_pcb_218",
+                  "source_net_altium_pcb_271",
+                  "source_net_altium_pcb_401",
+                  "source_net_altium_pcb_223",
+                  "source_net_altium_pcb_224",
+                  "source_net_altium_pcb_221",
+                  "source_net_altium_pcb_358",
+                  "source_net_altium_pcb_41",
+                  "source_net_altium_pcb_196",
+                  "source_net_altium_pcb_222",
+                  "source_net_altium_pcb_220",
+                  "source_net_altium_pcb_58",
+                  "source_net_altium_pcb_195"
+                ]
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "source_scope1": "InNetClass('HV')",
+        "source_scope2": "Not InNetClass('HV') And InAnyNet"
+      },
+      {
+        "name": "Clearance_HV_Outside",
+        "priority": 3,
+        "enabled": true,
+        "clearance": 1.524,
+        "scope1": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "net",
+              "net_ids": [
+                "source_net_altium_pcb_374",
+                "source_net_altium_pcb_9",
+                "source_net_altium_pcb_133",
+                "source_net_altium_pcb_151",
+                "source_net_altium_pcb_154",
+                "source_net_altium_pcb_157",
+                "source_net_altium_pcb_161",
+                "source_net_altium_pcb_214",
+                "source_net_altium_pcb_215",
+                "source_net_altium_pcb_216",
+                "source_net_altium_pcb_217",
+                "source_net_altium_pcb_390",
+                "source_net_altium_pcb_218",
+                "source_net_altium_pcb_271",
+                "source_net_altium_pcb_401",
+                "source_net_altium_pcb_223",
+                "source_net_altium_pcb_224",
+                "source_net_altium_pcb_221",
+                "source_net_altium_pcb_358",
+                "source_net_altium_pcb_41",
+                "source_net_altium_pcb_196",
+                "source_net_altium_pcb_222",
+                "source_net_altium_pcb_220",
+                "source_net_altium_pcb_58",
+                "source_net_altium_pcb_195"
+              ]
+            },
+            {
+              "type": "or",
+              "scopes": [
+                {
+                  "type": "layer",
+                  "layers": [
+                    "top"
+                  ]
+                },
+                {
+                  "type": "layer",
+                  "layers": [
+                    "bottom"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "via"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "pad"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "not",
+              "scope": {
+                "type": "property",
+                "property": "is_keepout"
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "not",
+              "scope": {
+                "type": "net",
+                "net_ids": [
+                  "source_net_altium_pcb_374",
+                  "source_net_altium_pcb_9",
+                  "source_net_altium_pcb_133",
+                  "source_net_altium_pcb_151",
+                  "source_net_altium_pcb_154",
+                  "source_net_altium_pcb_157",
+                  "source_net_altium_pcb_161",
+                  "source_net_altium_pcb_214",
+                  "source_net_altium_pcb_215",
+                  "source_net_altium_pcb_216",
+                  "source_net_altium_pcb_217",
+                  "source_net_altium_pcb_390",
+                  "source_net_altium_pcb_218",
+                  "source_net_altium_pcb_271",
+                  "source_net_altium_pcb_401",
+                  "source_net_altium_pcb_223",
+                  "source_net_altium_pcb_224",
+                  "source_net_altium_pcb_221",
+                  "source_net_altium_pcb_358",
+                  "source_net_altium_pcb_41",
+                  "source_net_altium_pcb_196",
+                  "source_net_altium_pcb_222",
+                  "source_net_altium_pcb_220",
+                  "source_net_altium_pcb_58",
+                  "source_net_altium_pcb_195"
+                ]
+              }
+            },
+            {
+              "type": "or",
+              "scopes": [
+                {
+                  "type": "layer",
+                  "layers": [
+                    "top"
+                  ]
+                },
+                {
+                  "type": "layer",
+                  "layers": [
+                    "bottom"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "via"
+                  ]
+                },
+                {
+                  "type": "kind",
+                  "kinds": [
+                    "pad"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "not",
+              "scope": {
+                "type": "property",
+                "property": "is_keepout"
+              }
+            },
+            {
+              "type": "property",
+              "property": "has_net"
+            }
+          ]
+        },
+        "source_scope1": "InNetClass('HV') And (OnTopLayer Or OnBottomLayer Or IsVia Or IsPad) And (Not Keepout) And InAnyNet",
+        "source_scope2": "(Not InNetClass('HV')) And (OnTopLayer Or OnBottomLayer Or IsVia Or IsPad) And (Not Keepout) And InAnyNet"
+      },
+      {
+        "name": "Clearance",
+        "priority": 10,
+        "enabled": true,
+        "clearance": 0.1397,
+        "scope1": {
+          "type": "all"
+        },
+        "scope2": {
+          "type": "all"
+        },
+        "source_scope1": "All",
+        "source_scope2": "All"
+      },
+      {
+        "name": "Clearance_FiducialMark",
+        "priority": 9,
+        "enabled": true,
+        "clearance": 0,
+        "scope1": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "property",
+              "property": "is_keepout"
+            },
+            {
+              "type": "unsupported",
+              "expression": "IsKeepOut and InComponentClass('FiducialMark')"
+            }
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "kind",
+              "kinds": [
+                "pad"
+              ]
+            },
+            {
+              "type": "unsupported",
+              "expression": "IsPad and InComponentClass('FiducialMark')"
+            }
+          ]
+        },
+        "source_scope1": "IsKeepOut and InComponentClass('FiducialMark')",
+        "source_scope2": "IsPad and InComponentClass('FiducialMark')"
+      },
+      {
+        "name": "Clearance_Poly",
+        "priority": 8,
+        "enabled": true,
+        "clearance": 0.1397,
+        "scope1": {
+          "type": "property",
+          "property": "in_polygon"
+        },
+        "scope2": {
+          "type": "all"
+        },
+        "source_scope1": "InPolygon",
+        "source_scope2": "All"
+      },
+      {
+        "name": "Clearance_Keepouts",
+        "priority": 7,
+        "enabled": true,
+        "clearance": 0,
+        "scope1": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "and",
+              "scopes": [
+                {
+                  "type": "or",
+                  "scopes": [
+                    {
+                      "type": "unsupported",
+                      "expression": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut"
+                    },
+                    {
+                      "type": "unsupported",
+                      "expression": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut"
+                    }
+                  ]
+                },
+                {
+                  "type": "not",
+                  "scope": {
+                    "type": "property",
+                    "property": "in_polygon"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "property",
+              "property": "is_free"
+            },
+            {
+              "type": "property",
+              "property": "is_keepout"
+            }
+          ]
+        },
+        "scope2": {
+          "type": "and",
+          "scopes": [
+            {
+              "type": "and",
+              "scopes": [
+                {
+                  "type": "or",
+                  "scopes": [
+                    {
+                      "type": "unsupported",
+                      "expression": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut"
+                    },
+                    {
+                      "type": "unsupported",
+                      "expression": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut"
+                    }
+                  ]
+                },
+                {
+                  "type": "not",
+                  "scope": {
+                    "type": "property",
+                    "property": "in_polygon"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "property",
+              "property": "is_free"
+            },
+            {
+              "type": "property",
+              "property": "is_keepout"
+            }
+          ]
+        },
+        "source_scope1": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut",
+        "source_scope2": "((IsTrack Or IsArc) And Not InPoly) And IsFree and IsKeepOut"
+      }
+    ]
   },
   {
     "type": "pcb_cutout",
