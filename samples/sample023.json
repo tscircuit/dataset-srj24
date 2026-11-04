@@ -2113,6 +2113,24 @@
           "pcb_port_id": "pcb_port_altium_255",
           "port_selector": "J5.1"
         }
+      ],
+      "externallyConnectedPointIds": [
+        [
+          "pcb_port_altium_244",
+          "pcb_port_altium_245",
+          "pcb_port_altium_246",
+          "pcb_port_altium_247",
+          "pcb_port_altium_248",
+          "pcb_port_altium_249"
+        ],
+        [
+          "pcb_port_altium_250",
+          "pcb_port_altium_251",
+          "pcb_port_altium_252",
+          "pcb_port_altium_253",
+          "pcb_port_altium_254",
+          "pcb_port_altium_255"
+        ]
       ]
     },
     {

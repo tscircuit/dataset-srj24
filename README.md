@@ -361,3 +361,9 @@ The TI samples (021–026) preserve the Circuit JSON board's via-in-pad policy a
 `allowViaInPad`, defaulting to `false` when the source policy is unspecified.
 Validation rejects a missing or mismatched policy in these samples. The public
 type keeps this field optional because the older KiCad samples omit it.
+
+TI routing samples also retain groups of terminals physically connected through
+same-net copper pours in `externallyConnectedPointIds`. These groups reduce the
+remaining routing work without treating disconnected copper on the same net as
+connected. Validation recomputes the groups from Circuit JSON with the pinned
+core converter, excluding the original top-level traces and vias.

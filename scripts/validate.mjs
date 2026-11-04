@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs"
 import { createRequire } from "node:module"
+import { getSimpleRouteJsonFromCircuitJson } from "@tscircuit/core"
 
 const require = createRequire(import.meta.url)
 const dataset = require("../index.js")
@@ -12,6 +13,12 @@ const assert = (condition, message) => {
 }
 
 const nearlyEqual = (first, second) => Math.abs(first - second) < 0.000001
+
+const getExistingTerminalGroups = (sample) =>
+  sample.connections.map((connection) => ({
+    name: connection.name,
+    groups: connection.externallyConnectedPointIds ?? [],
+  }))
 
 const getBoardLayers = (layerCount) => [
   "top",
@@ -224,6 +231,15 @@ for (const [index, source] of sourceFiles.entries()) {
     assert(
       sample.allowViaInPad === (board.is_via_in_pad_allowed ?? false),
       `${exportName} via-in-pad policy does not match its Circuit JSON board`,
+    )
+    const { simpleRouteJson: regenerated } = getSimpleRouteJsonFromCircuitJson({
+      circuitJson,
+      ignoreExistingTopLevelPcbRouteState: true,
+    })
+    assert(
+      JSON.stringify(getExistingTerminalGroups(sample)) ===
+        JSON.stringify(getExistingTerminalGroups(regenerated)),
+      `${exportName} copper-pour terminal connectivity does not match its Circuit JSON`,
     )
     const sourceNetIds = new Set(
       circuitJson
